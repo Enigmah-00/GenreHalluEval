@@ -39,19 +39,19 @@ Sylhet, Bangladesh}
 
 \begin{abstract}
 Large language models (LLMs) are widely used as judges that decide whether an answer is hallucinated, and a natural
-idea is to send each item to the judge that is strongest for its topic. We release \textbf{GenreHalluEval v2.0}, a
-Bangla benchmark for hallucination judges with 1,200 questions in 12 balanced genres (100 each), 6,000 gold and
-hallucinated answers, a fixed learn/test split, labels double-checked on a blind 20\% sample (Cohen's $\kappa$ 0.99)
-and every raw output of five open-weight judges. We also release an audited BenHalluEval-QA set (920 questions) and
-the team-written GenreHalluEval v1.1 (250 questions). On these sets we test three genre routes against the single best
-judge, with and without the passage: the best guesser's genre (E), each LLM's own genre (F) and the better of the two
-(R). In five tests, one of them preregistered, no route is clearly better than the single best judge, even before
-correction for multiple tests. Own-genre routing is clearly worse in four of the eight study-and-condition pairs,
-because a cell-size rule hands whole genres to weak judges. We turn these findings into a noise- and cost-aware
-protocol for evaluating judge routing: measure the judges' own run-to-run flip rate at temperature 0 (0.2--0.4\% of
-verdicts here), count the answers a route actually changes, and set the gain against its cost. Under this protocol,
-every apparent gain (0.08 to 0.40 BenHalluScore points, two to six answers) lies within the noise floor, while costing
-1.2 to 1.9 times the calls and 2.7 to 6.6 times the prompt tokens of the single best judge.
+idea is routing each item to the judge that is strongest for its topic. We release \textbf{GenreHalluEval v2.0}, a
+Bangla benchmark for hallucination judges with 1,200 questions in 12 balanced genres, 6,000 gold and hallucinated
+answers, a fixed learn/test split, labels double-checked on a blind 20\% sample (Cohen's $\kappa$ 0.99) and the raw
+outputs of five open-weight judges, together with an audited BenHalluEval-QA set (920 questions) and the team-written
+GenreHalluEval v1.1 (250 questions). On these sets we compare three genre routes with the single best judge, with and
+without the passage: the best guesser's genre (E), each LLM's own genre (F) and the better of the two (R). In five
+tests, one of them preregistered, no route is clearly better than the single best judge, even before correction for
+multiple tests. Own-genre routing is clearly worse in four of the eight study-and-condition pairs, because a cell-size
+rule hands whole genres to weak judges. We turn these findings into a noise- and cost-aware protocol for judge evaluation:
+measure the judges' own run-to-run flip rate at temperature 0 (0.2--0.4\% of verdicts here), count the
+answers a route actually changes, and set the gain against its cost. Under this protocol, every apparent gain (two to
+six answers) lies within the noise floor, while costing 1.2 to 1.9 times the calls and 2.7 to 6.6 times the prompt
+tokens of the single best judge.
 \end{abstract}
 
 \noindent\textbf{Keywords:} hallucination detection; LLM-as-a-judge; Bangla benchmark; judge routing; inference
@@ -316,6 +316,16 @@ A cell (judge $\times$ genre) is used only if it has at least a minimum number o
 route falls back to A. Ties go to the judge with the lower overall \BHS{}. Genre prompts never contain the answer, so
 the genre cannot leak the label.
 
+\subsection{Use of large language models}\label{sec:llmuse}
+
+Claude (Anthropic; model claude-opus-5-5) was used in four roles, all checked by people as described in
+Section~\ref{sec:data}: it wrote every hallucinated answer under a fixed writing guide (Appendix~\ref{app:ai}); it wrote
+970 of the 1,200 GenreHalluEval v2.0 questions and their gold answers from cited sources, and transcribed the
+grammar-book passages from page images; it drafted genre labels that people verified (BenHalluEval-QA) or checked on a
+blind sample (v2.0); and it wrote the analysis code and helped draft the manuscript. Claude was never used as a judge or
+as a genre guesser, so no judged model also wrote the answers it judged. The authors designed the study, ran all
+experiments and take responsibility for the content.
+
 \subsection{Statistics}
 
 Every comparison is route minus A on the same test answers, with a 95\% range and a two-sided $p$ value from a paired
@@ -404,22 +414,29 @@ differ from A in either condition (all Holm $p=1.00$). F is clearly worse in bot
 \begin{table}[t]
 \centering\small
 \caption{Every route minus the single best judge A (\BHS{} points; below 0 = the route is better), with 95\% ranges
-from a paired bootstrap over questions. Bold: the range excludes 0. In Study 1, E gave the same verdicts as R.}\label{tab:main}
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{@{}llrrr@{}}
+from a paired bootstrap over questions. Bold: the range excludes 0. Test questions: with / without the passage. In Study 1, E gave the same
+verdicts as R.}\label{tab:main}
+\begin{tabular}{@{}lcrr@{}}
 \toprule
-Study (test questions) & Condition & E $-$ A & F $-$ A & R $-$ A \\
+Study (test questions) & Route & With passage & Without passage \\
 \midrule
-1, registered (175 / 75) & with passage & +0.29 ($-0.07$, 0.71) & +0.14 ($-0.14$, 0.43) & +0.29 ($-0.07$, 0.71) \\
- & without & +1.00 ($-2.00$, 4.17) & +0.50 ($-2.67$, 3.67) & +1.00 ($-2.00$, 4.17) \\
-2a, BenHalluEval split (461) & with passage & 0.00 (0.00, 0.00) & \textbf{+1.41 (0.70, 2.20)} & 0.00 (0.00, 0.00) \\
- & without & +0.05 ($-1.33$, 1.38) & +0.95 ($-0.73$, 2.58) & +0.03 ($-1.38$, 1.41) \\
-2b, GenreHalluEval split (63 / 62) & with passage & $-0.40$ ($-0.99$, 0.00) & $-0.40$ ($-0.99$, 0.00) & $-0.40$ ($-0.99$, 0.00) \\
- & without & \textbf{+3.63 (0.81, 6.85)} & \textbf{+5.85 (1.41, 10.89)} & \textbf{+4.44 (1.21, 8.27)} \\
-3, v2.0 (300 / 300) & with passage & $-0.08$ ($-0.21$, 0.00) & \textbf{+4.08 (2.71, 5.67)} & $-0.08$ ($-0.21$, 0.00) \\
- & without & $-0.21$ ($-1.88$, 1.46) & \textbf{+3.38 (1.33, 5.46)} & +0.50 ($-1.33$, 2.29) \\
+1, registered (175 / 75) & E & +0.29 ($-0.07$, 0.71) & +1.00 ($-2.00$, 4.17) \\
+ & F & +0.14 ($-0.14$, 0.43) & +0.50 ($-2.67$, 3.67) \\
+ & R & +0.29 ($-0.07$, 0.71) & +1.00 ($-2.00$, 4.17) \\
+\midrule
+2a, BenHalluEval split (461) & E & 0.00 (0.00, 0.00) & +0.05 ($-1.33$, 1.38) \\
+ & F & \textbf{+1.41 (0.70, 2.20)} & +0.95 ($-0.73$, 2.58) \\
+ & R & 0.00 (0.00, 0.00) & +0.03 ($-1.38$, 1.41) \\
+\midrule
+2b, GenreHalluEval split (63 / 62) & E & $-0.40$ ($-0.99$, 0.00) & \textbf{+3.63 (0.81, 6.85)} \\
+ & F & $-0.40$ ($-0.99$, 0.00) & \textbf{+5.85 (1.41, 10.89)} \\
+ & R & $-0.40$ ($-0.99$, 0.00) & \textbf{+4.44 (1.21, 8.27)} \\
+\midrule
+3, GenreHalluEval v2.0 (300 / 300) & E & $-0.08$ ($-0.21$, 0.00) & $-0.21$ ($-1.88$, 1.46) \\
+ & F & \textbf{+4.08 (2.71, 5.67)} & \textbf{+3.38 (1.33, 5.46)} \\
+ & R & $-0.08$ ($-0.21$, 0.00) & +0.50 ($-1.33$, 2.29) \\
 \bottomrule
-\end{tabular}}
+\end{tabular}
 \end{table}
 
 \begin{figure}[t]
@@ -675,11 +692,14 @@ runs, writing. Umme Zoayria Abedin: GenreHalluEval answer labels (annotator 1 fo
 genre annotation, review. Md Saminul Amin: blind genre and answer labels for BenHalluEval (annotator 2), GenreHalluEval
 answer labels (annotator 2 for v1.1 and the v2.0 check), genre annotation, review.
 
-\paragraph{Use of generative AI.} Claude (Anthropic; claude-opus-5-5) wrote all hallucinated answers, 970 of the
-GenreHalluEval v2.0 questions and golds, drafted genre labels that people then checked, transcribed the grammar-book
-passages from page images, wrote the analysis code and helped draft this manuscript. The authors designed the study,
-checked the data as described in Section~\ref{sec:data}, ran all experiments and take responsibility for the content.
-Claude was never used as a judge or genre guesser.
+\paragraph{Use of generative AI.} The use of a large language model (Claude, Anthropic) to write hallucinated
+answers, part of the questions, draft genre labels and code, and help draft the text is documented in
+Section~\ref{sec:llmuse}. The authors take full responsibility for the content.
+
+\paragraph{Ethics approval and consent to participate.} Not applicable. No human participants took part other than
+the authors, who labelled the data themselves; no personal data were collected.
+
+\paragraph{Consent for publication.} Not applicable.
 
 \paragraph{Preregistration.} Study 1 was registered on OSF before any test answer was judged
 (\url{https://osf.io/fmbs8}; embargoed until 27 October 2027). Deviations are listed in the
