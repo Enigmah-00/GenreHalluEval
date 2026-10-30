@@ -1,0 +1,90 @@
+# Culture, list 2 (chosen by Claude, 2026-10-28)
+CULTURE|বাংলা ব্যাকরণ
+CULTURE|বাংলা বানান
+CULTURE|বাংলা একাডেমি প্রমিত বাংলা বানানের নিয়ম
+CULTURE|বিশেষ্য
+CULTURE|সর্বনাম
+CULTURE|বিশেষণ
+CULTURE|ক্রিয়া (ব্যাকরণ)
+CULTURE|অব্যয়
+CULTURE|উপসর্গ
+CULTURE|প্রত্যয়
+CULTURE|বিভক্তি
+CULTURE|বাচ্য (ব্যাকরণ)
+CULTURE|ধ্বনি
+CULTURE|স্বরবর্ণ
+CULTURE|ব্যঞ্জনবর্ণ
+CULTURE|কারচিহ্ন
+CULTURE|খরোষ্ঠী
+CULTURE|সিলেটি নাগরী
+CULTURE|ক্যুনিফর্ম
+CULTURE|মিশরীয় চিত্রলিপি
+CULTURE|রোমান লিপি
+CULTURE|আরবি লিপি
+CULTURE|চীনা অক্ষর
+CULTURE|কাঞ্জি
+CULTURE|হাঙ্গুল
+CULTURE|সিরিলীয় লিপি
+CULTURE|গ্রিক বর্ণমালা
+CULTURE|ব্রেইল
+CULTURE|এস্পেরান্তো
+CULTURE|বাংলা ভাষা আন্দোলন দিবস
+CULTURE|বসন্ত উৎসব
+CULTURE|চড়ক পূজা
+CULTURE|বৈসাবি
+CULTURE|ওয়ানগালা
+CULTURE|লাঠি খেলা
+CULTURE|বলী খেলা
+CULTURE|জব্বারের বলীখেলা
+CULTURE|গম্ভীরা
+CULTURE|ভাটিয়ালি
+CULTURE|পটুয়া
+CULTURE|কাঁথা
+CULTURE|শীতল পাটি
+CULTURE|নকশি কাঁথা
+CULTURE|পাঞ্জাবি
+CULTURE|ধুতি
+CULTURE|ফতুয়া
+CULTURE|কুর্তা
+CULTURE|সালোয়ার কামিজ
+CULTURE|কিমোনো
+CULTURE|শাকাহারী
+CULTURE|বিরিয়ানি
+CULTURE|তেহারি
+CULTURE|কাবাব
+CULTURE|চা
+CULTURE|শুঁটকি
+CULTURE|মোরগ পোলাও
+CULTURE|সন্দেশ
+CULTURE|জিলাপি
+CULTURE|পায়েস
+CULTURE|মুড়ি
+CULTURE|চিড়া
+CULTURE|লাড্ডু
+CULTURE|কাবাব পরোটা
+CULTURE|সুশি
+CULTURE|পিৎজা
+CULTURE|পাস্তা
+CULTURE|হ্যালোইন
+CULTURE|থ্যাংকসগিভিং
+CULTURE|বিশ্ব মাতৃভাষা দিবস
+CULTURE|আন্তর্জাতিক মাতৃভাষা দিবস
+CULTURE|ভালোবাসা দিবস
+CULTURE|মা দিবস
+CULTURE|এপ্রিল ফুল
+CULTURE|নববর্ষ
+CULTURE|চীনা নববর্ষ
+CULTURE|নওরোজ
+CULTURE|সংক্রান
+CULTURE|বিজু
+CULTURE|ভাষাতত্ত্ব
+CULTURE|যুক্তিবিদ্যা
+CULTURE|নীতিশাস্ত্র
+CULTURE|অধিবিদ্যা
+CULTURE|জ্ঞানতত্ত্ব
+CULTURE|বস্তুবাদ
+CULTURE|ভাববাদ
+CULTURE|লাও-ৎস
+CULTURE|জাঁ-পল সার্ত্র
+CULTURE|বার্ট্রান্ড রাসেল
+CULTURE|কার্ল মার্ক্স

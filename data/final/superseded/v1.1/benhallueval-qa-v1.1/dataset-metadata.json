@@ -1,0 +1,14 @@
+{
+  "title": "BenHalluEval-QA v1.1 audited (Bangla)",
+  "id": "YOUR_KAGGLE_USERNAME/benhallueval-qa-v1-1",
+  "subtitle": "Bangla passage QA: 990 audited questions, 1 correct + 4 hallucinated answers each",
+  "description": "Audited BenHalluEval QA seeds (TyDiQA-GoldP, Bengali) with 3,960 new hallucinated answers (factualness, comprehension, specificity, inference) written by claude-opus-5-5 under a frozen guide. Not the original GPT-5.4 answers. See README.md for columns, known shortcuts and limitations.",
+  "isPrivate": true,
+  "licenses": [{"name": "CC-BY-SA-4.0"}],
+  "keywords": ["bangla", "hallucination", "question answering", "nlp", "llm evaluation"],
+  "resources": [
+    {"path": "items.csv", "description": "4,950 items: passage, question, answer, label, hallucination type, genre, audit flags."},
+    {"path": "seeds.csv", "description": "997 audited seeds with the full audit trail."},
+    {"path": "gold_issues.csv", "description": "Notes on gold answers that may be doubtful in the real world."}
+  ]
+}

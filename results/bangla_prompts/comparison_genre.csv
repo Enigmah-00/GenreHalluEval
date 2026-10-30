@@ -1,0 +1,6 @@
+model,accuracy_en,kappa_en,kappa_blind_en,no_answer_en,named_HISTORY_en,accuracy_bn,kappa_bn,kappa_blind_bn,no_answer_bn,named_HISTORY_bn
+banglallama-13b,0.0,0.000,0.000,920,0,0.0,0.000,0.000,920,0
+llama3.1-8b,73.4,0.634,0.603,0,513,81.1,0.749,0.698,0,386
+tigerllm-9b,76.8,0.689,0.656,1,474,75.8,0.678,0.646,1,441
+titullm-3b,0.0,0.000,0.000,920,0,0.0,0.000,0.000,920,0
+titullm-3b-instruct,0.0,0.000,0.000,920,0,26.0,0.091,0.084,330,522

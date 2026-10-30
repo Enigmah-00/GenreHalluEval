@@ -1,0 +1,126 @@
+{
+ "model_key": "titullm-3b",
+ "config": {
+  "think": null,
+  "max_new": {
+   "genre": 8,
+   "judge": 8
+  },
+  "parallel": 4,
+  "max_ctx": 32768,
+  "expect_arch": "llama",
+  "revision": "main",
+  "note": "hishab/titulm-llama-3.2-3b-v1.1; check it is the checkpoint the paper used",
+  "backend": "ollama",
+  "model": "hf.co/mradermacher/titulm-llama-3.2-3b-v1.1-GGUF:Q4_K_M",
+  "pool": "open",
+  "source": "paper"
+ },
+ "model_id": "hf.co/mradermacher/titulm-llama-3.2-3b-v1.1-GGUF:Q4_K_M",
+ "model_version": "ollama 0.40.6; digest 78a9cab00c648618ba2b4712c65c2210b4292089571d1674e3a33d149a01e3af; Q4_K_M",
+ "num_ctx": 11264,
+ "parallel": 4,
+ "run_mode": "full",
+ "stages": [
+  "genre",
+  "judge"
+ ],
+ "judge_conditions": [
+  "context",
+  "no_context"
+ ],
+ "prompt_ids": {
+  "genre": "genre_v1",
+  "judge:context": "judge_v1",
+  "judge:no_context": "judge_noctx_v1"
+ },
+ "prompt_sha": {
+  "genre": "3bb6f869c352",
+  "judge:context": "0e4241e4d57f",
+  "judge:no_context": "2fe589f38e9e"
+ },
+ "setup_hash": {
+  "genre": "1f0746b338e98740",
+  "judge:context": "98699ea572bf0790",
+  "judge:no_context": "0d85867f06d6b007"
+ },
+ "seed": 2026,
+ "temperature": 0,
+ "dataset_dir": "/kaggle/input/datasets/mahdihasanqurishi/benhallueval-qa-bangla",
+ "dataset_checksums": {
+  "README.md": "4336614e5dbfd6162d1c7fa568e529910bcaf20793e40601c3ae24dffba7ac4c",
+  "dataset-metadata.json": "b4cb96de22cc4d02718eab6a11226d4effa0b795428a819b2403bf704691a1ec",
+  "docs/genre_guide_v1.md": "546ca32f13910ae329060a526c913dc7143d92f6bdff4765044dcfa105a38ba6",
+  "docs/hallucination_writing_guide_v1.md": "26e55c7b547a9613b4f6d9b6fef36e917846c1fa3bed97a234e9999662f67a4c",
+  "genre_blind200.csv": "8b326fc8b4526710aac159eaf97901ede7ae0b89e3ed28f514422fbf92c2128d",
+  "gold_issues.csv": "48b187b28eeb0f00be8d0a68a25e81cf2c7e35fa238b75b2ce1638de3a591f71",
+  "human_validation_blind198.csv": "2f7e08db13960e61f880d9bd2a505f918900e7bfef597afc11ef387e654544a9",
+  "items.csv": "a6e4e413fd9504e018aa1b3b42a2339387dff943bb3bf5b53e4e05627cc2ec2c",
+  "prompts/README.md": "aac37b3a6116143bdbed661cf4b1c4bf42d073ee8fa0622413ce9cb9327b5b7f",
+  "prompts/genre_v1.txt": "3bb6f869c352e2cbee22942febbb3455b8723474e1e95316ff81398faf9416cf",
+  "prompts/judge_noctx_v1.txt": "2fe589f38e9eacfe06612cb1f0af33b1aa6862c88a8d91b4d155f063c68e6584",
+  "prompts/judge_v1.txt": "0e4241e4d57f6ac6c4a8ed164a8311ebfb6e960ee83f23d9ab964e193a8aee08",
+  "seeds.csv": "ec6c585ff97510720845321a654d2a5342627668d1c5e11e90f36bb002302c9b",
+  "shortcut_report.md": "fd8ed963e725487fa13d0ae58cfcf4e972be9ac4b851f96d8be35139fc8f2d9e",
+  "stats.json": "a0f42eb74f04ce048b1746e3c5502382455fd66ed2acc50301126ab0b47ce9a5",
+  "updates_2026.json": "3a6cd0a9dab56bce97844b1f67326a5d8e37144d4cffbb31320ab652730bde94"
+ },
+ "pilot_questions": [
+  "bengali--1234690232822464450-2",
+  "bengali--125298595207169635-0",
+  "bengali--1831213595878006436-0",
+  "bengali--2217820890808407965-4",
+  "bengali--314197069658750255-13",
+  "bengali--339646139755933191-37",
+  "bengali--3561920547618114254-11",
+  "bengali--4082224517934083977-32",
+  "bengali--4144931804276903004-1",
+  "bengali--466552506306330314-3",
+  "bengali--581563299056306592-100",
+  "bengali--6256734615354450145-0",
+  "bengali--6348043282785528684-10",
+  "bengali--7503944873369467267-1",
+  "bengali--7604899624538734835-1",
+  "bengali--802834334891743560-22",
+  "bengali--9202710432925424453-1",
+  "bengali-126165992786367412-2",
+  "bengali-1344076223095205095-0",
+  "bengali-1733542226552149709-2",
+  "bengali-1794290517299697804-0",
+  "bengali-1937732384790147463-3",
+  "bengali-2173402754641434684-7",
+  "bengali-227743697961975427-1",
+  "bengali-2584860276526748011-1",
+  "bengali-3394730091489581875-8",
+  "bengali-4781769044090038527-8",
+  "bengali-5083887153729628414-1",
+  "bengali-5188008084810080392-0",
+  "bengali-5500410516712011752-7",
+  "bengali-6035887477073197072-0",
+  "bengali-6303582530432299812-0",
+  "bengali-6619611904734574741-0",
+  "bengali-7452668367352984367-0",
+  "bengali-7646003778499018736-5",
+  "bengali-7845069419413269420-2",
+  "bengali-8354137425464189148-5",
+  "bengali-870453365572423945-4",
+  "bengali-8769029284744257202-1",
+  "bengali-9022969225808669971-3"
+ ],
+ "gpu": "Tesla T4, 15360 MiB\nTesla T4, 15360 MiB",
+ "python": "3.13.15",
+ "started": "2026-10-17T21:02:01.001421+00:00",
+ "finished": "2026-10-17T21:55:08.596905+00:00",
+ "partial": false,
+ "status_counts": {
+  "genre": {
+   "ok": 920
+  },
+  "judge:context": {
+   "ok": 4600
+  },
+  "judge:no_context": {
+   "ok": 4600
+  }
+ }
+}

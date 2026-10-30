@@ -1,0 +1,105 @@
+POLITICS|বাংলাদেশের সংবিধান
+POLITICS|জাতীয় সংসদ
+POLITICS|বাংলাদেশের রাষ্ট্রপতি
+POLITICS|বাংলাদেশের প্রধানমন্ত্রী
+POLITICS|বাংলাদেশের প্রধান বিচারপতি
+POLITICS|বাংলাদেশ নির্বাচন কমিশন
+POLITICS|বাংলাদেশ আওয়ামী লীগ
+POLITICS|বাংলাদেশ জাতীয়তাবাদী দল
+POLITICS|জাতীয় পার্টি (এরশাদ)
+POLITICS|বাংলাদেশ জামায়াতে ইসলামী
+POLITICS|জাতীয় নাগরিক পার্টি
+POLITICS|মুহাম্মদ ইউনূস
+POLITICS|শেখ হাসিনা
+POLITICS|খালেদা জিয়া
+POLITICS|জিয়াউর রহমান
+POLITICS|হুসেইন মুহম্মদ এরশাদ
+POLITICS|তাজউদ্দীন আহমদ
+POLITICS|আবুল কাশেম ফজলুল হক
+POLITICS|হোসেন শহীদ সোহরাওয়ার্দী
+POLITICS|আবদুল হামিদ খান ভাসানী
+POLITICS|সৈয়দ নজরুল ইসলাম
+POLITICS|আবু সাঈদ চৌধুরী
+POLITICS|সাহাবুদ্দীন আহমদ
+POLITICS|মোহাম্মদ সাহাবুদ্দিন
+POLITICS|বাংলাদেশের জাতীয় পতাকা
+POLITICS|আমার সোনার বাংলা
+POLITICS|বাংলাদেশের জাতীয় প্রতীক
+POLITICS|বাংলাদেশ সেনাবাহিনী
+POLITICS|বাংলাদেশ পুলিশ
+POLITICS|র‍্যাপিড অ্যাকশন ব্যাটালিয়ন
+POLITICS|বাংলাদেশ সরকারি কর্ম কমিশন
+POLITICS|দুর্নীতি দমন কমিশন (বাংলাদেশ)
+POLITICS|বাংলাদেশ সুপ্রীম কোর্ট
+POLITICS|দক্ষিণ এশীয় আঞ্চলিক সহযোগিতা সংস্থা
+POLITICS|বিমসটেক
+POLITICS|ইসলামি সহযোগিতা সংস্থা
+POLITICS|জাতিসংঘ
+POLITICS|জাতিসংঘ নিরাপত্তা পরিষদ
+POLITICS|জাতিসংঘ সাধারণ পরিষদ
+POLITICS|ইউনিসেফ
+POLITICS|দক্ষিণ-পূর্ব এশীয় জাতিসংঘ
+POLITICS|ইউরোপীয় ইউনিয়ন
+POLITICS|ন্যাটো
+POLITICS|কমনওয়েলথ অফ নেশনস
+POLITICS|জি২০
+POLITICS|জি৭
+POLITICS|ব্রিকস
+POLITICS|আফ্রিকান ইউনিয়ন
+POLITICS|আরব লীগ
+POLITICS|আন্তর্জাতিক বিচার আদালত
+POLITICS|আন্তর্জাতিক অপরাধ আদালত
+POLITICS|জাতিপুঞ্জ
+POLITICS|মার্কিন যুক্তরাষ্ট্রের রাষ্ট্রপতি
+POLITICS|মার্কিন কংগ্রেস
+POLITICS|মার্কিন যুক্তরাষ্ট্রের সংবিধান
+POLITICS|যুক্তরাজ্যের প্রধানমন্ত্রী
+POLITICS|যুক্তরাজ্যের সংসদ
+POLITICS|ভারতের সংবিধান
+POLITICS|লোকসভা
+POLITICS|ভারতের রাষ্ট্রপতি
+POLITICS|ভারতীয় জাতীয় কংগ্রেস
+POLITICS|ভারতীয় জনতা পার্টি
+POLITICS|নিখিল ভারত মুসলিম লীগ
+POLITICS|মুহাম্মদ আলী জিন্নাহ
+POLITICS|জওহরলাল নেহেরু
+POLITICS|ইন্দিরা গান্ধী
+POLITICS|নরেন্দ্র মোদী
+POLITICS|ডোনাল্ড ট্রাম্প
+POLITICS|বারাক ওবামা
+POLITICS|আব্রাহাম লিংকন
+POLITICS|জর্জ ওয়াশিংটন
+POLITICS|উইনস্টন চার্চিল
+POLITICS|ভ্লাদিমির পুতিন
+POLITICS|শি জিনপিং
+POLITICS|নেলসন ম্যান্ডেলা
+POLITICS|মার্গারেট থ্যাচার
+POLITICS|আঙ্গেলা মের্কেল
+POLITICS|কিম জং-উন
+POLITICS|রাষ্ট্রপতি শাসিত সরকার
+POLITICS|সংসদীয় গণতন্ত্র
+POLITICS|গণভোট
+POLITICS|তত্ত্বাবধায়ক সরকার
+POLITICS|ইউনিয়ন পরিষদ
+POLITICS|উপজেলা পরিষদ
+POLITICS|জাতীয় সংসদের স্পিকার
+POLITICS|বাংলাদেশের পররাষ্ট্র মন্ত্রণালয়
+POLITICS|বাংলাদেশ মন্ত্রিপরিষদ
+POLITICS|মহাহিসাব নিরীক্ষক ও নিয়ন্ত্রক
+POLITICS|জাতীয় মানবাধিকার কমিশন
+POLITICS|বাংলাদেশ সংবিধানের পঞ্চদশ সংশোধনী
+POLITICS|শেরে বাংলা
+POLITICS|মাহাথির মোহাম্মদ
+POLITICS|লি কুয়ান ইউ
+POLITICS|শাহবাজ শরিফ
+POLITICS|জুলফিকার আলী ভুট্টো
+POLITICS|বেনজির ভুট্টো
+POLITICS|ফিদেল কাস্ত্রো
+POLITICS|মাও সেতুং
+POLITICS|জোসেফ স্ট্যালিন
+POLITICS|ভ্লাদিমির লেনিন
+POLITICS|আডলফ হিটলার
+POLITICS|বেনিতো মুসোলিনি
+POLITICS|শার্ল দ্য গোল
+POLITICS|জন এফ কেনেডি
+POLITICS|ফ্র্যাংকলিন ডি রুজভেল্ট

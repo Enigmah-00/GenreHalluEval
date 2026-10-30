@@ -1,0 +1,45 @@
+{
+ "experiment": "GenreHalluEval split experiment (exploratory; added after the confirmatory Dataset 2 result)",
+ "decided": "2026-10-27 by Mahdi Hasan Qurishi, before any split run",
+ "source": {
+  "package": "GenreHalluEval v1.1",
+  "items_csv_sha256": "f11e7b5b6e34b8f34c074b502e132cec31fe906da53533077910385abc9b8710",
+  "questions_csv_sha256": "d21b3382deaee498c17677757024ff0631a3312b0e44876abbf105aba06a5451"
+ },
+ "seed": 2026,
+ "pool": [
+  "deepseek-r1-14b",
+  "gemma4-31b",
+  "gpt-oss-20b",
+  "qwen3.5-27b",
+  "tigerllm-9b"
+ ],
+ "prompt_language": {
+  "deepseek-r1-14b": "en",
+  "gemma4-31b": "en",
+  "gpt-oss-20b": "en",
+  "qwen3.5-27b": "en",
+  "tigerllm-9b": "bn"
+ },
+ "prompt_ids": {
+  "en": [
+   "genre_v1",
+   "judge_v1",
+   "judge_noctx_v1"
+  ],
+  "bn": [
+   "genre_bn_v1",
+   "judge_bn_v1",
+   "judge_noctx_bn_v1"
+  ]
+ },
+ "not_run": [
+  "llama3.1-8b",
+  "mistral-nemo-12b",
+  "qwen2.5-32b",
+  "gemma2-27b"
+ ],
+ "min_cell_questions": 20,
+ "labels": "agreed passage labels (data/labels/dataset2/passage_labels_agreed_v1.csv), used in both conditions",
+ "rules": "as lock v1/v2: A = lowest overall BHS; best genre guesser = highest agreement with our genre; judge x genre table; own-genre cells; R = best path; ties -> lower overall BHS; but cells need 20+ questions"
+}

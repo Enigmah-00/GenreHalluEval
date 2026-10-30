@@ -1,0 +1,81 @@
+# Culture, list 1 (chosen by Claude, 2026-10-28)
+CULTURE|পহেলা বৈশাখ
+CULTURE|মঙ্গল শোভাযাত্রা
+CULTURE|হালখাতা
+CULTURE|নবান্ন
+CULTURE|পৌষ সংক্রান্তি
+CULTURE|চৈত্র সংক্রান্তি
+CULTURE|সাকরাইন
+CULTURE|পহেলা ফাল্গুন
+CULTURE|অমর একুশে গ্রন্থমেলা
+CULTURE|বঙ্গাব্দ
+CULTURE|জামদানি
+CULTURE|নকশিকাঁথা
+CULTURE|শীতলপাটি
+CULTURE|মসলিন
+CULTURE|শাড়ি
+CULTURE|লুঙ্গি
+CULTURE|গামছা
+CULTURE|পাঞ্জাবি (পোশাক)
+CULTURE|পিঠা
+CULTURE|পান্তা ভাত
+CULTURE|রসগোল্লা
+CULTURE|বাকরখানি
+CULTURE|হালিম
+CULTURE|কাচ্চি বিরিয়ানি
+CULTURE|মিষ্টি দই
+CULTURE|পোড়াবাড়ির চমচম
+CULTURE|রসমালাই
+CULTURE|কাঁচাগোল্লা
+CULTURE|মুক্তাগাছার মণ্ডা
+CULTURE|ভর্তা
+CULTURE|খিচুড়ি
+CULTURE|ফুচকা
+CULTURE|আলপনা
+CULTURE|টেপা পুতুল
+CULTURE|শখের হাঁড়ি
+CULTURE|মৃৎশিল্প
+CULTURE|বেনারসি শাড়ি
+CULTURE|গায়ে হলুদ
+CULTURE|মেহেদি
+CULTURE|হুক্কা
+CULTURE|বাংলা বর্ণমালা
+CULTURE|বাংলা লিপি
+CULTURE|যুক্তবর্ণ
+CULTURE|সন্ধি (ব্যাকরণ)
+CULTURE|সমাস
+CULTURE|কারক
+CULTURE|প্রবাদ
+CULTURE|ধাঁধা
+CULTURE|সাধু ভাষা
+CULTURE|চলিত ভাষা
+CULTURE|বাংলা সংখ্যা
+CULTURE|ব্রাহ্মী লিপি
+CULTURE|দেবনাগরী
+CULTURE|তৎসম শব্দ
+CULTURE|ণত্ব বিধান
+CULTURE|ষত্ব বিধান
+CULTURE|দর্শন
+CULTURE|অস্তিত্ববাদ
+CULTURE|উপযোগবাদ
+CULTURE|স্টোয়িক দর্শন
+CULTURE|সক্রেটিস
+CULTURE|প্লেটো
+CULTURE|অ্যারিস্টটল
+CULTURE|ইমানুয়েল কান্ট
+CULTURE|ফ্রিডরিখ নিৎশে
+CULTURE|রনে দেকার্ত
+CULTURE|কনফুসিয়াস
+CULTURE|বাউল
+CULTURE|কবিগান
+CULTURE|পুঁথি
+CULTURE|লাঠিখেলা
+CULTURE|নৌকাবাইচ
+CULTURE|পুতুলনাচ
+CULTURE|যাত্রাপালা
+CULTURE|জারিগান
+CULTURE|হাতপাখা
+CULTURE|কাঁসা
+CULTURE|শোলাশিল্প
+CULTURE|তাঁত
+CULTURE|খাদি

@@ -1,0 +1,128 @@
+GEOGRAPHY|এশিয়া
+GEOGRAPHY|আফ্রিকা
+GEOGRAPHY|ইউরোপ
+GEOGRAPHY|উত্তর আমেরিকা
+GEOGRAPHY|দক্ষিণ আমেরিকা
+GEOGRAPHY|অ্যান্টার্কটিকা
+GEOGRAPHY|প্রশান্ত মহাসাগর
+GEOGRAPHY|আটলান্টিক মহাসাগর
+GEOGRAPHY|ভারত মহাসাগর
+GEOGRAPHY|উত্তর মহাসাগর
+GEOGRAPHY|ভূমধ্যসাগর
+GEOGRAPHY|লোহিত সাগর
+GEOGRAPHY|কাস্পিয়ান সাগর
+GEOGRAPHY|মৃত সাগর
+GEOGRAPHY|বঙ্গোপসাগর
+GEOGRAPHY|আরব সাগর
+GEOGRAPHY|নীলনদ
+GEOGRAPHY|আমাজন নদী
+GEOGRAPHY|মিসিসিপি নদী
+GEOGRAPHY|ইয়াংজি নদী
+GEOGRAPHY|গঙ্গা নদী
+GEOGRAPHY|সিন্ধু নদ
+GEOGRAPHY|ব্রহ্মপুত্র নদ
+GEOGRAPHY|পদ্মা নদী
+GEOGRAPHY|মেঘনা নদী
+GEOGRAPHY|যমুনা নদী (বাংলাদেশ)
+GEOGRAPHY|কর্ণফুলী নদী
+GEOGRAPHY|সুরমা নদী
+GEOGRAPHY|তিস্তা নদী
+GEOGRAPHY|বৈকাল হ্রদ
+GEOGRAPHY|সুপিরিয়র হ্রদ
+GEOGRAPHY|ভিক্টোরিয়া হ্রদ
+GEOGRAPHY|কাপ্তাই হ্রদ
+GEOGRAPHY|মাউন্ট এভারেস্ট
+GEOGRAPHY|কে২
+GEOGRAPHY|কাঞ্চনজঙ্ঘা
+GEOGRAPHY|কিলিমাঞ্জারো পর্বত
+GEOGRAPHY|আল্পস পর্বতমালা
+GEOGRAPHY|আন্দিজ পর্বতমালা
+GEOGRAPHY|হিমালয়
+GEOGRAPHY|তাজিংডং
+GEOGRAPHY|কেওক্রাডং
+GEOGRAPHY|সাহারা মরুভূমি
+GEOGRAPHY|গোবি মরুভূমি
+GEOGRAPHY|থর মরুভূমি
+GEOGRAPHY|আমাজন রেইনফরেস্ট
+GEOGRAPHY|সুন্দরবন
+GEOGRAPHY|লাউয়াছড়া জাতীয় উদ্যান
+GEOGRAPHY|গ্রেট ব্যারিয়ার রিফ
+GEOGRAPHY|সেন্ট মার্টিন দ্বীপ
+GEOGRAPHY|গ্রিনল্যান্ড
+GEOGRAPHY|মাদাগাস্কার
+GEOGRAPHY|শ্রীলঙ্কা
+GEOGRAPHY|মালদ্বীপ
+GEOGRAPHY|জাপান
+GEOGRAPHY|ইন্দোনেশিয়া
+GEOGRAPHY|ভুটান
+GEOGRAPHY|নেপাল
+GEOGRAPHY|মিয়ানমার
+GEOGRAPHY|আফগানিস্তান
+GEOGRAPHY|কাজাখস্তান
+GEOGRAPHY|সৌদি আরব
+GEOGRAPHY|তুরস্ক
+GEOGRAPHY|মিশর
+GEOGRAPHY|নাইজেরিয়া
+GEOGRAPHY|দক্ষিণ আফ্রিকা
+GEOGRAPHY|কানাডা
+GEOGRAPHY|ব্রাজিল
+GEOGRAPHY|আর্জেন্টিনা
+GEOGRAPHY|রাশিয়া
+GEOGRAPHY|ভ্যাটিকান সিটি
+GEOGRAPHY|মোনাকো
+GEOGRAPHY|সুইজারল্যান্ড
+GEOGRAPHY|নিউজিল্যান্ড
+GEOGRAPHY|কুয়েত
+GEOGRAPHY|কাতার
+GEOGRAPHY|সিঙ্গাপুর
+GEOGRAPHY|সিলেট বিভাগ
+GEOGRAPHY|রংপুর বিভাগ
+GEOGRAPHY|ময়মনসিংহ বিভাগ
+GEOGRAPHY|বরিশাল বিভাগ
+GEOGRAPHY|খুলনা বিভাগ
+GEOGRAPHY|রাজশাহী বিভাগ
+GEOGRAPHY|পঞ্চগড় জেলা
+GEOGRAPHY|ভোলা জেলা
+GEOGRAPHY|রাঙ্গামাটি জেলা
+GEOGRAPHY|বান্দরবান জেলা
+GEOGRAPHY|কক্সবাজার জেলা
+GEOGRAPHY|সুনামগঞ্জ জেলা
+GEOGRAPHY|মৌলভীবাজার জেলা
+GEOGRAPHY|কুড়িগ্রাম জেলা
+GEOGRAPHY|সাতক্ষীরা জেলা
+GEOGRAPHY|নারায়ণগঞ্জ জেলা
+GEOGRAPHY|গাজীপুর জেলা
+GEOGRAPHY|টাঙ্গাইল জেলা
+GEOGRAPHY|দিনাজপুর জেলা
+GEOGRAPHY|চাঁপাইনবাবগঞ্জ জেলা
+GEOGRAPHY|কুমিল্লা জেলা
+GEOGRAPHY|নোয়াখালী জেলা
+GEOGRAPHY|পটুয়াখালী জেলা
+GEOGRAPHY|হাতিয়া উপজেলা
+GEOGRAPHY|কুয়াকাটা
+GEOGRAPHY|জাফলং
+GEOGRAPHY|রাতারগুল জলাবন
+GEOGRAPHY|টাঙ্গুয়ার হাওর
+GEOGRAPHY|নিঝুম দ্বীপ
+GEOGRAPHY|চলনবিল
+GEOGRAPHY|হাকালুকি হাওর
+GEOGRAPHY|বিছানাকান্দি
+GEOGRAPHY|সাজেক উপত্যকা
+GEOGRAPHY|মেরিনা উপসাগর
+GEOGRAPHY|পারস্য উপসাগর
+GEOGRAPHY|জিব্রাল্টার প্রণালী
+GEOGRAPHY|মালাক্কা প্রণালী
+GEOGRAPHY|খাইবার গিরিপথ
+GEOGRAPHY|আইসল্যান্ড
+GEOGRAPHY|ফিনল্যান্ড
+GEOGRAPHY|নরওয়ে
+GEOGRAPHY|মঙ্গোলিয়া
+GEOGRAPHY|পেরু
+GEOGRAPHY|চিলি
+GEOGRAPHY|কিউবা
+GEOGRAPHY|ইথিওপিয়া
+GEOGRAPHY|কেনিয়া
+GEOGRAPHY|মরক্কো
+GEOGRAPHY|ইরান
+GEOGRAPHY|ইরাক
+GEOGRAPHY|ভিয়েতনাম

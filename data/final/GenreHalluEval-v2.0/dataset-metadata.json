@@ -1,0 +1,11 @@
+{
+  "title": "GenreHalluEval-v2",
+  "id": "YOUR_KAGGLE_USERNAME/genrehallueval-v2",
+  "subtitle": "GenreHalluEval v2: 12 genres, learn/test split",
+  "isPrivate": true,
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ]
+}

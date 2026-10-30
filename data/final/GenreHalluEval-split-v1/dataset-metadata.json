@@ -1,0 +1,11 @@
+{
+  "title": "GenreHalluEval-split",
+  "id": "YOUR_KAGGLE_USERNAME/genrehallueval-split",
+  "subtitle": "GenreHalluEval split experiment (learn/test)",
+  "isPrivate": true,
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ]
+}

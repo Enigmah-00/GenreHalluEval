@@ -1,0 +1,87 @@
+{
+ "dataset": "GenreHalluEval v2.0",
+ "experiment": "routes learned on the learn half and tested on the test half",
+ "decided": "Mahdi Hasan Qurishi, 2026-10-28/29, before any v2 run",
+ "source": {
+  "v1_1_questions_csv_sha256": "d21b3382deaee498c17677757024ff0631a3312b0e44876abbf105aba06a5451",
+  "v1_1_answers_csv_sha256": "df4c2ece80d2929909efe2742d295b204d1e276ab33e9fc1e81dae092a9affb8",
+  "new_questions_csv_sha256": "7524af3daea0bed51bcc975f0b494e6ea236e3f91b85e939c4ef6efe6b039e0f",
+  "hallucination_files_sha256": {
+   "batch_01.txt": "4082309a312acb707081afc572542faa2c53cefd3e37b3634f43289e5f97d730",
+   "batch_02.txt": "c20bf11bda56c8756a412d3851f66b5cf3633c977dafbde35ec40da17e58108f",
+   "batch_03.txt": "c13a5096f9b2d2d2cf99f212afa61eb97edb3a42b9931861306fc77fc61c0d5a",
+   "batch_04.txt": "d50c3a18b1a99b6a0585aab9caa2e157960701273d5956b1909e10202484fc64",
+   "batch_05.txt": "02af41e4a78967ef6c38ac30c3c58c384c7069ddb17d3112611e401d0351e5e5",
+   "batch_06.txt": "84ee7c87ddedbe947f95c1f37e77bc4cf07dcd7ba3237dfd62f5f5c6a79562b6",
+   "batch_07.txt": "f4dcffd4952de76dba9b550ffd7bf70681f63402121c1f987adabbbc28f7274e",
+   "batch_08.txt": "33c7b09ed575e5386905a831a5b7596bece89c8eeaa5d8aeb7b91f6b27f70006",
+   "batch_09.txt": "cf3a91e2a19f1c5741fb75b3493180cf0d9e54fc3baff365ea436b7d9c4b8cb2",
+   "batch_10.txt": "4b382a38927cc9bfb6ef65644269895c3e6dba68fd064d296ba0d787349360e4",
+   "batch_11.txt": "3b8a00e83108027de4864a6e18162a01e46a482c5437c7cbbf7e33e57770086d",
+   "batch_12.txt": "000811d825a3c3325030134cf365d5cace58cd87c8de86edc51cc70b7dc85933",
+   "batch_13.txt": "2547a31b78f9d9afe746848b6580122486991ad5e5eceffe1b63f56d80de348d",
+   "batch_14.txt": "15ed6e3cc03715d101f32baa8c8bb885ef901d15d6e290aecf6402db2db91125"
+  }
+ },
+ "seed": 2026,
+ "pool": [
+  "deepseek-r1-14b",
+  "gemma4-31b",
+  "gpt-oss-20b",
+  "qwen3.5-27b",
+  "tigerllm-9b"
+ ],
+ "prompt_language": {
+  "deepseek-r1-14b": "en",
+  "gemma4-31b": "en",
+  "gpt-oss-20b": "en",
+  "qwen3.5-27b": "en",
+  "tigerllm-9b": "bn"
+ },
+ "prompt_ids": {
+  "en": [
+   "genre_v2",
+   "judge_v1",
+   "judge_noctx_v1"
+  ],
+  "bn": [
+   "genre_bn_v2",
+   "judge_bn_v1",
+   "judge_noctx_bn_v1"
+  ]
+ },
+ "genres": {
+  "HISTORY": "History",
+  "POLITICS": "Politics",
+  "EDUCATION": "Education",
+  "ARTS": "Arts",
+  "CULTURE": "Culture",
+  "SPORTS": "Sports",
+  "SCIENCE": "Science",
+  "TECHNOLOGY": "Technology",
+  "GEOGRAPHY": "Geography",
+  "PLACES": "Places",
+  "RELIGION": "Religion",
+  "GRAMMAR": "Grammar",
+  "OTHER": "Other"
+ },
+ "genres_bn": {
+  "HISTORY": "ইতিহাস",
+  "POLITICS": "রাজনীতি",
+  "EDUCATION": "শিক্ষা",
+  "ARTS": "শিল্পকলা",
+  "CULTURE": "সংস্কৃতি",
+  "SPORTS": "খেলাধুলা",
+  "SCIENCE": "বিজ্ঞান",
+  "TECHNOLOGY": "প্রযুক্তি",
+  "GEOGRAPHY": "ভূগোল",
+  "PLACES": "স্থান",
+  "RELIGION": "ধর্ম",
+  "GRAMMAR": "ব্যাকরণ",
+  "OTHER": "অন্যান্য"
+ },
+ "min_cell_questions": 50,
+ "labels": "labels_v2.0.csv (not in this package): v1.1 answers = agreed passage labels; new answers = design labels",
+ "rules": "as lock v1/v2 and the last split: A = lowest overall BHS; best genre guesser = highest agreement with our genre; judge x genre table; own-genre cells; R = best path; ties -> lower overall BHS; a judge with no_answer on half or more of the learn answers in both conditions is dropped; cells need 50+ questions",
+ "main_tests": "on the test half: R vs A and F vs A, with the passage and without it (4 tests, Holm over 4), paired bootstrap over test questions, 10,000 re-samples, seed 2026, two-sided. D and E vs A are extra."
+}

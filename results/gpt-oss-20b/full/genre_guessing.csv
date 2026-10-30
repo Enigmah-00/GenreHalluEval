@@ -1,0 +1,3 @@
+compared_with,questions,accuracy,macro_F1,kappa,kappa_range95,no_answer
+final labels (human-verified),920,80.0,0.687,0.732,0.698 to 0.762,1
+blind human labels (200),189,78.8,0.670,0.715,0.636 to 0.787,0

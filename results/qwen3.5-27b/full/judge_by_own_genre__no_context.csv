@@ -1,0 +1,8 @@
+genre,questions,BHS,range95,trackA_err,trackB_err,no_answer,usable,agrees_with_human
+HISTORY,287,30.92,28.66 to 33.19,13.94,47.91,0,yes,274/287
+ARTS,287,38.72,36.67 to 41.03,24.04,53.40,0,yes,274/287
+SCIENCE,143,27.97,24.30 to 31.91,25.17,30.77,0,yes,133/143
+GEOGRAPHY,97,32.86,29.25 to 36.60,20.62,45.10,0,yes,96/97
+RELIGION,98,28.70,24.87 to 32.91,17.35,40.05,0,yes,90/98
+OTHER,8,29.69,21.88 to 37.50,12.50,46.88,0,no,7/8
+no_answer,0,–,– to –,–,–,0,no,–

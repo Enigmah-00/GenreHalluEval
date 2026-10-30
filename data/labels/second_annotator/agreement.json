@@ -1,0 +1,143 @@
+{
+ "genre_annotator2_vs_mahdi_blind": {
+  "n": 200,
+  "agreement": 0.825,
+  "kappa": 0.77,
+  "kappa_range95": [
+   0.696,
+   0.835
+  ],
+  "disagreements": {
+   "Other -> History, Politics & Education": 7,
+   "Arts, Culture & Sports -> History, Politics & Education": 5,
+   "History, Politics & Education -> Geography & Places": 5,
+   "Geography & Places -> History, Politics & Education": 4,
+   "Other -> Arts, Culture & Sports": 3,
+   "History, Politics & Education -> Science & Technology": 2,
+   "Other -> Religion": 2,
+   "Arts, Culture & Sports -> Geography & Places": 1,
+   "Arts, Culture & Sports -> Science & Technology": 1,
+   "History, Politics & Education -> Religion": 1,
+   "Science & Technology -> History, Politics & Education": 1,
+   "Other -> Science & Technology": 1,
+   "Religion -> History, Politics & Education": 1,
+   "History, Politics & Education -> Arts, Culture & Sports": 1
+  }
+ },
+ "genre_annotator2_vs_final_labels": {
+  "n": 189,
+  "agreement": 0.8995,
+  "kappa": 0.865,
+  "kappa_range95": [
+   0.804,
+   0.921
+  ],
+  "disagreements": {
+   "Geography & Places -> History, Politics & Education": 5,
+   "History, Politics & Education -> Geography & Places": 4,
+   "Other -> History, Politics & Education": 2,
+   "Arts, Culture & Sports -> History, Politics & Education": 2,
+   "Arts, Culture & Sports -> Geography & Places": 1,
+   "History, Politics & Education -> Religion": 1,
+   "Geography & Places -> Science & Technology": 1,
+   "Geography & Places -> Arts, Culture & Sports": 1,
+   "Religion -> History, Politics & Education": 1,
+   "Other -> Arts, Culture & Sports": 1
+  }
+ },
+ "genre_mahdi_blind_vs_final_labels": {
+  "n": 189,
+  "agreement": 0.8571,
+  "kappa": 0.813,
+  "kappa_range95": [
+   0.749,
+   0.874
+  ],
+  "disagreements": {
+   "History, Politics & Education -> Other": 6,
+   "Geography & Places -> History, Politics & Education": 4,
+   "Arts, Culture & Sports -> Other": 2,
+   "Religion -> Other": 2,
+   "History, Politics & Education -> Geography & Places": 2,
+   "Geography & Places -> Arts, Culture & Sports": 2,
+   "Other -> Arts, Culture & Sports": 1,
+   "Science & Technology -> History, Politics & Education": 1,
+   "Science & Technology -> Arts, Culture & Sports": 1,
+   "History, Politics & Education -> Science & Technology": 1,
+   "Science & Technology -> Other": 1,
+   "History, Politics & Education -> Arts, Culture & Sports": 1,
+   "History, Politics & Education -> Religion": 1,
+   "Religion -> History, Politics & Education": 1,
+   "Arts, Culture & Sports -> History, Politics & Education": 1
+  }
+ },
+ "genre_label_counts": {
+  "annotator2": {
+   "Science & Technology": 26,
+   "Arts, Culture & Sports": 55,
+   "Religion": 22,
+   "History, Politics & Education": 75,
+   "Geography & Places": 22
+  },
+  "mahdi_blind": {
+   "Science & Technology": 23,
+   "Arts, Culture & Sports": 58,
+   "Religion": 20,
+   "History, Politics & Education": 66,
+   "Other": 13,
+   "Geography & Places": 20
+  }
+ },
+ "halluc_annotator2_vs_mahdi_blind": {
+  "n": 200,
+  "agreement": 0.99,
+  "kappa": 0.969,
+  "kappa_range95": [
+   0.906,
+   1.0
+  ],
+  "disagreements": {
+   "yes -> no": 1,
+   "no -> yes": 1
+  }
+ },
+ "halluc_annotator2_vs_design_labels": {
+  "n": 200,
+  "agreement": 0.99,
+  "kappa": 0.969,
+  "kappa_range95": [
+   0.906,
+   1.0
+  ],
+  "disagreements": {
+   "yes -> no": 1,
+   "no -> yes": 1
+  }
+ },
+ "halluc_mahdi_blind_vs_design_labels_same_200": {
+  "n": 200,
+  "agreement": 1.0,
+  "kappa": 1.0,
+  "kappa_range95": [
+   1.0,
+   1.0
+  ],
+  "disagreements": {}
+ },
+ "halluc_disagreeing_items": [
+  {
+   "item_id": "bengali--8465088691390481636-2__a0",
+   "answer_type": "I",
+   "design": "yes",
+   "mahdi": "yes",
+   "annotator2": "no"
+  },
+  {
+   "item_id": "bengali--8465088691390481636-2__a2",
+   "answer_type": "gold",
+   "design": "no",
+   "mahdi": "no",
+   "annotator2": "yes"
+  }
+ ]
+}

@@ -1,0 +1,2792 @@
+{
+ "as_of": "2026-10-17",
+ "items": {
+  "0": {
+   "uidx": 0,
+   "question_id": "bengali-5447758927889596593-4",
+   "action": "not_in_review",
+   "human_note": "",
+   "followups": [
+    {
+     "kind": "claude_rewrite",
+     "reason": "You noted the passage never names Valuka. Added 'ভালুকা উপজেলার' at its start. Please check."
+    }
+   ],
+   "claude_edits": {
+    "context_patches": [
+     [
+      "আয়তন ৪৪৪.০৫ বর্গ কিলোমিটার।",
+      "ভালুকা উপজেলার আয়তন ৪৪৪.০৫ বর্গ কিলোমিটার।"
+     ]
+    ]
+   }
+  },
+  "4": {
+   "uidx": 4,
+   "question_id": "bengali-7598272783189345090-0",
+   "review_no": 1,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "5": {
+   "uidx": 5,
+   "question_id": "bengali--602111576961978859-5",
+   "review_no": 2,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "8": {
+   "uidx": 8,
+   "question_id": "bengali--8333329746315209159-0",
+   "review_no": 3,
+   "approve": "1",
+   "human_note": "Added the correct answer and new context",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "correct_answer": "প্রায় আট হাজার জন ছাত্রছাত্রী",
+    "context": "খুলনা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (সংক্ষেপে: কুয়েট) বাংলাদেশের একটি সরকারি প্রকৌশল বিশ্ববিদ্যালয়। এটি বাংলাদেশের দক্ষিণাঞ্চলের খুলনা জেলায় অবস্থিত। পূর্বে এর নাম ছিল বাংলাদেশ ইনস্টিটিউট অব টেকনোলজি, খুলনা ও তারও আগে, খুলনা প্রকৌশল মহাবিদ্যালয়। এটি বাংলাদেশের শীর্ষস্থানীয় বিশ্ববিদ্যালয়গুলোর অন্যতম। এখানে প্রায় আট হাজার জন ছাত্রছাত্রী স্নাতক ও স্নাতকোত্তর প্রকৌশল ও প্রযুক্তি নিয়ে পড়াশোনা করছে। এখানকার শিক্ষক সংখ্যা ৪৬৩-এরও অধিক। এছাড়া ২৩১ জন কর্মকর্তা ও ৪৬৮ জন কর্মচারী আছে। [১] বিশ্ববিদ্যালয়টির অঙ্গন সম্প্রসারণে নতুন কিছু ভবন তৈরি করা হয়েছে যেমন- একাডেমিক ভবন, অডিটোরিয়াম কমপ্লেক্স, ছাত্রাবাস, গ্রন্থাগার, শিক্ষক ডরমিটরি ভবন ইত্যাদি এবং আরও কিছু ভবনের নির্মাণ কাজ চলছে। বিশ্ববিদ্যালয়ের ক্যাম্পাস খুলনা শহর থেকে ১৪ কি.মি. উত্তরে, যশোর খুলনা মহাসড়কের পাশে ফুলবাড়ীগেট এলকায় অবস্থিত।"
+   }
+  },
+  "14": {
+   "uidx": 14,
+   "question_id": "bengali-8652082239846487292-2",
+   "review_no": 4,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "18": {
+   "uidx": 18,
+   "question_id": "bengali--1256061284728114612-1",
+   "action": "not_in_review",
+   "human_note": "",
+   "followups": [
+    {
+     "kind": "blind_sheet",
+     "reason": "You asked to update the question. The passage calls him Shyamakanta and never says 'Soham Swami', so the question now names both."
+    }
+   ],
+   "claude_edits": {
+    "question": "সোহং স্বামী নামে পরিচিত শ্যামাকান্ত বন্দ্যোপাধ্যায়ের বাবার নাম কী ?",
+    "status": "FIXQ"
+   }
+  },
+  "21": {
+   "uidx": 21,
+   "question_id": "bengali--1772416294222806218-6",
+   "review_no": 5,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "23": {
+   "uidx": 23,
+   "question_id": "bengali-5229637452375837893-4",
+   "review_no": 6,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "33": {
+   "uidx": 33,
+   "question_id": "bengali-6035887477073197072-0",
+   "review_no": 7,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "34": {
+   "uidx": 34,
+   "question_id": "bengali-6829546307096440382-14",
+   "review_no": 8,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "48": {
+   "uidx": 48,
+   "question_id": "bengali--699522616384955754-0",
+   "review_no": 9,
+   "approve": "1",
+   "human_note": "According to wikipedia august 2025, the answer is correct",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "49": {
+   "uidx": 49,
+   "question_id": "bengali-1638855418388935684-0",
+   "review_no": 10,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "54": {
+   "uidx": 54,
+   "question_id": "bengali-5730130221372563642-10",
+   "review_no": 11,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "55": {
+   "uidx": 55,
+   "question_id": "bengali-2163425666649830741-9",
+   "review_no": 12,
+   "approve": "1",
+   "human_note": "Keep it anyway",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "61": {
+   "uidx": 61,
+   "question_id": "bengali--5885375539130721317-9",
+   "review_no": 13,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "64": {
+   "uidx": 64,
+   "question_id": "bengali--6803973287842827645-45",
+   "review_no": 14,
+   "approve": "0",
+   "human_note": "Drop it",
+   "followups": [],
+   "action": "drop"
+  },
+  "69": {
+   "uidx": 69,
+   "question_id": "bengali-3304414781107552758-4",
+   "review_no": 15,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "82": {
+   "uidx": 82,
+   "question_id": "bengali--8703103087802741753-7",
+   "review_no": 16,
+   "approve": "1",
+   "human_note": "keep it",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "88": {
+   "uidx": 88,
+   "question_id": "bengali--7345750532881051877-1",
+   "review_no": 17,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "92": {
+   "uidx": 92,
+   "question_id": "bengali-5564895155648684698-3",
+   "review_no": 18,
+   "approve": "0",
+   "human_note": "",
+   "followups": [],
+   "action": "drop"
+  },
+  "105": {
+   "uidx": 105,
+   "question_id": "bengali--3472782844995774868-0",
+   "review_no": 19,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "106": {
+   "uidx": 106,
+   "question_id": "bengali--3039771429891999298-3",
+   "review_no": 20,
+   "approve": "1",
+   "human_note": "keep it, its legitimate",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "109": {
+   "uidx": 109,
+   "question_id": "bengali--1234690232822464450-2",
+   "review_no": 21,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "114": {
+   "uidx": 114,
+   "question_id": "bengali--4406976333727853714-0",
+   "review_no": 22,
+   "approve": "1",
+   "human_note": "correct_answer_new: I have updated this column. It was blank and then I have put there an input.",
+   "followups": [
+    {
+     "kind": "consistency",
+     "reason": "You changed the gold to প্রায় ৭০০০ but the passage still said ৫০০০; patched the passage sentence so they agree. The figure is yours; Claude did not check it."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "correct_answer": "প্রায় ৭০০০"
+   },
+   "claude_edits": {
+    "context_patches": [
+     [
+      "স্কুলটিতে প্রায় ৫০০০ শিক্ষার্থী অধ্যয়ন করে।",
+      "স্কুলটিতে প্রায় ৭০০০ শিক্ষার্থী অধ্যয়ন করে।"
+     ]
+    ]
+   }
+  },
+  "124": {
+   "uidx": 124,
+   "question_id": "bengali--8097346422683484646-1",
+   "review_no": 23,
+   "approve": "1",
+   "human_note": "19 years is correct",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "125": {
+   "uidx": 125,
+   "question_id": "bengali--8086647507406881166-0",
+   "review_no": 24,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "130": {
+   "uidx": 130,
+   "question_id": "bengali--5991077659579722284-0",
+   "review_no": 25,
+   "approve": "1",
+   "human_note": "Fixed new_q and new_ctx",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "কলকাতার সর্বশেষ মহানাগরিক কে ছিলেন ?",
+    "context": "মহানাগরিক হচ্ছেন কলকাতা পৌরসংস্থার মেয়র। মহানাগরিকের নির্দেশেই কলকাতার পৌর প্রশাসনের যাবতীয় কার্য সম্পাদন করা হয়ে থাকে। প্রত্যেক পৌরনির্বাচনের পর পৌরসংস্থার প্রথম অধিবেশনে নির্বাচিত সদস্যদের মধ্য থেকে একজন পাঁচ বছরের জন্য মহানাগরিক নির্বাচিত হন। ইনি মেয়র-পরিষদের সভায় পৌরহিত্য করেন এবং মুখ্য রাজনৈতিক পরিচালক হিসেবে মেয়র-পারিষদদের দফতর ও ক্ষমতা বণ্টন করে দেন। কলকাতার সর্বশেষ মহানাগরিক ছিলেন ফিরহাদ হাকিম।"
+   }
+  },
+  "136": {
+   "uidx": 136,
+   "question_id": "bengali-8231597176267138336-3",
+   "review_no": 26,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "140": {
+   "uidx": 140,
+   "question_id": "bengali-7094261978313418030-2",
+   "review_no": 27,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "145": {
+   "uidx": 145,
+   "question_id": "bengali-842285741250595006-8",
+   "review_no": 28,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "149": {
+   "uidx": 149,
+   "question_id": "bengali-6246323317955015554-0",
+   "action": "not_in_review",
+   "human_note": "",
+   "followups": [
+    {
+     "kind": "blind_sheet",
+     "reason": "Your edit in the blind sheet (matches the passage, which says 'in the history of Bengal')."
+    }
+   ],
+   "claude_edits": {
+    "question": "বাংলার ইতিহাসের প্রথম মহিলা কলেজ কোনটি ?",
+    "status": "FIXQ"
+   }
+  },
+  "154": {
+   "uidx": 154,
+   "question_id": "bengali-8808996615200100689-7",
+   "review_no": 29,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "156": {
+   "uidx": 156,
+   "question_id": "bengali--4399681044037114549-11",
+   "review_no": 30,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "159": {
+   "uidx": 159,
+   "question_id": "bengali--5243752245604266485-1",
+   "review_no": 31,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "162": {
+   "uidx": 162,
+   "question_id": "bengali--5004247539426064216-2",
+   "review_no": 32,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "164": {
+   "uidx": 164,
+   "question_id": "bengali--2360904266908875273-1",
+   "review_no": 33,
+   "approve": "1",
+   "human_note": "Updated the context and question",
+   "followups": [
+    {
+     "kind": "consistency",
+     "reason": "The question now names 2010, so it no longer changes over time."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "question": "২০১০ সালে কলকাতা পৌরসংস্থার মহানাগরিকের দায়িত্ব কে গ্রহণ করেন?",
+    "context": "ভারতীয় জাতীয়তাবাদী নেতা সুরেন্দ্রনাথ বন্দ্যোপাধ্যায়ের উদ্যোগে ১৯২২ সালে গণতান্ত্রিক সায়ত্ত্বশাসন সংস্থা হিসেবে কলকাতা পৌরসংস্থা প্রতিষ্ঠিত হয়। ১৯৪৭ সালে ভারত স্বাধীন হওয়ার পর ১৯৫১ ও ১৯৫৬ সালে দুই বার কর্পোরেশন আইন সংশোধন করা হয়েছিল। বর্তমান পৌরসংস্থাটি ১৯৮০ সালের সংশোধিত পৌর আইনের ভিত্তিতে পরিচালিত হয়। ২০১০ সালে শোভন চট্টোপাধ্যায় কলকাতা পৌরসংস্থার মহানাগরিক দায়িত্ব নিয়েছিলেন।"
+   },
+   "claude_edits": {
+    "time_sensitive": "no"
+   }
+  },
+  "168": {
+   "uidx": 168,
+   "question_id": "bengali-238154041937916701-18",
+   "review_no": 34,
+   "approve": "1",
+   "human_note": "Updated the question",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "লুসানের চুক্তি কবে স্বাক্ষরিত হয় ?"
+   }
+  },
+  "169": {
+   "uidx": 169,
+   "question_id": "bengali-8376247445164774033-9",
+   "review_no": 35,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "171": {
+   "uidx": 171,
+   "question_id": "bengali-3675648783760190053-9",
+   "review_no": 36,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "174": {
+   "uidx": 174,
+   "question_id": "bengali-2089421537139970916-6",
+   "review_no": 37,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "175": {
+   "uidx": 175,
+   "question_id": "bengali-1920310716847351499-2",
+   "review_no": 38,
+   "approve": "1",
+   "human_note": "Context is updated and question and answer also",
+   "followups": [
+    {
+     "kind": "consistency",
+     "reason": "The rewritten question (a district made from Paschim Medinipur after 2011) no longer changes over time."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "question": "২০১১ পরবর্তী সময়ে পশ্চিম মেদিনীপুর থেকে নতুন কোন জেলা তৈরি হয়?",
+    "correct_answer": "ঝাড়গ্রাম জেলা",
+    "context": "বর্তমানে পশ্চিমবঙ্গ ৫টি বিভাগ ও ২৩টি জেলায় বিভক্ত। বিভাগগুলি বিভাগীয় কমিশনার ও জেলাগুলি জেলাশাসকের[7] দ্বারা শাসিত হয়। রাজ্যের রাজধানী কলকাতা কলকাতা জেলায় অবস্থিত। অন্যান্য জেলাগুলি মহকুমা ও ব্লকে বিভক্ত। এগুলি যথাক্রমে মহকুমা শাসক ও ব্লক উন্নয়ন আধিকারিকের দ্বারা শাসিত হয়। এই রাজ্যের পঞ্চায়েত ব্যবস্থা ত্রিস্তরীয়। গ্রামস্তরে পঞ্চায়েত ব্যবস্থা \"গ্রাম পঞ্চায়েত\",[8] ব্লকস্তরে \"পঞ্চায়েত সমিতি\"[9] ও জেলাস্তরে \"জেলা পরিষদ\"[10] নামে পরিচিত। ২০১৭ খ্রিস্টাব্দে বর্ধমান জেলা বিভক্ত হয়ে পূর্ব বর্ধমান জেলা ও পশ্চিম বর্ধমান জেলায় পরিণত হয়েছে। ২০১১-পরবর্তী সময়ে দার্জিলিং জেলা থেকে নতুন কালিম্পং জেলা, জলপাইগুড়ি জেলা থেকে নতুন আলিপুরদুয়ার জেলা, পশ্চিম মেদিনীপুর জেলা থেকে নতুন ঝাড়গ্রাম জেলা এবং বর্ধমান জেলা থেকে পূর্ব ও পশ্চিম বর্ধমান জেলা গঠন করা হয়৷"
+   },
+   "claude_edits": {
+    "time_sensitive": "no"
+   }
+  },
+  "176": {
+   "uidx": 176,
+   "question_id": "bengali--5702015763636761454-0",
+   "review_no": 39,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "178": {
+   "uidx": 178,
+   "question_id": "bengali--1527581035220567681-3",
+   "review_no": 40,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "181": {
+   "uidx": 181,
+   "question_id": "bengali-2067489979110502479-2",
+   "review_no": 41,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "208": {
+   "uidx": 208,
+   "question_id": "bengali-2083877023956811341-8",
+   "review_no": 42,
+   "approve": "1",
+   "human_note": "Fixed q and ans both",
+   "followups": [
+    {
+     "kind": "typo",
+     "reason": "Double space removed."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "question": "মীরাবাঈ এর জীবন কাহিনী নিয়ে  হিন্দি চলচ্চিত্র মীরা কতসালে নির্মিত হয়েছিল ?",
+    "correct_answer": "১৯৭৯"
+   },
+   "claude_edits": {
+    "question": "মীরাবাঈ এর জীবন কাহিনী নিয়ে হিন্দি চলচ্চিত্র মীরা কতসালে নির্মিত হয়েছিল ?"
+   }
+  },
+  "217": {
+   "uidx": 217,
+   "question_id": "bengali--3419022654484055884-0",
+   "review_no": 43,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "219": {
+   "uidx": 219,
+   "question_id": "bengali--2670844834375470266-0",
+   "review_no": 44,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "220": {
+   "uidx": 220,
+   "question_id": "bengali--6372059390842685007-6",
+   "review_no": 45,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "222": {
+   "uidx": 222,
+   "question_id": "bengali-3394730091489581875-8",
+   "review_no": 46,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "223": {
+   "uidx": 223,
+   "question_id": "bengali-8574425205669319534-62",
+   "review_no": 47,
+   "approve": "1",
+   "human_note": "fixed the q",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "পুণেতে অবস্থিত ভাণ্ডারেকর প্রাচ্য গবেষণা সংস্থার প্রকাশিত মহাভারতে শ্লোকসংখ্যা কত?"
+   }
+  },
+  "226": {
+   "uidx": 226,
+   "question_id": "bengali-1815171536681324845-0",
+   "review_no": 48,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "230": {
+   "uidx": 230,
+   "question_id": "bengali--8853494945637153375-5",
+   "review_no": 49,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "244": {
+   "uidx": 244,
+   "question_id": "bengali--2828441118948687849-0",
+   "review_no": 50,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "249": {
+   "uidx": 249,
+   "question_id": "bengali--4899381839662825690-20",
+   "review_no": 51,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "252": {
+   "uidx": 252,
+   "question_id": "bengali--2609062973878499389-3",
+   "review_no": 52,
+   "approve": "1",
+   "human_note": "Updated q",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "কোন অপারেটরগুলোয় প্রথমে ইমোজি ব্যবহৃত হত?"
+   }
+  },
+  "255": {
+   "uidx": 255,
+   "question_id": "bengali--9070222029717674258-9",
+   "review_no": 53,
+   "approve": "1",
+   "human_note": "Updated q",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "মনোবিজ্ঞানের জনক কাকে বলা হয়?"
+   }
+  },
+  "256": {
+   "uidx": 256,
+   "question_id": "bengali-8604402071113920284-45",
+   "review_no": 54,
+   "approve": "0",
+   "human_note": "drop, Duplicated, handled earlier",
+   "followups": [],
+   "action": "drop"
+  },
+  "260": {
+   "uidx": 260,
+   "question_id": "bengali-3143414516689833649-0",
+   "review_no": 55,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "261": {
+   "uidx": 261,
+   "question_id": "bengali-7402816199744955879-3",
+   "review_no": 56,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "266": {
+   "uidx": 266,
+   "question_id": "bengali-1256980846334025372-12",
+   "review_no": 57,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "267": {
+   "uidx": 267,
+   "question_id": "bengali-5062886283186840773-1",
+   "review_no": 58,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "269": {
+   "uidx": 269,
+   "question_id": "bengali-1748913151736851987-0",
+   "review_no": 59,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "272": {
+   "uidx": 272,
+   "question_id": "bengali--761065314955184950-3",
+   "review_no": 60,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "273": {
+   "uidx": 273,
+   "question_id": "bengali-622076718273268870-2",
+   "review_no": 61,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "274": {
+   "uidx": 274,
+   "question_id": "bengali-6835249772634642969-9",
+   "review_no": 62,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "277": {
+   "uidx": 277,
+   "question_id": "bengali--954934863110314741-0",
+   "review_no": 63,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "278": {
+   "uidx": 278,
+   "question_id": "bengali--7705960264831493277-16",
+   "review_no": 64,
+   "approve": "1",
+   "human_note": "Fixed the q",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "বিভিন্ন স্থানীয় ঐতিহ্য ও লৌকিক দেবদেবীর পূজাকে কেন্দ্র করে আঞ্চলিক বা সম্প্রদায় স্তরের ধর্মবিশ্বাস যা প্রাগৈতিহাসিক কাল বা অন্ততপক্ষে বেদ রচিত হবার আগে থেকে প্রচলিত কোনটি?"
+   }
+  },
+  "282": {
+   "uidx": 282,
+   "question_id": "bengali-3409029384822123562-2",
+   "review_no": 65,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "285": {
+   "uidx": 285,
+   "question_id": "bengali-162923623025194484-7",
+   "review_no": 66,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "294": {
+   "uidx": 294,
+   "question_id": "bengali--2480008975474553157-1",
+   "review_no": 67,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "309": {
+   "uidx": 309,
+   "question_id": "bengali-6805897370747809969-1",
+   "action": "not_in_review",
+   "human_note": "",
+   "followups": [
+    {
+     "kind": "blind_sheet",
+     "reason": "You wrote 'update needed'. The passage gives the area of Chattogram district, and 'বর্তমান চট্টগ্রাম' was unclear, so the question now names the district. The figure 5,283 km² was not re-checked."
+    }
+   ],
+   "claude_edits": {
+    "question": "চট্টগ্রাম জেলার মোট আয়তন কত ?",
+    "status": "FIXQ",
+    "time_sensitive": "no"
+   }
+  },
+  "314": {
+   "uidx": 314,
+   "question_id": "bengali--2259915125011949663-2",
+   "review_no": 68,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "320": {
+   "uidx": 320,
+   "question_id": "bengali-5676634324659264390-0",
+   "review_no": 69,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "322": {
+   "uidx": 322,
+   "question_id": "bengali-2375266230086305076-1",
+   "review_no": 70,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "323": {
+   "uidx": 323,
+   "question_id": "bengali--6019328074616099894-17",
+   "review_no": 71,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "326": {
+   "uidx": 326,
+   "question_id": "bengali--5484532727206796065-0",
+   "action": "not_in_review",
+   "human_note": "",
+   "followups": [
+    {
+     "kind": "blind_sheet",
+     "reason": "Your edit in the blind sheet."
+    }
+   ],
+   "claude_edits": {
+    "question": "এরোপ্লেন জেলির ২০১৯ সাল অনুযায়ী কোন কোম্পানির পণ্য ?",
+    "status": "FIXQ",
+    "time_sensitive": "no"
+   }
+  },
+  "329": {
+   "uidx": 329,
+   "question_id": "bengali--339646139755933191-37",
+   "review_no": 72,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "333": {
+   "uidx": 333,
+   "question_id": "bengali-6388918828049871160-0",
+   "review_no": 73,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "337": {
+   "uidx": 337,
+   "question_id": "bengali-8695577586615119311-3",
+   "review_no": 74,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "342": {
+   "uidx": 342,
+   "question_id": "bengali-2643178588324610837-6",
+   "review_no": 75,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "345": {
+   "uidx": 345,
+   "question_id": "bengali--840766292463574178-1",
+   "review_no": 76,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "346": {
+   "uidx": 346,
+   "question_id": "bengali--7463593158392254721-1",
+   "review_no": 77,
+   "approve": "0",
+   "human_note": "Drop it, too hard to reform valid sample set out of it",
+   "followups": [],
+   "action": "drop"
+  },
+  "351": {
+   "uidx": 351,
+   "question_id": "bengali-2692845326478456856-1",
+   "review_no": 78,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "362": {
+   "uidx": 362,
+   "question_id": "bengali-733940528152087741-0",
+   "review_no": 79,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "363": {
+   "uidx": 363,
+   "question_id": "bengali--2339153920148132891-1",
+   "review_no": 80,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "368": {
+   "uidx": 368,
+   "question_id": "bengali-9063826758882428072-36",
+   "review_no": 81,
+   "approve": "1",
+   "human_note": "Fixed the q",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "সমুদ্রসমেত মালদ্বীপের মোট আয়তন কত ?"
+   }
+  },
+  "371": {
+   "uidx": 371,
+   "question_id": "bengali-2029563870871915760-1",
+   "review_no": 82,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "373": {
+   "uidx": 373,
+   "question_id": "bengali--4814390249866358431-4",
+   "review_no": 83,
+   "approve": "1",
+   "human_note": "Updated q",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "প্রথম কে ছায়াপথের কুন্ডলাকার বর্ণনা করেন?"
+   }
+  },
+  "374": {
+   "uidx": 374,
+   "question_id": "bengali-9180741355773022793-4",
+   "review_no": 84,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "378": {
+   "uidx": 378,
+   "question_id": "bengali-9025642034431464670-6",
+   "action": "not_in_review",
+   "human_note": "",
+   "followups": [
+    {
+     "kind": "claude_rewrite",
+     "reason": "You noted the passage is wrong. The passage itself is right for 2015 (Zaheer Abbas from June 2015); the question's '(২০১৯)' was the problem, because the ICC presidency did not exist in 2019. Question rewritten to match the passage. Please check."
+    }
+   ],
+   "claude_edits": {
+    "question": "২০১৫ সালের জুন থেকে আন্তর্জাতিক ক্রিকেট কাউন্সিলের সভাপতি কে ?",
+    "status": "FIXQ",
+    "time_sensitive": "no"
+   }
+  },
+  "379": {
+   "uidx": 379,
+   "question_id": "bengali--581563299056306592-100",
+   "review_no": 85,
+   "approve": "1",
+   "human_note": "Keep it, Legitimate",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "381": {
+   "uidx": 381,
+   "question_id": "bengali-6156708266298526050-0",
+   "review_no": 86,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "385": {
+   "uidx": 385,
+   "question_id": "bengali-2328852214900281949-0",
+   "review_no": 87,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "386": {
+   "uidx": 386,
+   "question_id": "bengali-5582972525607768981-12",
+   "review_no": 88,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "388": {
+   "uidx": 388,
+   "question_id": "bengali-1239158793173466909-0",
+   "review_no": 89,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "392": {
+   "uidx": 392,
+   "question_id": "bengali-4859646454557992829-7",
+   "review_no": 90,
+   "approve": "1",
+   "human_note": "Fixed the question",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "তামিল লিপির সাথে দক্ষিণ ভারতের কোন আধুনিক লিপির সবচেয়ে বেশি মিল রয়েছে?"
+   }
+  },
+  "395": {
+   "uidx": 395,
+   "question_id": "bengali--3947167920835567776-1",
+   "review_no": 91,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "396": {
+   "uidx": 396,
+   "question_id": "bengali-6586599799286381487-5",
+   "review_no": 92,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "407": {
+   "uidx": 407,
+   "question_id": "bengali-5834051509805394244-49",
+   "review_no": 93,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "409": {
+   "uidx": 409,
+   "question_id": "bengali--4464244453237796101-0",
+   "review_no": 94,
+   "approve": "1",
+   "human_note": "Keep it, still relevent",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "412": {
+   "uidx": 412,
+   "question_id": "bengali-172271715886664293-16",
+   "review_no": 95,
+   "approve": "0",
+   "human_note": "Drop it",
+   "followups": [],
+   "action": "drop"
+  },
+  "414": {
+   "uidx": 414,
+   "question_id": "bengali--261227273822015974-3",
+   "review_no": 96,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "423": {
+   "uidx": 423,
+   "question_id": "bengali--8137892562243798257-2",
+   "review_no": 97,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "428": {
+   "uidx": 428,
+   "question_id": "bengali-4487955186249864723-0",
+   "review_no": 98,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "429": {
+   "uidx": 429,
+   "question_id": "bengali--8907092310207870265-0",
+   "review_no": 99,
+   "approve": "1",
+   "human_note": "Updated the answer",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "correct_answer": "২৭শে জানুয়ারি, ১৭৮২"
+   }
+  },
+  "430": {
+   "uidx": 430,
+   "question_id": "bengali-1007556798536623942-3",
+   "review_no": 100,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "432": {
+   "uidx": 432,
+   "question_id": "bengali-9099268636899707207-4",
+   "review_no": 101,
+   "approve": "1",
+   "human_note": "omitted your new q, earlier was right anyway",
+   "followups": [
+    {
+     "kind": "not_applied",
+     "reason": "You cleared our new question to go back to the original (Indira Gandhi / Palam airport, gold 1930). The passage says Safdarjung was built in 1930 and Palam during the Second World War, so with the original question a judge that reads the passage would rightly flag the gold. Kept our rewrite (Safdarjung). Tell me if you still want the original."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "question_revert": true
+   },
+   "claude_edits": {
+    "skip_human": [
+     "question"
+    ]
+   }
+  },
+  "434": {
+   "uidx": 434,
+   "question_id": "bengali-7714743293517537612-0",
+   "review_no": 102,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "435": {
+   "uidx": 435,
+   "question_id": "bengali-5882695601964261142-0",
+   "review_no": 103,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "439": {
+   "uidx": 439,
+   "question_id": "bengali--2856576533731689599-27",
+   "review_no": 104,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "441": {
+   "uidx": 441,
+   "question_id": "bengali-4007898957162882873-14",
+   "review_no": 105,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "448": {
+   "uidx": 448,
+   "question_id": "bengali-6744603928978231684-2",
+   "review_no": 106,
+   "approve": "1",
+   "human_note": "Updated both qna",
+   "followups": [
+    {
+     "kind": "span",
+     "reason": "Gold written as the passage text চারটি (you wrote ৪টি; same meaning). Typo প্রধাণ -> প্রধান."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "question": "রাগ সংগীতের প্রধাণ রীতি কয়টি?",
+    "correct_answer": "৪টি"
+   },
+   "claude_edits": {
+    "question": "রাগ সংগীতের প্রধান রীতি কয়টি?",
+    "correct_answer": "চারটি"
+   }
+  },
+  "452": {
+   "uidx": 452,
+   "question_id": "bengali--123969208834962473-8",
+   "review_no": 107,
+   "approve": "0",
+   "human_note": "Drop it",
+   "followups": [],
+   "action": "drop"
+  },
+  "455": {
+   "uidx": 455,
+   "question_id": "bengali-1573705475071746423-3",
+   "review_no": 108,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "456": {
+   "uidx": 456,
+   "question_id": "bengali--458659178719722926-3",
+   "review_no": 109,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "457": {
+   "uidx": 457,
+   "question_id": "bengali--1347249947389247391-2",
+   "review_no": 110,
+   "approve": "0",
+   "human_note": "Drop, no verified info",
+   "followups": [],
+   "action": "drop"
+  },
+  "458": {
+   "uidx": 458,
+   "question_id": "bengali--730367247624622578-25",
+   "review_no": 111,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "460": {
+   "uidx": 460,
+   "question_id": "bengali--4327821251258840456-0",
+   "review_no": 112,
+   "approve": "0",
+   "human_note": "No verified answer",
+   "followups": [],
+   "action": "drop"
+  },
+  "464": {
+   "uidx": 464,
+   "question_id": "bengali--2318822466630053761-0",
+   "review_no": 113,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "471": {
+   "uidx": 471,
+   "question_id": "bengali--3525863623165833573-10",
+   "review_no": 114,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "476": {
+   "uidx": 476,
+   "question_id": "bengali-7044849272592340458-1",
+   "review_no": 115,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "477": {
+   "uidx": 477,
+   "question_id": "bengali-5930037523147100292-2",
+   "review_no": 116,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "485": {
+   "uidx": 485,
+   "question_id": "bengali-3784805000576189268-1",
+   "review_no": 117,
+   "approve": "1",
+   "human_note": "Updated q",
+   "followups": [
+    {
+     "kind": "consistency",
+     "reason": "Wikipedia citation marks removed from the gold and the passage. Only this gold had them, which gave it away."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "question": "হিন্দু দেবতা বলতে কোন কোন দেবতার সাধারণত বোঝানো হয়?"
+   },
+   "claude_edits": {
+    "correct_answer": "যোগশাস্ত্রের ইষ্টদেবতা,তেত্রিশ বৈদিক দেবতা বা শতাধিক পৌরাণিক দেবতা",
+    "context_patches": [
+     [
+      "ইষ্টদেবতা[5][6],তেত্রিশ বৈদিক দেবতা[7] বা",
+      "ইষ্টদেবতা,তেত্রিশ বৈদিক দেবতা বা"
+     ]
+    ]
+   }
+  },
+  "489": {
+   "uidx": 489,
+   "question_id": "bengali-6908284789879599132-3",
+   "review_no": 118,
+   "approve": "1",
+   "human_note": "Fixed the q",
+   "followups": [
+    {
+     "kind": "consistency",
+     "reason": "You revived this item with a question about Jabir ibn Hayyan. Its genre was 'Other' for the old question (ABM Musa); re-drafted as Science & Technology (rule 1: known for alchemy and chemistry). Please check the genre."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "question": "জাবির ইবন হাইয়ান কোন দেশে জন্ম গ্রহণ করেন ?"
+   },
+   "claude_edits": {
+    "status": "FIXQ",
+    "genre": "Science & Technology"
+   }
+  },
+  "500": {
+   "uidx": 500,
+   "question_id": "bengali--3625889057901980565-0",
+   "review_no": 119,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "501": {
+   "uidx": 501,
+   "question_id": "bengali--3218401081676356556-2",
+   "review_no": 120,
+   "approve": "1",
+   "human_note": "Updated answer",
+   "followups": [
+    {
+     "kind": "span",
+     "reason": "Same person as your ফ্রেডরিক অ্যাডলফাস ম্যাকনেয়ার, written as the passage spells him."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "correct_answer": "ফ্রেডরিক অ্যাডলফাস ম্যাকনেয়ার"
+   },
+   "claude_edits": {
+    "correct_answer": "জন ফ্রেডেরিক এডলফাস ম্যাকনাইয়ার"
+   }
+  },
+  "503": {
+   "uidx": 503,
+   "question_id": "bengali--3087535744281818821-1",
+   "review_no": 121,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "504": {
+   "uidx": 504,
+   "question_id": "bengali--3636759562453927542-3",
+   "review_no": 122,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "519": {
+   "uidx": 519,
+   "question_id": "bengali--427766160921701510-14",
+   "review_no": 123,
+   "approve": "0",
+   "human_note": "Drop",
+   "followups": [],
+   "action": "drop"
+  },
+  "527": {
+   "uidx": 527,
+   "question_id": "bengali-5547413262777971997-0",
+   "review_no": 124,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "534": {
+   "uidx": 534,
+   "question_id": "bengali--1811290635124191661-1",
+   "review_no": 125,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "545": {
+   "uidx": 545,
+   "question_id": "bengali--8707413810832587133-1",
+   "review_no": 126,
+   "approve": "0",
+   "human_note": "confusing",
+   "followups": [],
+   "action": "drop"
+  },
+  "548": {
+   "uidx": 548,
+   "question_id": "bengali-6041160895772644763-71",
+   "review_no": 127,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "550": {
+   "uidx": 550,
+   "question_id": "bengali--7875843185520169461-6",
+   "review_no": 128,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "552": {
+   "uidx": 552,
+   "question_id": "bengali-3902040012994010412-1",
+   "review_no": 129,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "553": {
+   "uidx": 553,
+   "question_id": "bengali--6201010927401392780-0",
+   "review_no": 130,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "554": {
+   "uidx": 554,
+   "question_id": "bengali--5330507147784989785-1",
+   "review_no": 131,
+   "approve": "1",
+   "human_note": "Updated q",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "বিশ্বের প্রথম আলোকচিত্রটি কে ধারণ করেন ?"
+   }
+  },
+  "559": {
+   "uidx": 559,
+   "question_id": "bengali--5157536413099558525-3",
+   "review_no": 132,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "564": {
+   "uidx": 564,
+   "question_id": "bengali--8260165069214735638-1",
+   "review_no": 133,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "572": {
+   "uidx": 572,
+   "question_id": "bengali--6284809213106132912-16",
+   "review_no": 134,
+   "approve": "1",
+   "human_note": "Considered to be correct answer",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "577": {
+   "uidx": 577,
+   "question_id": "bengali-1109339919555009374-8",
+   "review_no": 135,
+   "approve": "1",
+   "human_note": "Still the same wife",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "584": {
+   "uidx": 584,
+   "question_id": "bengali-2137617561811032811-0",
+   "review_no": 136,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "585": {
+   "uidx": 585,
+   "question_id": "bengali-5909391431365450011-1",
+   "review_no": 137,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "596": {
+   "uidx": 596,
+   "question_id": "bengali--4320576500947344600-2",
+   "review_no": 138,
+   "approve": "0",
+   "human_note": "Drop it, duplicate, fixed 1 earlier",
+   "followups": [],
+   "action": "drop"
+  },
+  "597": {
+   "uidx": 597,
+   "question_id": "bengali--1321213040353142325-2",
+   "review_no": 139,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "605": {
+   "uidx": 605,
+   "question_id": "bengali-7746019275069598974-1",
+   "review_no": 140,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "606": {
+   "uidx": 606,
+   "question_id": "bengali-6120089833063466108-0",
+   "review_no": 141,
+   "approve": "1",
+   "human_note": "Updated context,  q and answer",
+   "followups": [
+    {
+     "kind": "consistency",
+     "reason": "The question now names the 2025 UN report."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "question": "২০২৫ সালে জাতিসংঘের প্রতিবেদন অনুযায়ী ঢাকা মহানগরীর মোট জনসংখ্যা কত?",
+    "correct_answer": "৩ কোটি ৬৬ লাখ",
+    "context": "ঢাকা বাংলাদেশের রাজধানী ও মহানগর বা বৃহত্তম শহর। প্রশাসনিকভাবে এটি ঢাকা বিভাগের ও জেলার প্রধান শহর। ভৌগোলিকভাবে এটি বাংলাদেশের মধ্যভাগে বুড়িগঙ্গা নদীর উত্তর তীরে একটি সমতল অঞ্চলে অবস্থিত। ঢাকা দক্ষিণ এশিয়ায় মুম্বাইয়ের পরে দ্বিতীয় বৃহৎ অর্থনৈতিক শহর। জিডিপির দিক থেকে ঢাকা দক্ষিণ এশিয়ায় চতুর্থ এবং বিশ্বের ৫৫তম শহর। ভৌগোলিকভাবে ঢাকা একটি অতিমহানগরী বা মেগাসিটি। ২০২৫ সালে জাতিসংঘের প্রতিবেদন অনুযায়ী ঢাকা মহানগরীর মোট জনসংখ্যা ৩ কোটি ৬৬ লাখ যা জনসংখ্যার বিচারে ঢাকা দক্ষিণ এশিয়ার দ্বিতীয় বৃহত্তম এবং বিশ্বের ষষ্ঠ বৃহত্তম শহর।[১০] জনঘনত্বের বিচারে ঢাকা বিশ্বের সবচেয়ে ঘনবসতিপূর্ণ শহর; ৪০০ বর্গকিলোমিটার আয়তনের এই শহরে প্রতি বর্গকিলোমিটার এলাকায় ৩০ হাজার লোক বাস করে।[১১]"
+   },
+   "claude_edits": {
+    "time_sensitive": "no"
+   }
+  },
+  "607": {
+   "uidx": 607,
+   "question_id": "bengali-103181035695805608-0",
+   "review_no": 142,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "610": {
+   "uidx": 610,
+   "question_id": "bengali-8498516480545091780-1",
+   "review_no": 143,
+   "approve": "0",
+   "human_note": "Drop it",
+   "followups": [],
+   "action": "drop"
+  },
+  "618": {
+   "uidx": 618,
+   "question_id": "bengali-8786104743319273548-10",
+   "review_no": 144,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "624": {
+   "uidx": 624,
+   "question_id": "bengali--7669232714569368288-0",
+   "review_no": 145,
+   "approve": "1",
+   "human_note": "answer updated",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "correct_answer": "কেয়ামত থেকে কেয়ামত"
+   }
+  },
+  "627": {
+   "uidx": 627,
+   "question_id": "bengali--4940144912201379461-31",
+   "review_no": 146,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "633": {
+   "uidx": 633,
+   "question_id": "bengali-735989132824584262-15",
+   "review_no": 147,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "639": {
+   "uidx": 639,
+   "question_id": "bengali-6020639613270814419-24",
+   "review_no": 148,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "642": {
+   "uidx": 642,
+   "question_id": "bengali-6153501375568303127-1",
+   "review_no": 149,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "645": {
+   "uidx": 645,
+   "question_id": "bengali--4320526522663858783-1",
+   "review_no": 150,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "650": {
+   "uidx": 650,
+   "question_id": "bengali-9220407765965437366-0",
+   "review_no": 151,
+   "approve": "0",
+   "human_note": "drop  it, updated earlier, thats a duplicate",
+   "followups": [],
+   "action": "drop"
+  },
+  "655": {
+   "uidx": 655,
+   "question_id": "bengali-243734154999546321-1",
+   "review_no": 152,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "657": {
+   "uidx": 657,
+   "question_id": "bengali-1639203936266287864-0",
+   "review_no": 153,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "662": {
+   "uidx": 662,
+   "question_id": "bengali--7649088869502843626-0",
+   "review_no": 154,
+   "approve": "1",
+   "human_note": "Updated",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "কলিকাতা পৌরসংস্থার সর্বশেষ মহানাগরিক কে ?",
+    "context": "মহানাগরিক হচ্ছেন কলকাতা পৌরসংস্থার মেয়র। মহানাগরিকের নির্দেশেই কলকাতার পৌর প্রশাসনের যাবতীয় কার্য সম্পাদন করা হয়ে থাকে। প্রত্যেক পৌরনির্বাচনের পর পৌরসংস্থার প্রথম অধিবেশনে নির্বাচিত সদস্যদের মধ্য থেকে একজন পাঁচ বছরের জন্য মহানাগরিক নির্বাচিত হন। ইনি মেয়র-পরিষদের সভায় পৌরহিত্য করেন এবং মুখ্য রাজনৈতিক পরিচালক হিসেবে মেয়র-পারিষদদের দফতর ও ক্ষমতা বণ্টন করে দেন। কলকাতার সর্বশেষ মহানাগরিক হলেন ফিরহাদ হাকিম।"
+   }
+  },
+  "667": {
+   "uidx": 667,
+   "question_id": "bengali-870453365572423945-4",
+   "action": "not_in_review",
+   "human_note": "",
+   "followups": [
+    {
+     "kind": "claude_rewrite",
+     "reason": "You asked me to look. The question and gold are fine; the passage ended with an unfinished 'অন্যান্য স্থান হল:' (other places are:), which was removed."
+    }
+   ],
+   "claude_edits": {
+    "context_patches": [
+     [
+      " অন্যান্য স্থান হল:",
+      ""
+     ]
+    ]
+   }
+  },
+  "669": {
+   "uidx": 669,
+   "question_id": "bengali-2302582327479442306-0",
+   "review_no": 155,
+   "approve": "0",
+   "human_note": "Drop it",
+   "followups": [],
+   "action": "drop"
+  },
+  "674": {
+   "uidx": 674,
+   "question_id": "bengali-9107229136914417048-1",
+   "review_no": 156,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "677": {
+   "uidx": 677,
+   "question_id": "bengali-8690075851604962430-9",
+   "review_no": 157,
+   "approve": "1",
+   "human_note": "Fixed q",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "হাইড্রোজেন বোমা কোন দশকে আবিষ্কৃত হয় ?"
+   }
+  },
+  "685": {
+   "uidx": 685,
+   "question_id": "bengali--7545544422670647850-0",
+   "review_no": 158,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "689": {
+   "uidx": 689,
+   "question_id": "bengali-1733542226552149709-2",
+   "review_no": 159,
+   "approve": "1",
+   "human_note": "updated new ans",
+   "followups": [
+    {
+     "kind": "span",
+     "reason": "Your 'س-ل-م আরবি' is the same text with the word order flipped by right-to-left display in the spreadsheet. The passage text is 'আরবি س-ل-م'."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "correct_answer": "س-ل-م আরবি"
+   },
+   "claude_edits": {
+    "correct_answer": "আরবি س-ل-م"
+   }
+  },
+  "692": {
+   "uidx": 692,
+   "question_id": "bengali--7192934383309429412-1",
+   "review_no": 160,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "693": {
+   "uidx": 693,
+   "question_id": "bengali--8993283243948949123-0",
+   "review_no": 161,
+   "approve": "1",
+   "human_note": "Updated",
+   "followups": [
+    {
+     "kind": "span",
+     "reason": "Passage form (no space before টি)."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "correct_answer": "৪৫৬৮ টি",
+    "context": "ইউনিয়ন পরিষদ বা ইউনিয়ন  হল বাংলাদেশের পল্লী অঞ্চলের সর্বনিম্ন প্রশাসনিক ইউনিট । গ্রাম চৌকিদারি আইনের ১৮৭০ এর অধীনে ১৮৭০ সালে কিছু পল্লী সংস্থা গঠনের উদ্যোগ নেয়া হলে ইউনিয়নের সৃষ্টি হয়। এ আইনের অধীনে প্রতিটি গ্রামে পাহারা টহল ব্যবস্থা চালু করার উদ্দেশ্যে কতগুলো গ্রাম নিয়ে একটি করে ইউনিয়ন গঠিত হয়। ইউনিয়ন গঠনের বিস্তারিত  দিকনির্দেশনা লিপিবদ্ধ রয়েছে বেঙ্গল চৌকিদারী ম্যানুয়েলের দ্বিতীয় ও তৃতীয় অণুচ্ছেদে। এই প্রক্রিয়ার বিকাশের মধ্য দিয়ে একটি স্থানীয় সরকার ইউনিটের ধারণার সৃষ্টি হয়। প্রাথমিক পর্যায়ে এর ভূমিকা নিরাপত্তামূলক কর্মকাণ্ডে সীমাবদ্ধ থাকলে ও পরবর্তী কালে এটিই স্থানীয় সরকারের প্রাথমিক ইউনিটের ভিত্তিরুপে গড়ে উঠে।[1] বাংলাদেশে বর্তমানে ৪৫৬৮টি ইউনিয়ন আছে।[2]"
+   },
+   "claude_edits": {
+    "correct_answer": "৪৫৬৮টি"
+   }
+  },
+  "697": {
+   "uidx": 697,
+   "question_id": "bengali--8204875660906624650-32",
+   "review_no": 162,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "701": {
+   "uidx": 701,
+   "question_id": "bengali--1765114139251564474-2",
+   "review_no": 163,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "702": {
+   "uidx": 702,
+   "question_id": "bengali--2322627337825891128-2",
+   "review_no": 164,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "709": {
+   "uidx": 709,
+   "question_id": "bengali--5975443335817197819-4",
+   "review_no": 165,
+   "approve": "1",
+   "human_note": "Fixed context and question",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "বাগদা চিংড়ির উপবর্গের নাম কী ?",
+    "context": "বাগদা চিংড়ির ফুলকা কয়েকটি অংশে বিভক্ত যা গাছের শাখার ন্যায়। এর উপর ভিত্তি করে বৈজ্ঞানিক নাম প্রদান করা হয়েছে। প্রাচীন গ্রীক ভাষা ডেনড্রোন (অর্থ গাছ) (δένδρον) এবং ব্রাঞ্চিয়া (অর্থ ফুলকা) (βράγχια)-এর সংমিশ্রণে এর উপবর্গের নাম ডেনড্রোনব্রাঞ্চিয়াটা (Dendrobranchiata) রাখা হয়েছে।[11]"
+   }
+  },
+  "710": {
+   "uidx": 710,
+   "question_id": "bengali--4387520232744519046-1",
+   "review_no": 166,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "711": {
+   "uidx": 711,
+   "question_id": "bengali-4490049460750627077-2",
+   "review_no": 167,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "716": {
+   "uidx": 716,
+   "question_id": "bengali--913023440866391207-7",
+   "review_no": 168,
+   "approve": "0",
+   "human_note": "Drop it, too annoying to fix",
+   "followups": [],
+   "action": "drop"
+  },
+  "720": {
+   "uidx": 720,
+   "question_id": "bengali--5204568659066136602-1",
+   "review_no": 169,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "722": {
+   "uidx": 722,
+   "question_id": "bengali--7062275363138990568-1",
+   "review_no": 170,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "কলকাতার সর্বশেষ মেয়র কে ?",
+    "correct_answer": "ফিরহাদ হাকিম",
+    "context": "ভারতীয় জাতীয়তাবাদী নেতা সুরেন্দ্রনাথ বন্দ্যোপাধ্যায়ের উদ্যোগে ১৯২২ সালে গণতান্ত্রিক সায়ত্ত্বশাসন সংস্থা হিসেবে কলকাতা পৌরসংস্থা প্রতিষ্ঠিত হয়। ১৯৪৭ সালে ভারত স্বাধীন হওয়ার পর ১৯৫১ ও ১৯৫৬ সালে দুই বার কর্পোরেশন আইন সংশোধন করা হয়েছিল। বর্তমান পৌরসংস্থাটি ১৯৮০ সালের সংশোধিত পৌর আইনের ভিত্তিতে পরিচালিত হয়। ফিরহাদ হাকিম কলকাতা পৌরসংস্থার সর্বশেষ মহানাগরিক।"
+   }
+  },
+  "730": {
+   "uidx": 730,
+   "question_id": "bengali-3387148013685945792-2",
+   "review_no": 171,
+   "approve": "1",
+   "human_note": "Keep it anyway, under lord armharst it was founded",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "732": {
+   "uidx": 732,
+   "question_id": "bengali--2870676430956511504-20",
+   "review_no": 172,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "733": {
+   "uidx": 733,
+   "question_id": "bengali-336099708682900469-0",
+   "review_no": 173,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "737": {
+   "uidx": 737,
+   "question_id": "bengali--6193059923644907073-35",
+   "review_no": 174,
+   "approve": "1",
+   "human_note": "keep it, its legitimate",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "738": {
+   "uidx": 738,
+   "question_id": "bengali-3745430487395999591-0",
+   "review_no": 175,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "741": {
+   "uidx": 741,
+   "question_id": "bengali-5522872480652132612-5",
+   "review_no": 176,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "743": {
+   "uidx": 743,
+   "question_id": "bengali--5336760873022670165-0",
+   "review_no": 177,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "745": {
+   "uidx": 745,
+   "question_id": "bengali--3051071168921438198-0",
+   "review_no": 178,
+   "approve": "0",
+   "human_note": "Drop that",
+   "followups": [],
+   "action": "drop"
+  },
+  "748": {
+   "uidx": 748,
+   "question_id": "bengali--8154256008658539900-14",
+   "review_no": 179,
+   "approve": "1",
+   "human_note": "its the same till now",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "753": {
+   "uidx": 753,
+   "question_id": "bengali--3939356441070933912-28",
+   "review_no": 180,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "757": {
+   "uidx": 757,
+   "question_id": "bengali--6398099918140625853-2",
+   "review_no": 181,
+   "approve": "1",
+   "human_note": "Answer and context updated",
+   "followups": [
+    {
+     "kind": "consistency",
+     "reason": "Line breaks in your new passage replaced by spaces (every other passage is one paragraph)."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "correct_answer": "৫৮টি",
+    "context": "বাংলাদেশে বিপুল পরিমাণ শিক্ষার্থীদের উচ্চশিক্ষা প্রদানের উদ্দেশ্যে বর্তমানে ৫৮টি সরকারি বিশ্ববিদ্যালয় রয়েছে। স্বায়ত্ব-শাসিত প্রতিষ্ঠান হিসেবে পরিচালিত এই সকল বিশ্ববিদ্যালয় সরকারের অর্থায়নে প্রতিষ্ঠা করা হয়।\n\nঢাকা বিভাগে ২১টি পাবলিক বিশ্ববিদ্যালয় রয়েছে, যার মধ্যে ১১টি ঢাকা শহরে, ৫টি গাজীপুরে এবং ১টি সাভারে, ১টি কিশোরগঞ্জে, ১টি টাঙ্গাইলে, ১টি গোপালগঞ্জে এবং ১টি নারায়ণগঞ্জে অবস্থিত।\n\nচট্টগ্রাম বিভাগে ৯টি বিশ্ববিদ্যালয় রয়েছে, যার মধ্যে ৪টি চট্টগ্রামে, ১টি চাঁদপুরে, ১টি রাঙ্গামাটিতে, ১টি নোয়াখালীতে ও ১টি কুমিল্লায় এবং ১টি লক্ষ্মীপুরে অবস্থিত।\n\nখুলনা বিভাগে ৮টি বিশ্ববিদ্যালয় রয়েছে, যার মধ্যে ৪টি খুলনায়, ১টি যশোরে, ১টি কুষ্টিয়ায়, ১টি মেহেরপুরে এবং ১টি সাতক্ষীরায় অবস্থিত।\n\nরাজশাহী বিভাগে ৭টি বিশ্ববিদ্যালয় রয়েছে, যার মধ্যে ৩টি রাজশাহীতে, ১টি পাবনায়, ১টি বগুড়াতে, ১টি সিরাজগঞ্জে এবং ১টি নাটোরে অবস্থিত।\n\nসিলেট বিভাগে ৫টি বিশ্ববিদ্যালয় রয়েছে, যার মধ্যে ৩টি সিলেটে, ১টি হবিগঞ্জে এবং ১টি সুনামগঞ্জে অবস্থিত।\n\nরংপুর বিভাগে ৫টি বিশ্ববিদ্যালয় রয়েছে, যার মধ্যে ১টি রংপুর শহরে, ১টি দিনাজপুরে, ১টি কুড়িগ্রামে,১টি ঠাকুরগাঁওয়ে এবং ১টি লালমনিরহাটে অবস্থিত।\n\nময়মনসিংহ বিভাগে ৪টি বিশ্ববিদ্যালয় রয়েছে, যার মধ্যে ১টি নেত্রকোণায়, ১টি জামালপুরে ও ২টি ময়মনসিংহ জেলায় অবস্থিত।\n\nবরিশাল বিভাগে ৩টি বিশ্ববিদ্যালয় রয়েছে, যার মধ্যে ১টি বরিশালে, ১টি পটুয়াখালীতে এবং ১টি পিরোজপুরে অবস্থিত।"
+   },
+   "claude_edits": {
+    "normalize_space": true
+   }
+  },
+  "759": {
+   "uidx": 759,
+   "question_id": "bengali--8808406948073702391-4",
+   "review_no": 182,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "768": {
+   "uidx": 768,
+   "question_id": "bengali-2173402754641434684-7",
+   "review_no": 183,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "771": {
+   "uidx": 771,
+   "question_id": "bengali--4713842652906966901-0",
+   "review_no": 184,
+   "approve": "1",
+   "human_note": "Updated context and new answer",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "বিশ্বে মোট কতগুলো ইউরোপীয় দেশ ইউরো ব্যবহার করে ?",
+    "correct_answer": "২১",
+    "context": "ইউরো (মুদ্রা প্রতীক: €; ব্যাংক কোড: EUR) হল ইউরোপীয় ইউনিয়ন দেশসমূহের মুদ্রা। বর্তমানে ইউরো ইউরোপের ২১টি দেশে ব্যবহৃত। ১৯৯৯ সালে ইউরোপের ১৪টি দেশ (অস্ট্রিয়া, বেলজিয়াম, জার্মানি, ফিনল্যান্ড, ফ্রান্স, আয়ারল্যান্ড, ইতালি, লুক্সেমবুর্গ, মোনাকো, নেদারল্যান্ডস, পর্তুগাল, স্পেন, সান মারিনো এবং ভ্যাটিকান সিটি) ইউরো প্রথমদিকে ব্যবহার করতে শুরু করে।"
+   }
+  },
+  "775": {
+   "uidx": 775,
+   "question_id": "bengali-1961834313370645874-39",
+   "review_no": 185,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "780": {
+   "uidx": 780,
+   "question_id": "bengali-5758287082712379011-25",
+   "review_no": 186,
+   "approve": "1",
+   "human_note": "Updated the answer and new context",
+   "followups": [
+    {
+     "kind": "consistency",
+     "reason": "Your new passage says the essay appeared in Kavita's ১৩৩৫ Baishakh issue, but the same passage (and history: Kavita began in ১৩৪২) gives ১৩৪৫; fixed to ১৩৪৫. 'প্রবন্ধগ্রন্থটি' (the book) -> 'প্রবন্ধটি' (the essay): the book came out after his death, the essay first appeared in Kavita, as your new sentence says."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "correct_answer": "কবিতা",
+    "context": "জীবনানন্দ দাশের প্রাবন্ধিক পরিচয় অদ্যাবধি বিশেষ কোন মর্যাদার আসনে অধিষ্ঠিত হয় নি। তবে  তিনি বেশ কিছু প্রবন্ধ-নিবন্ধ-আলোচনা লিখেছিলেন যার প্রতিটি অত্যন্ত মৌলিক চিন্তা-ভাবনার স্বাক্ষর বহন করে। তাঁর প্রবন্ধের সংকলন কবিতার কথা বেরিয়েছিল তাঁর মৃত্যুর পর - ১৩৬২ তে । এতে তাঁর জীবদ্দশায় বিভিন্ন পত্র-পত্রিকায় মুদ্রিত পনেরটি প্রবন্ধ সংকলিত হয়েছিল। এই প্রবন্ধগুলি বহুল পঠিত । এই বিখ্যাত পনেরটি প্রবন্ধের বাইরেও জীবনানন্দের আরো কিছু প্রবন্ধ, নিবন্ধ, সমালোচনা রয়েছে।  এই রচনাসমষ্টির সংখ্যা খুব বেশি নয়। হিসেব করলে দেখা যায় তাঁর সাহিত্য-সমাজ-শিক্ষা বিষয়ক রচনার সংখ্যা ৩০, গ্রন্থ'ভূমিকা ও গ্রন্থালোচনা জাতীয় রচনার সংখ্যা ৯, স্মৃতিতর্পণমূলক রচনার সংখ্যা ৩ এবং বিবিধ প্রবন্ধ-নিবন্ধের সংখ্যা ৭। তদুপরি আরো ৭টি খসড়া প্রবন্ধের হদিশ করা গেছে।   বুদ্ধদেব বসুর কবিতা পত্রিকার একটি প্রবন্ধ সংখ্যার (১৩৪৫, বৈশাখ) পরিকল্পনা করেছিলেন মূলত কবিদের গদ্য প্রকাশের উদ্দেশ্য নিয়ে। এরই সূত্রে জীবনানন্দ তাঁর প্রথম গুরুত্বপূর্ণ প্রবন্ধটি লিখেছিলেন যার নাম ‘কবিতার কথা’। এ প্রবন্ধের শুরু এই ভাবে - \"সকলেই কবি নয়। কেউ কেউ কবি ; কবি--কেননা তাদের হৃদয়ে কল্পনার এবং কল্পনার ভিতরে চিন্তা ও অভিজ্ঞতার সারবত্তা রয়েছে এবং তাদের পশ্চাতে অনেক বিগত শতাব্দী ধরে এবং তাদের সঙ্গে সঙ্গে আধুনিক জগতের নব নব কাব্যবিকীরণ তাদের সাহায্য করেছে। কিন্তু সকলকে সাহায্য করতে পারে না ; যাদের হৃদয়ে কল্পনা ও কল্পনার ভিতরে অভিজ্ঞতা ও চিন্তার সারবত্তা রয়েছে তারাই সাহায্যপ্রাপ্ত হয় ; নানারকম চরাচরের সম্পর্কে এসে তারা কবিতা সৃষ্টি করবার অবসর পায়। \" জীবনানন্দ দাশের \"কবিতার কথা\" প্রবন্ধটি প্রথম প্রকাশিত হয়েছিল বুদ্ধদেব বসু সম্পাদিত 'কবিতা' পত্রিকায় (১৩৩৫ বঙ্গাব্দের বৈশাখ সংখ্যায়)।"
+   },
+   "claude_edits": {
+    "question": "কবি জীবনানন্দ দাশের \"কবিতার কথা\" প্রবন্ধটি কোন পত্রিকায় প্রথম প্রকাশিত হয় ?",
+    "context_patches": [
+     [
+      "(১৩৩৫ বঙ্গাব্দের বৈশাখ সংখ্যায়)",
+      "(১৩৪৫ বঙ্গাব্দের বৈশাখ সংখ্যায়)"
+     ]
+    ]
+   }
+  },
+  "783": {
+   "uidx": 783,
+   "question_id": "bengali-1779859426821641187-3",
+   "review_no": 187,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "788": {
+   "uidx": 788,
+   "question_id": "bengali-3630841465873160756-6",
+   "review_no": 188,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "792": {
+   "uidx": 792,
+   "question_id": "bengali--5357314794491057221-6",
+   "review_no": 189,
+   "approve": "1",
+   "human_note": "That was correct",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "793": {
+   "uidx": 793,
+   "question_id": "bengali-5106409585032054286-5",
+   "review_no": 190,
+   "approve": "1",
+   "human_note": "Whole new question and answer",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "গিরিশ পার্ক থেকে সেন্ট্রালের মধ্যবর্তী ১.৮০ কিলোমিটার পথ সম্পূর্ণ হয় কোন তারিখে?",
+    "correct_answer": "২৭ সেপ্টেম্বর ১৯৯৫"
+   }
+  },
+  "794": {
+   "uidx": 794,
+   "question_id": "bengali-5628667362813463738-0",
+   "review_no": 191,
+   "approve": "1",
+   "human_note": "Updated in original q and new answer",
+   "followups": [
+    {
+     "kind": "span",
+     "reason": "The passage says ফেসবুকের; 'ফেসবুক ইনকর্পোরেট' is not in it (and is misspelt). The question now names 2019, so it no longer changes over time."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "question": "২০১৯ সাল অবধি হোয়াটসঅ্যাপ ম্যাসেঞ্জারের মালিক কে ছিলেন?",
+    "correct_answer": "ফেসবুক ইনকর্পোরেট"
+   },
+   "claude_edits": {
+    "correct_answer": "ফেসবুক",
+    "time_sensitive": "no"
+   }
+  },
+  "802": {
+   "uidx": 802,
+   "question_id": "bengali-4844051822065438920-1",
+   "review_no": 192,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "808": {
+   "uidx": 808,
+   "question_id": "bengali-5706247560032651103-1",
+   "review_no": 193,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "813": {
+   "uidx": 813,
+   "question_id": "bengali-3832041350363737897-3",
+   "review_no": 194,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "814": {
+   "uidx": 814,
+   "question_id": "bengali--470226314479732209-2",
+   "review_no": 195,
+   "approve": "1",
+   "human_note": "Fixed context and changed the whole thing totally",
+   "followups": [
+    {
+     "kind": "consistency",
+     "reason": "The question now names the 2025 estimate."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "question": "হালনাগাদ অনুমান অনুযায়ী, ২০২৫ সাল নাগাদ মানালি শহরের জনসংখ্যা কত?",
+    "correct_answer": "১১,৭০০",
+    "context": "মানালি হল লাহুল (হিমাচল প্রদেশ) এবং লাদাখের মধ্য দিয়ে , কারাকোরাম গিরিপথ পেরিয়ে চীনের তারিম অববাহিকার ইয়ারকান্দ এবং হোতান পর্যন্ত বিস্তৃত একটি প্রাচীন বাণিজ্য পথের সূচনা । ভারতের ২০১১ সালের আদমশুমারি অনুসারে , মানালি পৌর পরিষদের জনসংখ্যা ছিল ৮,০৯৬ জন, যার মধ্যে ৪,৭১৭ জন পুরুষ এবং ৩,৩৭৯ জন মহিলা। হালনাগাদ অনুমান অনুযায়ী, ২০২৫ সাল নাগাদ শহরটির জনসংখ্যা প্রায় ১১,৭০০ হবে।"
+   },
+   "claude_edits": {
+    "time_sensitive": "no"
+   }
+  },
+  "815": {
+   "uidx": 815,
+   "question_id": "bengali-2295610133647280080-0",
+   "review_no": 196,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "817": {
+   "uidx": 817,
+   "question_id": "bengali-4287325730796291566-12",
+   "review_no": 197,
+   "approve": "1",
+   "human_note": "Keep as is, its legitimate",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "819": {
+   "uidx": 819,
+   "question_id": "bengali-7452668367352984367-0",
+   "review_no": 198,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "820": {
+   "uidx": 820,
+   "question_id": "bengali-94515828498152131-10",
+   "review_no": 199,
+   "approve": "1",
+   "human_note": "New question now",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "আফ্রিকান হোমো ইরেক্টাস এর বংশধররা কত বৎসর পূর্বে ইউরেশিয়ায় ছড়িয়ে পড়েছিল ?"
+   }
+  },
+  "822": {
+   "uidx": 822,
+   "question_id": "bengali-928372482762420242-15",
+   "review_no": 200,
+   "approve": "1",
+   "human_note": "Q & A changed",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "মহম্মদ ঘোরি দিল্লিতে তুর্কি রাজ্য প্রতিষ্ঠা করেন কত সালে ?",
+    "correct_answer": "১২০৬"
+   }
+  },
+  "828": {
+   "uidx": 828,
+   "question_id": "bengali-6543940287332686430-1",
+   "review_no": 201,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "834": {
+   "uidx": 834,
+   "question_id": "bengali-7670934081591439346-2",
+   "review_no": 202,
+   "approve": "0",
+   "human_note": "Drop it",
+   "followups": [],
+   "action": "drop"
+  },
+  "837": {
+   "uidx": 837,
+   "question_id": "bengali--8040726073714300616-2",
+   "review_no": 203,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "845": {
+   "uidx": 845,
+   "question_id": "bengali-215764160317430364-3",
+   "review_no": 204,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "848": {
+   "uidx": 848,
+   "question_id": "bengali-7368577689306281053-15",
+   "review_no": 205,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "852": {
+   "uidx": 852,
+   "question_id": "bengali--3469849300924882192-10",
+   "review_no": 206,
+   "approve": "1",
+   "human_note": "keep it for has_ctx, update accordingly for no_ctx",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "854": {
+   "uidx": 854,
+   "question_id": "bengali--8422112448971508966-2",
+   "review_no": 207,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "859": {
+   "uidx": 859,
+   "question_id": "bengali-8377642154170847764-0",
+   "review_no": 208,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "866": {
+   "uidx": 866,
+   "question_id": "bengali--8230914461558443804-12",
+   "review_no": 209,
+   "approve": "1",
+   "human_note": "Fixed Q",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "প্রাকৃতিক ভূগোলের অগ্রপথিক কে?"
+   }
+  },
+  "867": {
+   "uidx": 867,
+   "question_id": "bengali-2005469134674641797-1",
+   "review_no": 210,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "868": {
+   "uidx": 868,
+   "question_id": "bengali--1718543851668596216-1",
+   "review_no": 211,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "872": {
+   "uidx": 872,
+   "question_id": "bengali-744061319368605186-11",
+   "review_no": 212,
+   "approve": "0",
+   "human_note": "Drop it",
+   "followups": [],
+   "action": "drop"
+  },
+  "877": {
+   "uidx": 877,
+   "question_id": "bengali--8643799144387702311-3",
+   "review_no": 213,
+   "approve": "0",
+   "human_note": "Drop it",
+   "followups": [],
+   "action": "drop"
+  },
+  "881": {
+   "uidx": 881,
+   "question_id": "bengali--8541412527792253343-2",
+   "review_no": 214,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "882": {
+   "uidx": 882,
+   "question_id": "bengali-937294351156651799-1",
+   "action": "not_in_review",
+   "human_note": "",
+   "followups": [
+    {
+     "kind": "claude_rewrite",
+     "reason": "You wrote 'will be updated'. The passage says the founding date is unknown and only that Morya Gosavi was associated with the temple, so 'who founded it' was not answered. Question rewritten to what the passage says. Please check."
+    }
+   ],
+   "claude_edits": {
+    "question": "কোন গণপাতক সন্ন্যাসী শ্রী ময়ুরেশ্বর মন্দিরের সাথে জড়িত ছিলেন বলে জানা যায় ?",
+    "status": "FIXQ"
+   }
+  },
+  "889": {
+   "uidx": 889,
+   "question_id": "bengali--3252041189033726849-15",
+   "review_no": 215,
+   "approve": "0",
+   "human_note": "Drop it, Unverified",
+   "followups": [],
+   "action": "drop"
+  },
+  "890": {
+   "uidx": 890,
+   "question_id": "bengali--2235296158453058421-4",
+   "review_no": 216,
+   "approve": "1",
+   "human_note": "Fixed the q",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "১৭৫৭ সালে পলাশীর যুদ্ধে ইংরেজদের মোট কতজন ইউরোপীয় সৈন্য মারা যায় ?"
+   }
+  },
+  "900": {
+   "uidx": 900,
+   "question_id": "bengali-1045520233650932086-0",
+   "review_no": 217,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "909": {
+   "uidx": 909,
+   "question_id": "bengali-1781289068755440406-2",
+   "review_no": 218,
+   "approve": "1",
+   "human_note": "",
+   "followups": [
+    {
+     "kind": "typo",
+     "reason": "স্থাণে -> স্থানে."
+    }
+   ],
+   "action": "edit",
+   "human_edits": {
+    "question": "বিশ্বের প্রথম কম্পিউটার (অ্যাবাকাস) কোন স্থাণে দেখা যায় ?"
+   },
+   "claude_edits": {
+    "question": "বিশ্বের প্রথম কম্পিউটার (অ্যাবাকাস) কোন স্থানে দেখা যায় ?"
+   }
+  },
+  "911": {
+   "uidx": 911,
+   "question_id": "bengali--2478685782456378793-1",
+   "review_no": 219,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "913": {
+   "uidx": 913,
+   "question_id": "bengali-6774541490543454184-11",
+   "action": "not_in_review",
+   "human_note": "",
+   "followups": [
+    {
+     "kind": "blind_sheet",
+     "reason": "Your blind-sheet note and naturalness 2: the case ending -এ removed. The 4 hallucinated answers were changed the same way."
+    }
+   ],
+   "claude_edits": {
+    "correct_answer": "শমীন্দ্রনাথ",
+    "status": "FIXS"
+   }
+  },
+  "918": {
+   "uidx": 918,
+   "question_id": "bengali-5489067990214467888-20",
+   "review_no": 220,
+   "approve": "0",
+   "human_note": "Drop it",
+   "followups": [],
+   "action": "drop"
+  },
+  "919": {
+   "uidx": 919,
+   "question_id": "bengali--8917537608815875416-9",
+   "review_no": 221,
+   "approve": "1",
+   "human_note": "Keep it anyway, we know aryabhatt did that, also i updated the spelling in new answer",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "correct_answer": "আর্যভট্ট"
+   }
+  },
+  "922": {
+   "uidx": 922,
+   "question_id": "bengali-3035778443777321171-2",
+   "review_no": 222,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "923": {
+   "uidx": 923,
+   "question_id": "bengali-1652908994956995724-0",
+   "review_no": 223,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "924": {
+   "uidx": 924,
+   "question_id": "bengali--2609019009140397756-0",
+   "review_no": 224,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "925": {
+   "uidx": 925,
+   "question_id": "bengali-2004144515638107689-9",
+   "review_no": 225,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "934": {
+   "uidx": 934,
+   "question_id": "bengali--3048309074162424193-23",
+   "review_no": 226,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "935": {
+   "uidx": 935,
+   "question_id": "bengali-2288883268191669091-1",
+   "review_no": 227,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "938": {
+   "uidx": 938,
+   "question_id": "bengali-4183671699973189263-13",
+   "review_no": 228,
+   "approve": "1",
+   "human_note": "fixed new question and new answer slightly refined",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "চট্টগ্রামের বোয়ালখালীতে অবস্থিত স্যার আশুতোষ সরকারি কলেজের প্রতিষ্ঠাতা কে ছিলেন ?",
+    "correct_answer": "রেবতী রমণ দত্ত"
+   }
+  },
+  "941": {
+   "uidx": 941,
+   "question_id": "bengali--839278517851786324-3",
+   "review_no": 229,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "944": {
+   "uidx": 944,
+   "question_id": "bengali--7737965918282520995-0",
+   "review_no": 230,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "949": {
+   "uidx": 949,
+   "question_id": "bengali-439518577347767979-1",
+   "review_no": 231,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "958": {
+   "uidx": 958,
+   "question_id": "bengali-530330988068464850-8",
+   "review_no": 232,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "964": {
+   "uidx": 964,
+   "question_id": "bengali--3301852126772447936-3",
+   "review_no": 233,
+   "approve": "1",
+   "human_note": "fixed the new q",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "বাংলার ছিয়াত্তরের মন্বন্তরে মোট জনসংখ্যার কত অংশ মানুষের মৃত্যু হয় ?",
+    "correct_answer": "এক তৃতীয়াংশ"
+   }
+  },
+  "978": {
+   "uidx": 978,
+   "question_id": "bengali--8878834667713983067-0",
+   "review_no": 234,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "981": {
+   "uidx": 981,
+   "question_id": "bengali-2723172793669565513-28",
+   "review_no": 235,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  },
+  "988": {
+   "uidx": 988,
+   "question_id": "bengali-4118938039936715557-12",
+   "review_no": 236,
+   "approve": "1",
+   "human_note": "directly updated old q",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "বিশ্বের প্রথম রোগীকে বন্ধন থেকে মুক্ত করা ব্যক্তি কে ?"
+   }
+  },
+  "989": {
+   "uidx": 989,
+   "question_id": "bengali--2444266364885393741-0",
+   "review_no": 237,
+   "approve": "1",
+   "human_note": "new question",
+   "followups": [],
+   "action": "edit",
+   "human_edits": {
+    "question": "প্রোগ্রামেবল লজিক কন্ট্রোলার সর্বপ্রথম কোন কোম্পানি ট্রেডমার্ক করেন ?"
+   }
+  },
+  "996": {
+   "uidx": 996,
+   "question_id": "bengali--4707271419376911216-0",
+   "review_no": 238,
+   "approve": "1",
+   "human_note": "",
+   "followups": [],
+   "action": "approve",
+   "human_edits": {}
+  }
+ }
+}

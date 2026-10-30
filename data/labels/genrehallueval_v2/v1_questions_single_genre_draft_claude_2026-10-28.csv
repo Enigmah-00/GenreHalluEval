@@ -1,0 +1,251 @@
+question_id,v1_genre,v1_genre_status,single_genre_draft,confidence,keep_in_v2,note,question
+d2-001,"History, Politics & Education",ok,HISTORY,high,yes,,১৯৪৭ সালের ৩ জুলাই সরকারি ঘোষণার পরিপ্রেক্ষিতে ৬ ও ৭ জুলাই সিলেটে গণভোটে কাকে রেফারেন্ডাম কমিশনার নিযুক্ত করা হয়?
+d2-002,"History, Politics & Education",ok,POLITICS,high,yes,,বাংলাদেশের বর্তমান শিক্ষামন্ত্রীর নাম কী?
+d2-003,"History, Politics & Education",ok,HISTORY,high,yes,,বাংলাদেশের সাবেক প্রধানমন্ত্রী শেখ হাসিনা পদত্যাগ এবং দেশ থেকে পালিয়ে গিয়ে ভারতে আশ্রয় নেয় কবে?
+d2-004,"History, Politics & Education",ok,HISTORY,high,yes,,জাতিসংঘের মানবাধিকার কমিশনের প্রাথমিক প্রতিবেদন অনুযায়ী জুলাই গণহত্যায় কতজনের বেশী মানুষ নিহত হয়?
+d2-005,"History, Politics & Education",ok,POLITICS,high,yes,,ড. মুহাম্মদ ইউনূস কবে প্রথমবারের মত বাংলাদেশের প্রধান উপদেষ্টা হিসেবে দায়িত্ব গ্রহণ করেন?
+d2-006,"History, Politics & Education",ok,OTHER,low,no (low confidence),refugees: Other / Politics / Geography,রোহিঙ্গা শরণার্থীরা কোন দেশ থেকে আগত?
+d2-007,"History, Politics & Education",ok,HISTORY,low,no (low confidence),end of a tenure through an uprising: History or Politics,২০২৪ সালের ছাত্র আন্দোলন এবং অসহযোগ আন্দোলনের ফলে ঘটিত জুলাই গণঅভ্যুত্থানের মুখে ক্ষমতাচ্যুত হয়ে পলায়নের মাধ্যমে শেখ হাসিনার কত বছরের শাসনকালের অবসান ঘটে?
+d2-008,"History, Politics & Education",ok,HISTORY,high,yes,,হুসেইন মুহাম্মদ এরশাদের স্বৈরাচারী শাসনামলের পতন ঘটে কবে?
+d2-009,"History, Politics & Education",ok,OTHER,low,no (low confidence),a preacher's passport case: Other / Religion,"কবে সিঙ্গাপুরের স্বরাষ্ট্র মন্ত্রণালয় জানায় যে, আমির হামজা ২০২৪ সালের ৯ আগস্ট অভিবাসী শ্রমিকদের উদ্দেশ্যে একটি অবৈধ ও চরমপন্থী ধর্মোপদেশ দেওয়ার জন্য ভিন্ন নামের পাসপোর্ট ব্যবহার করে সিঙ্গাপুরে প্রবেশ করেছিলেন?"
+d2-010,"History, Politics & Education",ok,POLITICS,high,yes,,বাংলাদেশের ত্রয়োদশ জাতীয় সংসদ নির্বাচন কত তারিখ অনুষ্ঠিত হয়?
+d2-011,"History, Politics & Education",ok,POLITICS,high,yes,,জামায়াতে ইসলামীর আমির শফিকুর রহমান ছাত্ররাজনীতি শুরু করেন কোন দলের হয়ে?
+d2-012,"History, Politics & Education",ok,POLITICS,high,yes,,গাজী নজরুল ইসলামকে কবে বাংলাদেশ জামায়াতে ইসলামী থেকে বহিষ্কার করা হয়?
+d2-013,"History, Politics & Education",ok,POLITICS,high,yes,,বাংলাদেশের বর্তমান প্রধানমন্ত্রী কে?
+d2-014,"History, Politics & Education",ok,POLITICS,high,yes,,ওবায়দুল কাদেরের মৃত্যুদণ্ডের রায় কবে ঘোষিত হয়?
+d2-015,"History, Politics & Education",ok,POLITICS,high,yes,,বাংলাদেশ পুলিশ কোন মন্ত্রণালয় কর্তৃক নিয়ন্ত্রিত?
+d2-016,"History, Politics & Education",ok,POLITICS,high,yes,,পুলিশের ৩২তম মহাপরিদর্শক কে?
+d2-017,"History, Politics & Education",ok,OTHER,low,no (low confidence),theft at an official's house: crime trivia,কোন জেলায় পুলিশ মহাপরিদর্শক (আইজিপি) মো. আলী হোসেন ফকিরের বাড়ির বৈদ্যুতিক তার চুরি হয়?
+d2-018,"History, Politics & Education",ok,EDUCATION,high,yes,,বাংলাদেশে প্রথমবারের মত সমন্বিত সম্মান কোর্স চালু করে কোন বিশ্ববিদ্যালয়?
+d2-019,"History, Politics & Education",ok,POLITICS,high,yes,,বাংলাদেশের বর্তমান রাষ্ট্রপতি কে?
+d2-020,"History, Politics & Education",ok,POLITICS,high,yes,,বিসিএসে ইকোনমিক ক্যাডারকে প্রশাসন ক্যাডারের সাথে একত্রিত করা হয় কতসালে?
+d2-021,"History, Politics & Education",ok,EDUCATION,high,yes,,সকল জুনিয়র স্কুল সার্টিফিকেট (জেএসসি) ও জুনিয়র দাখিল সার্টিফিকেট (জেডিসি) পরীক্ষা বাংলাদেশ শিক্ষা মন্ত্রণালয় কর্তৃক স্থায়ীভাবে বাতিল করা হয়েছে কত শিক্ষাবর্ষ পরবর্তী?
+d2-022,"History, Politics & Education",ok,EDUCATION,high,yes,,"মাধ্যমিক ও উচ্চ মাধ্যমিক শিক্ষা বোর্ড, কুমিল্লা কবে প্রতিষ্ঠিত হয়?"
+d2-023,"History, Politics & Education",ok,POLITICS,high,yes,,রাজনীতিবিদ ফজলুল কাদের চৌধুরী কোথায় জন্মগ্রহণ করেন?
+d2-024,"History, Politics & Education",ok,POLITICS,high,yes,,কোন দলের ডাকে নয়াদিল্লির যন্তর মন্তরে শুরু হয় ধারাবাহিক প্রতিবাদ কর্মসূচি?
+d2-025,"History, Politics & Education",ok,POLITICS,high,yes,,ভারতীয় রাজনীতিবিদ ধর্মেন্দ্র প্রধান শিক্ষামন্ত্রীর দায়িত্ব থেকে পদত্যাগ করেন কেন?
+d2-026,"History, Politics & Education",ok,POLITICS,high,yes,,যুক্তরাজ্যের লন্ডনে কত বছরের নির্বাসিত জীবন কাটিয়ে দেশে ফিরেন বিএনপির ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমান?
+d2-027,"History, Politics & Education",ok,POLITICS,high,yes,,বেগম খালেদা জিয়ার জন্ম নাম কি?
+d2-028,"History, Politics & Education",ok,POLITICS,high,yes,,বাংলাদেশের প্রথম ফার্স্টলেডি কে?
+d2-029,"History, Politics & Education",ok,POLITICS,high,yes,,অবিভক্ত বাংলার শেষ প্রধানমন্ত্রী কে ছিলেন?
+d2-030,"History, Politics & Education",ok,OTHER,low,no (low confidence),execution of a militant: crime / History,সিদ্দিকুল ইসলাম ওরফে বাংলা ভাইয়ের ফাঁসি কার্যকর করা হয় কবে?
+d2-031,"History, Politics & Education",ok,EDUCATION,high,yes,,মেডিকেল ও ডেন্টাল ভর্তি পরীক্ষার কোন সেশনে প্রশ্ন ফাঁসের সত্যতা মেলে?
+d2-032,"History, Politics & Education",ok,HISTORY,low,no (low confidence),July 2024 event about a politician: History or Politics,"২০২৪ সালের ১৯ জুলাই মধ্যরাতের দিকে, প্রায় ২৫ জন সাদা পোশাকধারী ব্যক্তি নাহিদ ইসলাম কে কোন এলাকার একটি বাসা থেকে নিয়ে যায় বলে জানা যায়?"
+d2-033,"History, Politics & Education",ok,ARTS,high,yes,,"""প্রেসিডেন্টের লুঙ্গি নাই""- উপন্যাসটি কার রচনা?"
+d2-034,"History, Politics & Education",ok,HISTORY,high,yes,,জগৎজ্যোতি দাস কে বাংলাদেশের স্বাধীনতা আন্দোলনে তাঁর ভূমিকার জন্য মরণোত্তর বীরত্বের কোন পুরষ্কার প্রদান করা হয়?
+d2-035,"History, Politics & Education",ok,POLITICS,high,yes,,শরীফ ওসমান বিন হাদি ত্রয়োদশ জাতীয় সংসদ নির্বাচনে কোন আসন থেকে সংসদ সদস্য পদপ্রার্থী হিসেবে নির্বাচন করার ঘোষণা দিয়েছিলেন?
+d2-036,"History, Politics & Education",ok,POLITICS,high,yes,,বর্তমানে জাতীয় নাগরিক পার্টির মূখ্য সমন্বয়ক কে?
+d2-037,"History, Politics & Education",ok,POLITICS,high,yes,,জাতিসংঘের সাধারণ পরিষদের ৮১তম অধিবেশনের সভাপতি কে?
+d2-038,"History, Politics & Education",ok,RELIGION,low,no (low confidence),religious reform movement and anti-colonial history: Religion or History,ফরায়েজি আন্দোলনের মুখপাত্র কে ছিলেন?
+d2-039,"History, Politics & Education",ok,POLITICS,high,yes,,দক্ষিণ আফ্রিকার প্রথম গণতান্ত্রিকভাবে নির্বাচিত রাষ্ট্রপতি কে ছিলেন?
+d2-040,"History, Politics & Education",ok,POLITICS,high,yes,,বর্তমান বিশ্বের সবচেয়ে কম বয়সী রাষ্ট্রপতি কে?
+d2-041,"History, Politics & Education",ok,HISTORY,high,yes,,রুয়ান্ডার গণহত্যা কোন সালে সংঘটিত হয়?
+d2-042,"History, Politics & Education",ok,HISTORY,high,yes,,মুক্তিযুদ্ধ চলাকালীন জেড ফোর্সের অধিনায়ক ছিলেন?
+d2-043,"History, Politics & Education",ok,POLITICS,high,yes,,ইরানের নির্বাচিত রাষ্ট্রপতি কে?
+d2-044,"History, Politics & Education",ok,POLITICS,high,yes,,রেজেপ তাইয়িপ এরদোয়ান কোন দলের প্রতিষ্ঠাতা?
+d2-045,"History, Politics & Education",ok,HISTORY,high,yes,,ইউরোপীয়রা কত শতাব্দীতে উপকূলীয় দাস ব্যবসা প্রতিষ্ঠা করেছিল?
+d2-046,"History, Politics & Education",ok,POLITICS,high,yes,,মুফতি আবুল হাসান কোন আসন থেকে ত্রয়োদশ জাতীয় নির্বাচনে সদস্য পদে নির্বাচিত হন?
+d2-047,"History, Politics & Education",ok,POLITICS,high,yes,,বর্তমানে বাংলাদেশের ত্রয়োদশ জাতীয় সংসদের স্পিকারের দায়িত্ব পালন করছেন কে?
+d2-048,"History, Politics & Education",ok,HISTORY,high,yes,,১৯৭৫ খ্রিষ্টাব্দের ১৫ই আগস্ট শেখ মুজিবের কন্যা শেখ হাসিনা ও শেখ রেহানা কোথায় অবস্থান করছিলেন?
+d2-049,"History, Politics & Education",ok,POLITICS,high,yes,,ককরোচ জনতা পার্টি সিজেপির প্রতিষ্ঠাতা কে?
+d2-050,"History, Politics & Education",ok,HISTORY,high,yes,,ফরাসি বিপ্লবের মূলনীতি কী?
+d2-051,"Arts, Culture & Sports",ok,SPORTS,high,yes,,হামজা চৌধুরী কোথায় জন্মগ্রহণ করেন?
+d2-052,"Arts, Culture & Sports",ok,SPORTS,high,yes,,মেসির বিশ্বকাপ ক্যারিয়ার শুরু হয়েছিল কত নম্বর জার্সি পরে?
+d2-053,"Arts, Culture & Sports",ok,SPORTS,high,yes,,রজার ফেদেরার কত সালে অবসর ঘোষণা করেন?
+d2-054,"Arts, Culture & Sports",relabel_pending,SPORTS,high,yes,,ক্রিস্তিয়ানো রোনালদোর জন্মতারিখ কবে?
+d2-055,"Arts, Culture & Sports",ok,SPORTS,high,yes,,ওয়ানডে ক্রিকেটে সর্বাধিক ডাবল সেঞ্চুরি কার?
+d2-056,"Arts, Culture & Sports",ok,SPORTS,low,no (low confidence),a footballer's religious mentor: Sports or Religion,কাকে নেইমার ধর্মীয় গুরু মানেন ?
+d2-057,"Arts, Culture & Sports",ok,SPORTS,high,yes,,বিশ্বকাপের ফাইনালে কোন গোলরক্ষকের সর্বোচ্চ সংখ্যক সেভ করার কীর্তি রয়েছে?
+d2-058,"Arts, Culture & Sports",ok,SPORTS,high,yes,,বর্তমানে ওয়ানডে ক্রিকেটে দ্রুততম ডাবল সেঞ্চুরির বিশ্ব রেকর্ড কার অধীনে?
+d2-059,"Arts, Culture & Sports",ok,SPORTS,high,yes,,নীরজ চোপড়ার পিতা পেশায় কি ছিলেন?
+d2-060,"Arts, Culture & Sports",ok,SPORTS,high,yes,,বাংলাদেশ জাতীয় দলের ফুটবলার সোহেল রানা এর জন্মতারিখ কবে?
+d2-061,"Arts, Culture & Sports",ok,SPORTS,high,yes,,শমিত সোমের মাতার নাম কি?
+d2-062,"Arts, Culture & Sports",ok,ARTS,high,yes,,লানা দেল রে-র প্রকৃত নাম কি?
+d2-063,"Arts, Culture & Sports",ok,ARTS,high,yes,,গ্র্যামি আওয়ার্ড কতসালে প্রবর্তিত হয়?
+d2-064,"Arts, Culture & Sports",ok,ARTS,high,yes,,অস্কারের ৯৬তম এই আসরে সেরা চলচ্চিত্র কোনটি?
+d2-065,"Arts, Culture & Sports",ok,SPORTS,high,yes,,বার্সেলোনার বর্তমান ১০ নম্বর জার্সিধারী কে?
+d2-066,"Arts, Culture & Sports",ok,ARTS,high,yes,,বনলতা এক্সপ্রেস ২০২৬ সালে মুক্তিপ্রাপ্ত বাংলাদেশী অ্যাডভেঞ্চার-রোমান্টিক-কমেডি ঘরানার চলচ্চিত্রটির পরিচালক কে?
+d2-067,"Arts, Culture & Sports",relabel_pending,ARTS,high,yes,,সাহিত্যের সকল শাখায় সাবলীল পদচারণার জন্য সৈয়দ শামসুল হককে কী বলা হয়?
+d2-068,"Arts, Culture & Sports",ok,ARTS,high,yes,,চলচ্চিত্র অভিনেতা উত্তম কুমারের প্রকৃত নাম কি?
+d2-069,"Arts, Culture & Sports",ok,ARTS,high,yes,,ফরাসি গায়িকা ইন্দিলার প্রথম কোন একক গান টি রিলিজ হয়?
+d2-070,"Arts, Culture & Sports",ok,ARTS,high,yes,,সালমান মুক্তাদির কত সালে জন্মগ্রহণ করেন?
+d2-071,"Arts, Culture & Sports",ok,ARTS,high,yes,,মিস ইউনিভার্স (১৯৯৪)-এর মুকুট জয় করেছিল কে?
+d2-072,"Arts, Culture & Sports",ok,ARTS,high,yes,,প্রীতম হাসান ও শেহতাজের বিয়ে কোথায় হয়েছিল?
+d2-073,"Arts, Culture & Sports",ok,SPORTS,high,yes,,২০১৯ সালে নেপালে অনুষ্ঠিত সাউথ এশিয়ান গেমসে (এসএ গেমস) বাংলাদেশ আর্চারি দল কতটি ইভেন্টে সোনা জিতেছিল?
+d2-074,"Arts, Culture & Sports",ok,ARTS,low,no (low confidence),shooting at an actor's car: crime event,কত তারিখে বলিউড অভিনেতা টাইগার শ্রফের গাড়ি লক্ষ্য করে গুলি চালানোর ঘটনা ঘটে?
+d2-075,"Arts, Culture & Sports",ok,SPORTS,high,yes,,ক্রিকেটার মুস্তাফিজুর রহমানের জন্ম কোথায়?
+d2-076,"Arts, Culture & Sports",ok,ARTS,high,yes,,সময় রায়না কোন পরিবারে জন্মগ্রহণ করেন?
+d2-077,"Arts, Culture & Sports",ok,ARTS,high,yes,,জিম ক্যারির ঝুলিতে কতটি গোল্ডেন গ্লোব পুরষ্কার রয়েছে?
+d2-078,"Arts, Culture & Sports",ok,ARTS,high,yes,,দ্য ট্রুম্যান শো এর পরিচালক কে?
+d2-079,"Arts, Culture & Sports",ok,RELIGION,low,no (low confidence),Rash Mela: Hindu observance and Manipuri cultural fair (rule 7),বাংলাদেশে রাস মেলা মূলত কোন সম্প্রদায়ের মধ্যে পালিত হয়?
+d2-080,"Arts, Culture & Sports",ok,ARTS,high,yes,,রইদ চলচ্চিত্রটির কাহিনি লিখেছেন কারা?
+d2-081,"Arts, Culture & Sports",relabel_pending,ARTS,high,yes,,হেলাল হাফিজের কবিতা সংকলন 'যে জলে আগুন জ্বলে' কত সালে প্রকাশিত হয়?
+d2-082,"Arts, Culture & Sports",ok,ARTS,high,yes,,"""প্রেমাংশুর রক্ত চাই"" কার রচনা?"
+d2-083,"Arts, Culture & Sports",ok,ARTS,high,yes,,বনলতা সেন বাঙালি কবি জীবনানন্দ দাশ রচিত কততম কাব্যগ্রন্থ?
+d2-084,"Arts, Culture & Sports",ok,ARTS,high,yes,,সুরাঙ্গনা বন্দ্যোপাধ্যায় কতসাল থেকে বাংলা চলচ্চিত্রের সঙ্গে যুক্ত রয়েছেন?
+d2-085,"Arts, Culture & Sports",ok,ARTS,high,yes,,রিয়া সেন ও রাইমা সেন সুচিত্রা সেনের সম্পর্কে কি হয়?
+d2-086,"Arts, Culture & Sports",ok,ARTS,high,yes,,বলাইচাঁদ মুখোপাধ্যায়ের ছদ্মনাম কি?
+d2-087,"Arts, Culture & Sports",ok,ARTS,low,no (low confidence),"a writer-scientist-teacher's PhD: Arts, Science or Education",মুহম্মদ জাফর ইকবাল কোন বিশ্ববিদ্যালয় থেকে পিএইচডি ডিগ্রি লাভ করেন
+d2-088,"Arts, Culture & Sports",ok,ARTS,high,yes,,বাংলা একাডেমি সাহিত্য পুরস্কার কত সালে প্রবর্তিত হয়?
+d2-089,"Arts, Culture & Sports",ok,ARTS,high,yes,,"বাংলার দুটি বিখ্যাত লোকগীতি বা লোকসঙ্গীত হলো ""সোহাগ চাঁদ বদনী ধনী নাচো তো দেখি"" এবং ""ভালো কইরা বাজান গো দোতারা সুন্দরী কমলা নাচে"" এই দুটি গান কার রচনা?"
+d2-090,"Arts, Culture & Sports",ok,ARTS,high,yes,,ভাওয়াইয়া মূলত বাংলাদেশের কোন জেলায় প্রচলিত পল্লীগীতি?
+d2-091,"Arts, Culture & Sports",ok,ARTS,high,yes,,বাংলাদেশে ব্যান্ড সংগীতের সূত্রপাত ঘটে কার হাত ধরে?
+d2-092,"Arts, Culture & Sports",ok,RELIGION,low,no (low confidence),Maijbhandari: Sufi order or music tradition,মাইজভাণ্ডারী ধারার উদ্ভব হয় কোথায়?
+d2-093,"Arts, Culture & Sports",ok,ARTS,high,yes,,আধুনিক বাংলা পপ সঙ্গীতের পথদ্রষ্টা কে?
+d2-094,"Arts, Culture & Sports",ok,ARTS,high,yes,,তানজিন তিশা প্রথম মডেল হন কার পরিচালিত বিজ্ঞাপনে?
+d2-095,"Arts, Culture & Sports",ok,ARTS,high,yes,,কোন চলচ্চিত্রে অভিনয়ের জন্য শহীদুজ্জামান সেলিম জাতীয় চলচ্চিত্র পুরস্কার অর্জন করেন।
+d2-096,"Arts, Culture & Sports",ok,ARTS,high,yes,,এমা স্টোনের পিতার পেশা কি ছিল?
+d2-097,"Arts, Culture & Sports",ok,ARTS,high,yes,,লা লা ল্যান্ড কত সালের চলচ্চিত্র?
+d2-098,"Arts, Culture & Sports",relabel_pending,ARTS,high,yes,,টম হ্যাঙ্কস শ্রেষ্ঠ অভিনেতা হিসেবে ফরেস্ট গাম্প ছাড়া আর কোন চলচ্চিত্রের জন্য একাডেমি পুরস্কার অর্জন করেন?
+d2-099,"Arts, Culture & Sports",ok,ARTS,high,yes,,দ্য ডার্ক নাইট এর পরিচালক কে?
+d2-100,"Arts, Culture & Sports",relabel_pending,ARTS,high,yes,,সঙ্গীত পরিচালক রাহুল দেববর্মণের বাবার নাম কী?
+d2-101,Geography & Places,ok,GEOGRAPHY,high,yes,,খাইবার গিরিপথ কোন দুটি দেশকে সংযুক্ত করেছে?
+d2-102,Geography & Places,ok,GEOGRAPHY,high,yes,,পৃথিবীর সর্বোচ্চ পর্বতশৃঙ্গ অবস্থিত কোনটি?
+d2-103,Geography & Places,ok,GEOGRAPHY,high,yes,,মালভূমির অপর নাম কি?
+d2-104,Geography & Places,ok,GEOGRAPHY,high,yes,,পৃথিবীর বৃহত্তম নদী ভিত্তিক ব-দ্বীপ কোনটি?
+d2-105,Geography & Places,ok,PLACES,high,yes,,বাংলাদেশের রাজধানী ঢাকার একটি দ্রুতগামী গণপরিবহন ব্যবস্থা কোনটি?
+d2-106,Geography & Places,ok,GEOGRAPHY,high,yes,,পাউবোর তথ্যমতে শীতলক্ষ্যা নদীর দৈর্ঘ্য কত?
+d2-107,Geography & Places,ok,PLACES,high,yes,,ভাটেরা টিলা ঢিবি কোথায় অবস্থিত?
+d2-108,Geography & Places,ok,GEOGRAPHY,high,yes,,বাংলাদেশে প্রকৃতি কন্যা হিসেবে সুপরিচিত কোনটি?
+d2-109,Geography & Places,ok,GEOGRAPHY,high,yes,,বিশ্বের বৃহত্তম গরম মরুভূমি কোনটি?
+d2-110,Geography & Places,ok,GEOGRAPHY,high,yes,,পৃথিবীর ফুসফুস বলা হয় কোন অরণ্য কে?
+d2-111,Geography & Places,ok,GEOGRAPHY,high,yes,,গ্র্যান্ড ক্যানিয়ন গিরিখাতের মধ্য দিয়ে কোন নদী বয়ে গেছে?
+d2-112,Geography & Places,ok,GEOGRAPHY,high,yes,,কুইন্সল্যান্ড ন্যাশনাল ট্রাস্ট কোনটিকে কুইন্সল্যান্ড রাজ্যের প্রতীক হিসেবে ঘোষণা করে?
+d2-113,Geography & Places,ok,GEOGRAPHY,high,yes,,আয়তন অনুসারে পৃথিবীর বৃহত্তম আবদ্ধ জলাশয় কোনটি?
+d2-114,Geography & Places,ok,GEOGRAPHY,high,yes,,নীলনদ কোন মহাদেশে অবস্থিত?
+d2-115,Geography & Places,ok,GEOGRAPHY,high,yes,,পৃথিবীতে কতটি মহাদেশ রয়েছে?
+d2-116,Geography & Places,ok,GEOGRAPHY,high,yes,,মার্কিন যুক্তরাষ্ট্রের দ্বিতীয় দীর্ঘতম নদী কোনটি?
+d2-117,Geography & Places,ok,GEOGRAPHY,high,yes,,পৃথিবীর বৃহত্তম সুপেয় পানির হ্রদ কোনটি?
+d2-118,Geography & Places,ok,OTHER,low,no (low confidence),a shipping accident: Other,কবে সুয়েজ খালের উভয় পাশ অতি বৃহৎ গোল্ডেন-ক্লাস মালবাহী জাহাজ এভার গিভেন দ্বারা অবরুদ্ধ হয়ে পড়ে?
+d2-119,Geography & Places,ok,PLACES,high,yes,,পানামা খাল কোন দুটি মহাসাগর কে যুক্ত করে?
+d2-120,Geography & Places,relabel_pending,GEOGRAPHY,high,yes,,রাতারগুল জলাবন সিলেটের কোন উপজেলায় অবস্থিত?
+d2-121,Geography & Places,ok,GEOGRAPHY,high,yes,,ভূমধ্যসাগরের আয়তন কত?
+d2-122,Geography & Places,ok,HISTORY,high,yes,,মুমতাজ মহল শাহজাহানের কততম স্ত্রী ছিলেন?
+d2-123,Geography & Places,ok,PLACES,high,yes,,"আফগান পররাষ্ট্র মন্ত্রণালয়-এর মতে, কোনটি আফগানিস্তানের প্রথম সাংস্কৃতিক ঐতিহ্যস্থল, যা আইসেসকোর ঐতিহ্য তালিকায় অন্তর্ভুক্ত হয়েছে?"
+d2-124,Geography & Places,ok,GEOGRAPHY,high,yes,,বিশ্বের দ্বিতীয় বৃহত্তম দ্বীপ রাষ্ট্র কোনটি?
+d2-125,Geography & Places,ok,HISTORY,high,yes,,২০২৬ সাল পর্যন্ত আবিষ্কৃত প্রত্নতাত্ত্বিক অনুসন্ধান অনুযায়ী বিশ্বের প্রথম নগর গড়ে ওঠে কোথায়?
+d2-126,Geography & Places,ok,PLACES,low,no (low confidence),size of a religious building (rule 5) but asked as 'religious structure',বিশ্বের বৃহত্তম ধর্মীয় স্থাপনা হিসেবে পরিচিত কোনটি?
+d2-127,Geography & Places,ok,SCIENCE,high,yes,,বেলেপাথর কি?
+d2-128,Geography & Places,ok,GEOGRAPHY,high,yes,,তুর্কমেনিস্তানের সরকারি ভাষা কি?
+d2-129,Geography & Places,ok,GEOGRAPHY,high,yes,,সাংহাই শব্দটির অর্থ কি?
+d2-130,Geography & Places,ok,PLACES,high,yes,,কোন সভ্যতার সময় মাচু পিচু নির্মিত হয়?
+d2-131,Geography & Places,ok,GEOGRAPHY,high,yes,,মৃত সাগরের পূর্বের দেশ কোনটি?
+d2-132,Geography & Places,ok,GEOGRAPHY,high,yes,,কিলিমানজারো পর্বত কোন দেশে অবস্থিত?
+d2-133,Geography & Places,ok,GEOGRAPHY,high,yes,,ইতালির জনঘনত্বের দিক থেকে প্রথম স্থানে কোন অঞ্চল?
+d2-134,Geography & Places,ok,GEOGRAPHY,high,yes,,পৃথিবীর শীতলতম জলবায়ু কোনটি?
+d2-135,Geography & Places,ok,GEOGRAPHY,high,yes,,চীনের দুঃখ কোন নদী?
+d2-136,Geography & Places,ok,GEOGRAPHY,high,yes,,তিস্তা নদীর তিস্তা নামটির উৎপত্তি কোথা থেকে?
+d2-137,Geography & Places,ok,GEOGRAPHY,high,yes,,মেঘনা নদীর প্রকৃতি কেমন?
+d2-138,Geography & Places,ok,HISTORY,high,yes,,প্রাচীন মিশরীয় শাসক বা রাজাদের কি বলা হতো?
+d2-139,Geography & Places,ok,PLACES,high,yes,,কলোসিয়ামের কেন ব্যবহৃত হত?
+d2-140,Geography & Places,ok,GEOGRAPHY,high,yes,,ভ্যাটিকান সিটির অভ্যন্তরে কয়টি প্রাকৃতিক জলাশয় রয়েছে?
+d2-141,Geography & Places,ok,GEOGRAPHY,high,yes,,কেপ ভার্দে কোন মহাদেশে অবস্থিত?
+d2-142,Geography & Places,ok,PLACES,high,yes,,২০১৬ সালে এটিকে সার্ক কোন স্থানকে সাংস্কৃতিক রাজধানী হিসেবে ঘোষণা করে?
+d2-143,Geography & Places,ok,PLACES,high,yes,,বাংলাদেশের দীর্ঘতম সেতু কোনটি?
+d2-144,Geography & Places,ok,GEOGRAPHY,high,yes,,উদীয়মান সূর্যের দেশ বলা হয় কোন দেশকে?
+d2-145,Geography & Places,ok,PLACES,high,yes,,বাংলাদেশের দ্বিতীয় দীর্ঘতম সেতু কোনটি?
+d2-146,Geography & Places,ok,GEOGRAPHY,high,yes,,সিরাজগঞ্জ কোন বিভাগের অন্তর্গত?
+d2-147,Geography & Places,ok,PLACES,high,yes,,পাহাড়পুর বৌদ্ধ বিহার কোথায় অবস্থিত?
+d2-148,Geography & Places,ok,GEOGRAPHY,high,yes,,চান্দিনা উপজেলা কোন জেলার অন্তর্গত?
+d2-149,Geography & Places,ok,PLACES,high,yes,,শালবন বৌদ্ধ বিহার কোন জেলায় অবস্থিত?
+d2-150,Geography & Places,ok,GEOGRAPHY,high,yes,,বিছনাকান্দি কোন উপজেলায় অবস্থিত?
+d2-151,Science & Technology,ok,SCIENCE,high,yes,,চাঁদের কক্ষপথকাল (সিনোডিক মাস) কত দিন?
+d2-152,Science & Technology,ok,TECHNOLOGY,high,yes,,ইন্টারনেটে ডেটা আদান-প্রদান কোন ব্যবস্থার মাধ্যমে করা হয়?
+d2-153,Science & Technology,ok,SCIENCE,high,yes,,বেশিরভাগ প্রকৃতকোষী জীবের ক্রোমোজোমে কোন প্যাকেজিং প্রোটিন থাকে?
+d2-154,Science & Technology,ok,SCIENCE,high,yes,,বৃহস্পতি সূর্য থেকে দূরত্বের দিক দিয়ে কত নম্বর গ্রহ?
+d2-155,Science & Technology,ok,SCIENCE,high,yes,,পৃথিবী এবং অন্য কোনো বস্তুর মাঝে মহাকর্ষীয় আকর্ষণকে কী বলা হয়?
+d2-156,Science & Technology,ok,SCIENCE,high,yes,,মানবদেহে প্রায় কতটি কোষ রয়েছে?
+d2-157,Science & Technology,relabel_pending,SCIENCE,high,yes,,পেনিসিলিন সাধারণত কোন ছত্রাক থেকে তৈরি করা হয়?
+d2-158,Science & Technology,ok,SCIENCE,high,yes,,পর্যায় সারণিতে মৌলগুলোকে কীসের ক্রমে সাজানো হলে ধর্মে পুনরাবৃত্ত ধারা দেখা যায়?
+d2-159,Science & Technology,ok,SCIENCE,high,yes,,সূর্যের কেন্দ্রে কোন বিক্রিয়া সংঘটিত হয়?
+d2-160,Science & Technology,ok,SCIENCE,high,yes,,পরমাণু সাধারণত দৈর্ঘ্যে কত?
+d2-161,Science & Technology,ok,SCIENCE,high,yes,,অম্লজান নামটি কোন বিজ্ঞানী নির্দিষ্ট করেন?
+d2-162,Science & Technology,ok,TECHNOLOGY,high,yes,,কৃত্রিম বুদ্ধিমত্তা কোন বিজ্ঞানের একটি গবেষণাক্ষেত্র?
+d2-163,Science & Technology,ok,SCIENCE,high,yes,,কোষে ডিএনএর প্রধান কাজ কী?
+d2-164,Science & Technology,ok,SCIENCE,high,yes,,"কৃষ্ণগহ্বরের যে সীমানার পর পালানোর কোনো সম্ভাবনা থাকে না, তাকে কী বলা হয়?"
+d2-165,Science & Technology,ok,TECHNOLOGY,high,yes,,টেলিভিশনকে বাংলায় কখনও কী বলা হয়?
+d2-166,Science & Technology,ok,SCIENCE,high,yes,,অ্যান্টিবায়োটিক কীসের বিরুদ্ধে কাজ করে না?
+d2-167,Science & Technology,ok,SCIENCE,high,yes,,পৃথিবীর বায়ুমন্ডলে ট্রেস গ্যাস হিসাবে কার্বন ডাই অক্সাইডের ঘনত্ব কত?
+d2-168,Science & Technology,ok,TECHNOLOGY,high,yes,,মোবাইল ফোন ব্যবস্থায় কী ব্যবহৃত হয়?
+d2-169,Science & Technology,ok,TECHNOLOGY,high,yes,,ট্রানজিস্টর কয় প্রান্তবিশিষ্ট ক্ষুদ্র অর্ধপরিবাহী যন্ত্র?
+d2-170,Science & Technology,ok,TECHNOLOGY,high,yes,,বাংলাদেশ স্যাটেলাইট-১ কোথা থেকে উৎক্ষেপণ করা হয়?
+d2-171,Science & Technology,ok,TECHNOLOGY,high,yes,,রূপপুর পারমাণবিক বিদ্যুৎ কেন্দ্র কত গিগাওয়াট ক্ষমতাসম্পন্ন?
+d2-172,Science & Technology,relabel_pending,TECHNOLOGY,high,yes,,কিউআর কোড সর্বপ্রথম কোন দেশে পরিকল্পিত হয়?
+d2-173,Science & Technology,ok,TECHNOLOGY,high,yes,,পাইথন প্রোগ্রামিং ভাষা ১৯৯১ সালে কে প্রথম প্রকাশ করেন?
+d2-174,Science & Technology,ok,SCIENCE,high,yes,,ইলেকট্রন কী ধরনের তড়িৎ আধান বহন করে?
+d2-175,Science & Technology,ok,TECHNOLOGY,high,yes,,নাসা কত সালে গঠিত হয়?
+d2-176,Science & Technology,ok,TECHNOLOGY,high,yes,,টেসলার দ্বিতীয় গাড়ি কোনটি?
+d2-177,Science & Technology,ok,TECHNOLOGY,high,yes,,স্পেসএক্স (ইংরেজি: SpaceX) এর প্রতিষ্ঠাতা কে?
+d2-178,Science & Technology,ok,SCIENCE,high,yes,,মারি ক্যুরি কত সালে প্রথম নোবেল পুরস্কার লাভ করেন?
+d2-179,Science & Technology,ok,SCIENCE,low,no (low confidence),renewable energy: Science or Technology,নবায়নযোগ্য শক্তির অপর নাম কী?
+d2-180,Science & Technology,ok,SCIENCE,high,yes,,ইনসুলিন কয়টি অ্যামিনো অ্যাসিড নিয়ে গঠিত?
+d2-181,Science & Technology,ok,TECHNOLOGY,high,yes,,প্রথম লেজার কত সালে তৈরি করা হয়?
+d2-182,Science & Technology,ok,SCIENCE,low,no (low confidence),solar energy: Science or Technology,সৌরশক্তি কোন ধরনের শক্তির একটি গুরুত্বপূর্ণ উৎস?
+d2-183,Science & Technology,relabel_pending,SCIENCE,high,yes,,আইনস্টাইনের আবিষ্কৃত ভর-শক্তি সমতুল্যতার সূত্রটিকে কী হিসেবে খেতাব দেওয়া হয়েছে?
+d2-184,Science & Technology,ok,SCIENCE,high,yes,,ইনস্টিটিউট অব ইলেকট্রিক্যাল অ্যান্ড ইলেকট্রনিক্স ইঞ্জিনিয়ার্স জগদীশচন্দ্র বসুকে কী হিসেবে অভিহিত করে?
+d2-185,Science & Technology,relabel_pending,SCIENCE,high,yes,,ডেঙ্গু জ্বরের সমার্থক ভিন্ন বানান কী?
+d2-186,Science & Technology,ok,SCIENCE,high,yes,,বিবর্তনের নানান শাখা-প্রশাখায় ভাগ হবার বিন্যাসকে চার্লস ডারউইন কী হিসাবে অভিহিত করেন?
+d2-187,Science & Technology,ok,TECHNOLOGY,high,yes,,ওপেনএআই-এর প্রধান নির্বাহী কর্মকর্তা কে?
+d2-188,Science & Technology,ok,TECHNOLOGY,high,yes,,অ্যানথ্রোপিক পিবিসির সদর দপ্তর কোথায়?
+d2-189,Science & Technology,ok,TECHNOLOGY,high,yes,,রোবট শব্দটির উৎপত্তি কোন ভাষার শব্দ থেকে?
+d2-190,Science & Technology,ok,TECHNOLOGY,high,yes,,বিশ্বের প্রথম কৃত্রিম উপগ্রহের নাম কী?
+d2-191,Science & Technology,ok,TECHNOLOGY,high,yes,,অণুবীক্ষণ যন্ত্রের সাহায্যে কোনো বস্তুকে প্রায় কত গুণ বড়ো করে দেখা যায়?
+d2-192,Science & Technology,relabel_pending,TECHNOLOGY,high,yes,,কোন দেশের রাজার নামানুসারে ব্লুটুথ প্রযুক্তির নামকরণ করা হয়েছে?
+d2-193,Science & Technology,ok,TECHNOLOGY,high,yes,,দূরবীক্ষণ যন্ত্রের ইংরেজি নাম কী?
+d2-194,Science & Technology,ok,TECHNOLOGY,high,yes,,নিকোলা টেসলার মাতার নাম কী?
+d2-195,Science & Technology,ok,TECHNOLOGY,high,yes,,"আমাজন.কম, ইন্‌ক. এর সদর দপ্তর কোথায়?"
+d2-196,Science & Technology,ok,SCIENCE,high,yes,,“দি আল্টিমেট ফেইট অফ দি ইউনিভার্স” কার গবেষণা গ্রন্থ?
+d2-197,Science & Technology,ok,TECHNOLOGY,high,yes,,সোনালি ব্যাগ কোন দ্রব্য থেকে উদ্ভাবিত?
+d2-198,Science & Technology,ok,TECHNOLOGY,high,yes,,বাংলাদেশে স্টারলিঙ্ক এর পরিষেবা চালু করা হয় কবে?
+d2-199,Science & Technology,ok,TECHNOLOGY,high,yes,,পেগাসাস কোন দেশের সাইবার আর্মস সংস্থা?
+d2-200,Science & Technology,ok,TECHNOLOGY,high,yes,,টেলিগ্রাম মেসেঞ্জার এর প্রতিষ্ঠাতা কে?
+d2-201,Religion,ok,RELIGION,high,yes,,যীশু কোন শতাব্দীর রোমীয় যিহূদিয়া প্রদেশের ধর্মপ্রচারক ছিলেন?
+d2-202,Religion,ok,RELIGION,high,yes,,হিন্দুধর্ম বিশ্বের কততম বৃহত্তম ধর্ম?
+d2-203,Religion,ok,RELIGION,high,yes,,খ্রিস্টধর্মের অনুসারী সংখ্যা প্রায় কত?
+d2-204,Religion,ok,RELIGION,high,yes,,গৌতম বুদ্ধের জন্ম হয়েছিল বর্তমান নেপালের কোথায়?
+d2-205,Religion,ok,RELIGION,high,yes,,মহাভারতের মূল উপজীব্য বিষয় কী?
+d2-206,Religion,relabel_pending,RELIGION,high,yes,,শিন্তো শব্দের আভিধানিক অর্থ কী?
+d2-207,Religion,ok,RELIGION,high,yes,,মহাবীর জৈনধর্মের কততম তীর্থংকর ছিলেন?
+d2-208,Religion,ok,RELIGION,high,yes,,বৌদ্ধধর্ম বিশ্বের কততম বৃহত্তম ধর্ম?
+d2-209,Religion,ok,RELIGION,high,yes,,রামায়ণের রচয়িতা কে?
+d2-210,Religion,relabel_pending,RELIGION,high,yes,,তাওবাদের মহাজাগতিক ধারণাটি কোন মতবাদ থেকে এসেছে?
+d2-211,Religion,ok,RELIGION,high,yes,,ইহুদিধর্ম কোন যুগে মধ্যপ্রাচ্যে একটি সংগঠিত ধর্ম হিসেবে উৎপত্তিলাভ করে?
+d2-212,Religion,relabel_pending,RELIGION,high,yes,,"আদিযুগীয় খ্রিস্টানদের বিশ্বাস অনুসারে, ২৫ ডিসেম্বরের কত মাস পূর্বে মেরির গর্ভে প্রবেশ করেন যিশু?"
+d2-213,Religion,relabel_pending,RELIGION,high,yes,,কুম্ভমেলার প্রচলন ঐতিহ্যগতভাবে কোন হিন্দু দার্শনিকের সঙ্গে যুক্ত?
+d2-214,Religion,relabel_pending,RELIGION,high,yes,,বৈদিক উপনিষদ্‌গুলো মূলত বেদ-পরবর্তী কোন অংশের শেষ ভাগে পাওয়া যায়?
+d2-215,Religion,relabel_pending,RELIGION,high,yes,,ভারতের সর্বাধিক প্রসিদ্ধ রথযাত্রা কোন শহরের জগন্নাথ মন্দিরের রথযাত্রা?
+d2-216,Religion,ok,RELIGION,high,yes,,ভগবদ্গীতা কতটি শ্লোকের ধর্মগ্রন্থ?
+d2-217,Religion,ok,RELIGION,high,yes,,বুদ্ধ পূর্ণিমা কোন মাসের পূর্ণিমা তিথিতে উদযাপিত হয়?
+d2-218,Religion,ok,RELIGION,high,yes,,গুরু গ্রন্থ সাহিব কতটি অঙ্গে বিভক্ত?
+d2-219,Religion,ok,RELIGION,high,yes,,কৃষ্ণ জন্মাষ্টমীতে বিষ্ণুর কততম অবতার কৃষ্ণের জন্মোৎসব উদযাপন করা হয়?
+d2-220,Religion,ok,RELIGION,high,yes,,ভারতীয় উপমহাদেশে জরথুস্ত্রবাদ কোন নামেও পরিচিত?
+d2-221,Religion,ok,RELIGION,high,yes,,শুরুতে বিসমিল্লাহ অনুপস্থিত থাকা সূরাটির নাম কি?
+d2-222,Religion,ok,RELIGION,high,yes,,‘উম্মুল কিতাব’ উপাধিধারী সূরাটির আয়াতসংখ্যা কত?
+d2-223,Religion,ok,RELIGION,high,yes,,"যে নগরে হিজরতের পর মুসলিম সমাজ সংগঠিত হয়, সেটির পূর্বনাম কী?"
+d2-224,Religion,ok,RELIGION,high,yes,,খোলাফায়ে রাশেদিনের মধ্যে ৬৩২ থেকে ৬৩৪ খ্রিস্টাব্দ পর্যন্ত কে খলিফা ছিলেন?
+d2-225,Religion,ok,RELIGION,high,yes,,হিজরি বর্ষপঞ্জিতে রমজানের অব্যবহিত পরের মাসের নাম কী?
+d2-226,Religion,ok,RELIGION,high,yes,,‘সহিহাইন’ নামে পরিচিত হাদিস সংকলন দুটির মধ্যে সহিহ আল-বুখারি ছাড়া অপরটির নাম কী?
+d2-227,Religion,ok,PLACES,low,no (low confidence),construction year of a Baul saint's mausoleum: Places or Religion,লালন শাহের আখড়াস্থলে বর্তমান সমাধিসৌধটি কোন সালে নির্মিত হয়?
+d2-228,Religion,ok,RELIGION,high,yes,,হজ ও উমরাহর সময় কাবাকে কেন্দ্র করে সাতবার প্রদক্ষিণের আচারটির নাম কী?
+d2-229,Religion,ok,RELIGION,high,yes,,প্রচলিত ইসলামী ইতিহাসে কুরআনের আদর্শ লিখিত অনুলিপি প্রচলনের উদ্যোগ কোন খলিফার সঙ্গে যুক্ত?
+d2-230,Religion,ok,RELIGION,high,yes,,২ হিজরির ১৭ রমজানে সংঘটিত মুসলমান ও কুরাইশদের প্রথম বড় সংঘর্ষটি কী নামে পরিচিত?
+d2-231,Religion,ok,RELIGION,high,yes,,মক্কার উপকণ্ঠে ৬২৮ খ্রিস্টাব্দে মুসলমান ও কুরাইশদের মধ্যে স্বাক্ষরিত সন্ধিটির নাম কী?
+d2-232,Religion,ok,RELIGION,high,yes,,হিজরতের সূচনাপর্বে কুবা এলাকায় প্রতিষ্ঠিত ঐতিহাসিক মসজিদটির নাম কী?
+d2-233,Religion,ok,RELIGION,high,yes,,দুটি কিবলার ঐতিহাসিক স্মৃতির কারণে পরিচিত মদিনার মসজিদটির নাম কী?
+d2-234,Religion,ok,RELIGION,high,yes,,সূরা আত-তাওবা ৯:৬০ অনুযায়ী যাকাতের নির্ধারিত প্রাপকশ্রেণি কয়টি?
+d2-235,Religion,ok,RELIGION,high,yes,,ইমাম আশ-শাফিঈর রচিত উসুলুল ফিকহের প্রসিদ্ধ গ্রন্থটির নাম কী?
+d2-236,Religion,ok,RELIGION,high,yes,,ইমাম মালিক ইবনে আনাসের সংকলিত প্রাচীন হাদিস ও ফিকহগ্রন্থটির নাম কী?
+d2-237,Religion,ok,PLACES,low,no (low confidence),construction of a mosque (rule 5) in a religion set: Places or Religion,কায়রোর আল-আজহার মসজিদ কোন রাজবংশের শাসনামলে নির্মিত হয়?
+d2-238,Religion,ok,PLACES,low,no (low confidence),location of a Sufi shrine (rule 5): Places or Religion,খাজা মঈনুদ্দিন চিশতির সঙ্গে যুক্ত প্রধান দরগাহ ভারতের কোন শহরে অবস্থিত?
+d2-239,Religion,ok,RELIGION,high,yes,,দ্বাদশী শিয়া ঐতিহ্যে গায়বতে থাকা দ্বাদশ ইমামের নাম কী?
+d2-240,Religion,ok,RELIGION,high,yes,,ইসলামী বর্ষপঞ্জির জিলহজ মাসের কত তারিখে ঈদুল আজহা শুরু হয়?
+d2-241,Religion,ok,CULTURE,low,no (low confidence),a script used for the Quran: Culture or Religion,ইরাকের কুফা শহরের নামে পরিচিত প্রাচীন আরবি লিপিশৈলীর নাম কী?
+d2-242,Religion,ok,RELIGION,high,yes,,মক্কা থেকে দূরবর্তী পবিত্র স্থানে নবীর রাত্রিযাত্রার অংশটিকে কী বলা হয়?
+d2-243,Religion,ok,RELIGION,high,yes,,জুমার সালাতের আগে ইমাম প্রদত্ত আনুষ্ঠানিক ধর্মীয় ভাষণটির নাম কী?
+d2-244,Religion,ok,RELIGION,high,yes,,ইসলামী ঐতিহ্যে নবী মুহাম্মদ (সা.) কর্তৃক নিযুক্ত প্রথম মুয়াজ্জিন হিসেবে কাকে স্মরণ করা হয়?
+d2-245,Religion,ok,RELIGION,high,yes,,ইসলামী আইন অনুসারে নির্দিষ্ট জনকল্যাণমূলক কাজে সম্পত্তি স্থায়ীভাবে উৎসর্গ করার ব্যবস্থাটির নাম কী?
+d2-246,Religion,ok,RELIGION,high,yes,,‘জামিউল বায়ান আন তাবিলি আয়িল কুরআন’ তাফসিরটি কোন সংক্ষিপ্ত নামে পরিচিত?
+d2-247,Religion,ok,RELIGION,high,yes,,সূরা আল-কদর অনুযায়ী লাইলাতুল কদর কত মাসের চেয়ে উত্তম?
+d2-248,Religion,ok,RELIGION,high,yes,,কুফার পণ্ডিত আবু হানিফার শিক্ষার ভিত্তিতে বিকশিত সুন্নি ফিকহি মাযহাবটি কী নামে পরিচিত?
+d2-249,Religion,ok,RELIGION,high,yes,,খন্দকের যুদ্ধে মদিনার প্রতিরক্ষায় পরিখা খননের পরামর্শ দিয়েছিলেন কোন সাহাবি?
+d2-250,Religion,ok,RELIGION,high,yes,,৬১ হিজরির ১০ মহররমে কারবালার যুদ্ধে নিহত নবী মুহাম্মদ (সা.)-এর দৌহিত্র কে ছিলেন?

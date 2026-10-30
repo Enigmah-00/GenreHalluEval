@@ -1,0 +1,5 @@
+item_id,question_id,condition,answer,label_a1,label_a2,final_label,decided_by,note
+d2-068__p2,d2-068,no_context,অরুণকুমার চট্টোপাধ্যায়,0,1,0,discussion: annotator 2 withdrew the label (2026-10-27),annotator 2: the answer looked close to the correct one and the difference was missed; the passage states the gold
+d2-068__p4,d2-068,no_context,অরুণকুমার মুখোপাধ্যায়,1,0,1,discussion: annotator 2 withdrew the label (2026-10-27),annotator 2: the answer looked close to the correct one and the difference was missed; the passage states the gold
+d2-201__p3,d2-201,context,খ্রিস্টপূর্ব ১ম শতাব্দীর,1,0,1,discussion: annotator 2 withdrew the label (2026-10-27),annotator 2: the answer looked close to the correct one and the difference was missed; the passage states the gold
+d2-201__p5,d2-201,context,১ম শতাব্দীর,0,1,0,discussion: annotator 2 withdrew the label (2026-10-27),annotator 2: the answer looked close to the correct one and the difference was missed; the passage states the gold

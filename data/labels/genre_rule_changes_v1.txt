@@ -1,0 +1,48 @@
+# Changes from Claude's draft v0.2 to guide v1.0 (2026-10-13), decided after the blind 200 check.
+# unique-question index | old code | new code | new confidence | reason
+# Decision 1 (Mahdi): schools, colleges, universities and libraries -> History, Politics & Education
+1|OT|HP|H|education institution
+8|OT|HP|H|education institution
+13|OT|HP|H|education institution
+61|OT|HP|H|education institution
+114|OT|HP|H|education institution
+149|OT|HP|H|education institution
+172|OT|HP|H|education institution
+197|OT|HP|H|education institution
+211|OT|HP|H|education institution
+222|OT|HP|H|education institution
+230|OT|HP|H|education institution
+325|OT|HP|H|education institution
+346|OT|HP|H|education institution
+361|OT|HP|H|education institution
+384|OT|HP|H|education institution
+387|OT|HP|H|education institution
+397|OT|HP|H|education institution
+413|OT|HP|H|education institution
+452|OT|HP|H|education institution
+531|OT|HP|H|education institution
+545|OT|HP|H|education institution
+608|OT|HP|L|university museum
+621|OT|HP|H|education institution
+623|OT|HP|H|education institution
+637|OT|HP|H|education institution
+650|OT|HP|H|education institution
+696|OT|HP|H|education institution
+727|OT|HP|H|library
+730|OT|HP|H|education institution
+757|OT|HP|H|education institution
+803|OT|HP|H|education institution
+879|OT|HP|H|education institution
+938|OT|HP|H|education institution
+944|OT|HP|H|education institution
+# Adopted from Mahdi's blind labels: characters, gods and events of epics/Puranas/mythologies -> Religion
+110|AC|RE|L|Ramayana event (passage is from a literary retelling)
+223|AC|RE|L|Mahabharata as an epic text
+369|AC|RE|L|meaning of the name Mahabharata
+549|AC|RE|H|Ramayana character
+586|AC|RE|H|Ramayana character
+635|AC|RE|H|Ramayana character
+831|AC|RE|L|verse metre of the Ramayana: literature vs religion
+841|AC|RE|L|Norse mythology
+# Adopted from Mahdi's blind labels: philosophy -> Arts, Culture & Sports
+33|OT|AC|H|philosophy

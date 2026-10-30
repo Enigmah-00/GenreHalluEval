@@ -1,0 +1,8 @@
+genre,questions,BHS,range95,trackA_err,trackB_err,no_answer,usable,agrees_with_human
+HISTORY,0,–,– to –,–,–,0,no,–
+ARTS,0,–,– to –,–,–,0,no,–
+SCIENCE,0,–,– to –,–,–,0,no,–
+GEOGRAPHY,0,–,– to –,–,–,0,no,–
+RELIGION,0,–,– to –,–,–,0,no,–
+OTHER,0,–,– to –,–,–,0,no,–
+no_answer,920,100.00,100.00 to 100.00,100.00,100.00,4600,yes,0/920

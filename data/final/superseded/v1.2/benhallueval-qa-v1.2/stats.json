@@ -1,0 +1,120 @@
+{
+  "items": 4870,
+  "questions": 974,
+  "items_main": 4870,
+  "questions_main": 974,
+  "labels": {
+    "yes": 3896,
+    "no": 974
+  },
+  "genre_questions_main": {
+    "Geography & Places": 121,
+    "History, Politics & Education": 300,
+    "Arts, Culture & Sports": 296,
+    "Science & Technology": 147,
+    "Religion": 97,
+    "Other": 13
+  },
+  "length_chars_main": {
+    "gold": {
+      "mean": 15.1,
+      "median": 12.0
+    },
+    "F": {
+      "mean": 13.2,
+      "median": 11.5
+    },
+    "C": {
+      "mean": 11.9,
+      "median": 11.0
+    },
+    "S": {
+      "mean": 37.1,
+      "median": 35.0
+    },
+    "I": {
+      "mean": 12.9,
+      "median": 11.0
+    }
+  },
+  "share_exact_span_in_passage_main": {
+    "gold": 1.0,
+    "F": 0.047,
+    "C": 0.832,
+    "S": 0.0,
+    "I": 0.226
+  },
+  "share_with_comma_main": {
+    "gold": 0.047,
+    "F": 0.041,
+    "C": 0.031,
+    "S": 0.94,
+    "I": 0.034
+  },
+  "baselines_main": {
+    "not an exact span of the passage": {
+      "BHS": 13.81,
+      "trackA_error": 0.0,
+      "trackB_error": 27.62
+    },
+    "not a span after normalising spaces and punctuation": {
+      "BHS": 13.86,
+      "trackA_error": 0.0,
+      "trackB_error": 27.72
+    },
+    "contains a comma": {
+      "BHS": 39.28,
+      "trackA_error": 4.72,
+      "trackB_error": 73.84
+    },
+    "longer than 24 characters (2 x the median gold length)": {
+      "BHS": 43.07,
+      "trackA_error": 12.42,
+      "trackB_error": 73.72
+    },
+    "longest of the 5 answers (uses all 5, so not a real single-answer judge)": {
+      "BHS": 37.47,
+      "trackA_error": 0.1,
+      "trackB_error": 74.85
+    },
+    "always yes": {
+      "BHS": 50.0,
+      "trackA_error": 100.0,
+      "trackB_error": 0.0
+    }
+  },
+  "span_subset_main": {
+    "what": "items whose answer is an exact span of the passage; the span rule cannot separate them",
+    "items": 2050,
+    "questions": 974,
+    "by_type": {
+      "C": 810,
+      "gold": 974,
+      "I": 220,
+      "F": 46
+    }
+  },
+  "human_validation": {
+    "who": "one person (the project owner), blind to the labels; sheet of 198 questions x 5 answers, shuffled",
+    "as_shown_v1.1": {
+      "items": 989,
+      "agreement": 0.998,
+      "kappa": 0.9937,
+      "disagreements": [
+        "bengali--3525863623165833573-10__a1",
+        "bengali--3525863623165833573-10__a3"
+      ]
+    },
+    "unlabelled_items": [
+      "bengali-5507576373813184357-0__a2"
+    ],
+    "naturalness_counts": {
+      "3": 982,
+      "2": 5,
+      "consider updated context where answer is shovon": 1,
+      "updated context plz": 1,
+      "though it will be updated": 1
+    },
+    "items_changed_or_dropped_since": 117
+  }
+}

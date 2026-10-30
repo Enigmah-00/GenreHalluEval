@@ -1,0 +1,121 @@
+TECHNOLOGY|কম্পিউটার
+TECHNOLOGY|ইন্টারনেট
+TECHNOLOGY|ওয়ার্ল্ড ওয়াইড ওয়েব
+TECHNOLOGY|গুগল
+TECHNOLOGY|মাইক্রোসফট
+TECHNOLOGY|অ্যাপল ইনকর্পোরেটেড
+TECHNOLOGY|ফেসবুক
+TECHNOLOGY|ইউটিউব
+TECHNOLOGY|লিনাক্স
+TECHNOLOGY|মাইক্রোসফট উইন্ডোজ
+TECHNOLOGY|অ্যান্ড্রয়েড (অপারেটিং সিস্টেম)
+TECHNOLOGY|আইফোন
+TECHNOLOGY|পাইথন (প্রোগ্রামিং ভাষা)
+TECHNOLOGY|জাভা (প্রোগ্রামিং ভাষা)
+TECHNOLOGY|সি (প্রোগ্রামিং ভাষা)
+TECHNOLOGY|সি++
+TECHNOLOGY|জাভাস্ক্রিপ্ট
+TECHNOLOGY|এইচটিএমএল
+TECHNOLOGY|কৃত্রিম বুদ্ধিমত্তা
+TECHNOLOGY|যন্ত্রীয় শিখন
+TECHNOLOGY|চ্যাটজিপিটি
+TECHNOLOGY|ব্লকচেইন
+TECHNOLOGY|বিটকয়েন
+TECHNOLOGY|ট্রানজিস্টর
+TECHNOLOGY|সমন্বিত বর্তনী
+TECHNOLOGY|মাইক্রোপ্রসেসর
+TECHNOLOGY|ইন্টেল
+TECHNOLOGY|স্যামসাং ইলেকট্রনিক্স
+TECHNOLOGY|হুয়াওয়ে
+TECHNOLOGY|মোবাইল ফোন
+TECHNOLOGY|টেলিভিশন
+TECHNOLOGY|রেডিও
+TECHNOLOGY|টেলিফোন
+TECHNOLOGY|ব্লুটুথ
+TECHNOLOGY|ওয়াই-ফাই
+TECHNOLOGY|জিপিএস
+TECHNOLOGY|কৃত্রিম উপগ্রহ
+TECHNOLOGY|বঙ্গবন্ধু-১
+TECHNOLOGY|স্পুটনিক ১
+TECHNOLOGY|নাসা
+TECHNOLOGY|ভারতীয় মহাকাশ গবেষণা সংস্থা
+TECHNOLOGY|স্পেসএক্স
+TECHNOLOGY|আন্তর্জাতিক মহাকাশ স্টেশন
+TECHNOLOGY|অ্যাপোলো ১১
+TECHNOLOGY|চন্দ্রযান-৩
+TECHNOLOGY|হাবল মহাকাশ দূরবীক্ষণ যন্ত্র
+TECHNOLOGY|জেমস ওয়েব মহাকাশ দূরবীক্ষণ যন্ত্র
+TECHNOLOGY|অণুবীক্ষণ যন্ত্র
+TECHNOLOGY|দূরবীক্ষণ যন্ত্র
+TECHNOLOGY|লেজার
+TECHNOLOGY|রাডার
+TECHNOLOGY|বাষ্পীয় ইঞ্জিন
+TECHNOLOGY|অন্তর্দহ ইঞ্জিন
+TECHNOLOGY|মোটরগাড়ি
+TECHNOLOGY|বৈদ্যুতিক গাড়ি
+TECHNOLOGY|টেসলা, ইনকর্পোরেটেড
+TECHNOLOGY|উড়োজাহাজ
+TECHNOLOGY|রাইট ভ্রাতৃদ্বয়
+TECHNOLOGY|হেলিকপ্টার
+TECHNOLOGY|বাইসাইকেল
+TECHNOLOGY|শিনকানসেন
+TECHNOLOGY|রূপপুর পারমাণবিক বিদ্যুৎ কেন্দ্র
+TECHNOLOGY|পারমাণবিক চুল্লি
+TECHNOLOGY|সৌরকোষ
+TECHNOLOGY|বায়ু টারবাইন
+TECHNOLOGY|কাপ্তাই জলবিদ্যুৎ কেন্দ্র
+TECHNOLOGY|টমাস আলভা এডিসন
+TECHNOLOGY|নিকোলা টেসলা
+TECHNOLOGY|আলেকজান্ডার গ্রাহাম বেল
+TECHNOLOGY|গুলিয়েলমো মার্কোনি
+TECHNOLOGY|চার্লস ব্যাবেজ
+TECHNOLOGY|অ্যালান টুরিং
+TECHNOLOGY|বিল গেটস
+TECHNOLOGY|স্টিভ জবস
+TECHNOLOGY|মার্ক জাকারবার্গ
+TECHNOLOGY|ইলন মাস্ক
+TECHNOLOGY|জেফ বেজোস
+TECHNOLOGY|অ্যামাজন (কোম্পানি)
+TECHNOLOGY|টিম বার্নার্স-লি
+TECHNOLOGY|লিনাস টোরভাল্ডস
+TECHNOLOGY|সুন্দর পিচাই
+TECHNOLOGY|জাভেদ করিম
+TECHNOLOGY|ফজলুর রহমান খান
+TECHNOLOGY|ছাপাখানা
+TECHNOLOGY|ইয়োহানেস গুটেনবার্গ
+TECHNOLOGY|ক্যামেরা
+TECHNOLOGY|বৈদ্যুতিক কোষ
+TECHNOLOGY|বৈদ্যুতিক বাতি
+TECHNOLOGY|রেফ্রিজারেটর
+TECHNOLOGY|ইমেইল
+TECHNOLOGY|ইউএসবি
+TECHNOLOGY|হার্ড ডিস্ক ড্রাইভ
+TECHNOLOGY|র‍্যান্ডম-অ্যাক্সেস মেমোরি
+TECHNOLOGY|কম্পিউটার ভাইরাস
+TECHNOLOGY|ফায়ারওয়াল
+TECHNOLOGY|গ্রামীণফোন
+TECHNOLOGY|টেলিটক
+TECHNOLOGY|বাংলাদেশ টেলিযোগাযোগ নিয়ন্ত্রণ কমিশন
+TECHNOLOGY|৫জি
+TECHNOLOGY|সফটওয়্যার
+TECHNOLOGY|অপারেটিং সিস্টেম
+TECHNOLOGY|ডেটাবেজ
+TECHNOLOGY|গিটহাব
+TECHNOLOGY|টুইটার
+TECHNOLOGY|হোয়াটসঅ্যাপ
+TECHNOLOGY|ইনস্টাগ্রাম
+TECHNOLOGY|টিকটক
+TECHNOLOGY|ওপেনএআই
+TECHNOLOGY|এনভিডিয়া
+TECHNOLOGY|রোবট
+TECHNOLOGY|ড্রোন
+TECHNOLOGY|ত্রিমাত্রিক মুদ্রণ
+TECHNOLOGY|কোয়ান্টাম কম্পিউটার
+TECHNOLOGY|ইউনিকোড
+TECHNOLOGY|অভ্র কিবোর্ড
+TECHNOLOGY|বিজয় কিবোর্ড
+TECHNOLOGY|ক্যালকুলেটর
+TECHNOLOGY|প্রকৌশল
+TECHNOLOGY|উইকিপিডিয়া
+TECHNOLOGY|মাইক্রোওয়েভ ওভেন
+TECHNOLOGY|ফাইবার অপটিক্স

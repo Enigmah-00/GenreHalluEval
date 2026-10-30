@@ -1,0 +1,7 @@
+view,BHS,range95,trackA_err,trackB_err,no_answer
+all items (no_answer = error): MAIN,38.29,36.67 to 39.92,48.15,28.42,7
+answered items only,38.20,,48.10,28.31,7
+lenient parse (diagnostic),38.26,,48.15,28.37,5
+span subset (answer copied from the passage),33.66,,48.15,19.17,3
+without weak golds,38.31,,48.08,28.54,7
+without 2026-dated facts (38 questions out),38.05,,47.51,28.60,6

@@ -1,0 +1,136 @@
+HISTORY|সিন্ধু সভ্যতা
+HISTORY|মেসোপটেমিয়া
+HISTORY|প্রাচীন মিশর
+HISTORY|রোমান সাম্রাজ্য
+HISTORY|প্রাচীন গ্রিস
+HISTORY|হখামনি সাম্রাজ্য
+HISTORY|মৌর্য সাম্রাজ্য
+HISTORY|গুপ্ত সাম্রাজ্য
+HISTORY|পাল সাম্রাজ্য
+HISTORY|সেন রাজবংশ
+HISTORY|শশাঙ্ক
+HISTORY|দিল্লি সালতানাত
+HISTORY|বাংলা সালতানাত
+HISTORY|ইলিয়াস শাহী রাজবংশ
+HISTORY|হোসেন শাহী রাজবংশ
+HISTORY|মুঘল সাম্রাজ্য
+HISTORY|বাবর
+HISTORY|আকবর
+HISTORY|শের শাহ সুরি
+HISTORY|ঈসা খাঁ
+HISTORY|বারো ভূঁইয়া
+HISTORY|শায়েস্তা খান
+HISTORY|মুর্শিদকুলি খান
+HISTORY|আলীবর্দী খান
+HISTORY|সিরাজউদ্দৌলা
+HISTORY|পলাশীর যুদ্ধ
+HISTORY|বক্সারের যুদ্ধ
+HISTORY|ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানি
+HISTORY|চিরস্থায়ী বন্দোবস্ত
+HISTORY|ছিয়াত্তরের মন্বন্তর
+HISTORY|সিপাহী বিদ্রোহ
+HISTORY|নীল বিদ্রোহ
+HISTORY|তিতুমীর
+HISTORY|বঙ্গভঙ্গ (১৯০৫)
+HISTORY|স্বদেশী আন্দোলন
+HISTORY|খিলাফত আন্দোলন
+HISTORY|অসহযোগ আন্দোলন
+HISTORY|লাহোর প্রস্তাব
+HISTORY|ভারত বিভাজন
+HISTORY|পঞ্চাশের মন্বন্তর
+HISTORY|ছয় দফা আন্দোলন
+HISTORY|আগরতলা ষড়যন্ত্র মামলা
+HISTORY|ঊনসত্তরের গণঅভ্যুত্থান
+HISTORY|অপারেশন সার্চলাইট
+HISTORY|অপারেশন জ্যাকপট
+HISTORY|নব্বইয়ের গণঅভ্যুত্থান
+HISTORY|জুলাই গণঅভ্যুত্থান
+HISTORY|প্রথম বিশ্বযুদ্ধ
+HISTORY|দ্বিতীয় বিশ্বযুদ্ধ
+HISTORY|ফরাসি বিপ্লব
+HISTORY|রুশ বিপ্লব
+HISTORY|আমেরিকান বিপ্লব
+HISTORY|শিল্প বিপ্লব
+HISTORY|রেনেসাঁ
+HISTORY|স্নায়ুযুদ্ধ
+HISTORY|হলোকাস্ট
+HISTORY|হিরোশিমা ও নাগাসাকিতে পারমাণবিক বোমা হামলা
+HISTORY|কোরীয় যুদ্ধ
+HISTORY|ভিয়েতনাম যুদ্ধ
+HISTORY|উপসাগরীয় যুদ্ধ
+HISTORY|ওয়াটারলু যুদ্ধ
+HISTORY|নেপোলিয়ন বোনাপার্ট
+HISTORY|চেঙ্গিজ খান
+HISTORY|আলেকজান্ডার দ্য গ্রেট
+HISTORY|জুলিয়াস সিজার
+HISTORY|উসমানীয় সাম্রাজ্য
+HISTORY|পানিপথের প্রথম যুদ্ধ
+HISTORY|পানিপথের দ্বিতীয় যুদ্ধ
+HISTORY|পানিপথের তৃতীয় যুদ্ধ
+HISTORY|হলদিঘাটের যুদ্ধ
+HISTORY|তরাইনের যুদ্ধ
+HISTORY|কলিঙ্গ যুদ্ধ
+HISTORY|জালিয়ানওয়ালাবাগ হত্যাকাণ্ড
+HISTORY|চট্টগ্রাম অস্ত্রাগার লুণ্ঠন
+HISTORY|সূর্য সেন
+HISTORY|প্রীতিলতা ওয়াদ্দেদার
+HISTORY|ক্ষুদিরাম বসু
+HISTORY|সুভাষচন্দ্র বসু
+HISTORY|বিনয়-বাদল-দীনেশ
+HISTORY|টিপু সুলতান
+HISTORY|রানি লক্ষ্মীবাই
+HISTORY|মঙ্গল পাণ্ডে
+HISTORY|ক্রুসেড
+HISTORY|আটলান্টিক দাস বাণিজ্য
+HISTORY|আফিম যুদ্ধ
+HISTORY|মিং রাজবংশ
+HISTORY|চিং রাজবংশ
+HISTORY|হান রাজবংশ
+HISTORY|মায়া সভ্যতা
+HISTORY|ইনকা সাম্রাজ্য
+HISTORY|অ্যাজটেক
+HISTORY|ভাইকিং
+HISTORY|কিউবান ক্ষেপণাস্ত্র সংকট
+HISTORY|আরব বসন্ত
+HISTORY|রুয়ান্ডার গণহত্যা
+HISTORY|বসনিয়া যুদ্ধ
+HISTORY|স্পেনীয় গৃহযুদ্ধ
+HISTORY|আমেরিকান গৃহযুদ্ধ
+HISTORY|মেইজি পুনর্গঠন
+HISTORY|তাইপিং বিদ্রোহ
+HISTORY|বক্সার বিদ্রোহ
+HISTORY|তেভাগা আন্দোলন
+HISTORY|টংক আন্দোলন
+HISTORY|সাঁওতাল বিদ্রোহ
+HISTORY|ফকির-সন্ন্যাসী বিদ্রোহ
+HISTORY|পাগলপন্থী বিদ্রোহ
+HISTORY|কৈবর্ত বিদ্রোহ
+HISTORY|মাৎস্যন্যায়
+HISTORY|বখতিয়ার খলজি
+HISTORY|লক্ষ্মণ সেন
+HISTORY|গোপাল (রাজা)
+HISTORY|ধর্মপাল
+HISTORY|দেবপাল
+HISTORY|বল্লাল সেন
+HISTORY|ইবনে বতুতা
+HISTORY|হিউয়েন সাং
+HISTORY|ফা-হিয়েন
+HISTORY|ভাস্কো দা গামা
+HISTORY|ক্রিস্টোফার কলম্বাস
+HISTORY|মার্কো পোলো
+HISTORY|ফার্দিনান্দ ম্যাগেলান
+HISTORY|ব্ল্যাক ডেথ
+HISTORY|ব্যাবিলন
+HISTORY|সুমের
+HISTORY|ফিনিশীয়
+HISTORY|কার্থেজ
+HISTORY|হান্নিবাল
+HISTORY|আশোক
+HISTORY|চন্দ্রগুপ্ত মৌর্য
+HISTORY|সমুদ্রগুপ্ত
+HISTORY|হর্ষবর্ধন
+HISTORY|রাজেন্দ্র চোল
+HISTORY|বিজয়নগর সাম্রাজ্য
+HISTORY|মারাঠা সাম্রাজ্য
+HISTORY|শিবাজী
+HISTORY|রঞ্জিত সিং

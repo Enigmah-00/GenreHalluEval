@@ -1,0 +1,13 @@
+condition,genre,questions,route_by_our_genre,runner_up,route_by_own_genre,own_minus_ours_for_that_judge,same_judge,judges_clearly_better_in_own_genre,best_overall_judge_here
+with passage,HISTORY,290,gemma4-31b 1.03,"qwen3.5-27b 1.85 (+0.82, clear)",gemma4-31b 1.05 (285),+0.02 (range includes 0: -0.02 to +0.07),yes,qwen2.5-32b (-0.78; -1.44 to -0.25),gemma4-31b 1.03
+with passage,ARTS,278,qwen3.5-27b 1.62,"gemma4-31b 1.66 (+0.04, not clear)",gemma4-31b 1.64 (282),-0.02 (range includes 0: -0.08 to +0.02),no,none,gemma4-31b 1.66
+with passage,SCIENCE,135,gemma4-31b 2.04,"qwen3.5-27b 2.69 (+0.65, not clear)",gemma4-31b 1.82 (144),"-0.21 (own better, range below 0: -0.46 to -0.04)",yes,"gemma4-31b (-0.21; -0.46 to -0.04), qwen3.5-27b (-0.24; -0.47 to -0.06)",gemma4-31b 2.04
+with passage,GEOGRAPHY,110,gemma4-31b 0.23,"qwen3.5-27b 0.80 (+0.57, not clear)",gemma4-31b 0.37 (101),+0.14 (range includes 0: +0.00 to +0.43),yes,none,gemma4-31b 0.23
+with passage,RELIGION,95,qwen3.5-27b 1.97,"gemma4-31b 2.76 (+0.79, not clear)",qwen3.5-27b 1.53 (98),-0.44 (range includes 0: -1.72 to +0.45),yes,none,gemma4-31b 2.76
+with passage,OTHER,12,gemma4-31b 0.00 (under 50 questions: A),"qwen3.5-27b 1.04 (+1.04, not clear)",– (no judge named it 50+ times; falls back to gemma4-31b),–,yes,none,gemma4-31b 0.00
+without passage,HISTORY,290,qwen3.5-27b 31.29,"gemma4-31b 32.20 (+0.91, not clear)",qwen3.5-27b 30.92 (287),-0.37 (range includes 0: -1.20 to +0.50),yes,none,gemma4-31b 32.20
+without passage,ARTS,278,gemma4-31b 36.74,"qwen3.5-27b 38.53 (+1.80, not clear)",gemma4-31b 36.61 (282),-0.12 (range includes 0: -0.86 to +0.63),yes,none,gemma4-31b 36.74
+without passage,SCIENCE,135,gemma4-31b 26.48,"qwen3.5-27b 27.78 (+1.30, not clear)",gemma4-31b 26.48 (144),-0.01 (range includes 0: -1.08 to +1.10),yes,none,gemma4-31b 26.48
+without passage,GEOGRAPHY,110,gemma4-31b 27.05,"deepseek-r1-14b 31.93 (+4.89, clear)",gemma4-31b 26.36 (101),-0.68 (range includes 0: -2.18 to +0.89),yes,none,gemma4-31b 27.05
+without passage,RELIGION,95,qwen3.5-27b 28.42,"gemma4-31b 30.26 (+1.84, not clear)",qwen3.5-27b 28.70 (98),+0.28 (range includes 0: -1.24 to +1.98),yes,none,gemma4-31b 30.26
+without passage,OTHER,12,gemma4-31b 32.29 (under 50 questions: A),"qwen3.5-27b 34.38 (+2.08, not clear)",– (no judge named it 50+ times; falls back to gemma4-31b),–,yes,none,gemma4-31b 32.29

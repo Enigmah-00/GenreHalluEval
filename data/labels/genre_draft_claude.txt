@@ -1,0 +1,1000 @@
+# Claude draft genre labels for BenHalluEval QA (unique-question index | code | confidence | note)
+# Codes: HP=History & Politics, AC=Arts & Culture, ST=Science & Technology, GP=Geography & Places, RE=Religion, SP=Sports, OT=Other
+# Guide: docs/genre-guide.md draft v0.1. Labeler: Claude (claude-opus-5-5), 2026-10-13. Seen: question + first 110 chars of passage. Never the answer.
+0|GP|H|
+1|OT|H|
+2|SP|H|
+3|HP|H|
+4|SP|L|pro wrestling: sport or entertainment
+5|HP|H|
+6|ST|H|
+7|ST|H|
+8|OT|H|
+9|HP|H|
+10|RE|L|disciple of Vivekananda; also social worker
+11|RE|H|
+12|AC|H|
+13|OT|H|
+14|GP|H|
+15|GP|H|
+16|RE|H|
+17|RE|L|disciple of Vivekananda; also social worker
+18|RE|H|
+19|GP|H|
+20|AC|H|
+21|AC|H|
+22|GP|H|
+23|HP|H|
+24|GP|L|historical estate; asks its location
+25|HP|H|
+26|AC|H|
+27|GP|H|
+28|ST|H|
+29|HP|L|physician and Chief Minister
+30|RE|L|supreme leader: religious and political
+31|HP|H|
+32|ST|L|ancient ocean; geology vs geography
+33|OT|L|philosophy not covered by the genres
+34|SP|H|
+35|GP|H|
+36|AC|H|
+37|AC|H|
+38|HP|H|
+39|ST|H|
+40|AC|H|
+41|AC|H|
+42|HP|H|
+43|AC|H|
+44|GP|H|
+45|RE|H|
+46|AC|H|
+47|ST|H|
+48|GP|H|
+49|ST|L|tech company: technology vs business
+50|GP|H|
+51|ST|H|
+52|AC|H|
+53|RE|H|
+54|AC|H|
+55|GP|L|Jerusalem quarter: place vs history
+56|ST|H|
+57|RE|L|religious term; word meaning
+58|ST|H|
+59|ST|H|
+60|ST|H|
+61|OT|L|colonial-era college: education vs history
+62|OT|L|currency
+63|SP|H|
+64|HP|H|
+65|HP|H|
+66|AC|H|
+67|HP|H|
+68|GP|H|
+69|AC|H|
+70|ST|H|
+71|GP|H|
+72|AC|H|
+73|AC|H|
+74|AC|H|
+75|SP|H|
+76|RE|H|
+77|AC|H|
+78|AC|H|
+79|ST|L|digital currency: technology vs economy
+80|GP|H|
+81|AC|H|
+82|AC|H|
+83|RE|H|
+84|AC|H|
+85|ST|H|
+86|HP|H|
+87|HP|H|
+88|HP|H|
+89|HP|H|
+90|HP|H|
+91|ST|H|
+92|ST|L|ancient ocean; geology vs geography
+93|AC|H|
+94|RE|H|
+95|RE|H|
+96|HP|H|
+97|HP|H|
+98|AC|H|
+99|ST|H|
+100|RE|H|
+101|AC|H|
+102|ST|H|
+103|HP|H|
+104|AC|H|
+105|HP|H|
+106|AC|H|
+107|HP|H|
+108|ST|H|
+109|HP|H|
+110|AC|L|Ramayana character in an epic poem: literature vs religion
+111|ST|H|
+112|HP|H|
+113|RE|H|
+114|OT|H|
+115|AC|H|
+116|HP|H|
+117|GP|H|
+118|AC|H|
+119|AC|H|
+120|ST|H|
+121|ST|H|
+122|AC|H|
+123|AC|H|
+124|SP|H|
+125|ST|H|
+126|AC|H|
+127|SP|L|pro wrestling: sport or entertainment
+128|AC|L|wrestler-actor; question is about his film
+129|HP|H|
+130|HP|H|
+131|HP|H|
+132|AC|H|
+133|HP|H|
+134|HP|H|
+135|HP|L|national flag symbolism
+136|ST|H|
+137|SP|H|
+138|HP|H|
+139|ST|H|
+140|HP|H|
+141|ST|H|
+142|AC|H|
+143|GP|H|
+144|AC|H|
+145|HP|H|
+146|ST|L|first toothbrush: invention vs everyday life
+147|HP|L|national flag symbolism
+148|HP|H|
+149|OT|L|first women's college: education vs history
+150|ST|H|
+151|HP|H|
+152|HP|H|
+153|HP|H|
+154|AC|H|
+155|SP|H|
+156|GP|H|
+157|RE|H|
+158|AC|L|word origin of a philosophy term
+159|HP|L|question suggests saint Shah Jalal but passage is about another Shahjalal; field unclear
+160|AC|H|
+161|ST|H|
+162|SP|H|
+163|HP|H|
+164|HP|H|
+165|RE|H|
+166|AC|H|
+167|AC|H|
+168|HP|H|
+169|HP|H|
+170|HP|H|
+171|AC|H|
+172|OT|H|
+173|AC|H|
+174|AC|H|
+175|GP|H|
+176|HP|L|museum about the liberation war
+177|AC|H|
+178|GP|H|
+179|GP|H|
+180|HP|H|
+181|ST|H|
+182|RE|H|
+183|HP|H|
+184|HP|H|
+185|AC|H|
+186|GP|H|
+187|AC|H|
+188|HP|H|
+189|GP|H|
+190|AC|H|
+191|HP|H|
+192|ST|H|
+193|RE|H|
+194|HP|H|
+195|AC|H|
+196|HP|L|passage does not say who he is; likely a politician
+197|OT|H|
+198|AC|H|
+199|GP|H|
+200|ST|H|
+201|AC|H|
+202|SP|H|
+203|HP|H|
+204|HP|H|
+205|AC|H|
+206|AC|H|
+207|AC|H|
+208|AC|H|
+209|HP|H|
+210|AC|H|
+211|OT|H|
+212|AC|H|
+213|HP|H|
+214|HP|H|
+215|AC|H|
+216|AC|H|
+217|ST|L|tech company: technology vs business
+218|SP|H|
+219|HP|H|
+220|RE|H|
+221|HP|H|
+222|OT|H|
+223|AC|L|Mahabharata: epic literature vs scripture
+224|ST|H|
+225|HP|H|
+226|HP|H|
+227|ST|H|
+228|HP|H|
+229|ST|H|
+230|OT|H|
+231|GP|L|a country's currency
+232|RE|H|
+233|HP|H|
+234|SP|H|
+235|AC|H|
+236|HP|L|environmental lawyer and activist
+237|AC|H|
+238|HP|H|
+239|GP|H|
+240|GP|H|
+241|ST|H|
+242|ST|H|
+243|AC|H|
+244|HP|H|
+245|HP|H|
+246|HP|H|
+247|RE|H|
+248|GP|L|landmark hotel; owner is a business fact
+249|HP|H|
+250|AC|L|philosopher's book
+251|ST|H|
+252|ST|H|
+253|AC|H|
+254|GP|H|
+255|ST|H|
+256|HP|H|
+257|HP|H|
+258|AC|H|
+259|AC|H|
+260|SP|H|
+261|HP|H|
+262|HP|H|
+263|HP|H|
+264|ST|L|tech company: technology vs business
+265|HP|H|
+266|ST|H|
+267|RE|L|mosque; asks which ruler built it
+268|ST|H|
+269|SP|H|
+270|AC|H|
+271|GP|H|
+272|HP|H|
+273|RE|H|
+274|GP|H|
+275|ST|L|word origin of a science term
+276|AC|H|
+277|ST|H|
+278|RE|H|
+279|SP|H|
+280|HP|H|
+281|OT|L|cultural and educational organization
+282|SP|H|
+283|ST|H|
+284|ST|H|
+285|HP|H|
+286|RE|H|
+287|HP|H|
+288|ST|H|
+289|HP|H|
+290|RE|H|
+291|AC|H|
+292|OT|L|banknote signature: economy
+293|HP|H|
+294|HP|H|
+295|SP|H|
+296|ST|H|
+297|RE|H|
+298|AC|H|
+299|HP|H|
+300|AC|H|
+301|GP|L|government building: when it opened
+302|GP|H|
+303|HP|L|historical era of Islamic civilization: history vs religion
+304|ST|H|
+305|HP|L|political term; word meaning
+306|RE|L|religious and social reform movement
+307|AC|H|
+308|AC|H|
+309|GP|H|
+310|GP|H|
+311|AC|H|
+312|HP|L|national flag symbolism
+313|HP|H|
+314|ST|H|
+315|AC|H|
+316|HP|H|
+317|AC|H|
+318|HP|H|
+319|ST|H|
+320|HP|H|
+321|AC|H|
+322|AC|H|
+323|HP|H|
+324|HP|L|judge: law
+325|OT|H|
+326|OT|H|
+327|AC|H|
+328|HP|H|
+329|GP|H|
+330|AC|H|
+331|AC|H|
+332|RE|H|
+333|HP|L|national flag symbolism
+334|SP|H|
+335|AC|H|
+336|HP|H|
+337|ST|H|
+338|AC|H|
+339|AC|H|
+340|ST|H|
+341|GP|H|
+342|HP|H|
+343|AC|H|
+344|ST|H|
+345|GP|H|
+346|OT|L|first government school: education vs history
+347|AC|H|
+348|HP|H|
+349|HP|H|
+350|HP|H|
+351|AC|H|
+352|AC|L|traditional textile: culture vs technology
+353|ST|H|
+354|AC|H|
+355|RE|H|
+356|OT|L|industrialist: business
+357|GP|H|
+358|GP|H|
+359|AC|H|
+360|GP|L|museum building area
+361|OT|H|
+362|AC|L|Baul mystic: music vs religion
+363|AC|H|
+364|AC|H|
+365|HP|H|
+366|HP|H|
+367|AC|H|
+368|GP|H|
+369|AC|L|epic: literature vs scripture; word meaning
+370|SP|H|
+371|SP|H|
+372|AC|H|
+373|ST|H|
+374|ST|H|
+375|HP|H|
+376|HP|H|
+377|GP|H|
+378|SP|H|
+379|ST|L|space race: science vs history
+380|AC|H|
+381|HP|H|
+382|GP|H|
+383|HP|H|
+384|OT|H|
+385|HP|L|UN agency
+386|AC|H|
+387|OT|H|
+388|GP|L|past area; passage is about the Umayyad caliphate
+389|ST|H|
+390|GP|L|nuclear power plant: infrastructure vs technology
+391|AC|H|
+392|AC|H|
+393|AC|H|
+394|OT|H|
+395|HP|H|
+396|AC|L|cooking technique: food vs science
+397|OT|H|
+398|HP|H|
+399|HP|H|
+400|RE|L|disciple of Vivekananda; also social worker
+401|RE|H|
+402|AC|H|
+403|GP|H|
+404|GP|H|
+405|RE|H|
+406|ST|H|
+407|HP|H|
+408|HP|H|
+409|GP|H|
+410|GP|H|
+411|AC|H|
+412|HP|H|
+413|OT|H|
+414|HP|L|first nuclear test: military history vs science
+415|AC|H|
+416|HP|H|
+417|ST|H|
+418|AC|H|
+419|RE|H|
+420|ST|H|
+421|HP|H|
+422|AC|H|
+423|ST|H|
+424|AC|H|
+425|AC|H|
+426|AC|L|scholar of Bengali literature and history
+427|AC|H|
+428|HP|H|
+429|HP|H|
+430|SP|H|
+431|HP|H|
+432|GP|H|
+433|ST|H|
+434|HP|H|
+435|ST|H|
+436|AC|H|
+437|GP|H|
+438|AC|H|
+439|HP|H|
+440|GP|H|
+441|AC|H|
+442|RE|H|
+443|RE|H|
+444|HP|H|
+445|AC|H|
+446|AC|H|
+447|HP|H|
+448|AC|H|
+449|HP|H|
+450|GP|H|
+451|RE|H|
+452|OT|H|
+453|HP|H|
+454|HP|H|
+455|HP|L|IT entrepreneur and minister
+456|SP|H|
+457|OT|H|
+458|HP|H|
+459|HP|L|legendary prince from the Mahavamsa chronicle
+460|AC|H|
+461|RE|H|
+462|HP|L|politician and businessman; asks about his company
+463|HP|H|
+464|GP|H|
+465|AC|H|
+466|GP|H|
+467|RE|H|
+468|HP|H|
+469|AC|H|
+470|AC|H|
+471|ST|H|
+472|ST|L|word origin of a health/psychology term
+473|HP|H|
+474|HP|H|
+475|ST|H|
+476|AC|H|
+477|GP|L|monument height; memorial of the language movement
+478|RE|H|
+479|AC|H|
+480|RE|H|
+481|RE|H|
+482|HP|H|
+483|GP|H|
+484|SP|H|
+485|RE|H|
+486|HP|L|social movement term
+487|ST|H|
+488|HP|L|nawab, social reformer and writer
+489|OT|L|journalist; passage is about someone else
+490|SP|H|
+491|OT|L|air accident
+492|HP|H|
+493|AC|H|
+494|AC|H|
+495|HP|H|
+496|HP|H|
+497|GP|H|
+498|AC|H|
+499|SP|H|
+500|GP|H|
+501|GP|L|historic building: who built it
+502|ST|H|
+503|GP|H|
+504|ST|H|
+505|GP|H|
+506|RE|H|
+507|HP|H|
+508|GP|H|
+509|AC|H|
+510|AC|H|
+511|GP|H|
+512|HP|H|
+513|AC|H|
+514|AC|H|
+515|AC|H|
+516|AC|H|
+517|AC|H|
+518|HP|H|
+519|HP|H|
+520|AC|H|
+521|AC|H|
+522|GP|L|war memorial sculpture: art vs landmark vs history
+523|RE|L|Jain monk and scholar
+524|RE|H|
+525|RE|H|
+526|AC|H|
+527|AC|H|
+528|GP|H|
+529|HP|H|
+530|HP|H|
+531|OT|H|
+532|ST|H|
+533|HP|H|
+534|SP|H|
+535|AC|H|
+536|AC|H|
+537|HP|L|environmental lawyer and activist
+538|HP|H|
+539|SP|H|
+540|HP|H|
+541|AC|H|
+542|GP|H|
+543|AC|H|
+544|AC|H|
+545|OT|H|
+546|AC|H|
+547|HP|H|
+548|SP|H|
+549|AC|L|Ramayana character: literature vs religion
+550|GP|L|bridge: infrastructure vs engineering
+551|HP|H|
+552|HP|H|
+553|HP|H|
+554|ST|H|
+555|AC|H|
+556|AC|H|
+557|RE|H|
+558|ST|H|
+559|SP|H|
+560|RE|H|
+561|GP|H|
+562|HP|H|
+563|ST|H|
+564|ST|H|
+565|HP|H|
+566|AC|H|
+567|SP|H|
+568|SP|H|
+569|ST|H|
+570|GP|H|
+571|HP|H|
+572|HP|H|
+573|HP|H|
+574|RE|H|
+575|AC|H|
+576|RE|H|
+577|AC|H|
+578|OT|H|
+579|AC|H|
+580|AC|H|
+581|OT|L|industrialist: business
+582|HP|H|
+583|AC|L|ancient language: language vs history
+584|AC|H|
+585|AC|H|
+586|AC|L|Ramayana character: literature vs religion
+587|GP|H|
+588|HP|H|
+589|GP|H|
+590|SP|H|
+591|AC|H|
+592|AC|H|
+593|HP|H|
+594|AC|H|
+595|AC|H|
+596|ST|H|
+597|RE|H|
+598|SP|H|
+599|ST|H|
+600|AC|L|Baul mystic: music vs religion
+601|HP|H|
+602|AC|H|
+603|ST|H|
+604|SP|L|pro wrestler: sport or entertainment
+605|ST|H|
+606|GP|H|
+607|HP|H|
+608|OT|L|university museum: education vs history
+609|RE|H|
+610|GP|L|city fact about religious buildings
+611|HP|H|
+612|AC|H|
+613|ST|H|
+614|AC|H|
+615|GP|H|
+616|AC|H|
+617|AC|H|
+618|HP|L|social movement
+619|HP|H|
+620|HP|L|intelligence agency; asks HQ location
+621|OT|H|
+622|AC|H|
+623|OT|L|military education: education vs history
+624|AC|H|
+625|ST|H|
+626|AC|H|
+627|GP|H|
+628|HP|H|
+629|RE|H|
+630|HP|H|
+631|AC|H|
+632|HP|H|
+633|GP|H|
+634|ST|H|
+635|AC|L|Ramayana character: literature vs religion
+636|SP|H|
+637|OT|H|
+638|AC|H|
+639|HP|H|
+640|HP|H|
+641|SP|H|
+642|GP|H|
+643|AC|H|
+644|ST|H|
+645|ST|H|
+646|AC|H|
+647|GP|H|
+648|AC|H|
+649|AC|H|
+650|OT|H|
+651|AC|H|
+652|ST|H|
+653|HP|H|
+654|ST|H|
+655|AC|H|
+656|AC|H|
+657|RE|H|
+658|ST|H|
+659|ST|H|
+660|HP|H|
+661|ST|H|
+662|HP|H|
+663|GP|H|
+664|GP|H|
+665|HP|H|
+666|AC|H|
+667|GP|H|
+668|AC|H|
+669|ST|H|
+670|ST|H|
+671|RE|H|
+672|GP|H|
+673|RE|H|
+674|ST|H|
+675|RE|L|religious and social reform movement
+676|ST|H|
+677|HP|L|nuclear weapon: military history vs science
+678|HP|H|
+679|HP|H|
+680|AC|L|traditional textile: culture vs technology
+681|AC|L|writer and blogger
+682|GP|H|
+683|ST|H|
+684|OT|L|industrial disaster
+685|AC|L|educator, social reformer and writer; passage is about someone else
+686|ST|H|
+687|AC|H|
+688|HP|H|
+689|RE|H|
+690|AC|H|
+691|HP|H|
+692|GP|H|
+693|GP|L|administrative units: geography vs government
+694|ST|H|
+695|SP|H|
+696|OT|H|
+697|SP|H|
+698|AC|H|
+699|SP|H|
+700|RE|H|
+701|AC|H|
+702|HP|H|
+703|GP|H|
+704|GP|H|
+705|RE|H|
+706|SP|H|
+707|ST|H|
+708|HP|H|
+709|ST|H|
+710|HP|H|
+711|HP|H|
+712|HP|H|
+713|ST|H|
+714|AC|H|
+715|HP|H|
+716|HP|H|
+717|ST|H|
+718|RE|H|
+719|HP|H|
+720|HP|H|
+721|HP|H|
+722|HP|H|
+723|RE|H|
+724|HP|H|
+725|HP|H|
+726|RE|H|
+727|OT|L|library: education vs culture
+728|HP|H|
+729|HP|H|
+730|OT|H|
+731|HP|H|
+732|SP|H|
+733|RE|H|
+734|HP|L|historical land-tenure term; word meaning
+735|SP|H|
+736|RE|H|
+737|GP|L|railway: infrastructure
+738|ST|L|toothbrush material: technology vs everyday life
+739|HP|H|
+740|HP|H|
+741|HP|H|
+742|HP|L|national flag
+743|HP|H|
+744|AC|H|
+745|GP|L|war memorial sculpture: art vs landmark vs history
+746|HP|H|
+747|HP|H|
+748|HP|H|
+749|AC|H|
+750|AC|H|
+751|HP|H|
+752|GP|H|
+753|GP|H|
+754|AC|H|
+755|AC|H|
+756|RE|L|religious and social reform movement
+757|OT|H|
+758|RE|H|
+759|SP|H|
+760|RE|H|
+761|GP|H|
+762|AC|H|
+763|AC|H|
+764|AC|H|
+765|HP|H|
+766|RE|H|
+767|HP|L|police officer: government
+768|HP|H|
+769|SP|H|
+770|HP|L|environmental lawyer and activist
+771|GP|L|currency use by countries
+772|ST|L|vegetation of a named forest: nature vs place
+773|AC|H|
+774|SP|H|
+775|RE|L|religious demographics: religion vs geography
+776|AC|H|
+777|AC|H|
+778|AC|H|
+779|GP|H|
+780|AC|H|
+781|HP|L|social reformer of the Bengal Renaissance
+782|AC|L|philosopher
+783|AC|H|
+784|HP|H|
+785|RE|H|
+786|ST|L|online payments company: technology vs business
+787|SP|H|
+788|ST|H|
+789|SP|H|
+790|AC|H|
+791|HP|H|
+792|GP|H|
+793|GP|H|
+794|ST|L|tech company: technology vs business
+795|GP|H|
+796|GP|H|
+797|HP|H|
+798|AC|H|
+799|HP|H|
+800|HP|H|
+801|RE|L|religious and social reform movement
+802|GP|H|
+803|OT|H|
+804|HP|H|
+805|RE|L|religious and social reform movement
+806|RE|H|
+807|AC|H|
+808|AC|H|
+809|RE|H|
+810|ST|H|
+811|ST|L|tech company: technology vs business
+812|AC|H|
+813|HP|H|
+814|GP|H|
+815|HP|H|
+816|RE|H|
+817|RE|L|early Islamic organization: religion vs history
+818|SP|H|
+819|ST|H|
+820|ST|H|
+821|ST|H|
+822|HP|H|
+823|ST|H|
+824|GP|H|
+825|HP|L|passage suggests a politician
+826|HP|H|
+827|HP|H|
+828|AC|H|
+829|HP|H|
+830|ST|H|
+831|AC|H|
+832|GP|H|
+833|GP|H|
+834|AC|H|
+835|AC|H|
+836|HP|H|
+837|HP|L|UN agency
+838|ST|H|
+839|ST|H|
+840|ST|L|translation of a technical term
+841|AC|L|mythology: literature vs religion
+842|HP|H|
+843|HP|H|
+844|ST|H|
+845|HP|L|politician's wife
+846|AC|L|wrestler-actor; question is about his film
+847|AC|H|
+848|SP|H|
+849|AC|L|writer, cultural organizer and activist
+850|HP|H|
+851|RE|H|
+852|HP|H|
+853|ST|H|
+854|SP|H|
+855|HP|L|archaeologist: history vs science
+856|AC|H|
+857|HP|H|
+858|AC|H|
+859|AC|H|
+860|GP|H|
+861|RE|H|
+862|HP|L|Islamist political party: politics vs religion
+863|HP|H|
+864|HP|H|
+865|ST|L|digital currency: technology vs economy
+866|ST|L|history of geography and map-making
+867|GP|H|
+868|HP|H|
+869|GP|H|
+870|HP|H|
+871|AC|H|
+872|AC|H|
+873|HP|H|
+874|AC|H|
+875|GP|H|
+876|GP|H|
+877|HP|H|
+878|ST|H|
+879|OT|H|
+880|ST|L|agriculture
+881|HP|H|
+882|RE|H|
+883|HP|H|
+884|GP|H|
+885|ST|H|
+886|HP|H|
+887|HP|H|
+888|ST|H|
+889|GP|L|statistic of an upazila: place vs education
+890|HP|H|
+891|ST|L|word origin of a science term
+892|AC|H|
+893|AC|H|
+894|AC|H|
+895|HP|H|
+896|AC|H|
+897|HP|H|
+898|ST|H|
+899|AC|H|
+900|GP|H|
+901|RE|L|first Islamic school: religion vs education
+902|ST|H|
+903|SP|H|
+904|HP|L|freedom fighter and college principal
+905|RE|L|religious term; word origin
+906|GP|H|
+907|RE|H|
+908|HP|H|
+909|ST|H|
+910|RE|H|
+911|ST|H|
+912|ST|H|
+913|AC|H|
+914|AC|H|
+915|SP|H|
+916|AC|H|
+917|RE|H|
+918|HP|H|
+919|ST|H|
+920|HP|H|
+921|RE|H|
+922|HP|H|
+923|HP|H|
+924|HP|H|
+925|ST|H|
+926|AC|H|
+927|ST|H|
+928|HP|H|
+929|SP|H|
+930|GP|H|
+931|OT|L|hunter, naturalist and author
+932|HP|H|
+933|AC|H|
+934|AC|H|
+935|RE|H|
+936|GP|H|
+937|ST|H|
+938|OT|H|
+939|AC|H|
+940|AC|H|
+941|SP|L|pro wrestling: sport or entertainment
+942|AC|H|
+943|RE|H|
+944|OT|H|
+945|HP|H|
+946|ST|H|
+947|HP|H|
+948|HP|H|
+949|HP|H|
+950|GP|H|
+951|AC|L|book fair: cultural event; asks the venue
+952|HP|H|
+953|AC|H|
+954|GP|L|protected area: place vs environment
+955|OT|L|founder of an education website
+956|ST|L|tech company: technology vs business
+957|AC|H|
+958|OT|L|development bank: economy
+959|AC|H|
+960|AC|H|
+961|HP|H|
+962|AC|H|
+963|RE|H|
+964|HP|H|
+965|ST|H|
+966|AC|L|unclear who; passage mentions the Beatles
+967|AC|H|
+968|ST|L|tech company: technology vs business
+969|AC|H|
+970|RE|H|
+971|ST|H|
+972|AC|H|
+973|RE|H|
+974|ST|H|
+975|HP|H|
+976|GP|H|
+977|HP|H|
+978|ST|H|
+979|HP|L|historical era of Islamic civilization: history vs religion
+980|ST|H|
+981|HP|H|
+982|RE|H|
+983|ST|H|
+984|GP|H|
+985|ST|H|
+986|ST|L|wildlife of a named forest: nature vs place
+987|HP|H|
+988|ST|H|
+989|ST|H|
+990|ST|H|
+991|HP|H|
+992|HP|H|
+993|AC|H|
+994|ST|H|
+995|SP|H|
+996|AC|H|

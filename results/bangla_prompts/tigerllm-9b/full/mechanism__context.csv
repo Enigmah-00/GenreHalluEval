@@ -1,0 +1,3 @@
+group,questions,BHS,range95,trackA_err,trackB_err,no_answer,usable
+own genre = human genre,697,37.75,35.71 to 39.92,25.54,49.96,0,yes
+own genre ≠ human genre,223,36.10,32.23 to 39.80,23.77,48.43,0,yes

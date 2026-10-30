@@ -1,0 +1,122 @@
+# Science, list 1 (chosen by Claude, 2026-10-28)
+SCIENCE|সালোকসংশ্লেষণ
+SCIENCE|শ্বসন
+SCIENCE|মাইটোকন্ড্রিয়া
+SCIENCE|রাইবোজোম
+SCIENCE|ক্লোরোফিল
+SCIENCE|প্রোটিন
+SCIENCE|এনজাইম
+SCIENCE|ভিটামিন সি
+SCIENCE|ভিটামিন ডি
+SCIENCE|হিমোগ্লোবিন
+SCIENCE|লোহিত রক্তকণিকা
+SCIENCE|শ্বেত রক্তকণিকা
+SCIENCE|অণুচক্রিকা
+SCIENCE|রক্তের গ্রুপ
+SCIENCE|হৃৎপিণ্ড
+SCIENCE|যকৃৎ
+SCIENCE|বৃক্ক
+SCIENCE|ফুসফুস
+SCIENCE|মস্তিষ্ক
+SCIENCE|অগ্ন্যাশয়
+SCIENCE|থাইরয়েড গ্রন্থি
+SCIENCE|পিটুইটারি গ্রন্থি
+SCIENCE|ডায়াবেটিস মেলিটাস
+SCIENCE|ম্যালেরিয়া
+SCIENCE|যক্ষ্মা
+SCIENCE|কলেরা
+SCIENCE|পোলিও
+SCIENCE|হাম
+SCIENCE|জলাতঙ্ক
+SCIENCE|এইডস
+SCIENCE|কোভিড-১৯
+SCIENCE|টিকা
+SCIENCE|প্যারাসিটামল
+SCIENCE|অ্যাসপিরিন
+SCIENCE|নিউটনের গতিসূত্র
+SCIENCE|আপেক্ষিকতা তত্ত্ব
+SCIENCE|কোয়ান্টাম বলবিজ্ঞান
+SCIENCE|আলোর বেগ
+SCIENCE|শব্দ
+SCIENCE|তাপগতিবিদ্যা
+SCIENCE|বিদ্যুৎ
+SCIENCE|চুম্বক
+SCIENCE|প্রোটন
+SCIENCE|নিউট্রন
+SCIENCE|ফোটন
+SCIENCE|হিগস বোসন
+SCIENCE|তেজস্ক্রিয়তা
+SCIENCE|হাইড্রোজেন
+SCIENCE|হিলিয়াম
+SCIENCE|কার্বন
+SCIENCE|নাইট্রোজেন
+SCIENCE|সোডিয়াম
+SCIENCE|লোহা
+SCIENCE|সোনা
+SCIENCE|পারদ
+SCIENCE|ইউরেনিয়াম
+SCIENCE|পানি
+SCIENCE|ওজোন
+SCIENCE|অম্ল
+SCIENCE|ক্ষার
+SCIENCE|পিএইচ
+SCIENCE|সূর্য
+SCIENCE|বুধ গ্রহ
+SCIENCE|শুক্র গ্রহ
+SCIENCE|মঙ্গল গ্রহ
+SCIENCE|শনি গ্রহ
+SCIENCE|ইউরেনাস
+SCIENCE|নেপচুন
+SCIENCE|প্লুটো
+SCIENCE|ছায়াপথ
+SCIENCE|আকাশগঙ্গা
+SCIENCE|ধূমকেতু
+SCIENCE|হ্যালির ধূমকেতু
+SCIENCE|সূর্যগ্রহণ
+SCIENCE|মহাবিস্ফোরণ তত্ত্ব
+SCIENCE|পিথাগোরাসের উপপাদ্য
+SCIENCE|পাই
+SCIENCE|মৌলিক সংখ্যা
+SCIENCE|শূন্য
+SCIENCE|ক্যালকুলাস
+SCIENCE|বীজগণিত
+SCIENCE|জ্যামিতি
+SCIENCE|ডিএনএ
+SCIENCE|আরএনএ
+SCIENCE|জিন
+SCIENCE|মিয়োসিস
+SCIENCE|মাইটোসিস
+SCIENCE|ব্যাকটেরিয়া
+SCIENCE|ভাইরাস
+SCIENCE|ছত্রাক
+SCIENCE|শৈবাল
+SCIENCE|রয়েল বেঙ্গল টাইগার
+SCIENCE|ইলিশ
+SCIENCE|দোয়েল
+SCIENCE|শাপলা
+SCIENCE|কাঁঠাল
+SCIENCE|আম
+SCIENCE|নীল তিমি
+SCIENCE|ডাইনোসর
+SCIENCE|হাতি
+SCIENCE|পেঙ্গুইন
+SCIENCE|মৌমাছি
+SCIENCE|প্রজাপতি
+SCIENCE|ভূমিকম্প
+SCIENCE|আগ্নেয়গিরি
+SCIENCE|ঘূর্ণিঝড়
+SCIENCE|বজ্রপাত
+SCIENCE|রংধনু
+SCIENCE|বৈশ্বিক উষ্ণায়ন
+SCIENCE|গ্রিনহাউস প্রভাব
+SCIENCE|আইজ্যাক নিউটন
+SCIENCE|গ্যালিলিও গ্যালিলেই
+SCIENCE|সত্যেন্দ্রনাথ বসু
+SCIENCE|প্রফুল্লচন্দ্র রায়
+SCIENCE|স্টিফেন হকিং
+SCIENCE|আলেকজান্ডার ফ্লেমিং
+SCIENCE|লুই পাস্তুর
+SCIENCE|গ্রেগর মেন্ডেল
+SCIENCE|দিমিত্রি মেন্ডেলিভ
+SCIENCE|সি ভি রমন
+SCIENCE|কাদম্বিনী গঙ্গোপাধ্যায়

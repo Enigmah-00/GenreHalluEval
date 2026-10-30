@@ -1,0 +1,8 @@
+genre,questions,BHS_context,BHS_no_context,difference,range95,usable
+HISTORY,0,–,–,–,– to –,no
+ARTS,0,–,–,–,– to –,no
+SCIENCE,0,–,–,–,– to –,no
+GEOGRAPHY,0,–,–,–,– to –,no
+RELIGION,0,–,–,–,– to –,no
+OTHER,0,–,–,–,– to –,no
+no_answer,920,100.00,100.00,0.00,0.00 to 0.00,yes

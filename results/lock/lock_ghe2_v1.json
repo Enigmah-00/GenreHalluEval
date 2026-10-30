@@ -1,0 +1,683 @@
+{
+ "lock_version": "ghe2_v1",
+ "created_utc": "2026-10-30T00:50:05+00:00",
+ "rule": "GenreHalluEval v2: every choice below was computed from the learn half only, before any test-half answer was judged. The test half never changes it.",
+ "source": {
+  "package": "GenreHalluEval-v2.0",
+  "learn_items_sha256": "68236850daa9dc5cb16656b9e695c951da01c0d81ad310ad245bfa22c8305995",
+  "pool_json_sha256": "63e98251a838a070b4ce0c9354cca406e86a7b3598e946b22303a1b130601459",
+  "labels_file": "data/labels/genrehallueval_v2/labels_v2.0.csv",
+  "labels_sha256": "b889529d0cfc13cb68b61b915de02e2bf281a59fde48163e736b5dbded3f4835",
+  "run_files_sha256": {
+   "ghe2_learn__deepseek-r1-14b__genre__genre_v2.jsonl": "29ebc2b97be628682ce5adf425e9c81ec0316231be3093b5bd99e9f29bea072f",
+   "ghe2_learn__deepseek-r1-14b__judge__judge_noctx_v1.jsonl": "62514616c1d774f628bda772e1f49cfd89fd8c0699a7de4c7cf1dd1f0b744791",
+   "ghe2_learn__deepseek-r1-14b__judge__judge_v1.jsonl": "c5a443368a2a89ce6a103a6a896b98159c6229cb7418cf8835794f6784051f40",
+   "ghe2_learn__gemma4-31b__genre__genre_v2.jsonl": "a416fe767984af9689f40040c8114466f82a7595b007ebb7c17f7c141d79c735",
+   "ghe2_learn__gemma4-31b__judge__judge_noctx_v1.jsonl": "7c334f367a90dcb25bde28cf4c8776d3613d92f1d66253cf118f9d68e416e138",
+   "ghe2_learn__gemma4-31b__judge__judge_v1.jsonl": "6f1ed39d451cd3c81dbb03ac311e17a49b2ed14cc946207973a6652c987af175",
+   "ghe2_learn__gpt-oss-20b__genre__genre_v2.jsonl": "6e4f1a300624fcb94f17ad99ef97d5b6e39fd5a9ccf6a4d8e57d02c9098e59b0",
+   "ghe2_learn__gpt-oss-20b__judge__judge_noctx_v1.jsonl": "7a3a5c6dd45e7ca98459f6fb5d07b2cae475d04ea3bd2ad1f18adc17c2148004",
+   "ghe2_learn__gpt-oss-20b__judge__judge_v1.jsonl": "54492b479e3b5efdd7419ec8378c12f3319dfbcb48c899b74fb551f1e130ace0",
+   "ghe2_learn__qwen3.5-27b__genre__genre_v2.jsonl": "160dc3ac7bbb15ff857e3f0cda2de2b661bd70681847db6c67e8a10ac57fb5cb",
+   "ghe2_learn__qwen3.5-27b__judge__judge_noctx_v1.jsonl": "efffbb772c309c8640e9109d76606007a76067d18f87ff4a8df40d274fcf8182",
+   "ghe2_learn__qwen3.5-27b__judge__judge_v1.jsonl": "ee36b9ebe406ac8d7d9077f15ef7fd6f01ffda57be0aebbd9faff61159aa1a8f",
+   "ghe2_learn__tigerllm-9b__genre__genre_bn_v2.jsonl": "daf84c551b0bccba2fa8d8f1208034ad6ff05f4079d01e9e7f2186f1b7b3df97",
+   "ghe2_learn__tigerllm-9b__judge__judge_bn_v1.jsonl": "b0fb5f6db6f01e14d017e45e3ae23a61f073eb19b34054210bf9442ef80fd8b9",
+   "ghe2_learn__tigerllm-9b__judge__judge_noctx_bn_v1.jsonl": "dca82bf4fef237c0bbfb463d5bd4cfdd1eec472e863db12ae48c249d292aba0d"
+  },
+  "questions": 600,
+  "answers": 3000
+ },
+ "setup": {
+  "prompt_ids": {
+   "en": {
+    "genre": "genre_v2",
+    "judge:context": "judge_v1",
+    "judge:no_context": "judge_noctx_v1"
+   },
+   "bn": {
+    "genre": "genre_bn_v2",
+    "judge:context": "judge_bn_v1",
+    "judge:no_context": "judge_noctx_bn_v1"
+   }
+  },
+  "prompt_sha12": {
+   "en": {
+    "genre": "810187157d2e",
+    "judge:context": "0e4241e4d57f",
+    "judge:no_context": "2fe589f38e9e"
+   },
+   "bn": {
+    "genre": "3be0e10a8dd6",
+    "judge:context": "f59b056def8e",
+    "judge:no_context": "a57d643a6502"
+   }
+  },
+  "prompt_language": {
+   "deepseek-r1-14b": "en",
+   "gemma4-31b": "en",
+   "gpt-oss-20b": "en",
+   "qwen3.5-27b": "en",
+   "tigerllm-9b": "bn"
+  },
+  "temperature": 0,
+  "seed": 2026,
+  "models": {
+   "deepseek-r1-14b": {
+    "model_id": "deepseek-r1:14b",
+    "version": "ollama 0.40.6; digest c333b7232bdb521236694ffbb5f5a6b11cc45d98e9142c73123b670fca400b09; Q4_K_M",
+    "num_ctx": 7168,
+    "parallel": 4,
+    "prompt_language": "en",
+    "prompt_ids": {
+     "genre": "genre_v2",
+     "judge:context": "judge_v1",
+     "judge:no_context": "judge_noctx_v1"
+    },
+    "max_new": {
+     "genre": 1024,
+     "judge": 1024
+    },
+    "think": true
+   },
+   "gemma4-31b": {
+    "model_id": "gemma4:31b",
+    "version": "ollama 0.40.6; digest 17ba34c06c801ba22f6047bab21ced9429c6d43e0e42ecf339b0f3e5a61e8d97; Q4_K_M",
+    "num_ctx": 3072,
+    "parallel": 2,
+    "prompt_language": "en",
+    "prompt_ids": {
+     "genre": "genre_v2",
+     "judge:context": "judge_v1",
+     "judge:no_context": "judge_noctx_v1"
+    },
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    },
+    "think": false
+   },
+   "gpt-oss-20b": {
+    "model_id": "gpt-oss:20b",
+    "version": "ollama 0.40.6; digest f38aa0c53da5f8c49d08c43a99df24ff53167fe68e24664a7777288e7656fdfe; MXFP4",
+    "num_ctx": 5120,
+    "parallel": 4,
+    "prompt_language": "en",
+    "prompt_ids": {
+     "genre": "genre_v2",
+     "judge:context": "judge_v1",
+     "judge:no_context": "judge_noctx_v1"
+    },
+    "max_new": {
+     "genre": 512,
+     "judge": 512
+    },
+    "think": "low"
+   },
+   "qwen3.5-27b": {
+    "model_id": "qwen3.5:27b",
+    "version": "ollama 0.40.6; digest 64ae5b1d651fb2709d5928ccb8dcfb4bb2cc9c2c8001ac34497e36a6cf905b59; Q4_K_M",
+    "num_ctx": 4096,
+    "parallel": 2,
+    "prompt_language": "en",
+    "prompt_ids": {
+     "genre": "genre_v2",
+     "judge:context": "judge_v1",
+     "judge:no_context": "judge_noctx_v1"
+    },
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    },
+    "think": false
+   },
+   "tigerllm-9b": {
+    "model_id": "hf.co/mradermacher/TigerLLM-9B-it-GGUF:Q4_K_M",
+    "version": "ollama 0.40.6; digest d2b91a15fc7e34289604835971cae670c5e31033b47c6e6dc1deaa5e6d2fea06; Q4_K_M",
+    "num_ctx": 3072,
+    "parallel": 4,
+    "prompt_language": "bn",
+    "prompt_ids": {
+     "genre": "genre_bn_v2",
+     "judge:context": "judge_bn_v1",
+     "judge:no_context": "judge_noctx_bn_v1"
+    },
+    "max_new": {
+     "genre": 16,
+     "judge": 16
+    },
+    "think": null
+   }
+  },
+  "record_status": {
+   "deepseek-r1-14b genre": {
+    "ok": 600
+   },
+   "deepseek-r1-14b judge:context": {
+    "ok": 2997,
+    "capped": 3
+   },
+   "deepseek-r1-14b judge:no_context": {
+    "ok": 2999,
+    "capped": 1
+   },
+   "gemma4-31b genre": {
+    "ok": 600
+   },
+   "gemma4-31b judge:context": {
+    "ok": 3000
+   },
+   "gemma4-31b judge:no_context": {
+    "ok": 3000
+   },
+   "gpt-oss-20b genre": {
+    "ok": 600
+   },
+   "gpt-oss-20b judge:context": {
+    "ok": 2999,
+    "capped": 1
+   },
+   "gpt-oss-20b judge:no_context": {
+    "ok": 2969,
+    "capped": 31
+   },
+   "qwen3.5-27b genre": {
+    "ok": 600
+   },
+   "qwen3.5-27b judge:context": {
+    "ok": 3000
+   },
+   "qwen3.5-27b judge:no_context": {
+    "ok": 3000
+   },
+   "tigerllm-9b genre": {
+    "ok": 600
+   },
+   "tigerllm-9b judge:context": {
+    "ok": 3000
+   },
+   "tigerllm-9b judge:no_context": {
+    "ok": 3000
+   }
+  }
+ },
+ "pools": {
+  "pool": [
+   "deepseek-r1-14b",
+   "gemma4-31b",
+   "gpt-oss-20b",
+   "qwen3.5-27b",
+   "tigerllm-9b"
+  ],
+  "usable": [
+   "deepseek-r1-14b",
+   "gemma4-31b",
+   "gpt-oss-20b",
+   "qwen3.5-27b",
+   "tigerllm-9b"
+  ],
+  "excluded": {}
+ },
+ "min_cell_questions": 50,
+ "conditions": {
+  "context": {
+   "overall_BHS": {
+    "gemma4-31b": {
+     "BHS": 0.33
+    },
+    "qwen3.5-27b": {
+     "BHS": 0.88
+    },
+    "gpt-oss-20b": {
+     "BHS": 4.15
+    },
+    "deepseek-r1-14b": {
+     "BHS": 20.98
+    },
+    "tigerllm-9b": {
+     "BHS": 36.12
+    }
+   },
+   "A_best_single_judge": "gemma4-31b",
+   "best_genre_guesser": {
+    "judge": "gemma4-31b",
+    "accuracy": {
+     "gemma4-31b": 94.7,
+     "qwen3.5-27b": 94.3,
+     "deepseek-r1-14b": 74.0,
+     "gpt-oss-20b": 72.8,
+     "tigerllm-9b": 69.7
+    }
+   },
+   "D_E_judge_per_genre": {
+    "HISTORY": {
+     "judge": "gemma4-31b",
+     "BHS": 0.0,
+     "questions": 50
+    },
+    "POLITICS": {
+     "judge": "qwen3.5-27b",
+     "BHS": 0.5,
+     "questions": 50
+    },
+    "EDUCATION": {
+     "judge": "gemma4-31b",
+     "BHS": 0.25,
+     "questions": 50
+    },
+    "ARTS": {
+     "judge": "gemma4-31b",
+     "BHS": 0.5,
+     "questions": 50
+    },
+    "CULTURE": {
+     "judge": "gemma4-31b",
+     "BHS": 0.5,
+     "questions": 50
+    },
+    "SPORTS": {
+     "judge": "gemma4-31b",
+     "BHS": 0.0,
+     "questions": 50
+    },
+    "SCIENCE": {
+     "judge": "gemma4-31b",
+     "BHS": 0.25,
+     "questions": 50
+    },
+    "TECHNOLOGY": {
+     "judge": "gemma4-31b",
+     "BHS": 0.0,
+     "questions": 50
+    },
+    "GEOGRAPHY": {
+     "judge": "gemma4-31b",
+     "BHS": 0.25,
+     "questions": 50
+    },
+    "PLACES": {
+     "judge": "gemma4-31b",
+     "BHS": 0.5,
+     "questions": 50
+    },
+    "RELIGION": {
+     "judge": "gemma4-31b",
+     "BHS": 0.0,
+     "questions": 50
+    },
+    "GRAMMAR": {
+     "judge": "gemma4-31b",
+     "BHS": 0.5,
+     "questions": 50
+    },
+    "OTHER": {
+     "judge": "gemma4-31b",
+     "BHS": null,
+     "questions": 0,
+     "note": "under 50 questions: falls back to A"
+    }
+   },
+   "F_own_genre_scores": {
+    "deepseek-r1-14b": {
+     "HISTORY": {
+      "BHS": 23.9286,
+      "questions": 105
+     },
+     "CULTURE": {
+      "BHS": 13.7255,
+      "questions": 51
+     },
+     "SCIENCE": {
+      "BHS": 18.2692,
+      "questions": 52
+     },
+     "GRAMMAR": {
+      "BHS": 18.75,
+      "questions": 52
+     }
+    },
+    "gemma4-31b": {
+     "HISTORY": {
+      "BHS": 0.0,
+      "questions": 63
+     },
+     "EDUCATION": {
+      "BHS": 0.25,
+      "questions": 50
+     },
+     "SCIENCE": {
+      "BHS": 0.25,
+      "questions": 50
+     },
+     "TECHNOLOGY": {
+      "BHS": 0.0,
+      "questions": 50
+     },
+     "PLACES": {
+      "BHS": 0.5,
+      "questions": 50
+     },
+     "GRAMMAR": {
+      "BHS": 0.4808,
+      "questions": 52
+     }
+    },
+    "gpt-oss-20b": {
+     "HISTORY": {
+      "BHS": 3.8732,
+      "questions": 142
+     },
+     "CULTURE": {
+      "BHS": 2.9545,
+      "questions": 55
+     },
+     "SCIENCE": {
+      "BHS": 3.9216,
+      "questions": 51
+     }
+    },
+    "qwen3.5-27b": {
+     "HISTORY": {
+      "BHS": 0.3731,
+      "questions": 67
+     },
+     "EDUCATION": {
+      "BHS": 0.75,
+      "questions": 50
+     },
+     "ARTS": {
+      "BHS": 0.75,
+      "questions": 50
+     },
+     "SCIENCE": {
+      "BHS": 0.75,
+      "questions": 50
+     },
+     "TECHNOLOGY": {
+      "BHS": 0.9804,
+      "questions": 51
+     },
+     "GRAMMAR": {
+      "BHS": 3.3482,
+      "questions": 56
+     }
+    },
+    "tigerllm-9b": {
+     "HISTORY": {
+      "BHS": 29.3367,
+      "questions": 147
+     },
+     "CULTURE": {
+      "BHS": 46.8137,
+      "questions": 51
+     },
+     "SCIENCE": {
+      "BHS": 37.2807,
+      "questions": 57
+     },
+     "GEOGRAPHY": {
+      "BHS": 29.1016,
+      "questions": 64
+     }
+    }
+   }
+  },
+  "no_context": {
+   "overall_BHS": {
+    "gemma4-31b": {
+     "BHS": 21.96
+    },
+    "qwen3.5-27b": {
+     "BHS": 23.1
+    },
+    "deepseek-r1-14b": {
+     "BHS": 29.79
+    },
+    "gpt-oss-20b": {
+     "BHS": 32.44
+    },
+    "tigerllm-9b": {
+     "BHS": 40.92
+    }
+   },
+   "A_best_single_judge": "gemma4-31b",
+   "best_genre_guesser": {
+    "judge": "gemma4-31b",
+    "accuracy": {
+     "gemma4-31b": 94.7,
+     "qwen3.5-27b": 94.3,
+     "deepseek-r1-14b": 74.0,
+     "gpt-oss-20b": 72.8,
+     "tigerllm-9b": 69.7
+    }
+   },
+   "D_E_judge_per_genre": {
+    "HISTORY": {
+     "judge": "gemma4-31b",
+     "BHS": 16.0,
+     "questions": 50
+    },
+    "POLITICS": {
+     "judge": "qwen3.5-27b",
+     "BHS": 21.25,
+     "questions": 50
+    },
+    "EDUCATION": {
+     "judge": "qwen3.5-27b",
+     "BHS": 33.75,
+     "questions": 50
+    },
+    "ARTS": {
+     "judge": "gemma4-31b",
+     "BHS": 28.5,
+     "questions": 50
+    },
+    "CULTURE": {
+     "judge": "gemma4-31b",
+     "BHS": 20.0,
+     "questions": 50
+    },
+    "SPORTS": {
+     "judge": "qwen3.5-27b",
+     "BHS": 25.75,
+     "questions": 50
+    },
+    "SCIENCE": {
+     "judge": "qwen3.5-27b",
+     "BHS": 10.5,
+     "questions": 50
+    },
+    "TECHNOLOGY": {
+     "judge": "qwen3.5-27b",
+     "BHS": 15.5,
+     "questions": 50
+    },
+    "GEOGRAPHY": {
+     "judge": "qwen3.5-27b",
+     "BHS": 18.75,
+     "questions": 50
+    },
+    "PLACES": {
+     "judge": "gemma4-31b",
+     "BHS": 19.25,
+     "questions": 50
+    },
+    "RELIGION": {
+     "judge": "gemma4-31b",
+     "BHS": 11.75,
+     "questions": 50
+    },
+    "GRAMMAR": {
+     "judge": "gemma4-31b",
+     "BHS": 23.0,
+     "questions": 50
+    },
+    "OTHER": {
+     "judge": "gemma4-31b",
+     "BHS": null,
+     "questions": 0,
+     "note": "under 50 questions: falls back to A"
+    }
+   },
+   "F_own_genre_scores": {
+    "deepseek-r1-14b": {
+     "HISTORY": {
+      "BHS": 27.7381,
+      "questions": 105
+     },
+     "CULTURE": {
+      "BHS": 41.9118,
+      "questions": 51
+     },
+     "SCIENCE": {
+      "BHS": 21.3942,
+      "questions": 52
+     },
+     "GRAMMAR": {
+      "BHS": 33.4135,
+      "questions": 52
+     }
+    },
+    "gemma4-31b": {
+     "HISTORY": {
+      "BHS": 15.6746,
+      "questions": 63
+     },
+     "EDUCATION": {
+      "BHS": 36.75,
+      "questions": 50
+     },
+     "SCIENCE": {
+      "BHS": 15.25,
+      "questions": 50
+     },
+     "TECHNOLOGY": {
+      "BHS": 16.75,
+      "questions": 50
+     },
+     "PLACES": {
+      "BHS": 19.5,
+      "questions": 50
+     },
+     "GRAMMAR": {
+      "BHS": 22.3558,
+      "questions": 52
+     }
+    },
+    "gpt-oss-20b": {
+     "HISTORY": {
+      "BHS": 27.2887,
+      "questions": 142
+     },
+     "CULTURE": {
+      "BHS": 35.6818,
+      "questions": 55
+     },
+     "SCIENCE": {
+      "BHS": 21.0784,
+      "questions": 51
+     }
+    },
+    "qwen3.5-27b": {
+     "HISTORY": {
+      "BHS": 15.8582,
+      "questions": 67
+     },
+     "EDUCATION": {
+      "BHS": 33.5,
+      "questions": 50
+     },
+     "ARTS": {
+      "BHS": 32.5,
+      "questions": 50
+     },
+     "SCIENCE": {
+      "BHS": 10.25,
+      "questions": 50
+     },
+     "TECHNOLOGY": {
+      "BHS": 15.1961,
+      "questions": 51
+     },
+     "GRAMMAR": {
+      "BHS": 28.3482,
+      "questions": 56
+     }
+    },
+    "tigerllm-9b": {
+     "HISTORY": {
+      "BHS": 36.8197,
+      "questions": 147
+     },
+     "CULTURE": {
+      "BHS": 44.8529,
+      "questions": 51
+     },
+     "SCIENCE": {
+      "BHS": 38.8158,
+      "questions": 57
+     },
+     "GEOGRAPHY": {
+      "BHS": 39.2578,
+      "questions": 64
+     }
+    }
+   }
+  }
+ },
+ "R_best_path": {
+  "per_condition": {
+   "context": {
+    "guesser": "gemma4-31b",
+    "A": "gemma4-31b",
+    "highest_our_genre_score": 0.5,
+    "askers": [
+     "gemma4-31b",
+     "qwen3.5-27b"
+    ],
+    "own_genre_cells_that_can_win": {
+     "gemma4-31b HISTORY": 0.0,
+     "gemma4-31b EDUCATION": 0.25,
+     "gemma4-31b SCIENCE": 0.25,
+     "gemma4-31b TECHNOLOGY": 0.0,
+     "gemma4-31b PLACES": 0.5,
+     "gemma4-31b GRAMMAR": 0.4808,
+     "qwen3.5-27b HISTORY": 0.3731
+    }
+   },
+   "no_context": {
+    "guesser": "gemma4-31b",
+    "A": "gemma4-31b",
+    "highest_our_genre_score": 33.75,
+    "askers": [
+     "deepseek-r1-14b",
+     "gemma4-31b",
+     "gpt-oss-20b",
+     "qwen3.5-27b"
+    ],
+    "own_genre_cells_that_can_win": {
+     "deepseek-r1-14b HISTORY": 27.7381,
+     "deepseek-r1-14b SCIENCE": 21.3942,
+     "deepseek-r1-14b GRAMMAR": 33.4135,
+     "gemma4-31b HISTORY": 15.6746,
+     "gemma4-31b SCIENCE": 15.25,
+     "gemma4-31b TECHNOLOGY": 16.75,
+     "gemma4-31b PLACES": 19.5,
+     "gemma4-31b GRAMMAR": 22.3558,
+     "gpt-oss-20b HISTORY": 27.2887,
+     "gpt-oss-20b SCIENCE": 21.0784,
+     "qwen3.5-27b HISTORY": 15.8582,
+     "qwen3.5-27b EDUCATION": 33.5,
+     "qwen3.5-27b ARTS": 32.5,
+     "qwen3.5-27b SCIENCE": 10.25,
+     "qwen3.5-27b TECHNOLOGY": 15.1961,
+     "qwen3.5-27b GRAMMAR": 28.3482
+    }
+   }
+  }
+ },
+ "tests_on_the_test_half": {
+  "main": "R vs A and F vs A, with the passage and without it (4 tests, Holm over 4), paired bootstrap over test questions, 10,000 re-samples, seed 2026, two-sided",
+  "also": "D, E vs A; determinism of A's judge across the two test notebooks"
+ }
+}

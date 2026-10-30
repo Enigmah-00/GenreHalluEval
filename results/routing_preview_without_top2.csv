@@ -1,0 +1,17 @@
+condition,scoring,method,BHS,vs_A,range95,clearly,judges_used
+context,in-sample,A,6.10,–,–,–,
+context,in-sample,C,8.51,+2.40,+1.70 to +3.11,worse,
+context,in-sample,E,6.05,-0.05,-0.43 to +0.34,no difference,"gemma2-27b 781, gpt-oss-20b 139"
+context,in-sample,F,6.15,+0.05,-0.43 to +0.56,no difference,"gemma2-27b 725, gpt-oss-20b 193, qwen2.5-32b 1, deepseek-r1-14b 1"
+context,5-fold,A,6.10,–,–,–,
+context,5-fold,C,8.51,+2.40,+1.70 to +3.11,worse,
+context,5-fold,E,6.52,+0.42,+0.00 to +0.91,no difference,"gemma2-27b 779, gpt-oss-20b 141"
+context,5-fold,F,6.43,+0.33,-0.12 to +0.79,no difference,"gemma2-27b 787, gpt-oss-20b 131, deepseek-r1-14b 1, qwen2.5-32b 1"
+no_context,in-sample,A,37.43,–,–,–,
+no_context,in-sample,C,36.14,-1.29,-2.57 to -0.07,better,
+no_context,in-sample,E,36.81,-0.62,-1.47 to +0.23,no difference,"qwen2.5-32b 680, gemma2-27b 139, deepseek-r1-14b 101"
+no_context,in-sample,F,37.16,-0.27,-1.18 to +0.57,no difference,"qwen2.5-32b 582, gemma2-27b 234, deepseek-r1-14b 79, gpt-oss-20b 25"
+no_context,5-fold,A,37.43,–,–,–,
+no_context,5-fold,C,36.14,-1.29,-2.57 to -0.07,better,
+no_context,5-fold,E,37.87,+0.43,-0.53 to +1.40,no difference,"qwen2.5-32b 622, deepseek-r1-14b 165, gemma2-27b 133"
+no_context,5-fold,F,38.02,+0.58,-0.42 to +1.55,no difference,"qwen2.5-32b 555, gemma2-27b 183, deepseek-r1-14b 151, gpt-oss-20b 31"

@@ -1,0 +1,11 @@
+{
+  "title": "GenreHalluEval",
+  "id": "YOUR_KAGGLE_USERNAME/genrehallueval",
+  "subtitle": "Bangla QA hallucination test set with genre labels",
+  "isPrivate": true,
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ]
+}

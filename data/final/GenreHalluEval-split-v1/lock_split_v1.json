@@ -1,0 +1,587 @@
+{
+ "lock_version": "split_v1",
+ "created_utc": "2026-10-27T23:14:37+00:00",
+ "rule": "Exploratory split experiment: every choice below was computed from the learn half of GenreHalluEval only, before any test-half answer was judged. The test half never changes it.",
+ "source": {
+  "package": "GenreHalluEval-split-v1",
+  "learn_items_sha256": "34aa4bada2e45ea4bc6c841bb0a5837b15c295ea096ded654f06200bbf4c3077",
+  "pool_json_sha256": "9f0cd915535c91832840bb826aa11d4dbe877b0bcfdeabc32adce7909e762707",
+  "labels_file": "data/labels/dataset2/passage_labels_agreed_v1.csv",
+  "labels_sha256": "e26c39bde241aa693e05d8adef818a4e36562964db42039ba2dbaebe555eea05",
+  "run_files_sha256": {
+   "ghesplit_learn__deepseek-r1-14b__genre__genre_v1.jsonl": "e9c9aa9ce9d0ca5cb76534eb01041287febd0a08734fe6db9dcd8b2cdcdc2d4f",
+   "ghesplit_learn__deepseek-r1-14b__judge__judge_noctx_v1.jsonl": "edb832dfacd301955c5a89539eb26fc341d61372898d497ba32b4ede76fff142",
+   "ghesplit_learn__deepseek-r1-14b__judge__judge_v1.jsonl": "80412e1e364412aade4c4ebd0f472fbd35d7a1f9d28910c2ff789a32de98caed",
+   "ghesplit_learn__gemma4-31b__genre__genre_v1.jsonl": "ed9a8b06c01c9dd3a6154eb200013d0f64411650f8fbd26ff20fa928669311dc",
+   "ghesplit_learn__gemma4-31b__judge__judge_noctx_v1.jsonl": "451c9bfa12dea038f2d5c31ad8f8c7134116c5c9f0176ef1d27101f08a3a0a10",
+   "ghesplit_learn__gemma4-31b__judge__judge_v1.jsonl": "05580056fa8f17243bb0c4b52ccf4ffef87fc38f43881dcc9675d255d5cd4fa6",
+   "ghesplit_learn__gpt-oss-20b__genre__genre_v1.jsonl": "cf391a58cb1cbed15ef097ca2fb36f88284483c5d6265c885703055667545495",
+   "ghesplit_learn__gpt-oss-20b__judge__judge_noctx_v1.jsonl": "ea7ee4e7df27aa3c678a97fe32bcf38364672d7b399260f4d4c70456b5c2006b",
+   "ghesplit_learn__gpt-oss-20b__judge__judge_v1.jsonl": "f7a07d83b84e494d792edc33d970ada59f3f7b0b1278ef809f295c214ffc4a7b",
+   "ghesplit_learn__qwen3.5-27b__genre__genre_v1.jsonl": "5c95e42f86be43f18630cce170781dff7eb45eb1ac01c9a3e08e590157dff7d4",
+   "ghesplit_learn__qwen3.5-27b__judge__judge_noctx_v1.jsonl": "d637e28335bf92599de9b0c4ab7101aff5d915a1384a830cf19783bbabacba6a",
+   "ghesplit_learn__qwen3.5-27b__judge__judge_v1.jsonl": "81325eadfd55731ac0c03bc5724fb91c5e55ddeb1f144200c0e107b8b3084dac",
+   "ghesplit_learn__tigerllm-9b__genre__genre_bn_v1.jsonl": "a678428bdb201bc7116b60306c51e82657e55d54da8546607c993fb49b3cdf4b",
+   "ghesplit_learn__tigerllm-9b__judge__judge_bn_v1.jsonl": "9e37e4064edc739787be0d8aa1e1e8ffd390b82a5f0b3a7a5471cdd053414024",
+   "ghesplit_learn__tigerllm-9b__judge__judge_noctx_bn_v1.jsonl": "f57210033053587731f5cc23ce56f69695e7223b222af915d9264087de9a5444"
+  },
+  "questions": 125,
+  "answers": 625
+ },
+ "setup": {
+  "prompt_ids": {
+   "en": {
+    "genre": "genre_v1",
+    "judge:context": "judge_v1",
+    "judge:no_context": "judge_noctx_v1"
+   },
+   "bn": {
+    "genre": "genre_bn_v1",
+    "judge:context": "judge_bn_v1",
+    "judge:no_context": "judge_noctx_bn_v1"
+   }
+  },
+  "prompt_sha12": {
+   "en": {
+    "genre": "3bb6f869c352",
+    "judge:context": "0e4241e4d57f",
+    "judge:no_context": "2fe589f38e9e"
+   },
+   "bn": {
+    "genre": "0f06339ba9b8",
+    "judge:context": "f59b056def8e",
+    "judge:no_context": "a57d643a6502"
+   }
+  },
+  "prompt_language": {
+   "deepseek-r1-14b": "en",
+   "gemma4-31b": "en",
+   "gpt-oss-20b": "en",
+   "qwen3.5-27b": "en",
+   "tigerllm-9b": "bn"
+  },
+  "temperature": 0,
+  "seed": 2026,
+  "models": {
+   "deepseek-r1-14b": {
+    "model_id": "deepseek-r1:14b",
+    "version": "ollama 0.40.6; digest c333b7232bdb521236694ffbb5f5a6b11cc45d98e9142c73123b670fca400b09; Q4_K_M",
+    "num_ctx": 5120,
+    "parallel": 4,
+    "prompt_language": "en",
+    "prompt_ids": {
+     "genre": "genre_v1",
+     "judge:context": "judge_v1",
+     "judge:no_context": "judge_noctx_v1"
+    },
+    "max_new": {
+     "genre": 1024,
+     "judge": 1024
+    },
+    "think": true
+   },
+   "gemma4-31b": {
+    "model_id": "gemma4:31b",
+    "version": "ollama 0.40.6; digest 17ba34c06c801ba22f6047bab21ced9429c6d43e0e42ecf339b0f3e5a61e8d97; Q4_K_M",
+    "num_ctx": 2048,
+    "parallel": 2,
+    "prompt_language": "en",
+    "prompt_ids": {
+     "genre": "genre_v1",
+     "judge:context": "judge_v1",
+     "judge:no_context": "judge_noctx_v1"
+    },
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    },
+    "think": false
+   },
+   "gpt-oss-20b": {
+    "model_id": "gpt-oss:20b",
+    "version": "ollama 0.40.6; digest f38aa0c53da5f8c49d08c43a99df24ff53167fe68e24664a7777288e7656fdfe; MXFP4",
+    "num_ctx": 3072,
+    "parallel": 4,
+    "prompt_language": "en",
+    "prompt_ids": {
+     "genre": "genre_v1",
+     "judge:context": "judge_v1",
+     "judge:no_context": "judge_noctx_v1"
+    },
+    "max_new": {
+     "genre": 512,
+     "judge": 512
+    },
+    "think": "low"
+   },
+   "qwen3.5-27b": {
+    "model_id": "qwen3.5:27b",
+    "version": "ollama 0.40.6; digest 64ae5b1d651fb2709d5928ccb8dcfb4bb2cc9c2c8001ac34497e36a6cf905b59; Q4_K_M",
+    "num_ctx": 3072,
+    "parallel": 2,
+    "prompt_language": "en",
+    "prompt_ids": {
+     "genre": "genre_v1",
+     "judge:context": "judge_v1",
+     "judge:no_context": "judge_noctx_v1"
+    },
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    },
+    "think": false
+   },
+   "tigerllm-9b": {
+    "model_id": "hf.co/mradermacher/TigerLLM-9B-it-GGUF:Q4_K_M",
+    "version": "ollama 0.40.6; digest d2b91a15fc7e34289604835971cae670c5e31033b47c6e6dc1deaa5e6d2fea06; Q4_K_M",
+    "num_ctx": 2048,
+    "parallel": 4,
+    "prompt_language": "bn",
+    "prompt_ids": {
+     "genre": "genre_bn_v1",
+     "judge:context": "judge_bn_v1",
+     "judge:no_context": "judge_noctx_bn_v1"
+    },
+    "max_new": {
+     "genre": 16,
+     "judge": 16
+    },
+    "think": null
+   }
+  },
+  "record_status": {
+   "deepseek-r1-14b genre": {
+    "ok": 125
+   },
+   "deepseek-r1-14b judge:context": {
+    "ok": 625
+   },
+   "deepseek-r1-14b judge:no_context": {
+    "ok": 625
+   },
+   "gemma4-31b genre": {
+    "ok": 125
+   },
+   "gemma4-31b judge:context": {
+    "ok": 625
+   },
+   "gemma4-31b judge:no_context": {
+    "ok": 625
+   },
+   "gpt-oss-20b genre": {
+    "ok": 125
+   },
+   "gpt-oss-20b judge:context": {
+    "ok": 625
+   },
+   "gpt-oss-20b judge:no_context": {
+    "ok": 610,
+    "capped": 15
+   },
+   "qwen3.5-27b genre": {
+    "ok": 125
+   },
+   "qwen3.5-27b judge:context": {
+    "ok": 625
+   },
+   "qwen3.5-27b judge:no_context": {
+    "ok": 625
+   },
+   "tigerllm-9b genre": {
+    "ok": 125
+   },
+   "tigerllm-9b judge:context": {
+    "ok": 625
+   },
+   "tigerllm-9b judge:no_context": {
+    "ok": 625
+   }
+  }
+ },
+ "pools": {
+  "pool": [
+   "deepseek-r1-14b",
+   "gemma4-31b",
+   "gpt-oss-20b",
+   "qwen3.5-27b",
+   "tigerllm-9b"
+  ],
+  "usable": [
+   "deepseek-r1-14b",
+   "gemma4-31b",
+   "gpt-oss-20b",
+   "qwen3.5-27b",
+   "tigerllm-9b"
+  ],
+  "excluded": {}
+ },
+ "min_cell_questions": 20,
+ "conditions": {
+  "context": {
+   "overall_BHS": {
+    "qwen3.5-27b": {
+     "BHS": 0.6
+    },
+    "gemma4-31b": {
+     "BHS": 0.7
+    },
+    "gpt-oss-20b": {
+     "BHS": 6.4
+    },
+    "deepseek-r1-14b": {
+     "BHS": 22.0
+    },
+    "tigerllm-9b": {
+     "BHS": 33.6
+    }
+   },
+   "A_best_single_judge": "qwen3.5-27b",
+   "best_genre_guesser": {
+    "judge": "qwen3.5-27b",
+    "accuracy": {
+     "qwen3.5-27b": 91.2,
+     "gemma4-31b": 86.4,
+     "gpt-oss-20b": 82.4,
+     "tigerllm-9b": 78.4,
+     "deepseek-r1-14b": 77.6
+    }
+   },
+   "D_E_judge_per_genre": {
+    "HISTORY": {
+     "judge": "qwen3.5-27b",
+     "BHS": 1.0,
+     "questions": 25
+    },
+    "ARTS": {
+     "judge": "gemma4-31b",
+     "BHS": 0.0,
+     "questions": 25
+    },
+    "SCIENCE": {
+     "judge": "gemma4-31b",
+     "BHS": 0.0,
+     "questions": 25
+    },
+    "GEOGRAPHY": {
+     "judge": "qwen3.5-27b",
+     "BHS": 0.5,
+     "questions": 25
+    },
+    "RELIGION": {
+     "judge": "qwen3.5-27b",
+     "BHS": 0.0,
+     "questions": 25
+    },
+    "OTHER": {
+     "judge": "qwen3.5-27b",
+     "BHS": null,
+     "questions": 0,
+     "note": "under 20 questions: falls back to A"
+    }
+   },
+   "F_own_genre_scores": {
+    "deepseek-r1-14b": {
+     "HISTORY": {
+      "BHS": 27.2436,
+      "questions": 39
+     },
+     "ARTS": {
+      "BHS": 19.8864,
+      "questions": 22
+     },
+     "SCIENCE": {
+      "BHS": 15.2174,
+      "questions": 23
+     },
+     "GEOGRAPHY": {
+      "BHS": 20.625,
+      "questions": 20
+     },
+     "RELIGION": {
+      "BHS": 23.2143,
+      "questions": 21
+     }
+    },
+    "gemma4-31b": {
+     "HISTORY": {
+      "BHS": 2.1552,
+      "questions": 29
+     },
+     "ARTS": {
+      "BHS": 0.0,
+      "questions": 22
+     },
+     "SCIENCE": {
+      "BHS": 0.0,
+      "questions": 23
+     },
+     "RELIGION": {
+      "BHS": 0.4464,
+      "questions": 28
+     }
+    },
+    "gpt-oss-20b": {
+     "HISTORY": {
+      "BHS": 9.2105,
+      "questions": 38
+     },
+     "ARTS": {
+      "BHS": 2.4038,
+      "questions": 26
+     },
+     "SCIENCE": {
+      "BHS": 5.4348,
+      "questions": 23
+     }
+    },
+    "qwen3.5-27b": {
+     "HISTORY": {
+      "BHS": 0.8929,
+      "questions": 28
+     },
+     "ARTS": {
+      "BHS": 1.0417,
+      "questions": 24
+     },
+     "SCIENCE": {
+      "BHS": 0.4808,
+      "questions": 26
+     },
+     "RELIGION": {
+      "BHS": 0.0,
+      "questions": 29
+     }
+    },
+    "tigerllm-9b": {
+     "HISTORY": {
+      "BHS": 38.8889,
+      "questions": 36
+     },
+     "SCIENCE": {
+      "BHS": 29.8913,
+      "questions": 23
+     },
+     "GEOGRAPHY": {
+      "BHS": 24.4048,
+      "questions": 21
+     },
+     "RELIGION": {
+      "BHS": 36.9565,
+      "questions": 23
+     }
+    }
+   }
+  },
+  "no_context": {
+   "overall_BHS": {
+    "gemma4-31b": {
+     "BHS": 23.0
+    },
+    "qwen3.5-27b": {
+     "BHS": 23.8
+    },
+    "deepseek-r1-14b": {
+     "BHS": 30.1
+    },
+    "gpt-oss-20b": {
+     "BHS": 36.3
+    },
+    "tigerllm-9b": {
+     "BHS": 38.7
+    }
+   },
+   "A_best_single_judge": "gemma4-31b",
+   "best_genre_guesser": {
+    "judge": "qwen3.5-27b",
+    "accuracy": {
+     "qwen3.5-27b": 91.2,
+     "gemma4-31b": 86.4,
+     "gpt-oss-20b": 82.4,
+     "tigerllm-9b": 78.4,
+     "deepseek-r1-14b": 77.6
+    }
+   },
+   "D_E_judge_per_genre": {
+    "HISTORY": {
+     "judge": "qwen3.5-27b",
+     "BHS": 39.5,
+     "questions": 25
+    },
+    "ARTS": {
+     "judge": "gemma4-31b",
+     "BHS": 31.0,
+     "questions": 25
+    },
+    "SCIENCE": {
+     "judge": "gemma4-31b",
+     "BHS": 11.0,
+     "questions": 25
+    },
+    "GEOGRAPHY": {
+     "judge": "gemma4-31b",
+     "BHS": 17.5,
+     "questions": 25
+    },
+    "RELIGION": {
+     "judge": "qwen3.5-27b",
+     "BHS": 13.0,
+     "questions": 25
+    },
+    "OTHER": {
+     "judge": "gemma4-31b",
+     "BHS": null,
+     "questions": 0,
+     "note": "under 20 questions: falls back to A"
+    }
+   },
+   "F_own_genre_scores": {
+    "deepseek-r1-14b": {
+     "HISTORY": {
+      "BHS": 37.1795,
+      "questions": 39
+     },
+     "ARTS": {
+      "BHS": 39.2045,
+      "questions": 22
+     },
+     "SCIENCE": {
+      "BHS": 16.3043,
+      "questions": 23
+     },
+     "GEOGRAPHY": {
+      "BHS": 29.375,
+      "questions": 20
+     },
+     "RELIGION": {
+      "BHS": 23.2143,
+      "questions": 21
+     }
+    },
+    "gemma4-31b": {
+     "HISTORY": {
+      "BHS": 35.7759,
+      "questions": 29
+     },
+     "ARTS": {
+      "BHS": 31.25,
+      "questions": 22
+     },
+     "SCIENCE": {
+      "BHS": 10.8696,
+      "questions": 23
+     },
+     "RELIGION": {
+      "BHS": 15.1786,
+      "questions": 28
+     }
+    },
+    "gpt-oss-20b": {
+     "HISTORY": {
+      "BHS": 45.3947,
+      "questions": 38
+     },
+     "ARTS": {
+      "BHS": 41.3462,
+      "questions": 26
+     },
+     "SCIENCE": {
+      "BHS": 26.087,
+      "questions": 23
+     }
+    },
+    "qwen3.5-27b": {
+     "HISTORY": {
+      "BHS": 35.2679,
+      "questions": 28
+     },
+     "ARTS": {
+      "BHS": 33.8542,
+      "questions": 24
+     },
+     "SCIENCE": {
+      "BHS": 12.0192,
+      "questions": 26
+     },
+     "RELIGION": {
+      "BHS": 15.9483,
+      "questions": 29
+     }
+    },
+    "tigerllm-9b": {
+     "HISTORY": {
+      "BHS": 46.1806,
+      "questions": 36
+     },
+     "SCIENCE": {
+      "BHS": 25.0,
+      "questions": 23
+     },
+     "GEOGRAPHY": {
+      "BHS": 34.5238,
+      "questions": 21
+     },
+     "RELIGION": {
+      "BHS": 38.0435,
+      "questions": 23
+     }
+    }
+   }
+  }
+ },
+ "R_best_path": {
+  "per_condition": {
+   "context": {
+    "guesser": "qwen3.5-27b",
+    "A": "qwen3.5-27b",
+    "highest_our_genre_score": 1.0,
+    "askers": [
+     "gemma4-31b",
+     "qwen3.5-27b"
+    ],
+    "own_genre_cells_that_can_win": {
+     "gemma4-31b ARTS": 0.0,
+     "gemma4-31b SCIENCE": 0.0,
+     "gemma4-31b RELIGION": 0.4464,
+     "qwen3.5-27b HISTORY": 0.8929,
+     "qwen3.5-27b SCIENCE": 0.4808,
+     "qwen3.5-27b RELIGION": 0.0
+    }
+   },
+   "no_context": {
+    "guesser": "qwen3.5-27b",
+    "A": "gemma4-31b",
+    "highest_our_genre_score": 39.5,
+    "askers": [
+     "deepseek-r1-14b",
+     "gemma4-31b",
+     "gpt-oss-20b",
+     "qwen3.5-27b",
+     "tigerllm-9b"
+    ],
+    "own_genre_cells_that_can_win": {
+     "deepseek-r1-14b HISTORY": 37.1795,
+     "deepseek-r1-14b ARTS": 39.2045,
+     "deepseek-r1-14b SCIENCE": 16.3043,
+     "deepseek-r1-14b GEOGRAPHY": 29.375,
+     "deepseek-r1-14b RELIGION": 23.2143,
+     "gemma4-31b HISTORY": 35.7759,
+     "gemma4-31b ARTS": 31.25,
+     "gemma4-31b SCIENCE": 10.8696,
+     "gemma4-31b RELIGION": 15.1786,
+     "gpt-oss-20b SCIENCE": 26.087,
+     "qwen3.5-27b HISTORY": 35.2679,
+     "qwen3.5-27b ARTS": 33.8542,
+     "qwen3.5-27b SCIENCE": 12.0192,
+     "qwen3.5-27b RELIGION": 15.9483,
+     "tigerllm-9b SCIENCE": 25.0,
+     "tigerllm-9b GEOGRAPHY": 34.5238,
+     "tigerllm-9b RELIGION": 38.0435
+    }
+   }
+  }
+ },
+ "tests_on_the_test_half": {
+  "main": "R vs A, with the passage and without it (2 tests, Holm), paired bootstrap over test questions, 10,000 re-samples, seed 2026, two-sided; exploratory like the whole experiment",
+  "also": "D, E, F vs A; determinism of A's judge across the two test notebooks"
+ }
+}

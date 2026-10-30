@@ -1,0 +1,975 @@
+{
+ "as_of": "2026-10-17",
+ "about": "Claude's currency and world-fact check (v1.3), done with Mahdi's review method because he will not review again: update a fact when a reliable current source exists (dated in the question); otherwise rewrite the question to the passage's date or to a lasting fact in the passage; drop what cannot be verified or fixed cleanly, and duplicates. kind: update, pin, world_fix, passage, drop.",
+ "items": {
+  "1": {
+   "kind": "pin",
+   "reason": "'বর্তমান (২০১৯)': Akhtaruzzaman was DU's VC in 2019 (2017-2024). Question and passage now say 2019.",
+   "question": "২০১৯ সালে ঢাকা বিশ্ববিদ্যালয়ের উপাচার্য কে ছিলেন ?",
+   "status": "FIXQ",
+   "time_sensitive": "no",
+   "context_patches": [
+    [
+     "এই বিশ্ববিদ্যালয়ের বর্তমান উপাচার্য মো. আখতারুজ্জামান।",
+     "২০১৯ সালে এই বিশ্ববিদ্যালয়ের উপাচার্য ছিলেন মো. আখতারুজ্জামান।"
+    ]
+   ]
+  },
+  "35": {
+   "kind": "update",
+   "reason": "The 1.8 million figure is about 2010; 2019 was about 2.8 million. Updated to the latest official figure (Qatar National Planning Council, March 2026: 3,370,611) with the date in the question. The passage's PM sentence (Abdullah bin Nasser, 2013-2020) was put in the past tense.",
+   "question": "২০২৬ সালের মার্চ মাসে কাতারের মোট জনসংখ্যা কত ছিল ?",
+   "correct_answer": "৩.৩৭ মিলিয়ন",
+   "status": "UPD",
+   "time_sensitive": "no",
+   "context_patches": [
+    [
+     "কাতারের মোট জনসংখ্যা ১.৮ মিলিয়ন।",
+     "কাতারের জাতীয় পরিকল্পনা পরিষদের হিসাবে ২০২৬ সালের মার্চ মাসে কাতারের মোট জনসংখ্যা ছিল ৩.৩৭ মিলিয়ন।"
+    ],
+    [
+     "আব্দুল্লাহ বিন নাসের বিন খলিফা আল থানি ২০১৩ সাল থেকে দেশটির প্রধানমন্ত্রী।",
+     "আব্দুল্লাহ বিন নাসের বিন খলিফা আল থানি ২০১৩ থেকে ২০২০ সাল পর্যন্ত দেশটির প্রধানমন্ত্রী ছিলেন।"
+    ]
+   ],
+   "source": "marhaba.qa (National Planning Council, March 2026); globalmediainsight.com"
+  },
+  "40": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 656: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first). Also, the kept seed asks for the first Bangla rock band; 'first Indian rock band' (this seed) is not true of Moheener Ghoraguli."
+  },
+  "47": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 489: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first). The kept seed is Mahdi's revived question (birthplace); 'citizen of which country' does not fit an 8th-century scholar."
+  },
+  "48": {
+   "kind": "pin",
+   "reason": "'Tokyo city' population: the passage gives 90 lakh for the core city; 3.8 crore is the Tokyo-Yokohama area, which the gold refers to. Question now names that area (Mahdi kept the figure; it matches Wikipedia).",
+   "question": "টোকিও-ইয়োকোহামা অঞ্চলকে একটি মহানগর এলাকা ধরলে এর জনসংখ্যা প্রায় কত ?",
+   "status": "FIXQ",
+   "time_sensitive": "no"
+  },
+  "71": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 15: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "80": {
+   "kind": "update",
+   "reason": "71.5 million is about 2008; 2019 was about 83 million. Updated to TÜİK's ADNKS 2025 result (86,092,168 on 31 Dec 2025, published 9 Feb 2026), dated in the question. The old density figure (92) was put in the past tense.",
+   "question": "২০২৫ সালের ৩১ ডিসেম্বর তুরস্কের জনসংখ্যা কত ছিল ?",
+   "correct_answer": "প্রায় আট কোটি ৬১ লাখ",
+   "status": "UPD",
+   "time_sensitive": "no",
+   "context_patches": [
+    [
+     "তুরস্কের জনসংখ্যা প্রায় সাত কোটি ১৫ লাখ।",
+     "তুর্কি পরিসংখ্যান ইনস্টিটিউটের হিসাবে ২০২৫ সালের ৩১ ডিসেম্বর তুরস্কের জনসংখ্যা ছিল প্রায় আট কোটি ৬১ লাখ।"
+    ],
+    [
+     "প্রতি বর্গকিলোমিটারে এর জনসংখ্যা ৯২ জন।",
+     "এক সময় প্রতি বর্গকিলোমিটারে এর জনসংখ্যা ছিল ৯২ জন।"
+    ]
+   ],
+   "source": "TÜİK ADNKS 2025 (ekonomigazetesi.com, bloomberght.com)"
+  },
+  "97": {
+   "kind": "world_fix",
+   "reason": "Albania's first president was Ahmet Zogu (1925); Ramiz Alia became the first president of the 1991 republic, which is what the passage says.",
+   "question": "১৯৯১ সালে আলবেনিয়া প্রজাতন্ত্রের নবসৃষ্ট রাষ্ট্রপতি পদে কাকে বসানো হয় ?",
+   "status": "FIXQ"
+  },
+  "134": {
+   "kind": "world_fix",
+   "reason": "The passage is about the first (1952) Shaheed Minar, not the central one (designed by Hamidur Rahman).",
+   "question": "১৯৫২ সালে প্রথম শহীদ মিনার কারা নির্মাণ করে ?",
+   "status": "FIXQ"
+  },
+  "153": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: Manik Sarkar was CM 1998-2018 (now Manik Saha).",
+   "context_patches": [
+    [
+     "বর্তমান মুখ্যমন্ত্রী মাণিক সরকার ১৯৯৮ সালের মার্চ মাস থেকে ত্রিপুরা রাজ্যের মুখ্যমন্ত্রী।",
+     "মাণিক সরকার ১৯৯৮ সালের মার্চ মাস থেকে ২০১৮ সালের মার্চ মাস পর্যন্ত ত্রিপুরা রাজ্যের মুখ্যমন্ত্রী ছিলেন।"
+    ]
+   ]
+  },
+  "155": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: Warner's teams were 'current' years ago.",
+   "context_patches": [
+    [
+     "বর্তমানে তিনি নিউ সাউথ ওয়েলস, সানরাইজার্স হায়দ্রাবাদ এবং সিডনি থান্ডারের পক্ষ হয়ে খেলছেন।",
+     "বিভিন্ন সময়ে তিনি নিউ সাউথ ওয়েলস, সানরাইজার্স হায়দ্রাবাদ এবং সিডনি থান্ডারের পক্ষ হয়ে খেলেছেন।"
+    ]
+   ]
+  },
+  "158": {
+   "kind": "world_fix",
+   "reason": "দর্শন is a Sanskrit word, not from English 'philosophy'; it is the Bangla equivalent of 'philosophy'. Passage sentence and question fixed.",
+   "question": "দর্শন শব্দটি ইংরেজি কোন শব্দের প্রতিশব্দ ?",
+   "status": "FIXQ",
+   "context_patches": [
+    [
+     "দর্শন শব্দটি ইংরেজি philosophy শব্দ থেকে এসেছে।",
+     "দর্শন শব্দটি ইংরেজি philosophy শব্দের প্রতিশব্দ হিসেবে ব্যবহৃত হয়।"
+    ]
+   ]
+  },
+  "162": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: Dated to match the 2018 question. Passage: Dated to match the 2018 question.",
+   "context_patches": [
+    [
+     "বর্তমান শিরোপাধারী চ্যাম্পিয়ন ফ্রান্স ।",
+     "২০১৮ সালের শিরোপাধারী চ্যাম্পিয়ন ফ্রান্স ।"
+    ],
+    [
+     "এ পর্যন্ত অনুষ্ঠিত ২১টি আসরে",
+     "২০১৮ সাল পর্যন্ত অনুষ্ঠিত ২১টি আসরে"
+    ]
+   ]
+  },
+  "172": {
+   "kind": "pin",
+   "reason": "The passage's director (Bimal Roy, until 2015) and dean were out of date even for 2019. Question rewritten to a lasting fact in the passage; the stale sentence put in the past.",
+   "question": "আই এস আই কাউন্সিলের স্থায়ী সদস্য কারা ?",
+   "correct_answer": "পরিচালক ও ডিন",
+   "status": "FIXA",
+   "context_patches": [
+    [
+     "বর্তমানে আই এস আই এর পরিচালক বিমল কুমার রায় ও ডিন হলেন প্রদীপ্ত বন্দ্যোপাধ্যায়।",
+     "একসময় আই এস আই এর পরিচালক ছিলেন বিমল কুমার রায় এবং ডিন ছিলেন প্রদীপ্ত বন্দ্যোপাধ্যায়।"
+    ]
+   ]
+  },
+  "191": {
+   "kind": "world_fix",
+   "reason": "Calcutta's municipal body is far older than 1922; the passage dates the democratic self-governing corporation. Question says so; stale 'current mayor' sentence put in the past.",
+   "question": "সুরেন্দ্রনাথ বন্দ্যোপাধ্যায়ের উদ্যোগে কত সালে কলকাতা পৌরসংস্থা গণতান্ত্রিক স্বায়ত্তশাসন সংস্থা হিসেবে প্রতিষ্ঠিত হয় ?",
+   "status": "FIXQ",
+   "context_patches": [
+    [
+     "শোভন চট্টোপাধ্যায় কলকাতা পৌরসংস্থার বর্তমান মহানাগরিক।",
+     "২০১০ থেকে ২০১৮ সাল পর্যন্ত শোভন চট্টোপাধ্যায় কলকাতা পৌরসংস্থার মহানাগরিক ছিলেন।"
+    ]
+   ]
+  },
+  "194": {
+   "kind": "pin",
+   "reason": "Trudeau and Sophie Grégoire separated in 2023, so 'wife' is out of date; the passage dates the 2005 marriage. The gold's case ending (-এর) was also removed, as Mahdi did for 913.",
+   "question": "জাস্টিন পিয়েরে জেমস ট্রুডো ২০০৫ সালে কাকে বিয়ে করেন ?",
+   "correct_answer": "সোফি গ্রেগর",
+   "status": "FIXQ"
+  },
+  "199": {
+   "kind": "pin",
+   "reason": "The passage says about 130 languages besides Malay; the question now says so.",
+   "question": "মালয় ভাষা ছাড়া মালয়েশিয়াতে আরও প্রায় কতগুলো ভাষা প্রচলিত ?",
+   "status": "FIXQ"
+  },
+  "211": {
+   "kind": "world_fix",
+   "reason": "The University of Barisal was established by act in 2011; 25 Jan 2012 is when classes began, as the passage says.",
+   "question": "বরিশাল বিশ্ববিদ্যালয়ের শিক্ষাগত কার্যক্রম কবে উদ্বোধন করা হয় ?",
+   "status": "FIXQ"
+  },
+  "217": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 49: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "219": {
+   "kind": "update",
+   "reason": "The passage's 24 parts and 113 amendments are out of date; the constitution now has 25 parts, 448 articles and 12 schedules, amended 106 times (see seed 169). Gold 448 unchanged.",
+   "status": "UPD",
+   "context_patches": [
+    [
+     "এই সংবিধানে মোট ২৪টি অংশে ৪৪৮টি ধারা, ১২টি তফসিল এবং ১১৩টি সংশোধনী বিদ্যমান।",
+     "এই সংবিধানে মোট ২৫টি অংশে ৪৪৮টি ধারা ও ১২টি তফসিল রয়েছে এবং এটি এ পর্যন্ত ১০৬ বার সংশোধিত হয়েছে।"
+    ]
+   ]
+  },
+  "225": {
+   "kind": "world_fix",
+   "reason": "The age just before the Neolithic is the Mesolithic, not the Palaeolithic; the passage only says prehistory began in the Palaeolithic.",
+   "question": "মানুষের প্রাগৈতিহাসিক যুগের সূচনা কোন যুগে ঘটে ?",
+   "status": "FIXQ"
+  },
+  "229": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 7: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "241": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 7: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "248": {
+   "kind": "drop",
+   "reason": "The passage says Burj Al Arab belongs to 'Sheikh Nahyan'; it is owned by Jumeirah (Dubai). The passage has no other lasting fact to ask about.",
+   "drop": true
+  },
+  "251": {
+   "kind": "update",
+   "reason": "About 225 shark species is an old figure; more than 500 species are known today. Passage and gold updated.",
+   "correct_answer": "৫০০টিরও বেশি",
+   "status": "UPD",
+   "context_patches": [
+    [
+     "প্রায় ২২৫টি প্রজাতির জন্য",
+     "৫০০টিরও বেশি প্রজাতির জন্য"
+    ]
+   ]
+  },
+  "254": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 239: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "258": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 123: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "268": {
+   "kind": "world_fix",
+   "reason": "The term 'social engineering' predates Hadnagy; the passage credits him with the first framework of its definitions.",
+   "question": "সোশ্যাল ইঞ্জিনিয়ারিং-এর বস্তুগত ও মনস্তাত্ত্বিক সংজ্ঞার প্রথম কাঠামো কে প্রণয়ন করেন ?",
+   "status": "FIXQ"
+  },
+  "279": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: Guerrero captained Peru in 2019; not current.",
+   "context_patches": [
+    [
+     "পেরুর বর্তমান অধিনায়ক হিসেবে রয়েছেন ফরোয়ার্ড পাউলো গুরিরো।",
+     "২০১৯ সালে পেরুর অধিনায়ক ছিলেন ফরোয়ার্ড পাউলো গুরিরো।"
+    ]
+   ]
+  },
+  "281": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: Davidson was CEO 2007-2014.",
+   "context_patches": [
+    [
+     "ব্রিটিশ কাউন্সিলের বর্তমান প্রধান নির্বাহী হিসেবে মার্টিন ডেভিডসন এপ্রিল, ২০০৭ থেকে কর্মরত আছেন।",
+     "মার্টিন ডেভিডসন এপ্রিল, ২০০৭ থেকে ২০১৪ সাল পর্যন্ত ব্রিটিশ কাউন্সিলের প্রধান নির্বাহী ছিলেন।"
+    ]
+   ]
+  },
+  "293": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 184: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "301": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: Dated instead of 'currently'.",
+   "context_patches": [
+    [
+     "মহাকরণ ভবনের সংস্কারের জন্য বর্তমানে এই ভবনটি অস্থায়ীভাবে পশ্চিমবঙ্গ রাজ্য সচিবালয় হিসেবে ব্যবহৃত হচ্ছে।",
+     "মহাকরণ ভবনের সংস্কারের জন্য ২০১৩ সাল থেকে এই ভবনটি অস্থায়ীভাবে পশ্চিমবঙ্গ রাজ্য সচিবালয় হিসেবে ব্যবহৃত হয়েছে।"
+    ]
+   ]
+  },
+  "308": {
+   "kind": "world_fix",
+   "reason": "The question said 'আমির খান' (Bollywood's Aamir Khan) but the passage is about the Bangladeshi actor Amin Khan (debut অবুঝ দুটি মন, 1993).",
+   "question": "বাংলাদেশি অভিনেতা আমিন খান অভিনীত প্রথম চলচ্চিত্রটির নাম কী ?",
+   "status": "FIXQ"
+  },
+  "336": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: Sheikh Hasina was PM until August 2024.",
+   "context_patches": [
+    [
+     "তার কন্যা শেখ হাসিনা বাংলাদেশ আওয়ামী লীগের বর্তমান সভানেত্রী এবং বাংলাদেশের বর্তমান প্রধানমন্ত্রী।",
+     "তার কন্যা শেখ হাসিনা বাংলাদেশ আওয়ামী লীগের সভানেত্রী এবং ২০০৯ থেকে ২০২৪ সাল পর্যন্ত বাংলাদেশের প্রধানমন্ত্রী ছিলেন।"
+    ]
+   ]
+  },
+  "344": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 60: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "357": {
+   "kind": "pin",
+   "reason": "The area does not change; '(২০১৯)' removed.",
+   "question": "মায়ানমারের মোট আয়তন কত ?",
+   "status": "FIXQ"
+  },
+  "365": {
+   "kind": "world_fix",
+   "reason": "Suhrawardy and Abul Hashim are not usually named as the founders; the passage's own lasting fact is the first president, Maulana Bhashani.",
+   "question": "১৯৪৯ সালে প্রতিষ্ঠিত পূর্ব পাকিস্তান আওয়ামী মুসলিম লীগের সভাপতি কে ছিলেন ?",
+   "correct_answer": "মওলানা আবদুল হামিদ খান ভাসানী",
+   "status": "FIXA"
+  },
+  "370": {
+   "kind": "pin",
+   "reason": "Shashank Manohar chaired the ICC from Nov 2015 to July 2020. Question says 2019 in the past tense; passage sentence put in the past.",
+   "question": "২০১৯ সালে আন্তর্জাতিক ক্রিকেট কাউন্সিলের চেয়ারম্যান কে ছিলেন ?",
+   "status": "FIXQ",
+   "time_sensitive": "no",
+   "context_patches": [
+    [
+     "এরপর ২২ নভেম্বর, ২০১৫ তারিখ থেকে বিসিসিআইয়ের নতুন সভাপতি শশাঙ্ক মনোহর এ দায়িত্বে রয়েছেন।",
+     "এরপর ২২ নভেম্বর, ২০১৫ তারিখ থেকে ২০২০ সাল পর্যন্ত বিসিসিআইয়ের তৎকালীন সভাপতি শশাঙ্ক মনোহর এ দায়িত্বে ছিলেন।"
+    ]
+   ]
+  },
+  "378": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: Zaheer Abbas served 2015-2016. Passage: Richardson was ICC CEO 2012-2019.",
+   "context_patches": [
+    [
+     "জুন, ২০১৫ সাল থেকে বর্তমান সভাপতি হিসেবে রয়েছেন",
+     "জুন, ২০১৫ সাল থেকে সভাপতি হিসেবে দায়িত্ব পালন করেন"
+    ],
+    [
+     "আইসিসির বর্তমান প্রধান নির্বাহী কর্মকর্তার দায়িত্ব পালন করছেন সাবেক দক্ষিণ আফ্রিকান ক্রিকেটার ডেভ রিচার্ডসন হারুন লরগাতের স্থলাভিষিক্ত হন।",
+     "২০১২ থেকে ২০১৯ সাল পর্যন্ত আইসিসির প্রধান নির্বাহী কর্মকর্তার দায়িত্ব পালন করেন সাবেক দক্ষিণ আফ্রিকান ক্রিকেটার ডেভ রিচার্ডসন, যিনি হারুন লরগাতের স্থলাভিষিক্ত হন।"
+    ]
+   ]
+  },
+  "381": {
+   "kind": "pin",
+   "reason": "Netanyahu is PM today, but Israel votes on 27 Oct 2026, so 'current' may change during the benchmark. Pinned to October 2026.",
+   "question": "২০২৬ সালের অক্টোবর অনুযায়ী ইসরাইলের প্রধানমন্ত্রী কে ?",
+   "status": "FIXQ",
+   "time_sensitive": "no",
+   "context_patches": [
+    [
+     "হলেন ইসরাইলের বর্তমান প্রধানমন্ত্রী।",
+     "২০২৬ সালের অক্টোবর অনুযায়ী ইসরাইলের প্রধানমন্ত্রী।"
+    ],
+    [
+     "তিনি এছাড়াও বর্তমানে নেসেটের সদস্য",
+     "তিনি এছাড়াও নেসেটের সদস্য"
+    ]
+   ]
+  },
+  "385": {
+   "kind": "world_fix",
+   "reason": "The League of Nations was founded on 10 January 1920 (its covenant was signed in 1919). Passage and gold corrected.",
+   "correct_answer": "১৯২০ সালে",
+   "status": "FIXA",
+   "context_patches": [
+    [
+     "এটি ১৯১৯ সালে প্রতিষ্ঠিত এবং",
+     "এটি ১৯২০ সালে প্রতিষ্ঠিত এবং"
+    ]
+   ]
+  },
+  "387": {
+   "kind": "drop",
+   "reason": "DU student count for 2019 cannot be verified; Mahdi dropped the same fact (seed 545) as 'confusing'.",
+   "drop": true
+  },
+  "403": {
+   "kind": "pin",
+   "reason": "The passage says 'about 200' sovereign states; the real count is about 195, so the question now asks 'about how many'.",
+   "question": "পৃথিবীতে প্রায় কয়টি স্বাধীন সার্বভৌম রাষ্ট্র রয়েছে ?",
+   "status": "FIXQ"
+  },
+  "409": {
+   "kind": "update",
+   "reason": "The passage's 213,200 drops a digit: Aleppo's 2004 census population was 2,132,100 (Britannica, Wikipedia). Question and passage now name the 2004 census; there is no newer census.",
+   "question": "২০০৪ সালের আদমশুমারি অনুযায়ী আলেপ্পোর জনসংখ্যা কত ছিল ?",
+   "correct_answer": "২১,৩২,১০০",
+   "status": "UPD",
+   "time_sensitive": "no",
+   "context_patches": [
+    [
+     "আলেপ্পোর জনসংখ্যা ২১৩২০০,",
+     "২০০৪ সালের আদমশুমারি অনুযায়ী আলেপ্পোর জনসংখ্যা ছিল ২১,৩২,১০০,"
+    ]
+   ],
+   "source": "britannica.com/place/Aleppo; worldatlas.com"
+  },
+  "416": {
+   "kind": "drop",
+   "reason": "The passage says Hashim al-Atassi was the first PM of the Arab Kingdom of Syria; it was Rida al-Rikabi. The other appointments in the same sentence are also misdated.",
+   "drop": true
+  },
+  "420": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 224: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "437": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 27: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "446": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 77: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "450": {
+   "kind": "world_fix",
+   "reason": "Baltoro is not the world's longest glacier (Lambert is); it is one of the longest outside the polar regions, about 63 km. Passage corrected; question asks where it is.",
+   "question": "গ্রেট বালটোরা হিমবাহ কোন পর্বতমালায় অবস্থিত ?",
+   "correct_answer": "কারাকোরাম পর্বতমালাতে",
+   "status": "FIXA",
+   "context_patches": [
+    [
+     "গ্রেট বালটোরা পৃথিবীর দীর্ঘতম হিমবাহ। এর দৈর্ঘ্য প্রায় ৫৮ কিলোমিটার।",
+     "গ্রেট বালটোরা মেরু অঞ্চলের বাইরে পৃথিবীর দীর্ঘতম হিমবাহগুলোর একটি। এর দৈর্ঘ্য প্রায় ৬৩ কিলোমিটার।"
+    ]
+   ]
+  },
+  "454": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 395: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "456": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 430: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "465": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 448: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "496": {
+   "kind": "world_fix",
+   "reason": "The Aztec Empire is dated from the Triple Alliance of 1428, not 1425. Passage and gold corrected.",
+   "correct_answer": "১৪২৮",
+   "status": "FIXA",
+   "context_patches": [
+    [
+     "(১৪২৫-১৫২১)",
+     "(১৪২৮-১৫২১)"
+    ]
+   ]
+  },
+  "500": {
+   "kind": "world_fix",
+   "reason": "By population, Asansol (not Bardhaman) is West Bengal's second-largest city. Passage and gold corrected.",
+   "correct_answer": "আসানসোল",
+   "status": "FIXA",
+   "context_patches": [
+    [
+     "পশ্চিমবঙ্গের দ্বিতীয় বৃহত্তম শহর বর্ধমান ৷",
+     "পশ্চিমবঙ্গের দ্বিতীয় বৃহত্তম শহর আসানসোল ৷"
+    ]
+   ]
+  },
+  "502": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 7: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "503": {
+   "kind": "drop",
+   "reason": "Duplicate of seed 450 (same passage, same question).",
+   "drop": true
+  },
+  "520": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 359: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "524": {
+   "kind": "world_fix",
+   "reason": "'অধ্যায়' usually means sura (114); the passage's 30 is the number of paras.",
+   "question": "কুরআন মোট কয়টি পারায় বিভক্ত ?",
+   "status": "FIXQ"
+  },
+  "528": {
+   "kind": "world_fix",
+   "reason": "Most of Hakaluki Haor is in Moulvibazar district; it is in Sylhet division ('greater Sylhet', as the passage says).",
+   "question": "হাকালুকি হাওর বাংলাদেশের কোন বিভাগে অবস্থিত ?",
+   "status": "FIXQ"
+  },
+  "565": {
+   "kind": "world_fix",
+   "reason": "Gold span included an extra word (প্রধানমন্ত্রী); trimmed, as Mahdi did for seed 624.",
+   "correct_answer": "অটলবিহারী বাজপেয়ী",
+   "status": "FIXS"
+  },
+  "578": {
+   "kind": "drop",
+   "reason": "Pharma company count 'currently (2019)' from an undated BAPI figure; no verified number (same rule as Mahdi's drops of unverified counts).",
+   "drop": true
+  },
+  "580": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 187: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "581": {
+   "kind": "world_fix",
+   "reason": "Ramlochan was Dwarkanath's adoptive father (his birth father was Rammoni); the passage says he inherited the zamindari from Ramlochan.",
+   "question": "প্রিন্স দ্বারকানাথ ঠাকুর উত্তরাধিকারসূত্রে কার কাছ থেকে জমিদারি পেয়েছিলেন ?",
+   "correct_answer": "রামলোচন",
+   "status": "FIXA"
+  },
+  "598": {
+   "kind": "pin",
+   "reason": "€674.6 million is Real Madrid's 2016-17 revenue (the passage says so); 2018 was the Forbes valuation year.",
+   "question": "২০১৬–১৭ মৌসুমে রিয়াল মাদ্রিদ ফুটবল ক্লাবের বার্ষিক আয় কত ছিল ?",
+   "status": "FIXQ"
+  },
+  "604": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: Lesnar left WWE in 2023.",
+   "context_patches": [
+    [
+     "বর্তমানে সে   ডাব্লিউডাব্লিউই এর ডাব্লিউডাব্লিউই র ব্রান্ডের সাথে চুক্তিবদ্ধ আছেন।",
+     "একসময় সে ডাব্লিউডাব্লিউই এর র ব্রান্ডের সাথে চুক্তিবদ্ধ ছিলেন।"
+    ]
+   ]
+  },
+  "635": {
+   "kind": "world_fix",
+   "reason": "In most Ramayana versions Indrajit's wife is Sulochana; Pramila is the name in Madhusudan's Meghnad Badh Kavya, which the passage is about. Genre follows the literary work (guide rule 7).",
+   "question": "মাইকেল মধুসূদন দত্তের মেঘনাদবধ কাব্যে মেঘনাদের স্ত্রীর নাম কী ?",
+   "status": "FIXQ",
+   "genre": "Arts, Culture & Sports"
+  },
+  "641": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 567: same question and answer, from another passage."
+  },
+  "663": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 497: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "682": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 15: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "687": {
+   "kind": "world_fix",
+   "reason": "Gosling's first feature film was earlier (Remember the Titans, 2000); The Believer (2001) was his first leading role.",
+   "question": "রায়ান থমাস গসলিং প্রথম কোন চলচ্চিত্রে প্রধান চরিত্রে অভিনয় করেন ?",
+   "status": "FIXQ",
+   "context_patches": [
+    [
+     "চলচ্চিত্রে তার প্রথম কাজ হল",
+     "চলচ্চিত্রে প্রধান চরিত্রে তার প্রথম কাজ হল"
+    ]
+   ]
+  },
+  "688": {
+   "kind": "world_fix",
+   "reason": "After the Palaeolithic comes the Mesolithic, not the Neolithic. Question rewritten to what the passage says about the Neolithic.",
+   "question": "নব্যপ্রস্তর যুগে কোন বিপ্লবের সূচনা ঘটে ?",
+   "correct_answer": "কৃষি বিপ্লব",
+   "status": "FIXA"
+  },
+  "690": {
+   "kind": "world_fix",
+   "reason": "Gold was a truncated title; the book is 'প্রথম গান, দ্বিতীয় মৃত্যুর আগে'.",
+   "correct_answer": "প্রথম গান, দ্বিতীয় মৃত্যুর আগে",
+   "status": "FIXS"
+  },
+  "692": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 345: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "699": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 137: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "702": {
+   "kind": "world_fix",
+   "reason": "The language movement began in 1947-48, not 1951. Question rewritten to the passage's lasting fact (21 February 1952).",
+   "question": "কোন খ্রিস্টাব্দের ২১শে ফেব্রুয়ারি ঢাকা বিশ্ববিদ্যালয়ে প্রতিবাদী ছাত্ররা মাতৃভাষার দাবিতে জীবন উৎসর্গ করেন ?",
+   "correct_answer": "১৯৫২",
+   "status": "FIXA"
+  },
+  "712": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 350: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "732": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: Barnet left Underhill in 2013; the question already asks in the past.",
+   "context_patches": [
+    [
+     "বর্তমানে স্টেডিয়ামটি বার্নেট ফুটবল ক্লাবের মালিকানাধীন।",
+     "একসময় স্টেডিয়ামটি বার্নেট ফুটবল ক্লাবের মালিকানাধীন ছিল।"
+    ]
+   ]
+  },
+  "733": {
+   "kind": "world_fix",
+   "reason": "Surah Al-Kahf has 12 rukus, not 11. Passage and gold corrected.",
+   "correct_answer": "১২ টি",
+   "status": "FIXA",
+   "context_patches": [
+    [
+     "এর রূকুর সংখ্যা ১১ টি",
+     "এর রূকুর সংখ্যা ১২ টি"
+    ]
+   ]
+  },
+  "739": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 463: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "742": {
+   "kind": "world_fix",
+   "reason": "Shib Narayan Das designed the original flag; Kamrul Hasan refined it in 1972, as the passage says.",
+   "question": "১৯৭২ সালে বাংলাদেশের জাতীয় পতাকার বর্তমান রূপটি কে পরিমার্জন করেন ?",
+   "status": "FIXQ"
+  },
+  "746": {
+   "kind": "pin",
+   "reason": "Firhad Hakim was Kolkata's mayor in 2019. Dated question and passage (same method as Mahdi used for 130 and 164).",
+   "question": "২০১৯ সালে কলিকাতা পৌরসংস্থার মহানাগরিক কে ছিলেন ?",
+   "status": "FIXQ",
+   "time_sensitive": "no",
+   "context_patches": [
+    [
+     "কলকাতার বর্তমান মহানাগরিক হলেন ফিরহাদ হাকিম।",
+     "২০১৯ সালে কলকাতার মহানাগরিক ছিলেন ফিরহাদ হাকিম।"
+    ]
+   ]
+  },
+  "748": {
+   "kind": "drop",
+   "reason": "Israel's diplomatic relations: current counts are 158-165, not 170, and sources disagree; no verified number.",
+   "drop": true
+  },
+  "754": {
+   "kind": "pin",
+   "reason": "Konkona Sen Sharma and Ranvir Shorey divorced in 2020; the passage dates their 2010 marriage.",
+   "question": "কঙ্কনা সেন শর্মা ২০১০ সালে কাকে বিয়ে করেন ?",
+   "status": "FIXQ"
+  },
+  "763": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 386: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "764": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 415: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "765": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 265: same question and answer, from another passage."
+  },
+  "767": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: No longer his post.",
+   "context_patches": [
+    [
+     "বর্তমানে তিনি বাংলাদেশ পুলিশের ঢাকাস্থ সদরদপ্তরে উপ মহাপরিদর্শক (প্রশাসন-ডিসিপ্লিন) হিসেবে দায়িত্বরত।",
+     "একসময় তিনি বাংলাদেশ পুলিশের ঢাকাস্থ সদরদপ্তরে উপ মহাপরিদর্শক (প্রশাসন-ডিসিপ্লিন) হিসেবে দায়িত্ব পালন করেন।"
+    ]
+   ]
+  },
+  "774": {
+   "kind": "pin",
+   "reason": "Future tense for a 2019 event; the opener was at The Oval and the final at Lord's.",
+   "question": "২০১৯ ক্রিকেট বিশ্বকাপ প্রতিযোগিতার প্রথম ম্যাচটি কোন মাঠে আয়োজিত হয়েছিল ?",
+   "status": "FIXQ",
+   "context_patches": [
+    [
+     "প্রথম খেলাটি ওভালে ও চূড়ান্ত খেলাটি লর্ড’সে অনুষ্ঠিত হবার কথা রয়েছে।",
+     "প্রথম খেলাটি ওভালে ও চূড়ান্ত খেলাটি লর্ড’সে অনুষ্ঠিত হয়।"
+    ]
+   ]
+  },
+  "775": {
+   "kind": "pin",
+   "reason": "The passage's religion shares (80.5% Hindu ... 0.8% Buddhist) are the 2001 census; the 2011 census gives 0.7%. Question and passage now name 2001.",
+   "question": "২০০১ সালের আদমশুমারি অনুযায়ী ভারতের মোট জনসংখ্যার কত শতাংশ বৌদ্ধ ?",
+   "status": "FIXQ",
+   "context_patches": [
+    [
+     "৮০ কোটিরও বেশি (৮০.৫%) ভারতবাসী হিন্দু।",
+     "২০০১ সালের আদমশুমারি অনুযায়ী ৮০ কোটিরও বেশি (৮০.৫%) ভারতবাসী হিন্দু।"
+    ]
+   ]
+  },
+  "779": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 345: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "786": {
+   "kind": "world_fix",
+   "reason": "PayPal's predecessor Confinity was founded in 1998; the passage dates today's company (the 2000 merger).",
+   "question": "কনফিনিটি ও এক্স ডট কমের একত্রীকরণে পেপ্যালের বর্তমান প্রতিষ্ঠানটি কত সালে গঠিত হয় ?",
+   "status": "FIXQ"
+  },
+  "791": {
+   "kind": "pin",
+   "reason": "Nizam Uddin Ahmed was navy chief from Jan 2016 to Jan 2019, so he was chief in 2018. Dated question and passage.",
+   "question": "২০১৮ সালে বাংলাদেশ নৌবাহিনীর প্রধান কে ছিলেন ?",
+   "status": "FIXQ",
+   "time_sensitive": "no",
+   "context_patches": [
+    [
+     "নৌবাহিনীর বর্তমান প্রধান হচ্ছেন অ্যাডমিরাল নিজামউদ্দিন আহমেদ যিনি ২৭ জানুয়ারি ২০১৬ দায়িত্ব গ্রহণ করেন।",
+     "২০১৬ থেকে ২০১৯ সাল পর্যন্ত নৌবাহিনীর প্রধান ছিলেন অ্যাডমিরাল নিজামউদ্দিন আহমেদ, যিনি ২৭ জানুয়ারি ২০১৬ দায়িত্ব গ্রহণ করেন।"
+    ]
+   ]
+  },
+  "794": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: WhatsApp had 55 staff when Facebook bought it in 2014. Passage: Dated. Passage: Dated.",
+   "context_patches": [
+    [
+     "বর্তমানে এ প্রতিষ্ঠানটিতে ৫৫ জন কর্মী রয়েছেন।",
+     "২০১৪ সালে এ প্রতিষ্ঠানটিতে ৫৫ জন কর্মী ছিলেন।"
+    ],
+    [
+     "সম্প্রতি হোয়াটসঅ্যাপ কেনার সময়",
+     "২০১৪ সালে হোয়াটসঅ্যাপ কেনার সময়"
+    ],
+    [
+     "হোয়াটসঅ্যাপ কর্তৃপক্ষ জানিয়েছে, এ বছর",
+     "হোয়াটসঅ্যাপ কর্তৃপক্ষ তখন জানিয়েছিল, শীঘ্রই"
+    ]
+   ]
+  },
+  "810": {
+   "kind": "world_fix",
+   "reason": "John Harington's flush toilet dates from 1596, not 1856. Passage corrected (and its typo কারেন); question asks the 1596 inventor.",
+   "question": "১৫৯৬ সালে ফ্লাশ শৌচাগার পদ্ধতি কে আবিষ্কার করেন ?",
+   "status": "FIXQ",
+   "context_patches": [
+    [
+     "এরপর ১৮৫৬ সালে আধুনিক ফ্লাশ শৌচাগার পদ্ধতি আবিষ্কার কারেন জন হেরিংটন।",
+     "এরপর ১৫৯৬ সালে ফ্লাশ শৌচাগার পদ্ধতি আবিষ্কার করেন জন হেরিংটন।"
+    ]
+   ]
+  },
+  "811": {
+   "kind": "pin",
+   "reason": "Facebook Inc. was renamed Meta Platforms in October 2021, so 'current owner' is out of date. Dated question; the passage now says so.",
+   "question": "২০১৯ সালে ফেইসবুক ওয়েবসাইটটির মালিক কোন প্রতিষ্ঠান ছিল ?",
+   "status": "FIXQ",
+   "time_sensitive": "no",
+   "context_patches": [
+    [
+     "এর মালিক হলো ফেসবুক ইনক।",
+     "২০২১ সাল পর্যন্ত এর মালিক ছিল ফেসবুক ইনক (বর্তমান নাম মেটা প্ল্যাটফর্মস)।"
+    ]
+   ]
+  },
+  "813": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: Abadi was PM 2014-2018.",
+   "context_patches": [
+    [
+     "হায়দার-আল-আবাদি ইরাকের বর্তমান প্রধানমন্ত্রী।",
+     "হায়দার-আল-আবাদি ২০১৪ থেকে ২০১৮ সাল পর্যন্ত ইরাকের প্রধানমন্ত্রী ছিলেন।"
+    ]
+   ]
+  },
+  "819": {
+   "kind": "world_fix",
+   "reason": "HIV was discovered in 1983; 1981 is when AIDS was first recognised. Passage sentence and question fixed.",
+   "question": "এইডস রোগটি প্রথম কোন সালে শনাক্ত হয় ?",
+   "status": "FIXQ",
+   "context_patches": [
+    [
+     "১৯৮১ সালে ভাইরাসটি আবিষ্কারের পর থেকে",
+     "১৯৮১ সালে রোগটি প্রথম শনাক্ত হওয়ার পর থেকে"
+    ]
+   ]
+  },
+  "839": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 58: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "842": {
+   "kind": "drop",
+   "reason": "The passage gives 'excessive rain and flood' as the cause of the 1770 famine; historians give drought and Company revenue policy. Too entangled to fix.",
+   "drop": true
+  },
+  "846": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 128: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "847": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 415: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "859": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 78: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "865": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 79: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "875": {
+   "kind": "world_fix",
+   "reason": "Palestine's capital is disputed (Ramallah is the seat of government); the passage says the 1988 declaration named Jerusalem.",
+   "question": "১৯৮৮ সালের স্বাধীনতা ঘোষণায় কোন শহরকে ফিলিস্তিন রাষ্ট্রের রাজধানী আখ্যা দেওয়া হয় ?",
+   "status": "FIXQ"
+  },
+  "876": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 466: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "878": {
+   "kind": "world_fix",
+   "reason": "Euclid is usually called the father of geometry; the passage calls Thales the first important geometer.",
+   "question": "ইতিহাসের সর্বপ্রথম গুরুত্বপূর্ণ জ্যামিতিবিদ হিসেবে কার নাম পাওয়া যায় ?",
+   "status": "FIXQ"
+  },
+  "884": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 497: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "887": {
+   "kind": "pin",
+   "reason": "In 2019 the Maldives president was Ibrahim Solih, so '(২০১৯)' made the gold wrong. Yameen was president 2013-2018: the question now asks about 2015.",
+   "question": "২০১৫ সালে মালদ্বীপের রাষ্ট্রপতি কে ছিলেন ?",
+   "status": "FIXQ",
+   "time_sensitive": "no",
+   "context_patches": [
+    [
+     "বর্তমান রাষ্ট্রপতির দায়িত্ব পালন করছেন",
+     "২০১৩ থেকে ২০১৮ সাল পর্যন্ত রাষ্ট্রপতির দায়িত্ব পালন করেন"
+    ]
+   ]
+  },
+  "899": {
+   "kind": "drop",
+   "reason": "The passage says কাগজ is Arabic; Bangla grammar books classify it as Persian. Contested.",
+   "drop": true
+  },
+  "900": {
+   "kind": "pin",
+   "reason": "Jammu and Kashmir has been a union territory since 2019 (the passage says so); the question still called it a state (রাজ্য).",
+   "question": "জম্মু ও কাশ্মীর কেন্দ্রশাসিত অঞ্চলের মোট কতগুলি জেলা আছে ?",
+   "status": "UPD"
+  },
+  "901": {
+   "kind": "world_fix",
+   "reason": "The first Islamic school was in the house of al-Arqam ibn Abi al-Arqam (Dar al-Arqam), not 'Zayd bin Arqam'; 'world's first madrasa' was also contested. Passage name corrected; question follows the passage.",
+   "question": "মাদ্রাসা শিক্ষার প্রথম প্রতিষ্ঠান কোথায় ছিল ?",
+   "correct_answer": "সাফা পর্বতের পাদদেশে আরকাম-বিন-আবিল-আরকামের বাড়িতে",
+   "status": "FIXA",
+   "context_patches": [
+    [
+     "সাফা পর্বতের পাদদেশে যায়েদ-বিন-আরকামের বাড়িতে",
+     "সাফা পর্বতের পাদদেশে আরকাম-বিন-আবিল-আরকামের বাড়িতে"
+    ]
+   ]
+  },
+  "903": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 279: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first). (Its earlier v1.3 edit no longer applies.)"
+  },
+  "911": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 645: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "925": {
+   "kind": "drop",
+   "reason": "Duplicate of seed 255 (same passage, same question).",
+   "drop": true
+  },
+  "951": {
+   "kind": "pin",
+   "reason": "From 2018 the Kolkata Book Fair moved to Central Park, Salt Lake, so '2019 at Milan Mela' was wrong. The fair was at Milan Mela in 2017: question and passage now say 2017.",
+   "question": "২০১৭ সালে আন্তর্জাতিক কলকাতা পুস্তকমেলার আয়োজনস্থল কোথায় ছিল ?",
+   "status": "FIXQ",
+   "time_sensitive": "no",
+   "context_patches": [
+    [
+     "মেলার বর্তমান আয়োজনস্থল পূর্ব কলকাতার মিলন মেলা প্রাঙ্গণ।",
+     "২০১৭ সালে মেলার আয়োজনস্থল ছিল পূর্ব কলকাতার মিলন মেলা প্রাঙ্গণ।"
+    ]
+   ]
+  },
+  "952": {
+   "kind": "drop",
+   "reason": "Duplicate of seed 191 (same passage, same question).",
+   "drop": true
+  },
+  "953": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 173: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "954": {
+   "kind": "world_fix",
+   "reason": "1989 is India's own declaration for the Indian part; UNESCO listed the reserve in 2001.",
+   "question": "কত সালে সুন্দরবনের ভারতীয় অংশকে বায়োস্ফিয়ার রিজার্ভ ঘোষণা করা হয় ?",
+   "status": "FIXQ"
+  },
+  "968": {
+   "kind": "passage",
+   "reason": "Passage sentence put in the past with its real dates: Sundar Pichai has been Alphabet's CEO since 2019.",
+   "context_patches": [
+    [
+     "(ল্যারি পেজ এখন আলফাবেটের প্রধান নির্বাহী কর্মকর্তা)",
+     "(ল্যারি পেজ ২০১৫ থেকে ২০১৯ সাল পর্যন্ত আলফাবেটের প্রধান নির্বাহী কর্মকর্তা ছিলেন)"
+    ]
+   ]
+  },
+  "970": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 689: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "972": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 427: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "974": {
+   "kind": "world_fix",
+   "reason": "Newton is as often called the father of physics; the passage calls Galileo the father of modern physics.",
+   "question": "আধুনিক পদার্থবিজ্ঞানের জনক হিসেবে কাকে আখ্যায়িত করা হয় ?",
+   "status": "FIXQ"
+  },
+  "980": {
+   "kind": "world_fix",
+   "reason": "HIV was not found in 1980; the passage says it was identified as the cause in the early 1980s.",
+   "question": "কোন দশকের শুরুর দিকে এইডস রোগের কারণ হিসেবে এইচআইভি ভাইরাসকে শনাক্ত করা হয় ?",
+   "correct_answer": "১৯৮০-র দশকের শুরুর দিকে",
+   "status": "FIXA"
+  },
+  "983": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 353: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  },
+  "995": {
+   "kind": "drop",
+   "drop": true,
+   "reason": "Duplicate of seed 636: same passage and same answer, with the question reworded (Mahdi's rule: drop duplicates, keep the first)."
+  }
+ }
+}

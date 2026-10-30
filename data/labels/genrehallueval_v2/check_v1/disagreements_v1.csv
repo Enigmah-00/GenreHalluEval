@@ -1,0 +1,10 @@
+﻿sheet,id,question_id,genre,question,answer,answer_type,design,annotator1,annotator2
+answers,A0549,g2-044,CULTURE,ইমানুয়েল কান্টকে ইউরোপের কোন যুগের শেষ গুরুত্বপূর্ণ দার্শনিক বলে অভিহিত করা হয়?,আলোকিত যুগের,gold,correct,correct,hallucinated
+answers,A0550,g2-044,CULTURE,ইমানুয়েল কান্টকে ইউরোপের কোন যুগের শেষ গুরুত্বপূর্ণ দার্শনিক বলে অভিহিত করা হয়?,আধুনিক ইউরোপের,C,hallucinated,hallucinated,correct
+answers,A0571,g2-791,ARTS,এ. আর. রহমানের জন্মনাম কী?,এ. এস. দিলীপ কুমার,gold,correct,correct,hallucinated
+genre,Q056,g2-487,GEOGRAPHY,কোন সালে ব্রিটিশ সরকার চট্টগ্রামকে ভেঙে পার্বত্য চট্টগ্রাম গঠন করে?,,new,GEOGRAPHY,HISTORY,HISTORY
+genre,Q075,g2-052,SPORTS,নদীতে দাঁড় টেনে নৌকা চালনার প্রতিযোগিতাকে কী বলা হয়?,,new,SPORTS,CULTURE,SPORTS
+genre,Q082,g2-677,HISTORY,প্রাচীন কার্থেজ শহর বর্তমান কোন দেশে অবস্থিত?,,new,HISTORY,PLACES,PLACES
+genre,Q144,d2-194,TECHNOLOGY,নিকোলা টেসলার মাতার নাম কী?,,v1.1,TECHNOLOGY,SCIENCE,SCIENCE
+genre,Q153,g2-648,HISTORY,সুভাষচন্দ্র বসু কোন রাজনৈতিক দল প্রতিষ্ঠা করেন?,,new,HISTORY,POLITICS,HISTORY
+genre,Q167,g2-420,TECHNOLOGY,তড়িৎকোষকে ইংরেজি পরিভাষায় সাধারণভাবে কী বলে?,,new,TECHNOLOGY,SCIENCE,SCIENCE

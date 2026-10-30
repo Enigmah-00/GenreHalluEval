@@ -1,0 +1,16 @@
+# Data-quality flags Claude noticed while labeling genres (unique-question index | flag).
+# Claude saw only the question and the first ~110 characters of each passage, so mismatch flags are "possible": check the full passage.
+159|possible mismatch: question likely means saint Shah Jalal; passage start is about a different Shahjalal
+244|possible mismatch: question asks about Abdullah bin al-Hussein; passage start is about Ibn Saud
+407|possible mismatch: question asks about Jagatjyoti Das; passage start is about Jagatjyoti Talukdar
+489|possible mismatch: question asks about ABM Musa; passage start is about Jabir ibn Hayyan
+584|possible mismatch: question asks about director Alamgir Kabir; passage start is about actor Alamgir
+639|possible mismatch: question asks about India's navy; passage start is about Bangladesh's navy
+655|possible mismatch: question asks about Abdus Shakur; passage start is about Al Mahmud
+674|possible mismatch: question asks about John Venn; passage start is about von Neumann
+685|possible mismatch: question asks about Vidyasagar; passage start is about Ishwar Chandra Gupta
+808|possible mismatch: question asks about director Alamgir Kabir; passage start is about actor Alamgir
+881|possible mismatch: question asks about Oli Ahad; passage start is about Oli Ahmed
+923|question text partly in Devanagari script
+924|question text in Devanagari script
+925|question is in Hindi (Devanagari script)

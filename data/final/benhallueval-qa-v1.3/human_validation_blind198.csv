@@ -1,0 +1,991 @@
+item_id,question_id,answer_shown,label_v1.1,answer_type,human_hallucinated,human_label_source,human_natural,human_note,in_v1.3,changed_since_check
+bengali--2339153920148132891-1__a0,bengali--2339153920148132891-1,"১৪৭৫ খ্রিষ্টাব্দের ৬ মার্চ, ফ্লোরেন্সে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-5350217131280321233-3__a0,bengali-5350217131280321233-3,ঘোড়া-মানব,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8695577586615119311-3__a1,bengali-8695577586615119311-3,ন্যাশনাল সিকিউরিটি এজেন্সি,yes,F,yes,sheet (blind),3,,yes,no
+bengali-7443324023355551586-2__a0,bengali-7443324023355551586-2,"সরদার মইনউদ্দিন আহমদ, যিনি একজন পোস্টমাস্টার",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5462601724301448508-7__a3,bengali--5462601724301448508-7,অনেক দিনের চেনা,no,gold,no,sheet (blind),3,,yes,no
+bengali-8858032480103139171-13__a1,bengali-8858032480103139171-13,মেডেল অফ মেরিট,no,gold,no,sheet (blind),3,,yes,no
+bengali--5484532727206796065-0__a1,bengali--5484532727206796065-0,ট্রেডারস প্রোপাইটারি লিমিটেড,yes,C,yes,sheet (blind),3,,yes,yes
+bengali--3312762463251557392-1__a1,bengali--3312762463251557392-1,সৈয়দ আমিনুল হক,yes,F,yes,sheet (blind),3,,yes,no
+bengali--3518785176444767715-2__a4,bengali--3518785176444767715-2,ক্রাকৌতে,yes,F,yes,sheet (blind),3,,yes,no
+bengali--8738126845861758945-3__a1,bengali--8738126845861758945-3,১৯৭২ সালে,yes,F,yes,sheet (blind),3,,yes,no
+bengali--3947167920835567776-1__a0,bengali--3947167920835567776-1,"জালালুদ্দিন খিলজি, ১৩১৬ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--4406976333727853714-0__a0,bengali--4406976333727853714-0,"প্রায় ৫০০০, সবাই ছাত্রী",yes,S,yes,sheet (blind),3,,yes,yes
+bengali--1085248370329535149-1__a1,bengali--1085248370329535149-1,২০০৩ সালের ২৬শে মার্চ,no,gold,no,sheet (blind),3,,yes,no
+bengali-219048145204272520-3__a0,bengali-219048145204272520-3,"বেলিজের কিউল্লোতে, খ্রিস্টপূর্ব ৫০০০ বছর আগে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--3051071168921438198-0__a4,bengali--3051071168921438198-0,কেবল চট্টগ্রামে,yes,F,yes,sheet (blind),3,,no (question dropped),
+bengali--4940144912201379461-31__a0,bengali--4940144912201379461-31,ইস্টার্ন এক্সপ্রেস হাইওয়ে,yes,I,yes,sheet (blind),3,,yes,no
+bengali--5248157587845724105-12__a1,bengali--5248157587845724105-12,খোন্দকার ইব্রাহিম খালেদ,yes,C,yes,sheet (blind),3,,yes,no
+bengali-937294351156651799-1__a1,bengali-937294351156651799-1,পেসওয়া শাসক,yes,C,yes,sheet (blind),3,will be updated,yes,yes
+bengali--4814390249866358431-4__a4,bengali--4814390249866358431-4,গ্যালিলিও গ্যালিলি,yes,C,yes,sheet (blind),3,,yes,yes
+bengali--286400932306783730-5__a4,bengali--286400932306783730-5,"১৯০৯, কেমব্রিজে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-6035887477073197072-0__a1,bengali-6035887477073197072-0,পেরিপ্যাটেটিক,no,gold,no,sheet (blind),3,,yes,no
+bengali--1256061284728114612-1__a4,bengali--1256061284728114612-1,সূর্যকান্ত বন্দ্যোপাধ্যায়,yes,C,yes,sheet (blind),3,,yes,yes
+bengali--4940144912201379461-31__a2,bengali--4940144912201379461-31,দিল্লি-আগ্রা যমুনা এক্সপ্রেসওয়ে,yes,F,yes,sheet (blind),3,,yes,no
+bengali--253137097125729044-9__a1,bengali--253137097125729044-9,চার্লস ফুরিয়ে,no,gold,no,sheet (blind),3,,yes,no
+bengali--4735331043651858245-2__a3,bengali--4735331043651858245-2,হেমলতা,yes,C,yes,sheet (blind),3,,yes,no
+bengali--300248677481756467-2__a3,bengali--300248677481756467-2,তিন,no,gold,no,sheet (blind),3,,yes,no
+bengali--7502767898250009025-1__a3,bengali--7502767898250009025-1,হ্যারি পটার অ্যান্ড দ্য গবলেট অব ফায়ার,yes,F,yes,sheet (blind),3,,no (question dropped),
+bengali--1513982894061092370-1__a2,bengali--1513982894061092370-1,মাইকেল ফ্যারাডে,yes,F,yes,sheet (blind),3,,yes,no
+bengali--3614315475237896403-1__a4,bengali--3614315475237896403-1,ইন্দিরা,no,gold,no,sheet (blind),3,,yes,no
+bengali-8695577586615119311-3__a3,bengali-8695577586615119311-3,মাইকেল মার্কাস,yes,C,yes,sheet (blind),3,,yes,no
+bengali--5991077659579722284-0__a1,bengali--5991077659579722284-0,অতীন ঘোষ,yes,I,yes,sheet (blind),3,,yes,yes
+bengali-3661955588237544767-0__a3,bengali-3661955588237544767-0,ম্যানগ্রোভ,no,gold,no,sheet (blind),3,,yes,no
+bengali--5204568659066136602-1__a4,bengali--5204568659066136602-1,"১৫২৬, প্রথম মুরাদের নেতৃত্বে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--8679555805989868423-10__a0,bengali--8679555805989868423-10,"১৯৭৩ সালের ১৪ জুন, আটটি কামান নিয়ে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-2870309728449533083-1__a0,bengali-2870309728449533083-1,"১ ফেব্রুয়ারি, ১৯১৮, সিরাজগঞ্জে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--2217820890808407965-4__a2,bengali--2217820890808407965-4,১৯৯৫ সালের ২৭ সেপ্টেম্বর,yes,F,yes,sheet (blind),3,,yes,no
+bengali-8690075851604962430-9__a1,bengali-8690075851604962430-9,১৯৭০-এর দশকে,yes,F,yes,sheet (blind),3,,yes,yes
+bengali-7755099264590331306-3__a3,bengali-7755099264590331306-3,বাংলা প্রেসিডেন্সির যশোর জেলার (অধুনা বাংলাদেশ রাষ্ট্রের যশোর জেলার কেশবপুর উপজেলার) সাগরদাঁড়ি গ্রামে,no,gold,no,sheet (blind),3,,yes,no
+bengali--761065314955184950-3__a3,bengali--761065314955184950-3,জামায়াতে ইসলামীতে,yes,I,yes,sheet (blind),3,,yes,no
+bengali--6603377333995547973-0__a2,bengali--6603377333995547973-0,লৌহ যুগ,yes,F,yes,sheet (blind),3,,yes,yes
+bengali--7494701536369664029-4__a2,bengali--7494701536369664029-4,Naissance de la clinique,yes,I,yes,sheet (blind),3,,yes,no
+bengali--5210760246858963269-0__a4,bengali--5210760246858963269-0,১৯৯৯ খ্রিষ্টাব্দে,yes,I,yes,sheet (blind),3,,yes,no
+bengali-6035887477073197072-0__a3,bengali-6035887477073197072-0,"পেরিপ্যাটেটিক, স্পেনীয় শাখার",yes,S,yes,sheet (blind),3,,yes,no
+bengali-3217362833600204240-1__a0,bengali-3217362833600204240-1,নাস্তিক,no,gold,no,sheet (blind),3,,yes,no
+bengali--6938244689861502884-1__a2,bengali--6938244689861502884-1,হাজার বছর ধরে,yes,I,yes,sheet (blind),3,,yes,no
+bengali--300248677481756467-2__a1,bengali--300248677481756467-2,মৌচাক,yes,C,yes,sheet (blind),3,,yes,no
+bengali-3447785515269526586-2__a4,bengali-3447785515269526586-2,গ্লাসগোতে,yes,F,yes,sheet (blind),3,,yes,no
+bengali-6041160895772644763-71__a2,bengali-6041160895772644763-71,ওকলাহোমা সিটিতে,yes,F,yes,sheet (blind),3,,yes,no
+bengali--8707413810832587133-1__a0,bengali--8707413810832587133-1,"৩৮,০০০, যার অর্ধেকই বিদেশি শিক্ষার্থী",yes,S,yes,sheet (blind),3,,no (question dropped),
+bengali--405761113848942428-0__a4,bengali--405761113848942428-0,ডিকি বার্ড,no,gold,no,sheet (blind),3,,yes,no
+bengali-502031366341688023-0__a1,bengali-502031366341688023-0,"সেপ্টেম্বর ২২, ১৫৩৯",no,gold,no,sheet (blind),3,,yes,no
+bengali-2641143326428525515-3__a3,bengali-2641143326428525515-3,ডেভিড চৌম,no,gold,no,sheet (blind),3,,yes,no
+bengali-7044920795788516725-3__a2,bengali-7044920795788516725-3,শি ইয়ুয়ানপিংয়ের,yes,I,yes,sheet (blind),3,,yes,no
+bengali--6060409413743005455-2__a3,bengali--6060409413743005455-2,শ্রেষ্ঠ চলচ্চিত্র অভিনেতা,yes,C,yes,sheet (blind),3,,yes,no
+bengali--8907092310207870265-0__a4,bengali--8907092310207870265-0,জন্ম ১৯শে নভেম্বর,yes,I,yes,sheet (blind),3,,yes,yes
+bengali-8376247445164774033-9__a3,bengali-8376247445164774033-9,২০২৩,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6774541490543454184-11__a1,bengali-6774541490543454184-11,শমীন্দ্রনাথে,no,gold,no,sheet (blind),2,শমীন্দ্রমাথ,yes,yes
+bengali--5189083434002639881-1__a0,bengali--5189083434002639881-1,"মোহিনী মোহন বসু, কিশোরগঞ্জের জমিদার",yes,S,yes,sheet (blind),3,,yes,no
+bengali-9025642034431464670-6__a0,bengali-9025642034431464670-6,জাভেদ মিয়াঁদাদ,yes,F,yes,sheet (blind),3,,yes,yes
+bengali-6246323317955015554-0__a2,bengali-6246323317955015554-0,বেথুন কলেজ,no,gold,no,sheet (blind),3,,yes,yes
+bengali--5808391741219758748-0__a1,bengali--5808391741219758748-0,"১৮৮৬, কুমিল্লা শহরে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--954934863110314741-0__a2,bengali--954934863110314741-0,আনিক্স,yes,I,yes,sheet (blind),3,,yes,no
+bengali--5189083434002639881-1__a1,bengali--5189083434002639881-1,মোহিনী মোহন বসু,no,gold,no,sheet (blind),3,,yes,no
+bengali-5234150680725096053-0__a3,bengali-5234150680725096053-0,মীর কাসিমের সাথে ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির,yes,I,yes,sheet (blind),3,,yes,no
+bengali-3623855340588085394-2__a3,bengali-3623855340588085394-2,সিংহবাহু,no,gold,no,sheet (blind),3,,yes,no
+bengali--8679555805989868423-10__a1,bengali--8679555805989868423-10,১৯৬৬ সালের ১৮ নভেম্বর,yes,F,yes,sheet (blind),3,,yes,no
+bengali-135536965636843256-17__a0,bengali-135536965636843256-17,পূর্ব প্রান্তে,yes,I,yes,sheet (blind),3,,yes,no
+bengali--3051071168921438198-0__a3,bengali--3051071168921438198-0,শুধু রাজধানী ঢাকায়,yes,I,yes,sheet (blind),3,,no (question dropped),
+bengali-6388918828049871160-0__a4,bengali-6388918828049871160-0,সবুজ প্রকৃতি ও তারুণ্যের,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5381296187722902042-1__a3,bengali-5381296187722902042-1,হজরত করিম উল্লাহ,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6246323317955015554-0__a4,bengali-6246323317955015554-0,জন এলিয়ট ড্রিঙ্কওয়াটার বিটন,yes,C,yes,sheet (blind),3,,yes,yes
+bengali-2969815077148315217-1__a1,bengali-2969815077148315217-1,"সৈয়দ ফরিদ উদ্দিন, একজন নজরুলসংগীত শিল্পী",yes,S,yes,sheet (blind),3,,yes,no
+bengali-6619611904734574741-0__a1,bengali-6619611904734574741-0,দাউদ খান কররানী,yes,F,yes,sheet (blind),3,,yes,no
+bengali-6543940287332686430-1__a1,bengali-6543940287332686430-1,"রবার্ট এ. ডেলি, যিনি ১৯৬৭ সালে সংস্থাটি প্রতিষ্ঠা করেন",yes,S,yes,sheet (blind),3,,yes,no
+bengali-3629110068066754917-2__a1,bengali-3629110068066754917-2,"পায়েন্দা খান, দুররানি সাম্রাজ্যের সম্রাট",yes,S,yes,sheet (blind),3,,yes,no
+bengali--253137097125729044-9__a4,bengali--253137097125729044-9,"চার্লস ফুরিয়ে, ১৮৭২ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--2213906058284930151-1__a2,bengali--2213906058284930151-1,১৯২১ সালে,yes,I,yes,sheet (blind),3,,yes,no
+bengali--1256061284728114612-1__a0,bengali--1256061284728114612-1,শশীভূষণ বন্দ্যোপাধ্যায়,no,gold,no,sheet (blind),3,,yes,yes
+bengali-1239158793173466909-0__a3,bengali-1239158793173466909-0,৩.১ মিলিয়ন বর্গ মাইল,yes,F,yes,sheet (blind),3,,yes,no
+bengali--2553274627248365687-16__a1,bengali--2553274627248365687-16,"ছেলেদের রামায়ণ, যা ইউ রায় অ্যান্ড সন্স থেকে প্রকাশিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5484532727206796065-0__a2,bengali--5484532727206796065-0,বার্ট অ্যাপলেরথ,yes,I,yes,sheet (blind),3,,yes,yes
+bengali-106526670100050009-0__a1,bengali-106526670100050009-0,"১৯৫৫, বেইজিংয়ে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-1920310716847351499-2__a0,bengali-1920310716847351499-2,বর্ধমান জেলা,yes,I,yes,sheet (blind),3,,yes,yes
+bengali--6279882593924388519-5__a3,bengali--6279882593924388519-5,দুই বিঘা,yes,C,yes,sheet (blind),3,,yes,no
+bengali--4735331043651858245-2__a1,bengali--4735331043651858245-2,গনা,yes,I,yes,sheet (blind),3,,yes,no
+bengali--7494701536369664029-4__a1,bengali--7494701536369664029-4,École Normale,yes,C,yes,sheet (blind),3,,yes,no
+bengali--6960138209200983794-1__a0,bengali--6960138209200983794-1,গোরা,yes,I,yes,sheet (blind),3,,yes,no
+bengali-5118137145175085108-0__a3,bengali-5118137145175085108-0,১৮৯৫,yes,C,yes,sheet (blind),3,,yes,no
+bengali--7502767898250009025-1__a0,bengali--7502767898250009025-1,হ্যারি পটার অ্যান্ড দ্য ফিলোসফার্স স্টোন,no,gold,no,sheet (blind),3,,no (question dropped),
+bengali--5484532727206796065-0__a4,bengali--5484532727206796065-0,"ম্যাককরমিক ফুডস অস্ট্রেলিয়া, যা একটি ব্রিটিশ প্রতিষ্ঠান",yes,S,yes,sheet (blind),3,,yes,yes
+bengali--4088972979448384532-2__a4,bengali--4088972979448384532-2,চুমকি ও টুকটুকি,yes,S,yes,sheet (blind),3,,yes,no
+bengali--7621828810919168386-3__a0,bengali--7621828810919168386-3,মোছাঃ রোকেয়া হামিদের,yes,F,yes,sheet (blind),3,,yes,no
+bengali--761065314955184950-3__a1,bengali--761065314955184950-3,ইসলামী ছাত্র সংঘে,no,gold,no,sheet (blind),3,,yes,no
+bengali--2632169197744064075-2__a2,bengali--2632169197744064075-2,১৯৭৭ সালে,yes,C,yes,sheet (blind),3,,yes,no
+bengali-219048145204272520-3__a4,bengali-219048145204272520-3,বেলিজের কিউল্লোতে,no,gold,no,sheet (blind),3,,yes,no
+bengali-4504326333406178570-1__a1,bengali-4504326333406178570-1,গঙ্গোত্রী হিমবাহ,yes,F,yes,sheet (blind),3,,yes,yes
+bengali--8701126924018157132-3__a4,bengali--8701126924018157132-3,মেলবোর্ন ক্রিকেট গ্রাউন্ডে,yes,C,yes,sheet (blind),3,,yes,no
+bengali--4735331043651858245-2__a2,bengali--4735331043651858245-2,নিশিকান্ত,no,gold,no,sheet (blind),3,,yes,no
+bengali-1019942405024864518-0__a4,bengali-1019942405024864518-0,বিল গেটস ও পল অ্যালেন,yes,F,yes,sheet (blind),3,,yes,yes
+bengali--4406976333727853714-0__a3,bengali--4406976333727853714-0,প্রায় ২৫০০,yes,I,yes,sheet (blind),3,,yes,yes
+bengali--8701126924018157132-3__a1,bengali--8701126924018157132-3,২০১১ সালে,yes,F,yes,sheet (blind),3,,yes,no
+bengali--8040726073714300616-2__a4,bengali--8040726073714300616-2,পর্তুগাল,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6379374255497658608-2__a0,bengali-6379374255497658608-2,ঢাকা কলেজে,yes,I,yes,sheet (blind),3,,yes,no
+bengali--958144661305894159-3__a2,bengali--958144661305894159-3,ব্রিটিশ ভারতের বোম্বাই প্রেসিডেন্সির শিরডিতে,yes,F,yes,sheet (blind),3,,yes,no
+bengali-3447785515269526586-2__a2,bengali-3447785515269526586-2,অক্সফোর্ডে,yes,I,yes,sheet (blind),3,,yes,no
+bengali-1508751382134197788-2__a1,bengali-1508751382134197788-2,আওয়ামী মুসলিম লীগ,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6805897370747809969-1__a2,bengali-6805897370747809969-1,দ্বিতীয় বৃহত্তম,yes,C,yes,sheet (blind),3,,yes,yes
+bengali--1741274220753938019-4__a0,bengali--1741274220753938019-4,স্বর্ণকুমারী দেবী,yes,I,yes,sheet (blind),3,,yes,no
+bengali-5381296187722902042-1__a0,bengali-5381296187722902042-1,পীর হজরত শাহ সৈয়দ আব্বাস আলী রাজী,no,gold,no,sheet (blind),3,,yes,no
+bengali--1492967622164090627-2__a4,bengali--1492967622164090627-2,মুসলিম রাজপুত,yes,F,yes,sheet (blind),3,,yes,no
+bengali--5991077659579722284-0__a2,bengali--5991077659579722284-0,ফিরহাদ হাকিম,no,gold,no,sheet (blind),3,,yes,yes
+bengali--1492967622164090627-2__a0,bengali--1492967622164090627-2,"মুসলিম গুরজার, যারা ছিল বাংলার জমিদার",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5096425443785627913-15__a0,bengali--5096425443785627913-15,দুই,no,gold,no,sheet (blind),3,,yes,no
+bengali-870453365572423945-4__a2,bengali-870453365572423945-4,"তামলুক, হুগলি নদীর তীরে",yes,S,yes,sheet (blind),3,,yes,yes
+bengali--458659178719722926-3__a3,bengali--458659178719722926-3,আর্জেন্টিনা,yes,C,yes,sheet (blind),3,,no (question dropped),
+bengali--2553274627248365687-16__a4,bengali--2553274627248365687-16,টুনটুনির বই,yes,F,yes,sheet (blind),3,,yes,no
+bengali-7478984229355295611-0__a4,bengali-7478984229355295611-0,১৯৪৮ সালে,yes,C,yes,sheet (blind),3,,yes,no
+bengali-1508751382134197788-2__a0,bengali-1508751382134197788-2,খেলাফত-ই-রাব্বানী,yes,I,yes,sheet (blind),3,,yes,no
+bengali-2179858832836959368-4__a4,bengali-2179858832836959368-4,২৬·৫ বর্গমাইল,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8376247445164774033-9__a0,bengali-8376247445164774033-9,১০৬,no,gold,no,sheet (blind),3,,yes,no
+bengali-2855703607822460518-28__a1,bengali-2855703607822460518-28,অ্যানিমেট,yes,I,yes,sheet (blind),3,,yes,no
+bengali--286400932306783730-5__a2,bengali--286400932306783730-5,১৯১১,yes,I,yes,sheet (blind),3,,yes,no
+bengali--8582042316957777177-1__a0,bengali--8582042316957777177-1,শান্তিনিকেতনে,yes,I,yes,sheet (blind),3,,yes,no
+bengali--2093112330853915217-0__a2,bengali--2093112330853915217-0,১৮০ কিলোমিটার,yes,F,yes,sheet (blind),3,,yes,no
+bengali--4203021990164894046-0__a3,bengali--4203021990164894046-0,আমন,yes,C,yes,sheet (blind),3,,yes,no
+bengali-1792401805174346038-0__a2,bengali-1792401805174346038-0,১১৭০,yes,I,yes,sheet (blind),3,,yes,no
+bengali--7745662268738010333-11__a1,bengali--7745662268738010333-11,অর্থনৈতিক পুনরুজ্জীবনের,yes,I,yes,sheet (blind),3,,yes,no
+bengali--4611455840991263320-1__a4,bengali--4611455840991263320-1,ইলতুৎমিশ,yes,F,yes,sheet (blind),3,,no (question dropped),
+bengali-4022030362183597721-4__a1,bengali-4022030362183597721-4,"বেদ, যা ধ্রুপদী সংস্কৃত ভাষায় রচিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali-2586602312486395780-1__a4,bengali-2586602312486395780-1,স্পন্দন,yes,I,yes,sheet (blind),3,,yes,no
+bengali--5238557952214041623-7__a4,bengali--5238557952214041623-7,"২০০৭, যাতে কোনো বাংলা ফন্ট ইন্সটলার নেই",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5678793440418813332-1__a0,bengali--5678793440418813332-1,ওয়েলসে,yes,I,yes,sheet (blind),3,,yes,yes
+bengali-7554185182653449052-1__a1,bengali-7554185182653449052-1,"১৯৮৭, ইসলামী আন্দোলন বাংলাদেশ নামেই",yes,S,yes,sheet (blind),3,,yes,no
+bengali--261227273822015974-3__a4,bengali--261227273822015974-3,"যুক্তরাষ্ট্রের নিউ মেক্সিকো অঙ্গরাজ্যের অ্যামোগোর্দো, ১৯৪৯ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--3947167920835567776-1__a3,bengali--3947167920835567776-1,কুতুবউদ্দিন মুবারক শাহ,yes,I,yes,sheet (blind),3,,yes,no
+bengali--7488179106745368024-1__a1,bengali--7488179106745368024-1,"তিন: বিলম্বিত, মধ্য ও অতিদ্রুত",yes,S,yes,sheet (blind),3,,yes,no
+bengali--405761113848942428-0__a3,bengali--405761113848942428-0,"ডিকি বার্ড, যা তাঁকে ক্রিকেটার জীবনে দেন জিওফ্রে বয়কট",yes,S,yes,sheet (blind),3,,yes,no
+bengali--7745662268738010333-11__a3,bengali--7745662268738010333-11,বিশ্বাস ও প্রগতির,no,gold,no,sheet (blind),3,,yes,no
+bengali--3195260377241566684-0__a3,bengali--3195260377241566684-0,"মামলুক, ১৩৬০ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5702015763636761454-0__a1,bengali--5702015763636761454-0,১৯৭১,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6041160895772644763-71__a3,bengali-6041160895772644763-71,টুইন টাওয়ারে,no,gold,no,sheet (blind),3,,yes,no
+bengali-7931400735334438152-7__a2,bengali-7931400735334438152-7,১৯৭১,no,gold,no,sheet (blind),3,,yes,no
+bengali--1253642664057630388-5__a4,bengali--1253642664057630388-5,১৯৪০,yes,I,yes,sheet (blind),3,,yes,no
+bengali--4027724346689147960-2__a0,bengali--4027724346689147960-2,জেনিফার,yes,I,yes,sheet (blind),3,,yes,no
+bengali-7396433727645699911-6__a4,bengali-7396433727645699911-6,গাইড্যান্স অফিস,yes,C,yes,sheet (blind),3,,yes,no
+bengali--339646139755933191-37__a1,bengali--339646139755933191-37,ছত্রপতি শিবাজী মহারাজ আন্তর্জাতিক বিমানবন্দর,no,gold,no,sheet (blind),3,,yes,no
+bengali--3103999780934898975-0__a3,bengali--3103999780934898975-0,"১৭ আগস্ট, ২০০৬",yes,C,yes,sheet (blind),3,,yes,no
+bengali-363202495030830843-1__a0,bengali-363202495030830843-1,৬৯৯৬,no,gold,no,sheet (blind),3,,yes,no
+bengali--7450233971944433591-2__a1,bengali--7450233971944433591-2,"কৌশিক গাঙ্গুলি, যিনি একজন সংগীত পরিচালক",yes,S,yes,sheet (blind),3,,yes,no
+bengali--8582042316957777177-1__a3,bengali--8582042316957777177-1,বিশ্বভারতী,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5846157904123319216-6__a2,bengali-5846157904123319216-6,হুলিয়ান পালাকিওস,no,gold,no,sheet (blind),3,,yes,no
+bengali-8851450445312207810-0__a0,bengali-8851450445312207810-0,১৯৯৯,yes,I,yes,sheet (blind),3,,yes,no
+bengali--2553274627248365687-16__a3,bengali--2553274627248365687-16,ছেলেদের মহাভারত,yes,I,yes,sheet (blind),3,,yes,no
+bengali--9105179977372456588-2__a4,bengali--9105179977372456588-2,মেরি,yes,F,yes,sheet (blind),3,,yes,no
+bengali--5678793440418813332-1__a3,bengali--5678793440418813332-1,এজবাস্টনে,yes,F,yes,sheet (blind),3,,yes,yes
+bengali-9022969225808669971-3__a2,bengali-9022969225808669971-3,বাল্মীকি,yes,I,yes,sheet (blind),3,,yes,no
+bengali--5990277188213233200-21__a4,bengali--5990277188213233200-21,Legendary,yes,C,yes,sheet (blind),3,,no (question dropped),
+bengali--7191786131172679626-4__a2,bengali--7191786131172679626-4,৭ থেকে ১০ বছর,no,gold,no,sheet (blind),3,,yes,no
+bengali--3195260377241566684-0__a1,bengali--3195260377241566684-0,মঙ্গোল,yes,C,yes,sheet (blind),3,,yes,no
+bengali--4965296737885262319-1__a4,bengali--4965296737885262319-1,মৌলভীবাজার জেলার কুলাউড়া উপজেলার ভাটেরা,yes,F,yes,sheet (blind),3,,yes,no
+bengali--8154256008658539900-14__a2,bengali--8154256008658539900-14,১৭টি,yes,I,yes,sheet (blind),3,,no (question dropped),
+bengali-7755099264590331306-3__a4,bengali-7755099264590331306-3,কলকাতার খিদিরপুরে,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6246323317955015554-0__a1,bengali-6246323317955015554-0,কলকাতা বিশ্ববিদ্যালয়,yes,I,yes,sheet (blind),3,,yes,yes
+bengali-2586602312486395780-1__a0,bengali-2586602312486395780-1,জিংগা শিল্পগোষ্ঠী,yes,C,yes,sheet (blind),3,,yes,no
+bengali-3217362833600204240-1__a2,bengali-3217362833600204240-1,মুরতাদ,yes,F,yes,sheet (blind),3,,yes,no
+bengali-8695577586615119311-3__a4,bengali-8695577586615119311-3,"মার্কিন যুক্তরাষ্ট্রের টেলিকম নিয়ন্ত্রক ফেডারেল কমিউনিকেশন কমিশন, যা ১৯৯০ সালে গঠিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali--2217820890808407965-4__a4,bengali--2217820890808407965-4,১৯৮৪ সালের ৩১ অক্টোবর,yes,I,yes,sheet (blind),3,,yes,no
+bengali--2217820890808407965-4__a0,bengali--2217820890808407965-4,"১৯৮৪ সালের ২৪ অক্টোবর, রাজীব গান্ধীর হাতে উদ্বোধন",yes,S,yes,sheet (blind),3,,yes,no
+bengali--7292840639115996653-3__a4,bengali--7292840639115996653-3,আরবি ও ইংরেজি,yes,F,yes,sheet (blind),3,,yes,no
+bengali-1792401805174346038-0__a1,bengali-1792401805174346038-0,১০১,yes,C,yes,sheet (blind),3,,yes,no
+bengali-3623855340588085394-2__a2,bengali-3623855340588085394-2,সিংহসীবলী,yes,I,yes,sheet (blind),3,,yes,no
+bengali-5524428449970713654-6__a2,bengali-5524428449970713654-6,১২ এপ্রিল,no,gold,no,sheet (blind),3,,yes,no
+bengali--6252143400733204520-2__a1,bengali--6252143400733204520-2,আরবি ইসহাক,yes,F,yes,sheet (blind),3,,yes,no
+bengali--2213906058284930151-1__a3,bengali--2213906058284930151-1,১৯২৮ সালে,yes,F,yes,sheet (blind),3,,yes,no
+bengali-8981449779740723998-3__a1,bengali-8981449779740723998-3,হরগোবিন্দ সেন,no,gold,no,sheet (blind),3,,yes,no
+bengali-3217362833600204240-1__a1,bengali-3217362833600204240-1,আস্তিক,yes,C,yes,sheet (blind),3,,yes,no
+bengali-1781289068755440406-2__a3,bengali-1781289068755440406-2,"ব্যাবিলনে, যা বর্তমান মিশরে অবস্থিত",yes,S,yes,sheet (blind),3,,yes,yes
+bengali-8359136065589645914-4__a2,bengali-8359136065589645914-4,১২১৬,no,gold,no,sheet (blind),3,,yes,no
+bengali--253137097125729044-9__a0,bengali--253137097125729044-9,অক্সফোর্ড ইংরেজি অভিধান,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6644593634362949760-0__a3,bengali-6644593634362949760-0,৭ মার্চ,yes,F,yes,sheet (blind),3,,yes,no
+bengali-227743697961975427-1__a0,bengali-227743697961975427-1,কর্ডওয়েইনার স্মিথ,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5628667362813463738-0__a3,bengali-5628667362813463738-0,ব্রায়ান অ্যাক্টন,yes,C,yes,sheet (blind),3,,yes,yes
+bengali--1492967622164090627-2__a3,bengali--1492967622164090627-2,শিখ জাট,yes,I,yes,sheet (blind),3,,yes,no
+bengali--743956707291198193-2__a2,bengali--743956707291198193-2,"চীনা অ্যাবাকাস, খ্রিস্টপূর্ব ৪৫০ অব্দে",yes,S,yes,sheet (blind),3,,no (question dropped),
+bengali--5990277188213233200-21__a2,bengali--5990277188213233200-21,Trainwreck,yes,F,yes,sheet (blind),3,,no (question dropped),
+bengali-6619611904734574741-0__a0,bengali-6619611904734574741-0,তাজ খান কররানী,no,gold,no,sheet (blind),3,,yes,no
+bengali-6805897370747809969-1__a3,bengali-6805897370747809969-1,"৫,২৮৩ বর্গ কিলোমিটার",no,gold,no,sheet (blind),3,,yes,yes
+bengali--1256061284728114612-1__a1,bengali--1256061284728114612-1,বিষ্ণু ঠাকুর,yes,I,yes,sheet (blind),3,,yes,yes
+bengali-4925538618113663099-44__a2,bengali-4925538618113663099-44,"রাবিয়া উদ দুরানি, যাঁর স্মরণে লাহোরের বাদশাহী মসজিদ নির্মিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali--7028166870651181278-0__a0,bengali--7028166870651181278-0,Heliconiinae,yes,I,yes,sheet (blind),3,,yes,no
+bengali--5238557952214041623-7__a0,bengali--5238557952214041623-7,২০০৩,yes,C,yes,sheet (blind),3,,yes,no
+bengali-2158077626257154929-21__a4,bengali-2158077626257154929-21,The Marine (2008),yes,S,yes,sheet (blind),3,,yes,no
+bengali--1741274220753938019-4__a2,bengali--1741274220753938019-4,"লীলা চৌধুরী, রবীন্দ্রনাথ ঠাকুরের বড়দিদি",yes,S,yes,sheet (blind),3,,yes,no
+bengali--300248677481756467-2__a4,bengali--300248677481756467-2,চার,yes,F,yes,sheet (blind),3,,yes,no
+bengali--1513982894061092370-1__a0,bengali--1513982894061092370-1,হামফ্রে ডেভি,no,gold,no,sheet (blind),3,,yes,no
+bengali--958144661305894159-3__a3,bengali--958144661305894159-3,ব্রিটিশ ভারতের হায়দ্রাবাদ রাজ্যের পুত্তপর্থিতে,yes,I,yes,sheet (blind),3,,yes,no
+bengali-7443324023355551586-2__a1,bengali-7443324023355551586-2,সরদার লুৎফুল হক,yes,I,yes,sheet (blind),3,,yes,no
+bengali--339646139755933191-37__a4,bengali--339646139755933191-37,ইন্দিরা গান্ধী আন্তর্জাতিক বিমানবন্দর,yes,F,yes,sheet (blind),3,,yes,no
+bengali--5204568659066136602-1__a1,bengali--5204568659066136602-1,১৪২৬,yes,I,yes,sheet (blind),3,,yes,no
+bengali-2641143326428525515-3__a1,bengali-2641143326428525515-3,"ডেভিড চৌম, ১৯৯৮ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-5930037523147100292-2__a4,bengali-5930037523147100292-2,"১০ ফুট, মার্বেল পাথরে তৈরি",yes,S,yes,sheet (blind),3,,yes,no
+bengali--6060409413743005455-2__a0,bengali--6060409413743005455-2,চার,yes,I,yes,sheet (blind),3,,yes,no
+bengali-6379374255497658608-2__a1,bengali-6379374255497658608-2,ঢাকা হলে,yes,C,yes,sheet (blind),3,,yes,no
+bengali-8359136065589645914-4__a1,bengali-8359136065589645914-4,১২৮৯,yes,F,yes,sheet (blind),3,,yes,no
+bengali--8981983056012119758-0__a1,bengali--8981983056012119758-0,নবম বৃহত্তম,yes,C,yes,sheet (blind),3,,no (question dropped),
+bengali--7494701536369664029-4__a0,bengali--7494701536369664029-4,Histoire de la folie,yes,F,yes,sheet (blind),3,,yes,no
+bengali--253137097125729044-9__a3,bengali--253137097125729044-9,কার্ল মার্ক্স,yes,I,yes,sheet (blind),3,,yes,no
+bengali--5238557952214041623-7__a2,bengali--5238557952214041623-7,২০০৫,yes,F,yes,sheet (blind),3,,yes,no
+bengali--6139116765098870596-8__a0,bengali--6139116765098870596-8,দেশবন্ধুর প্রয়াণে,yes,C,yes,sheet (blind),3,,yes,no
+bengali--5443118172314527178-10__a1,bengali--5443118172314527178-10,অটলবিহারী বাজপেয়ী,no,gold,no,sheet (blind),3,,yes,no
+bengali-3629110068066754917-2__a2,bengali-3629110068066754917-2,বারাক,yes,I,yes,sheet (blind),3,,yes,no
+bengali--6767707870439070421-2__a0,bengali--6767707870439070421-2,৮,yes,C,yes,sheet (blind),3,,yes,no
+bengali--9166124787929336642-2__a1,bengali--9166124787929336642-2,সেন্ট বার্থোলোমিউ হাসপাতাল,yes,I,yes,sheet (blind),3,,yes,no
+bengali--8040726073714300616-2__a1,bengali--8040726073714300616-2,নিউ ইয়র্ক,no,gold,no,sheet (blind),3,,yes,no
+bengali-8858032480103139171-13__a4,bengali-8858032480103139171-13,"মেডেল অফ মেরিট, ১৯৩৬ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-219048145204272520-3__a3,bengali-219048145204272520-3,মেক্সিকোর ইউকাটানে,yes,F,yes,sheet (blind),3,,yes,no
+bengali-5062886283186840773-1__a4,bengali-5062886283186840773-1,সালাদিন,yes,I,yes,sheet (blind),3,,yes,no
+bengali--4530743173832919373-1__a2,bengali--4530743173832919373-1,হ্যারি পটার অ্যান্ড দ্য অর্ডার অব দ্য ফিনিক্স,yes,I,yes,sheet (blind),3,,yes,no
+bengali--6481904361126256209-0__a2,bengali--6481904361126256209-0,বীর বিক্রম কিশোর মাণিক্য,yes,I,yes,sheet (blind),3,,yes,yes
+bengali--4013739044801291463-4__a2,bengali--4013739044801291463-4,ধর্মপাল,yes,F,yes,sheet (blind),3,,yes,no
+bengali-712721717915347963-4__a0,bengali-712721717915347963-4,"قرأ ক্বরা'আ ক্রিয়া পদ, যার অর্থ লেখা",yes,S,yes,sheet (blind),3,,yes,no
+bengali-937294351156651799-1__a4,bengali-937294351156651799-1,মরয়া গোসাভি,no,gold,no,sheet (blind),3,,yes,yes
+bengali--4530743173832919373-1__a0,bengali--4530743173832919373-1,হ্যারি পটার অ্যান্ড দ্য ডেথলি হ্যালোস,no,gold,no,sheet (blind),3,,yes,no
+bengali--4320576500947344600-2__a4,bengali--4320576500947344600-2,ব্যাবিলনে,no,gold,no,sheet (blind),3,,no (question dropped),
+bengali--2318822466630053761-0__a2,bengali--2318822466630053761-0,১৩৮ কোটি,yes,F,yes,sheet (blind),3,,yes,no
+bengali-8512012910625342558-17__a2,bengali-8512012910625342558-17,মাইকেল মানে,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6379374255497658608-2__a4,bengali-6379374255497658608-2,জগন্নাথ কলেজে,yes,F,yes,sheet (blind),3,,yes,no
+bengali--958144661305894159-3__a0,bengali--958144661305894159-3,ব্রিটিশ ভারতের মাদ্রাজ প্রেসিডেন্সির পুত্তপর্থিতে মীচারাগাণ্ডা ঈশ্বরম্মা এবং পেড্ডাভেংকামা রাজু রত্নাকরমের গৃহে,no,gold,no,sheet (blind),3,,yes,no
+bengali-6842587858992031358-10__a4,bengali-6842587858992031358-10,"১২০০ থেকে ১০০০ অব্দের মাঝামাঝি, দক্ষিণ ভারতে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-5381296187722902042-1__a4,bengali-5381296187722902042-1,পীর হজরত শাহ সৈয়দ গোলাম রসুল,yes,F,yes,sheet (blind),3,,yes,no
+bengali-4022030362183597721-4__a0,bengali-4022030362183597721-4,বেদ,no,gold,no,sheet (blind),3,,yes,no
+bengali--8582042316957777177-1__a2,bengali--8582042316957777177-1,বিক্রমপুর (বর্তমান মুন্সীগঞ্জ জেলার) টঙ্গীবাড়ী উপজেলার সোনারং গ্রামের সেন পরিবারে,no,gold,no,sheet (blind),3,,yes,no
+bengali--7028166870651181278-0__a2,bengali--7028166870651181278-0,Nymphalidae,yes,C,yes,sheet (blind),3,,yes,no
+bengali-7478984229355295611-0__a3,bengali-7478984229355295611-0,"মধ্যপ্রাচ্যে, ১৯৫৬ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-6842587858992031358-10__a0,bengali-6842587858992031358-10,১২০০ থেকে ১০০০ অব্দের মাঝামাঝি,no,gold,no,sheet (blind),3,,yes,no
+bengali--7450233971944433591-2__a2,bengali--7450233971944433591-2,উজান গাঙ্গুলি,yes,I,yes,sheet (blind),3,,yes,no
+bengali--1253642664057630388-5__a1,bengali--1253642664057630388-5,১৯৪৭,no,gold,no,sheet (blind),3,,yes,no
+bengali--9105179977372456588-2__a0,bengali--9105179977372456588-2,"অ্যানি, একজন স্কুলশিক্ষিকা",yes,S,yes,sheet (blind),3,,yes,no
+bengali-3661955588237544767-0__a2,bengali-3661955588237544767-0,পর্ণমোচী,yes,I,yes,sheet (blind),3,,yes,no
+bengali--4013739044801291463-4__a0,bengali--4013739044801291463-4,গোপাল,no,gold,no,sheet (blind),3,,yes,no
+bengali-6388918828049871160-0__a1,bengali-6388918828049871160-0,"স্বাধীনতা যুদ্ধে আত্মোৎসর্গকারীদের রক্তের, যা ১৯৭১ সালের ২৬ মার্চ সরকারীভাবে গৃহীত হয়",yes,S,yes,sheet (blind),3,,yes,no
+bengali--7502767898250009025-1__a2,bengali--7502767898250009025-1,জে.কে. রাউলিং,yes,C,yes,sheet (blind),3,,no (question dropped),
+bengali--6279882593924388519-5__a4,bengali--6279882593924388519-5,১ লাখ ৮৫ হাজার বর্গফুট,no,gold,no,sheet (blind),3,,yes,no
+bengali-5524428449970713654-6__a0,bengali-5524428449970713654-6,"১২ এপ্রিল, প্রধানমন্ত্রীর সমমর্যাদায়",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5462601724301448508-7__a1,bengali--5462601724301448508-7,জীবন থেকে নেয়া,yes,F,yes,sheet (blind),3,,yes,no
+bengali--4940144912201379461-31__a4,bengali--4940144912201379461-31,"মুম্বই-পুনে এক্সপ্রেসওয়ে, যা ২০১০ সালে চালু হয়",yes,S,yes,sheet (blind),3,,yes,no
+bengali-4504326333406178570-1__a4,bengali-4504326333406178570-1,সিমিলাউন হিমবাহ,yes,I,yes,sheet (blind),3,,yes,yes
+bengali--1741274220753938019-4__a3,bengali--1741274220753938019-4,সৌদামিনী দেবী,yes,C,yes,sheet (blind),3,,yes,no
+bengali--6454241841681747573-2__a0,bengali--6454241841681747573-2,গ্রিক শব্দ ইন্ডোস,yes,I,yes,sheet (blind),3,,yes,no
+bengali-1792401805174346038-0__a0,bengali-1792401805174346038-0,"১১৭, যার সবাই আগুনে দগ্ধ হয়ে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-3439541446161415603-1__a1,bengali-3439541446161415603-1,"কুমারদেবী, একজন মৌর্য রাজকুমারী",yes,S,yes,sheet (blind),3,,yes,no
+bengali-5118137145175085108-0__a0,bengali-5118137145175085108-0,১৮৯৮,no,gold,no,sheet (blind),3,,yes,no
+bengali--7875843185520169461-6__a2,bengali--7875843185520169461-6,"ব্র্যাডফোর্ড লেসলি, একজন ভারতীয় প্রকৌশলী",yes,S,yes,sheet (blind),3,,yes,no
+bengali--1085248370329535149-1__a0,bengali--1085248370329535149-1,ময়মনসিংহ মেডিকেল কলেজে,yes,C,yes,sheet (blind),3,,yes,no
+bengali-2870309728449533083-1__a3,bengali-2870309728449533083-1,"১২ জুলাই, ১৯২০",yes,F,yes,sheet (blind),3,,yes,no
+bengali--3051071168921438198-0__a1,bengali--3051071168921438198-0,বাংলাদেশের বাইরে,yes,C,yes,sheet (blind),3,,no (question dropped),
+bengali--2213906058284930151-1__a4,bengali--2213906058284930151-1,১৯৪১ সালে,yes,C,yes,sheet (blind),3,,yes,no
+bengali--6279882593924388519-5__a0,bengali--6279882593924388519-5,২ লাখ ৫০ হাজার বর্গফুট,yes,F,yes,sheet (blind),3,,yes,no
+bengali-4925538618113663099-44__a0,bengali-4925538618113663099-44,জাহানারা,yes,I,yes,sheet (blind),3,,yes,no
+bengali--954934863110314741-0__a1,bengali--954934863110314741-0,ব্ল্যাকবেরি বোল্ড,yes,C,yes,sheet (blind),3,,yes,no
+bengali-8842503098497321541-0__a3,bengali-8842503098497321541-0,Ciconiidae,yes,C,yes,sheet (blind),3,,yes,no
+bengali--4940144912201379461-31__a1,bengali--4940144912201379461-31,মুম্বই-ভদোদরা এক্সপ্রেসওয়ে,yes,C,yes,sheet (blind),3,,yes,no
+bengali-2204361224864424875-0__a2,bengali-2204361224864424875-0,"রেগিনাল্ড ডায়ারের, যিনি ছিলেন পাঞ্জাবের গভর্নর",yes,S,yes,sheet (blind),3,,yes,no
+bengali--3518785176444767715-2__a2,bengali--3518785176444767715-2,রয়েল প্রুশিয়ার ডানজিগ শহরে,yes,S,yes,sheet (blind),3,,yes,no
+bengali--9166124787929336642-2__a4,bengali--9166124787929336642-2,কলকাতা মেডিক্যাল কলেজ,no,gold,no,sheet (blind),3,,yes,no
+bengali--5990277188213233200-21__a1,bengali--5990277188213233200-21,"The Marine, যা ২০০৯ সালে মুক্তি পায়",yes,S,yes,sheet (blind),3,,no (question dropped),
+bengali--4406976333727853714-0__a2,bengali--4406976333727853714-0,১৯৯৩,yes,C,yes,sheet (blind),3,,yes,yes
+bengali--5990277188213233200-21__a0,bengali--5990277188213233200-21,The Marine 2,yes,I,yes,sheet (blind),3,,no (question dropped),
+bengali--3518785176444767715-2__a0,bengali--3518785176444767715-2,ফ্রমবর্কে,yes,C,yes,sheet (blind),3,,yes,no
+bengali-2586602312486395780-1__a1,bengali-2586602312486395780-1,আইওলাইটস,no,gold,no,sheet (blind),3,,yes,no
+bengali-2969815077148315217-1__a2,bengali-2969815077148315217-1,সৈয়দ ফরিদ উদ্দিন,no,gold,no,sheet (blind),3,,yes,no
+bengali--5096425443785627913-15__a2,bengali--5096425443785627913-15,"দুই, উভয়ই জরায়ুমুখী",yes,S,yes,sheet (blind),3,,yes,no
+bengali-1019942405024864518-0__a2,bengali-1019942405024864518-0,সুন্দর পিচাই,yes,C,yes,sheet (blind),3,,yes,yes
+bengali--6603377333995547973-0__a0,bengali--6603377333995547973-0,"পুরাপ্রস্তর, যা প্রায় ৫,০০০ বছর আগে শেষ হয়",yes,S,yes,sheet (blind),3,,yes,yes
+bengali--4013739044801291463-4__a4,bengali--4013739044801291463-4,"গোপাল, যিনি সূর্যবংশের এক ব্রাহ্মণ",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5808391741219758748-0__a0,bengali--5808391741219758748-0,১৮৮৬,no,gold,no,sheet (blind),3,,yes,no
+bengali-4876582901305573055-1__a1,bengali-4876582901305573055-1,"গোরাচাঁদ, যশোরের একজন বিখ্যাত ডাক্তার",yes,S,yes,sheet (blind),3,,yes,no
+bengali-7755099264590331306-3__a2,bengali-7755099264590331306-3,বাংলা প্রেসিডেন্সির খুলনা জেলার পাইকগাছায়,yes,F,yes,sheet (blind),3,,yes,no
+bengali--6603377333995547973-0__a4,bengali--6603377333995547973-0,ব্রোঞ্জ যুগ,yes,C,yes,sheet (blind),3,,yes,yes
+bengali-5507576373813184357-0__a1,bengali-5507576373813184357-0,"১৪ই সেপ্টেম্বর, ১৯৮৮",yes,I,yes,sheet (blind),3,,yes,no
+bengali--6938244689861502884-1__a4,bengali--6938244689861502884-1,"শেষ বিকেলের মেয়ে, ১৯৬৪ সালে প্রকাশিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali-8842503098497321541-0__a2,bengali-8842503098497321541-0,"Anastomus oscitans, Ardeidae গোত্রের",yes,S,yes,sheet (blind),3,,yes,no
+bengali-1239158793173466909-0__a4,bengali-1239158793173466909-0,পঞ্চম,yes,C,yes,sheet (blind),3,,yes,no
+bengali--458659178719722926-3__a1,bengali--458659178719722926-3,২০৩০,yes,I,yes,sheet (blind),3,,no (question dropped),
+bengali-7646003778499018736-5__a3,bengali-7646003778499018736-5,জন ড্রিউ ব্যারিমোর,no,gold,no,sheet (blind),3,,yes,no
+bengali-1028909508937040669-0__a2,bengali-1028909508937040669-0,১৯৪ খ্রিস্টাব্দ,yes,I,yes,sheet (blind),3,,yes,no
+bengali--7864256844244364502-12__a2,bengali--7864256844244364502-12,"চতুর্থ ইন্দ্র, যিনি যুদ্ধক্ষেত্রে নিহত হন",yes,S,yes,sheet (blind),3,,yes,no
+bengali--3525863623165833573-10__a2,bengali--3525863623165833573-10,হোমো হ্যাবিলিস,yes,F,yes,sheet (blind),3,,yes,no
+bengali--5462601724301448508-7__a2,bengali--5462601724301448508-7,জাগো হুয়া সাভেরা,yes,I,yes,sheet (blind),3,,yes,no
+bengali-6388918828049871160-0__a0,bengali-6388918828049871160-0,বিপ্লব ও সাহসের,yes,F,yes,sheet (blind),3,,yes,no
+bengali-2870309728449533083-1__a2,bengali-2870309728449533083-1,"১ ফেব্রুয়ারি, ১৯৪৯",yes,I,yes,sheet (blind),3,,yes,no
+bengali--7545544422670647850-0__a2,bengali--7545544422670647850-0,১৮৫৯,yes,C,yes,sheet (blind),3,,yes,no
+bengali-7560401120187097084-7__a3,bengali-7560401120187097084-7,২৬টিরও বেশী,yes,I,yes,sheet (blind),3,,no (question dropped),
+bengali-6805897370747809969-1__a4,bengali-6805897370747809969-1,"৫,২৮৩ বর্গ মাইল",yes,I,yes,sheet (blind),3,,yes,yes
+bengali--7621828810919168386-3__a3,bengali--7621828810919168386-3,কিশোরগঞ্জ জেলা মহিলা আওয়ামী লীগের,yes,C,yes,sheet (blind),3,,yes,no
+bengali--7875843185520169461-6__a4,bengali--7875843185520169461-6,রেল কোম্পানি,yes,C,yes,sheet (blind),3,,yes,no
+bengali--7292840639115996653-3__a3,bengali--7292840639115996653-3,"মালয় ভাষা, ইংরেজি ও চীনা",yes,S,yes,sheet (blind),3,,yes,no
+bengali-8690075851604962430-9__a4,bengali-8690075851604962430-9,১৯৩০-এর দশকে,yes,I,yes,sheet (blind),3,,yes,yes
+bengali--6139116765098870596-8__a2,bengali--6139116765098870596-8,বনলতা সেন,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8981449779740723998-3__a0,bengali-8981449779740723998-3,রানী ভবানী,yes,I,yes,sheet (blind),3,,yes,no
+bengali--5394904407063095222-2__a2,bengali--5394904407063095222-2,মোছাম্মদ মেহেরুননেসা,no,gold,no,sheet (blind),3,,yes,no
+bengali--5394904407063095222-2__a4,bengali--5394904407063095222-2,"মোছাম্মদ মেহেরুননেসা, একজন স্কুলশিক্ষিকা",yes,S,yes,sheet (blind),3,,yes,no
+bengali-2855703607822460518-28__a2,bengali-2855703607822460518-28,আইজ্যাক আসিমভ,yes,F,yes,sheet (blind),3,,yes,no
+bengali-6020639613270814419-24__a4,bengali-6020639613270814419-24,৮টি,yes,C,yes,sheet (blind),3,,yes,no
+bengali--2553274627248365687-16__a0,bengali--2553274627248365687-16,সিটি বুক সোসাইটি,yes,C,yes,sheet (blind),3,,yes,no
+bengali-3143414516689833649-0__a4,bengali-3143414516689833649-0,হাইবারিতে,yes,C,yes,sheet (blind),3,,yes,no
+bengali-4876582901305573055-1__a0,bengali-4876582901305573055-1,রামগোপাল চন্দ্র,yes,F,yes,sheet (blind),3,,yes,no
+bengali-5106409585032054286-5__a4,bengali-5106409585032054286-5,২০০৯,yes,I,yes,sheet (blind),3,,yes,yes
+bengali--6481904361126256209-0__a3,bengali--6481904361126256209-0,"শচীন্দ্র লাল সিং, মার্কসবাদী কমিউনিস্ট পার্টির নেতা",yes,S,yes,sheet (blind),3,,yes,yes
+bengali--5443118172314527178-10__a4,bengali--5443118172314527178-10,শ্যামাপ্রসাদ মুখোপাধ্যায়,yes,I,yes,sheet (blind),3,,yes,no
+bengali--2553274627248365687-16__a2,bengali--2553274627248365687-16,ছেলেদের রামায়ণ,no,gold,no,sheet (blind),3,,yes,no
+bengali-8695577586615119311-3__a2,bengali-8695577586615119311-3,ওয়াই-ফাই অ্যালায়েন্স,yes,I,yes,sheet (blind),3,,yes,no
+bengali-502031366341688023-0__a3,bengali-502031366341688023-0,"অক্টোবর ১৭, ১৫৪২",yes,F,yes,sheet (blind),3,,yes,no
+bengali-4504326333406178570-1__a0,bengali-4504326333406178570-1,"গ্রেট বালটোরা, যার দৈর্ঘ্য প্রায় ১৫৮ কিলোমিটার",yes,S,yes,sheet (blind),3,,yes,yes
+bengali-9025642034431464670-6__a4,bengali-9025642034431464670-6,আ হ ম মোস্তফা কামাল,yes,C,yes,sheet (blind),3,,yes,yes
+bengali--8137487757915657057-1__a0,bengali--8137487757915657057-1,অনেকটা ডিম্বাকার,no,gold,no,sheet (blind),3,,yes,no
+bengali-5507576373813184357-0__a0,bengali-5507576373813184357-0,"১৪ই সেপ্টেম্বর, ১৮৮৮, দেওঘরে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--1465705133191764484-0__a0,bengali--1465705133191764484-0,স্টিফেন কিং,yes,F,yes,sheet (blind),3,,yes,no
+bengali--9166124787929336642-2__a3,bengali--9166124787929336642-2,কলকাতা মেডিক্যাল কলেজ (১৯১০ সালে),yes,S,yes,sheet (blind),3,,yes,no
+bengali-3364725891006560143-1__a3,bengali-3364725891006560143-1,কোমালাটাম্মাল,yes,C,yes,sheet (blind),3,,yes,no
+bengali-3671812557348515405-0__a4,bengali-3671812557348515405-0,ষোল,yes,I,yes,sheet (blind),3,,yes,no
+bengali-6388918828049871160-0__a2,bengali-6388918828049871160-0,ভাষা আন্দোলনের শহীদদের রক্তের,yes,I,yes,sheet (blind),3,,yes,no
+bengali-1920310716847351499-2__a4,bengali-1920310716847351499-2,আলিপুরদুয়ার জেলা,yes,F,yes,sheet (blind),3,,yes,yes
+bengali-363202495030830843-1__a2,bengali-363202495030830843-1,৭০০০,yes,I,yes,sheet (blind),3,,yes,no
+bengali--4242932573912323257-3__a0,bengali--4242932573912323257-3,বুশ ক্রিসমাস,no,gold,no,sheet (blind),3,,yes,no
+bengali-4022030362183597721-4__a4,bengali-4022030362183597721-4,উপনিষদ,yes,I,yes,sheet (blind),3,,yes,no
+bengali--6481904361126256209-0__a0,bengali--6481904361126256209-0,নৃপেন চক্রবর্তী,yes,F,yes,sheet (blind),3,,yes,yes
+bengali-6020639613270814419-24__a0,bengali-6020639613270814419-24,"৬টি, যার সবগুলো চট্টগ্রামে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5238557952214041623-7__a3,bengali--5238557952214041623-7,২০০৭,no,gold,no,sheet (blind),3,,yes,no
+bengali--5990277188213233200-21__a3,bengali--5990277188213233200-21,The Marine,no,gold,no,sheet (blind),3,,no (question dropped),
+bengali--5238557952214041623-7__a1,bengali--5238557952214041623-7,২০১১,yes,I,yes,sheet (blind),3,,yes,no
+bengali--3103999780934898975-0__a4,bengali--3103999780934898975-0,"২৩ অক্টোবর, ১৯২৯",no,gold,no,sheet (blind),3,,yes,no
+bengali--8154256008658539900-14__a4,bengali--8154256008658539900-14,১২০টি,yes,F,yes,sheet (blind),3,,no (question dropped),
+bengali--5808391741219758748-0__a4,bengali--5808391741219758748-0,১৮৮৮,yes,I,yes,sheet (blind),3,,yes,no
+bengali-6325810556486078660-4__a2,bengali-6325810556486078660-4,খ্রীষ্টপূর্ব প্রায় তিন হাজার সাল,yes,C,yes,sheet (blind),3,,yes,no
+bengali--4965296737885262319-1__a0,bengali--4965296737885262319-1,"সিলেট জেলার জকিগঞ্জ উপজেলার ফুলতলী, ১৯৩০ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--2360904266908875273-1__a3,bengali--2360904266908875273-1,ফিরহাদ হাকিম,yes,F,yes,sheet (blind),consider updated context where answer is shovon,,yes,yes
+bengali-7554185182653449052-1__a4,bengali-7554185182653449052-1,১৯৮৫,yes,I,yes,sheet (blind),3,,yes,no
+bengali--8707413810832587133-1__a4,bengali--8707413810832587133-1,"৩,৮০০",yes,I,yes,sheet (blind),3,,no (question dropped),
+bengali--1492967622164090627-2__a1,bengali--1492967622164090627-2,হোশিয়ারপুর,yes,C,yes,sheet (blind),3,,yes,no
+bengali--761065314955184950-3__a0,bengali--761065314955184950-3,ঢাকা বিশ্ববিদ্যালয়ে,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6388918828049871160-0__a3,bengali-6388918828049871160-0,স্বাধীনতা যুদ্ধে আত্মোৎসর্গকারীদের রক্তের,no,gold,no,sheet (blind),3,,yes,no
+bengali-227743697961975427-1__a2,bengali-227743697961975427-1,"পল ফ্রেঞ্চ, যে নামে তিনি নাইটফল গল্পটি লেখেন",yes,S,yes,sheet (blind),3,,yes,no
+bengali-7443324023355551586-2__a4,bengali-7443324023355551586-2,সরদার মইনউদ্দিন আহমদ,no,gold,no,sheet (blind),3,,yes,no
+bengali-3364725891006560143-1__a2,bengali-3364725891006560143-1,"কে শ্রীনিবাস ইয়েঙ্গার, একজন গণিতের শিক্ষক",yes,S,yes,sheet (blind),3,,yes,no
+bengali-7931400735334438152-7__a0,bengali-7931400735334438152-7,"১৯৭১, ২৫ মার্চ রাতে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--4242932573912323257-3__a3,bengali--4242932573912323257-3,ফাইভ মাইল ক্রীক,yes,C,yes,sheet (blind),3,,yes,no
+bengali-219048145204272520-3__a2,bengali-219048145204272520-3,খ্রিস্টপূর্ব ২৬০০,yes,C,yes,sheet (blind),3,,yes,no
+bengali--5484532727206796065-0__a0,bengali--5484532727206796065-0,ম্যাককরমিক ফুডস অস্ট্রেলিয়া,no,gold,no,sheet (blind),3,,yes,yes
+bengali--3697074528484927697-7__a2,bengali--3697074528484927697-7,"২০ই আগস্ট,১৯৭১",no,gold,no,sheet (blind),3,,yes,no
+bengali-7560401120187097084-7__a2,bengali-7560401120187097084-7,১৬৪টি,yes,C,yes,sheet (blind),3,,no (question dropped),
+bengali-8376247445164774033-9__a4,bengali-8376247445164774033-9,১১৩,yes,F,yes,sheet (blind),3,,yes,no
+bengali-4925538618113663099-44__a4,bengali-4925538618113663099-44,বিবি কা মাকবারা,yes,C,yes,sheet (blind),3,,yes,no
+bengali-7478984229355295611-0__a2,bengali-7478984229355295611-0,মধ্যপ্রাচ্যে,no,gold,no,sheet (blind),3,,yes,no
+bengali-870453365572423945-4__a0,bengali-870453365572423945-4,হলদিয়া,yes,F,yes,sheet (blind),3,,yes,yes
+bengali--3103999780934898975-0__a1,bengali--3103999780934898975-0,"২৪ অক্টোবর, ১৯৩১",yes,F,yes,sheet (blind),3,,yes,no
+bengali-2055139326411802416-1__a1,bengali-2055139326411802416-1,জয়পুরহাট,yes,F,yes,sheet (blind),3,,yes,no
+bengali--7864256844244364502-12__a4,bengali--7864256844244364502-12,তৃতীয় ইন্দ্র,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8858032480103139171-13__a3,bengali-8858032480103139171-13,ব্রুস পদক,yes,C,yes,sheet (blind),3,,yes,no
+bengali-2179858832836959368-4__a1,bengali-2179858832836959368-4,৫৫·৫ বর্গ কিলোমিটার,yes,F,yes,sheet (blind),3,,yes,no
+bengali--2318822466630053761-0__a4,bengali--2318822466630053761-0,১৪০ লক্ষ,yes,I,yes,sheet (blind),3,,yes,no
+bengali-3629110068066754917-2__a4,bengali-3629110068066754917-2,আহমদ শাহ দুররানি,yes,F,yes,sheet (blind),3,,yes,no
+bengali-1508751382134197788-2__a3,bengali-1508751382134197788-2,"কৃষক শ্রমিক পার্টি, যার প্রতিষ্ঠাতা মওলানা ভাসানী",yes,S,yes,sheet (blind),3,,yes,no
+bengali--8465088691390481636-2__a3,bengali--8465088691390481636-2,রমেন্দ্রনারায়ণ রায়চৌধুরী,yes,C,yes,sheet (blind),3,,yes,no
+bengali--405761113848942428-0__a0,bengali--405761113848942428-0,বার্ডি,yes,F,yes,sheet (blind),3,,yes,no
+bengali-5447758927889596593-4__a2,bengali-5447758927889596593-4,১১০টি গ্রাম ও ১৫টি ইউনিয়ন,yes,S,yes,sheet (blind),3,,yes,yes
+bengali-3143414516689833649-0__a3,bengali-3143414516689833649-0,হলোওয়েতে,yes,I,yes,sheet (blind),3,,yes,no
+bengali-4287325730796291566-12__a2,bengali-4287325730796291566-12,তায়েফ,yes,I,yes,sheet (blind),3,,yes,no
+bengali--261227273822015974-3__a3,bengali--261227273822015974-3,ম্যানহাটন,yes,C,yes,sheet (blind),3,,yes,no
+bengali-7554185182653449052-1__a2,bengali-7554185182653449052-1,১৯৯১,yes,F,yes,sheet (blind),3,,yes,no
+bengali-2573614511216597131-1__a2,bengali-2573614511216597131-1,সৈয়দ আব্বাস আলী রাজী,yes,C,yes,sheet (blind),3,,yes,no
+bengali-243734154999546321-1__a3,bengali-243734154999546321-1,১৯৩৯ সালের ১৮ মার্চ,yes,F,yes,sheet (blind),3,,yes,no
+bengali-3623855340588085394-2__a0,bengali-3623855340588085394-2,পাণ্ডুবাসুদেব,yes,F,yes,sheet (blind),3,,yes,no
+bengali--4940144912201379461-31__a3,bengali--4940144912201379461-31,মুম্বই-পুনে এক্সপ্রেসওয়ে,no,gold,no,sheet (blind),3,,yes,no
+bengali--5702015763636761454-0__a4,bengali--5702015763636761454-0,"১৯৭৬, বাংলাদেশের দ্বিতীয় মুক্তিযুদ্ধ জাদুঘর হিসেবে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--7028166870651181278-0__a3,bengali--7028166870651181278-0,Danaus chrysippus,yes,F,yes,sheet (blind),3,,yes,no
+bengali--6139116765098870596-8__a1,bengali--6139116765098870596-8,ঝরা পালক,no,gold,no,sheet (blind),3,,yes,no
+bengali-2855703607822460518-28__a4,bengali-2855703607822460518-28,জেনারেল মোটরস,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6246323317955015554-0__a3,bengali-6246323317955015554-0,"বেথুন কলেজ, মুম্বাইয়ে প্রতিষ্ঠিত",yes,S,yes,sheet (blind),3,,yes,yes
+bengali--405761113848942428-0__a2,bengali--405761113848942428-0,এমবিই,yes,C,yes,sheet (blind),3,,yes,no
+bengali--9166124787929336642-2__a2,bengali--9166124787929336642-2,পাটনা কলেজ,yes,C,yes,sheet (blind),3,,yes,no
+bengali--1428221452835638348-15__a0,bengali--1428221452835638348-15,"২,০৮৫ কিলোমিটার",yes,C,yes,sheet (blind),3,,yes,yes
+bengali--6139116765098870596-8__a4,bengali--6139116765098870596-8,ধূসর পাণ্ডুলিপি,yes,F,yes,sheet (blind),3,,yes,no
+bengali-3447785515269526586-2__a1,bengali-3447785515269526586-2,পিটার,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6644593634362949760-0__a4,bengali-6644593634362949760-0,২৫ মার্চ,no,gold,no,sheet (blind),3,,yes,no
+bengali--7621828810919168386-3__a1,bengali--7621828810919168386-3,মোছাঃ হামিদা আখতারের,yes,I,yes,sheet (blind),3,,yes,no
+bengali--1513982894061092370-1__a1,bengali--1513982894061092370-1,ফ্রেডরিখ উইলহেল্ম অসওয়াল্ড,yes,I,yes,sheet (blind),3,,yes,no
+bengali-2166646356804427767-12__a4,bengali-2166646356804427767-12,হ্যারি পটার এন্ড দি অর্ডার অফ দ্য ফিনিক্স,yes,F,yes,sheet (blind),3,,yes,no
+bengali--2245503452768852962-17__a0,bengali--2245503452768852962-17,"ত্যাগ ও বৈরাগ্যের, যা গৌতম বুদ্ধের চীবর থেকে নেওয়া",yes,S,yes,sheet (blind),3,,yes,no
+bengali--6767707870439070421-2__a3,bengali--6767707870439070421-2,৯৪,no,gold,no,sheet (blind),3,,yes,no
+bengali-7931400735334438152-7__a3,bengali-7931400735334438152-7,১৯৬৫,yes,C,yes,sheet (blind),3,,yes,no
+bengali-2055139326411802416-1__a4,bengali-2055139326411802416-1,নওগাঁ,yes,I,yes,sheet (blind),3,,yes,no
+bengali--3614315475237896403-1__a1,bengali--3614315475237896403-1,মিঃ এন্ড মিসেস আইয়ার,yes,C,yes,sheet (blind),3,,yes,no
+bengali--2632169197744064075-2__a1,bengali--2632169197744064075-2,১৯৪১ সালের আগস্ট মাসে,yes,F,yes,sheet (blind),3,,yes,no
+bengali--6938244689861502884-1__a0,bengali--6938244689861502884-1,কখনো আসেনি,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6325810556486078660-4__a4,bengali-6325810556486078660-4,গাছের চিকন ডালের সম্মুখ অংশ ও ঘোড়ার লেজের চুল,yes,S,yes,sheet (blind),3,,yes,no
+bengali--4965296737885262319-1__a3,bengali--4965296737885262319-1,মুফতি আব্দুল মজিদ,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5118137145175085108-0__a4,bengali-5118137145175085108-0,১৮৯৮ সালের ২৫ মার্চ,yes,S,yes,sheet (blind),3,,yes,no
+bengali--954934863110314741-0__a0,bengali--954934863110314741-0,রিসার্চ ইন মোশন,no,gold,no,sheet (blind),3,,yes,no
+bengali--381183395494440070-4__a1,bengali--381183395494440070-4,অ্যানুরা,no,gold,no,sheet (blind),3,,yes,no
+bengali--7875843185520169461-6__a0,bengali--7875843185520169461-6,ব্র্যাডফোর্ড লেসলি,no,gold,no,sheet (blind),3,,yes,no
+bengali-135536965636843256-17__a4,bengali-135536965636843256-17,"কেন্দ্রস্থলে, হুগলি নদী থেকে পাঁচ কিলোমিটার দূরে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--1428221452835638348-15__a3,bengali--1428221452835638348-15,"৬৭৬,৫৫২ বর্গকিলোমিটার, বাংলাদেশের প্রায় দশ গুণ",yes,S,yes,sheet (blind),3,,yes,yes
+bengali-6325810556486078660-4__a3,bengali-6325810556486078660-4,শূকরের লোম,yes,F,yes,sheet (blind),3,,yes,no
+bengali--8465088691390481636-2__a1,bengali--8465088691390481636-2,বলরাম রায়,yes,F,yes,sheet (blind),3,,yes,no
+bengali--5394904407063095222-2__a3,bengali--5394904407063095222-2,মোছাম্মদ জোবেদা খাতুন,yes,F,yes,sheet (blind),3,,yes,no
+bengali-6041160895772644763-71__a4,bengali-6041160895772644763-71,সল্ট লেক সিটিতে,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8359136065589645914-4__a0,bengali-8359136065589645914-4,"১২১৬, রাজশাহীতে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-6644593634362949760-0__a0,bengali-6644593634362949760-0,ঢাকায়,yes,C,yes,sheet (blind),3,,yes,no
+bengali--4713842652906966901-0__a2,bengali--4713842652906966901-0,"২২, যার সবগুলোই ইউরোপীয় ইউনিয়নের সদস্য",yes,S,yes,sheet (blind),3,,yes,yes
+bengali-5381296187722902042-1__a2,bengali-5381296187722902042-1,"পীর হজরত শাহ সৈয়দ আব্বাস আলী রাজী, যিনি মদিনায় জন্মগ্রহণ করেন",yes,S,yes,sheet (blind),3,,yes,no
+bengali-2158077626257154929-21__a1,bengali-2158077626257154929-21,The Marine,no,gold,no,sheet (blind),3,,yes,no
+bengali-712721717915347963-4__a2,bengali-712721717915347963-4,غفران গুফরান,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5507576373813184357-0__a4,bengali-5507576373813184357-0,"২৬শে জানুয়ারি, ১৯৬৯",yes,C,yes,sheet (blind),3,,yes,no
+bengali-9025642034431464670-6__a1,bengali-9025642034431464670-6,"জহির আব্বাস, ২০০৫ সাল থেকে",yes,S,yes,sheet (blind),3,,yes,yes
+bengali--8981983056012119758-0__a2,bengali--8981983056012119758-0,"১৩৪ বর্গমাইল, যা দক্ষিণ এশিয়ার চতুর্থ বৃহত্তম আয়তন",yes,S,yes,sheet (blind),3,,no (question dropped),
+bengali--381183395494440070-4__a2,bengali--381183395494440070-4,"অ্যানুরা, সালামান্ডার সহ",yes,S,yes,sheet (blind),3,,yes,no
+bengali-7044920795788516725-3__a1,bengali-7044920795788516725-3,শি জোংশুনের,no,gold,no,sheet (blind),3,,yes,no
+bengali-870453365572423945-4__a4,bengali-870453365572423945-4,তামলুক,no,gold,no,sheet (blind),3,,yes,yes
+bengali-2204361224864424875-0__a4,bengali-2204361224864424875-0,রবীন্দ্রনাথ ঠাকুরের,yes,C,yes,sheet (blind),3,,yes,no
+bengali-2179858832836959368-4__a2,bengali-2179858832836959368-4,২৬·৫ বর্গ কিলোমিটার,no,gold,no,sheet (blind),3,,yes,no
+bengali--8679555805989868423-10__a3,bengali--8679555805989868423-10,১৯৭১ সালের ১৪ জুন,yes,I,yes,sheet (blind),3,,yes,no
+bengali-2204361224864424875-0__a1,bengali-2204361224864424875-0,লর্ড চেমসফোর্ডের,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8376247445164774033-9__a1,bengali-8376247445164774033-9,১৩১,yes,I,yes,sheet (blind),3,,yes,no
+bengali--8707413810832587133-1__a1,bengali--8707413810832587133-1,"৫৫,০০০",yes,F,yes,sheet (blind),3,,no (question dropped),
+bengali-5524428449970713654-6__a1,bengali-5524428449970713654-6,১৬ ডিসেম্বর,yes,C,yes,sheet (blind),3,,yes,no
+bengali-2204361224864424875-0__a0,bengali-2204361224864424875-0,রেগিনাল্ড ডায়ারের,no,gold,no,sheet (blind),3,,yes,no
+bengali--8593436479613553727-5__a1,bengali--8593436479613553727-5,"১৯৭১, ২৬ মার্চ",yes,S,yes,sheet (blind),3,,yes,no
+bengali--1465705133191764484-0__a1,bengali--1465705133191764484-0,ফ্র্যাংক ড্যারাবন্ট,no,gold,no,sheet (blind),3,,yes,no
+bengali--3195260377241566684-0__a2,bengali--3195260377241566684-0,ক্রুসেডাররা,yes,I,yes,sheet (blind),3,,yes,no
+bengali--7292840639115996653-3__a1,bengali--7292840639115996653-3,মালয় ভাষা ও ইংরেজি,no,gold,no,sheet (blind),3,,yes,no
+bengali--7488179106745368024-1__a0,bengali--7488179106745368024-1,পাঁচ,yes,I,yes,sheet (blind),3,,yes,no
+bengali-7838235126646531080-5__a4,bengali-7838235126646531080-5,এডিনবরা,yes,I,yes,sheet (blind),3,,yes,no
+bengali--8465088691390481636-2__a4,bengali--8465088691390481636-2,"শ্রীকৃষ্ণ, ১৮০৪ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--6252143400733204520-2__a0,bengali--6252143400733204520-2,হিব্রু Yiṣḥāq,no,gold,no,sheet (blind),3,,yes,no
+bengali--8701126924018157132-3__a3,bengali--8701126924018157132-3,২০০৯ সালে,no,gold,no,sheet (blind),3,,yes,no
+bengali--2632169197744064075-2__a0,bengali--2632169197744064075-2,১৯৭৯ সালের মে মাসে,no,gold,no,sheet (blind),3,,yes,no
+bengali-8842503098497321541-0__a1,bengali-8842503098497321541-0,Anastomus oscitans,no,gold,no,sheet (blind),3,,yes,no
+bengali--8981983056012119758-0__a3,bengali--8981983056012119758-0,১৩৪ হেক্টর,yes,I,yes,sheet (blind),3,,no (question dropped),
+bengali--4814390249866358431-4__a2,bengali--4814390249866358431-4,নিকোলাস কোপার্নিকাস,yes,F,yes,sheet (blind),3,,yes,yes
+bengali-4504326333406178570-1__a3,bengali-4504326333406178570-1,রংবুক,yes,C,yes,sheet (blind),3,,yes,yes
+bengali-9022969225808669971-3__a1,bengali-9022969225808669971-3,জনক,yes,C,yes,sheet (blind),3,,yes,no
+bengali--954934863110314741-0__a4,bengali--954934863110314741-0,"রিসার্চ ইন মোশন, যা ছিল একটি জাপানি কোম্পানি",yes,S,yes,sheet (blind),3,,yes,no
+bengali--7292840639115996653-3__a2,bengali--7292840639115996653-3,চীনা ভাষা,yes,C,yes,sheet (blind),3,,yes,no
+bengali--458659178719722926-3__a0,bengali--458659178719722926-3,২০১৮,yes,F,yes,sheet (blind),3,,no (question dropped),
+bengali--2217820890808407965-4__a1,bengali--2217820890808407965-4,১৯৮৪ সালের ১২ নভেম্বর,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6842587858992031358-10__a1,bengali-6842587858992031358-10,১২০০ থেকে ১০০০ খ্রিস্টাব্দের মাঝামাঝি,yes,I,yes,sheet (blind),3,,yes,no
+bengali-3623855340588085394-2__a1,bengali-3623855340588085394-2,"সিংহবাহু, কলিঙ্গের রাজা",yes,S,yes,sheet (blind),3,,yes,no
+bengali--6960138209200983794-1__a3,bengali--6960138209200983794-1,সং অফারিংস,no,gold,no,sheet (blind),3,,yes,no
+bengali-6020639613270814419-24__a2,bengali-6020639613270814419-24,৬টি,no,gold,no,sheet (blind),3,,yes,no
+bengali--761065314955184950-3__a2,bengali--761065314955184950-3,ছাত্রলীগে,yes,F,yes,sheet (blind),3,,yes,no
+bengali-1028909508937040669-0__a4,bengali-1028909508937040669-0,২০২ হিঃ,yes,F,yes,sheet (blind),3,,yes,no
+bengali--6454241841681747573-2__a4,bengali--6454241841681747573-2,সংস্কৃত শব্দ সিন্ধু,no,gold,no,sheet (blind),3,,yes,no
+bengali-2179858832836959368-4__a0,bengali-2179858832836959368-4,২৭টি,yes,C,yes,sheet (blind),3,,yes,no
+bengali--8738126845861758945-3__a4,bengali--8738126845861758945-3,"১৯৬১ সালে, ব্রিটিশ সরকারের উদ্যোগে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-2158077626257154929-21__a3,bengali-2158077626257154929-21,WWE Studio,yes,C,yes,sheet (blind),3,,yes,no
+bengali-3217362833600204240-1__a3,bengali-3217362833600204240-1,"নাস্তিক, যারা বিশ্বের জনসংখ্যার ১১.৯%",yes,S,yes,sheet (blind),3,,yes,no
+bengali-6774541490543454184-11__a2,bengali-6774541490543454184-11,রথীন্দ্রনাথে,yes,F,yes,sheet (blind),2,,yes,yes
+bengali-5846157904123319216-6__a3,bengali-5846157904123319216-6,"হুলিয়ান পালাকিওস, ১৯০৫ সাল থেকে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--6454241841681747573-2__a2,bengali--6454241841681747573-2,আরবি শব্দ হিন্দ,yes,F,yes,sheet (blind),3,,yes,no
+bengali-6805897370747809969-1__a1,bengali-6805897370747809969-1,"৬,১১৬ বর্গ কিলোমিটার",yes,F,yes,sheet (blind),3,,yes,yes
+bengali--5503166637136263200-39__a4,bengali--5503166637136263200-39,কলেরায়,yes,I,yes,sheet (blind),3,,yes,no
+bengali-2870309728449533083-1__a4,bengali-2870309728449533083-1,"১ ফেব্রুয়ারি, ১৯১৮",no,gold,no,sheet (blind),3,,yes,no
+bengali--4320576500947344600-2__a3,bengali--4320576500947344600-2,গ্রিসে,yes,I,yes,sheet (blind),3,,no (question dropped),
+bengali--7875843185520169461-6__a3,bengali--7875843185520169461-6,"রেন্ডেল, পামার অ্যান্ড ট্রিটন",yes,I,yes,sheet (blind),3,,yes,no
+bengali--8981983056012119758-0__a0,bengali--8981983056012119758-0,১৩৪ বর্গমাইল,no,gold,no,sheet (blind),3,,no (question dropped),
+bengali-363202495030830843-1__a4,bengali-363202495030830843-1,৮০২৮,yes,F,yes,sheet (blind),3,,yes,no
+bengali-1792401805174346038-0__a4,bengali-1792401805174346038-0,২০৩,yes,F,yes,sheet (blind),3,,yes,no
+bengali--2093112330853915217-0__a3,bengali--2093112330853915217-0,৩১০ মাইল,yes,I,yes,sheet (blind),3,,yes,no
+bengali-243734154999546321-1__a2,bengali-243734154999546321-1,"১৯৩৬ সালের ১১ জুলাই, কুমিল্লার দাউদকান্দিতে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--6603377333995547973-0__a3,bengali--6603377333995547973-0,পুরাপ্রস্তর,no,gold,no,sheet (blind),3,,yes,yes
+bengali--8137487757915657057-1__a2,bengali--8137487757915657057-1,গোলাকার,yes,I,yes,sheet (blind),3,,yes,no
+bengali--5808391741219758748-0__a2,bengali--5808391741219758748-0,১৮৯০,yes,F,yes,sheet (blind),3,,yes,no
+bengali--2245503452768852962-17__a4,bengali--2245503452768852962-17,ধর্ম অনুশাসনের,yes,C,yes,sheet (blind),3,,yes,no
+bengali-4925538618113663099-44__a1,bengali-4925538618113663099-44,রাবিয়া উদ দুরানি,no,gold,no,sheet (blind),3,,yes,no
+bengali-937294351156651799-1__a3,bengali-937294351156651799-1,"মরয়া গোসাভি, যিনি একজন পেশোয়া",yes,S,yes,sheet (blind),3,,yes,yes
+bengali--2213906058284930151-1__a1,bengali--2213906058284930151-1,"১৯২০ সালে, চট্টগ্রামের হাটহাজারীতে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--8701126924018157132-3__a0,bengali--8701126924018157132-3,"২০০৯ সালের ১১ জানুয়ারি, ভারতের বিপক্ষে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--6695334746728483406-2__a3,bengali--6695334746728483406-2,"ঝাঁসির রানি, ১৯৭৬ সালে প্রকাশিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali--4088972979448384532-2__a3,bengali--4088972979448384532-2,আরতি,yes,C,yes,sheet (blind),3,,yes,no
+bengali-2969815077148315217-1__a0,bengali-2969815077148315217-1,সৈয়দ আবদুল হাদী,yes,F,yes,sheet (blind),3,,yes,no
+bengali--4814390249866358431-4__a1,bengali--4814390249866358431-4,টলেমি,yes,I,yes,sheet (blind),3,,yes,yes
+bengali--5096425443785627913-15__a4,bengali--5096425443785627913-15,চার,yes,I,yes,sheet (blind),3,,yes,no
+bengali--6252143400733204520-2__a3,bengali--6252143400733204520-2,তিনি হাসেন,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5062886283186840773-1__a2,bengali-5062886283186840773-1,সেন্ট পল,yes,F,yes,sheet (blind),3,,yes,no
+bengali-2641143326428525515-3__a4,bengali-2641143326428525515-3,সাতোশি নাকামোতো,yes,F,yes,sheet (blind),3,,yes,no
+bengali-8835875250524667479-0__a4,bengali-8835875250524667479-0,রোড হাউস,yes,I,yes,sheet (blind),3,,yes,no
+bengali--4242932573912323257-3__a4,bengali--4242932573912323257-3,বিএমএক্স ব্যান্ডিটস্‌,yes,I,yes,sheet (blind),3,,yes,no
+bengali--8907092310207870265-0__a2,bengali--8907092310207870265-0,জন্ম ২৭শে জানুয়ারি,no,gold,no,sheet (blind),3,,yes,yes
+bengali-4876582901305573055-1__a3,bengali-4876582901305573055-1,গোবিন্দচন্দ্র,yes,I,yes,sheet (blind),3,,yes,no
+bengali--7745662268738010333-11__a0,bengali--7745662268738010333-11,শৌর্য ও বীরত্বের,yes,F,yes,sheet (blind),3,,yes,no
+bengali--2093112330853915217-0__a1,bengali--2093112330853915217-0,"৩১০ কিলোমিটার, দামেস্কের দক্ষিণে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--89729718753012985-3__a1,bengali--89729718753012985-3,কুমিল্লার বিবিরহাট সীমান্তে,yes,C,yes,sheet (blind),3,,yes,no
+bengali-2573614511216597131-1__a3,bengali-2573614511216597131-1,হজরত করিম উল্লাহ (জন্ম ১৩৪২ খ্রি.),yes,S,yes,sheet (blind),3,,yes,no
+bengali-3671812557348515405-0__a2,bengali-3671812557348515405-0,"চার, যার সবকটি ১৯১৭ সালে প্রকাশিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali-6543940287332686430-1__a3,bengali-6543940287332686430-1,রবার্ট এ. ডেলি,no,gold,no,sheet (blind),3,,yes,no
+bengali--2245503452768852962-17__a3,bengali--2245503452768852962-17,ত্যাগ ও বৈরাগ্যের,no,gold,no,sheet (blind),3,,yes,no
+bengali-126165992786367412-2__a3,bengali-126165992786367412-2,"২০১৮, ওয়াইম্যাক্স প্রযুক্তিতে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-8858032480103139171-13__a2,bengali-8858032480103139171-13,প্রেসিডেন্সিয়াল মেডেল অফ ফ্রিডম,yes,I,yes,sheet (blind),3,,yes,no
+bengali--4713842652906966901-0__a1,bengali--4713842652906966901-0,১৪,yes,C,yes,sheet (blind),3,,yes,yes
+bengali--7494701536369664029-4__a3,bengali--7494701536369664029-4,Maladie mentale et personnalité,no,gold,no,sheet (blind),3,,yes,no
+bengali-8359136065589645914-4__a3,bengali-8359136065589645914-4,১৩৩১,yes,C,yes,sheet (blind),3,,yes,no
+bengali--9105179977372456588-2__a3,bengali--9105179977372456588-2,অ্যানি,no,gold,no,sheet (blind),3,,yes,no
+bengali-7646003778499018736-5__a0,bengali-7646003778499018736-5,লায়োনেল ব্যারিমোর,yes,F,yes,sheet (blind),3,,yes,no
+bengali--4713842652906966901-0__a3,bengali--4713842652906966901-0,১২,yes,F,yes,sheet (blind),3,,yes,yes
+bengali--4611455840991263320-1__a1,bengali--4611455840991263320-1,জালালুদ্দিন খিলজি,no,gold,no,sheet (blind),3,,no (question dropped),
+bengali--6481904361126256209-0__a1,bengali--6481904361126256209-0,মাণিক সরকার,yes,C,yes,sheet (blind),3,,yes,yes
+bengali-8981449779740723998-3__a3,bengali-8981449779740723998-3,কুমুদিনীকান্ত বন্দ্যোপাধ্যায়,yes,F,yes,sheet (blind),3,,yes,no
+bengali--2245503452768852962-17__a1,bengali--2245503452768852962-17,সমৃদ্ধি ও উর্বরতার,yes,F,yes,sheet (blind),3,,yes,no
+bengali-227743697961975427-1__a1,bengali-227743697961975427-1,লাকি স্টার,yes,I,yes,sheet (blind),3,,yes,no
+bengali--8738126845861758945-3__a2,bengali--8738126845861758945-3,১৯৬১ সালে,no,gold,no,sheet (blind),3,,yes,no
+bengali--4530743173832919373-1__a1,bengali--4530743173832919373-1,"হ্যারি পটার অ্যান্ড দ্য ডেথলি হ্যালোস, ২০০৫ সালে প্রকাশিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali-5118137145175085108-0__a1,bengali-5118137145175085108-0,১৮৯৩,yes,F,yes,sheet (blind),3,,yes,no
+bengali-3671812557348515405-0__a1,bengali-3671812557348515405-0,চার,no,gold,no,sheet (blind),3,,yes,no
+bengali--6139116765098870596-8__a3,bengali--6139116765098870596-8,"ঝরা পালক, ১৯৩৫ সালে প্রকাশিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali--8907092310207870265-0__a3,bengali--8907092310207870265-0,"জন্ম ২৭শে জানুয়ারি, ১৮৮২",yes,S,yes,sheet (blind),3,,yes,yes
+bengali-6644593634362949760-0__a2,bengali-6644593634362949760-0,"২৫ মার্চ, দুপুরে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--3947167920835567776-1__a1,bengali--3947167920835567776-1,আলাউদ্দিন খিলজি,yes,C,yes,sheet (blind),3,,yes,no
+bengali--5210760246858963269-0__a0,bengali--5210760246858963269-0,"১৯৮৪ খ্রিষ্টাব্দে, পাকিস্তানের অভিযানের মাধ্যমে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-2166646356804427767-12__a0,bengali-2166646356804427767-12,হ্যারি পটার এন্ড দি প্রিজনার অফ আজকাবান,yes,I,yes,sheet (blind),3,,yes,no
+bengali-3629110068066754917-2__a0,bengali-3629110068066754917-2,হাজি জামাল খান,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6325810556486078660-4__a1,bengali-6325810556486078660-4,গাছের চিকন ডালের সম্মুখ অংশ,no,gold,no,sheet (blind),3,,yes,no
+bengali-870453365572423945-4__a1,bengali-870453365572423945-4,রূপনারায়ণ,yes,C,yes,sheet (blind),3,,yes,yes
+bengali--3525863623165833573-10__a0,bengali--3525863623165833573-10,হোমো রোডেসিয়েন্সিস,yes,C,yes,sheet (blind),3,,yes,no
+bengali-1920310716847351499-2__a1,bengali-1920310716847351499-2,"ঝাড়গ্রাম জেলা ও কালিম্পং, ২০১৪ সালে গঠিত",yes,S,yes,sheet (blind),3,,yes,yes
+bengali-3439541446161415603-1__a4,bengali-3439541446161415603-1,লিচ্ছবি,yes,C,yes,sheet (blind),3,,yes,no
+bengali-2166646356804427767-12__a3,bengali-2166646356804427767-12,"হ্যারি পটার এন্ড দি গবলেট অফ ফায়ার, ১৯৯৯ সালে প্রকাশিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali-1781289068755440406-2__a4,bengali-1781289068755440406-2,চীনে,yes,C,yes,sheet (blind),3,,yes,yes
+bengali--1085248370329535149-1__a2,bengali--1085248370329535149-1,২০০৫ সালের ২১শে ফেব্রুয়ারি,yes,F,yes,sheet (blind),3,,yes,no
+bengali--8900441193756448468-0__a0,bengali--8900441193756448468-0,বুকের ভিতর আগুন,no,gold,no,sheet (blind),3,,yes,no
+bengali--7502767898250009025-1__a1,bengali--7502767898250009025-1,হ্যারি পটার অ্যান্ড দ্য ডেথলি হ্যালোজ,yes,I,yes,sheet (blind),3,,no (question dropped),
+bengali--5462601724301448508-7__a0,bengali--5462601724301448508-7,নবাব সিরাজউদ্দৌল্লা,yes,C,yes,sheet (blind),3,,yes,no
+bengali--7450233971944433591-2__a3,bengali--7450233971944433591-2,ঋতুপর্ণ ঘোষ,yes,F,yes,sheet (blind),3,,yes,no
+bengali--3195260377241566684-0__a4,bengali--3195260377241566684-0,মামলুক,no,gold,no,sheet (blind),3,,yes,no
+bengali-8690075851604962430-9__a2,bengali-8690075851604962430-9,প্রশান্ত মহাসাগর,yes,C,yes,sheet (blind),3,,yes,yes
+bengali-2641143326428525515-3__a0,bengali-2641143326428525515-3,নিক জাবো,yes,I,yes,sheet (blind),3,,yes,no
+bengali--7028166870651181278-0__a1,bengali--7028166870651181278-0,Vindula erota (Linnaeus),yes,S,yes,sheet (blind),3,,yes,no
+bengali--8582042316957777177-1__a1,bengali--8582042316957777177-1,ঢাকা জেলার নবাবগঞ্জ উপজেলার আগলা গ্রামে,yes,F,yes,sheet (blind),3,,yes,no
+bengali--7502767898250009025-1__a4,bengali--7502767898250009025-1,"হ্যারি পটার অ্যান্ড দ্য ফিলোসফার্স স্টোন, যা আমেরিকায় প্রথম প্রকাশিত হয়",yes,S,yes,sheet (blind),3,,no (question dropped),
+bengali-219048145204272520-3__a1,bengali-219048145204272520-3,গুয়াতেমালার তিকালে,yes,I,yes,sheet (blind),3,,yes,no
+bengali--7864256844244364502-12__a0,bengali--7864256844244364502-12,তৃতীয় কৃষ্ণ,yes,F,yes,sheet (blind),3,,yes,no
+bengali--958144661305894159-3__a1,bengali--958144661305894159-3,মীচারাগাণ্ডা ঈশ্বরম্মা,yes,C,yes,sheet (blind),3,,yes,no
+bengali-2837715351541780910-2__a3,bengali-2837715351541780910-2,পল অয়লার,no,gold,no,sheet (blind),3,,yes,no
+bengali--4530743173832919373-1__a4,bengali--4530743173832919373-1,হ্যারি পটার অ্যান্ড দ্য হাফ-ব্লাড প্রিন্স,yes,F,yes,sheet (blind),3,,yes,no
+bengali--2318822466630053761-0__a3,bengali--2318822466630053761-0,"১৪০ কোটি, বিশ্বের সবচেয়ে জনবহুল",yes,S,yes,sheet (blind),3,,yes,no
+bengali-4876582901305573055-1__a4,bengali-4876582901305573055-1,পদ্মামুখ,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5062886283186840773-1__a1,bengali-5062886283186840773-1,"ইয়াহিয়া, যাঁর পুরো দেহ এখানে সমাহিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali-1781289068755440406-2__a2,bengali-1781289068755440406-2,ভারতে,yes,I,yes,sheet (blind),3,,yes,yes
+bengali-7838235126646531080-5__a3,bengali-7838235126646531080-5,স্কটল্যান্ডে,yes,C,yes,sheet (blind),3,,yes,no
+bengali--6695334746728483406-2__a0,bengali--6695334746728483406-2,ঝাঁসির রানি,no,gold,no,sheet (blind),3,,yes,no
+bengali-4287325730796291566-12__a1,bengali-4287325730796291566-12,মদিনা,yes,F,yes,sheet (blind),3,,yes,no
+bengali--5189083434002639881-1__a2,bengali--5189083434002639881-1,আনন্দ মোহন বসু,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5628667362813463738-0__a4,bengali-5628667362813463738-0,মার্ক জাকারবার্গ,no,gold,no,sheet (blind),3,,yes,yes
+bengali--958144661305894159-3__a4,bengali--958144661305894159-3,"ব্রিটিশ ভারতের মাদ্রাজ প্রেসিডেন্সির পুত্তপর্থিতে মীচারাগাণ্ডা ঈশ্বরম্মা এবং পেড্ডাভেংকামা রাজু রত্নাকরমের গৃহে, ১৯৫০ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-2573614511216597131-1__a0,bengali-2573614511216597131-1,হজরত শাহজালাল,yes,I,yes,sheet (blind),3,,yes,no
+bengali--2093112330853915217-0__a4,bengali--2093112330853915217-0,উত্তর-পশ্চিমে,yes,C,yes,sheet (blind),3,,yes,no
+bengali-8851450445312207810-0__a2,bengali-8851450445312207810-0,"১৯৯৮ সালের ১ জানুয়ারি, দিল্লিতে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--8593436479613553727-5__a3,bengali--8593436479613553727-5,১৯৭২,yes,F,yes,sheet (blind),3,,yes,no
+bengali--2360904266908875273-1__a4,bengali--2360904266908875273-1,শোভনদেব চট্টোপাধ্যায়,yes,I,yes,sheet (blind),3,,yes,yes
+bengali-243734154999546321-1__a0,bengali-243734154999546321-1,১৯৩৬ সালের ১১ জুলাই,no,gold,no,sheet (blind),3,,yes,no
+bengali-5628667362813463738-0__a2,bengali-5628667362813463738-0,"মার্ক জাকারবার্গ, যিনি ২০০৯ সালে এটি তৈরি করেন",yes,S,yes,sheet (blind),3,,yes,yes
+bengali--7864256844244364502-12__a1,bengali--7864256844244364502-12,তৃতীয় তৈলপ,yes,C,yes,sheet (blind),3,,yes,no
+bengali-363202495030830843-1__a1,bengali-363202495030830843-1,"৬৯৯৬, ৯০ ইনিংসে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--7488179106745368024-1__a4,bengali--7488179106745368024-1,দুই,yes,C,yes,sheet (blind),3,,yes,no
+bengali--3697074528484927697-7__a0,bengali--3697074528484927697-7,"১৪ই ডিসেম্বর,১৯৭১",yes,F,yes,sheet (blind),3,,yes,no
+bengali--8582042316957777177-1__a4,bengali--8582042316957777177-1,"বিক্রমপুর (বর্তমান মুন্সীগঞ্জ জেলার) টঙ্গীবাড়ী উপজেলার সোনারং গ্রামের সেন পরিবারে, ১৯২৭ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-6379374255497658608-2__a3,bengali-6379374255497658608-2,"সিটি ল কলেজে, ১৯৫৮ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--1465705133191764484-0__a3,bengali--1465705133191764484-0,মরগান ফ্রিম্যান,yes,C,yes,sheet (blind),3,,yes,no
+bengali--7864256844244364502-12__a3,bengali--7864256844244364502-12,চতুর্থ ইন্দ্র,no,gold,no,sheet (blind),3,,yes,no
+bengali--6767707870439070421-2__a4,bengali--6767707870439070421-2,৪৯,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8835875250524667479-0__a1,bengali-8835875250524667479-0,টমি উডো,yes,C,yes,sheet (blind),3,,yes,no
+bengali--743956707291198193-2__a3,bengali--743956707291198193-2,নুড়ি,yes,C,yes,sheet (blind),3,,no (question dropped),
+bengali--7191786131172679626-4__a3,bengali--7191786131172679626-4,৭ থেকে ১০ মাস,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8695577586615119311-3__a0,bengali-8695577586615119311-3,মার্কিন যুক্তরাষ্ট্রের টেলিকম নিয়ন্ত্রক ফেডারেল কমিউনিকেশন কমিশন,no,gold,no,sheet (blind),3,,yes,no
+bengali--8593436479613553727-5__a2,bengali--8593436479613553727-5,১৯৭১,no,gold,no,sheet (blind),3,,yes,no
+bengali-5350217131280321233-3__a1,bengali-5350217131280321233-3,সমুদ্রের শয়তান,no,gold,no,sheet (blind),3,,yes,no
+bengali--4611455840991263320-1__a0,bengali--4611455840991263320-1,আমির-ই-তুজুখ,yes,C,yes,sheet (blind),3,,no (question dropped),
+bengali--6938244689861502884-1__a3,bengali--6938244689861502884-1,বরফ গলা নদী,yes,F,yes,sheet (blind),3,,yes,no
+bengali--3947167920835567776-1__a4,bengali--3947167920835567776-1,জালালুদ্দিন খিলজি,no,gold,no,sheet (blind),3,,yes,no
+bengali--2213906058284930151-1__a0,bengali--2213906058284930151-1,১৯২০ সালে,no,gold,no,sheet (blind),3,,yes,no
+bengali-2837715351541780910-2__a1,bengali-2837715351541780910-2,জোহান বার্নুলি,yes,F,yes,sheet (blind),3,,yes,no
+bengali--1428221452835638348-15__a4,bengali--1428221452835638348-15,"৬৭৬,৫৫২ বর্গকিলোমিটার",no,gold,no,sheet (blind),3,,yes,yes
+bengali-126165992786367412-2__a1,bengali-126165992786367412-2,২০০৮,yes,I,yes,sheet (blind),3,,yes,no
+bengali-106526670100050009-0__a2,bengali-106526670100050009-0,১৯৬৫,yes,I,yes,sheet (blind),3,,yes,no
+bengali--8593436479613553727-5__a4,bengali--8593436479613553727-5,১১ এপ্রিল,yes,C,yes,sheet (blind),3,,yes,no
+bengali-7554185182653449052-1__a0,bengali-7554185182653449052-1,১৯৮৭,no,gold,no,sheet (blind),3,,yes,no
+bengali--6695334746728483406-2__a2,bengali--6695334746728483406-2,লক্ষ্মীবাই,yes,C,yes,sheet (blind),3,,yes,no
+bengali--743956707291198193-2__a1,bengali--743956707291198193-2,অ্যাবাকাস,no,gold,no,sheet (blind),3,,no (question dropped),
+bengali-5234150680725096053-0__a4,bengali-5234150680725096053-0,পলাশী নামক স্থানে,yes,C,yes,sheet (blind),3,,yes,no
+bengali--6060409413743005455-2__a2,bengali--6060409413743005455-2,পাঁচ,yes,F,yes,sheet (blind),3,,yes,no
+bengali-6246323317955015554-0__a0,bengali-6246323317955015554-0,লেডি ব্রেবোর্ন কলেজ,yes,F,yes,sheet (blind),3,,yes,yes
+bengali--6454241841681747573-2__a3,bengali--6454241841681747573-2,ইন্ডাস,yes,C,yes,sheet (blind),3,,yes,no
+bengali-2855703607822460518-28__a0,bengali-2855703607822460518-28,জর্জ ডিভোল,no,gold,no,sheet (blind),3,,yes,no
+bengali--8900441193756448468-0__a1,bengali--8900441193756448468-0,হঠাৎ বৃষ্টি,yes,C,yes,sheet (blind),3,,yes,no
+bengali--7621828810919168386-3__a2,bengali--7621828810919168386-3,মোছাঃ রশীদা হামিদের,no,gold,no,sheet (blind),3,,yes,no
+bengali--4242932573912323257-3__a2,bengali--4242932573912323257-3,"বুশ ক্রিসমাস, ২০ বছর বয়সে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--7745662268738010333-11__a2,bengali--7745662268738010333-11,"বিশ্বাস ও প্রগতির, যা মুসলিম সম্প্রদায়ের প্রতিনিধি",yes,S,yes,sheet (blind),3,,yes,no
+bengali-2055139326411802416-1__a3,bengali-2055139326411802416-1,বগুড়া,no,gold,no,sheet (blind),3,,yes,no
+bengali--7545544422670647850-0__a1,bengali--7545544422670647850-0,১৮৩১,yes,I,yes,sheet (blind),3,,yes,no
+bengali-6543940287332686430-1__a4,bengali-6543940287332686430-1,স্যার হাওয়ার্ড স্ট্রিঞ্জার,yes,C,yes,sheet (blind),3,,yes,no
+bengali-8359136065589645914-4__a4,bengali-8359136065589645914-4,১৩১৬,yes,I,yes,sheet (blind),3,,yes,no
+bengali-502031366341688023-0__a4,bengali-502031366341688023-0,"এপ্রিল ১৫, ১৪৬৯",yes,C,yes,sheet (blind),3,,yes,no
+bengali-8690075851604962430-9__a3,bengali-8690075851604962430-9,"১৯৪০-এর দশকে, যুক্তরাজ্যের হাতে",yes,S,yes,sheet (blind),3,,yes,yes
+bengali-8851450445312207810-0__a4,bengali-8851450445312207810-0,১৯৯৬,yes,F,yes,sheet (blind),3,,yes,no
+bengali--3697074528484927697-7__a1,bengali--3697074528484927697-7,"২০ই আগস্ট,১৯৭১, ঢাকায়",yes,S,yes,sheet (blind),3,,yes,no
+bengali-3439541446161415603-1__a2,bengali-3439541446161415603-1,দত্তদেবী,yes,I,yes,sheet (blind),3,,yes,no
+bengali--89729718753012985-3__a3,bengali--89729718753012985-3,ঢাকার বনানী সামরিক কবরস্থানে,yes,F,yes,sheet (blind),3,,yes,no
+bengali--1253642664057630388-5__a0,bengali--1253642664057630388-5,১৯৪৯,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5507576373813184357-0__a2,bengali-5507576373813184357-0,"২রা অক্টোবর, ১৮৯০",yes,F,yes,"sheet (blind), cell lost, restored 2026-10-17",3,,yes,no
+bengali--9105179977372456588-2__a2,bengali--9105179977372456588-2,ডায়ান,yes,I,yes,sheet (blind),3,,yes,no
+bengali--5204568659066136602-1__a3,bengali--5204568659066136602-1,১৫২৬,no,gold,no,sheet (blind),3,,yes,no
+bengali-9022969225808669971-3__a3,bengali-9022969225808669971-3,কৌশল্যা,yes,F,yes,sheet (blind),3,,yes,no
+bengali-2586602312486395780-1__a2,bengali-2586602312486395780-1,সোলস,yes,F,yes,sheet (blind),3,,yes,no
+bengali-6379374255497658608-2__a2,bengali-6379374255497658608-2,সিটি ল কলেজে,no,gold,no,sheet (blind),3,,yes,no
+bengali--5462601724301448508-7__a4,bengali--5462601724301448508-7,"অনেক দিনের চেনা, যা ১৯৫৭ সালে মুক্তি পায়",yes,S,yes,sheet (blind),3,,yes,no
+bengali--3518785176444767715-2__a3,bengali--3518785176444767715-2,রয়েল প্রুশিয়াতে,no,gold,no,sheet (blind),3,,yes,no
+bengali--4406976333727853714-0__a1,bengali--4406976333727853714-0,প্রায় ৫০০০,no,gold,no,sheet (blind),3,,yes,yes
+bengali-7838235126646531080-5__a1,bengali-7838235126646531080-5,আস্ক,no,gold,no,sheet (blind),3,,yes,no
+bengali--5394904407063095222-2__a1,bengali--5394904407063095222-2,শেখ মোহাম্মদ মেসের আলী,yes,C,yes,sheet (blind),3,,yes,no
+bengali-8835875250524667479-0__a0,bengali-8835875250524667479-0,কিস অফ ডেথ,no,gold,no,sheet (blind),3,,yes,no
+bengali--8981983056012119758-0__a4,bengali--8981983056012119758-0,৮০০ বর্গমাইল,yes,F,yes,sheet (blind),3,,no (question dropped),
+bengali--3312762463251557392-1__a3,bengali--3312762463251557392-1,সৈয়দ আহমেদ,no,gold,no,sheet (blind),3,,yes,no
+bengali--5503166637136263200-39__a0,bengali--5503166637136263200-39,"জ্বরে, হিজরি ১১ সালের রমজান মাসে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5702015763636761454-0__a2,bengali--5702015763636761454-0,১৯৯৬,yes,I,yes,sheet (blind),3,,yes,no
+bengali-1920310716847351499-2__a2,bengali-1920310716847351499-2,ঝাড়গ্রাম জেলা ও কালিম্পং,no,gold,no,sheet (blind),3,,yes,yes
+bengali-3143414516689833649-0__a1,bengali-3143414516689833649-0,ওউলিচে,no,gold,no,sheet (blind),3,,yes,no
+bengali--339646139755933191-37__a3,bengali--339646139755933191-37,"ছত্রপতি শিবাজী মহারাজ আন্তর্জাতিক বিমানবন্দর, যা পুনেতে অবস্থিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali--3312762463251557392-1__a0,bengali--3312762463251557392-1,সৈয়দ আসকার আহমেদ,yes,I,yes,sheet (blind),3,,yes,no
+bengali--5991077659579722284-0__a0,bengali--5991077659579722284-0,"ফিরহাদ হাকিম, ২০১০ সাল থেকে",yes,S,yes,sheet (blind),updated context plz,,yes,yes
+bengali-3364725891006560143-1__a1,bengali-3364725891006560143-1,এস. নারায়ণ আইয়ার,yes,F,yes,sheet (blind),3,,yes,no
+bengali--286400932306783730-5__a3,bengali--286400932306783730-5,নিলোর,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5381296187722902042-1__a1,bengali-5381296187722902042-1,পীর হজরত শাহজালাল,yes,I,yes,sheet (blind),3,,yes,no
+bengali-2969815077148315217-1__a4,bengali-2969815077148315217-1,হাবীবুর রহমান সাথী,yes,C,yes,sheet (blind),3,,yes,no
+bengali--5096425443785627913-15__a1,bengali--5096425443785627913-15,এক,yes,C,yes,sheet (blind),3,,yes,no
+bengali-7646003778499018736-5__a4,bengali-7646003778499018736-5,জন ব্যারিমোর সিনিয়র,yes,I,yes,sheet (blind),3,,yes,no
+bengali--8701126924018157132-3__a2,bengali--8701126924018157132-3,২০০৮ সালে,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8851450445312207810-0__a3,bengali-8851450445312207810-0,১৯৯৮,no,gold,no,sheet (blind),3,,yes,no
+bengali--6938244689861502884-1__a1,bengali--6938244689861502884-1,শেষ বিকেলের মেয়ে,no,gold,no,sheet (blind),3,,yes,no
+bengali--7545544422670647850-0__a0,bengali--7545544422670647850-0,১৮২০,yes,F,yes,sheet (blind),3,,yes,no
+bengali--6695334746728483406-2__a4,bengali--6695334746728483406-2,হাজার চুরাশির মা,yes,F,yes,sheet (blind),3,,yes,no
+bengali--8679555805989868423-10__a2,bengali--8679555805989868423-10,১৯৭৩ সালের ১৪ জুন,no,gold,no,sheet (blind),3,,yes,no
+bengali-6619611904734574741-0__a3,bengali-6619611904734574741-0,শের শাহ সুরি,yes,C,yes,sheet (blind),3,,yes,no
+bengali--2318822466630053761-0__a0,bengali--2318822466630053761-0,১৪০ কোটি,no,gold,no,sheet (blind),3,,yes,no
+bengali-243734154999546321-1__a4,bengali-243734154999546321-1,মোড়াইল গ্রামে,yes,C,yes,sheet (blind),3,,yes,no
+bengali--3697074528484927697-7__a3,bengali--3697074528484927697-7,রাশেদ মিনহাজ,yes,C,yes,sheet (blind),3,,yes,no
+bengali-7931400735334438152-7__a1,bengali-7931400735334438152-7,১৯৬০,yes,I,yes,sheet (blind),3,,yes,no
+bengali--7028166870651181278-0__a4,bengali--7028166870651181278-0,Vindula erota,no,gold,no,sheet (blind),3,,yes,no
+bengali-7044920795788516725-3__a0,bengali-7044920795788516725-3,"শি জোংশুনের, যিনি চীনের প্রধানমন্ত্রী ছিলেন",yes,S,yes,sheet (blind),3,,yes,no
+bengali-1028909508937040669-0__a0,bengali-1028909508937040669-0,১৯৪ হিঃ,no,gold,no,sheet (blind),3,,yes,no
+bengali--5443118172314527178-10__a3,bengali--5443118172314527178-10,রামচন্দ্র গুহা,yes,C,yes,sheet (blind),3,,yes,no
+bengali--3525863623165833573-10__a1,bengali--3525863623165833573-10,হোমো এরগ্যাস্টার,no,gold,yes,sheet (blind),3,,yes,no
+bengali--5808391741219758748-0__a3,bengali--5808391741219758748-0,১৯৭১,yes,C,yes,sheet (blind),3,,yes,no
+bengali-243734154999546321-1__a1,bengali-243734154999546321-1,১৯৩৬ সালের ১১ জানুয়ারি,yes,I,yes,sheet (blind),3,,yes,no
+bengali--381183395494440070-4__a0,bengali--381183395494440070-4,সরীসৃপ,yes,I,yes,sheet (blind),3,,yes,no
+bengali-6543940287332686430-1__a2,bengali-6543940287332686430-1,বব গ্যাজেল,yes,I,yes,sheet (blind),3,,yes,no
+bengali-2641143326428525515-3__a2,bengali-2641143326428525515-3,ডিজিক্যাশ,yes,C,yes,sheet (blind),3,,yes,no
+bengali--261227273822015974-3__a1,bengali--261227273822015974-3,নেভাদা পরীক্ষাক্ষেত্র,yes,I,yes,sheet (blind),3,,yes,no
+bengali--89729718753012985-3__a0,bengali--89729718753012985-3,"ঢাকার বুদ্ধিজীবী কবরস্থানে, ১৯৭১ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-5234150680725096053-0__a0,bengali-5234150680725096053-0,সিরাজউদ্দৌলার সাথে ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির,no,gold,no,sheet (blind),3,,yes,no
+bengali-5350217131280321233-3__a4,bengali-5350217131280321233-3,ওল্ড নিক,yes,C,yes,sheet (blind),3,,yes,no
+bengali-7554185182653449052-1__a3,bengali-7554185182653449052-1,১৩ মার্চ,yes,C,yes,sheet (blind),3,,yes,no
+bengali-3661955588237544767-0__a1,bengali-3661955588237544767-0,"ম্যানগ্রোভ, যা মিঠা পানিতে জন্মায়",yes,S,yes,sheet (blind),3,,yes,no
+bengali--7191786131172679626-4__a0,bengali--7191786131172679626-4,২ থেকে ৩ বছর,yes,F,yes,sheet (blind),3,,yes,no
+bengali-2179858832836959368-4__a3,bengali-2179858832836959368-4,"২৬·৫ বর্গ কিলোমিটার, যাতে ৫০টি ওয়ার্ড রয়েছে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--7488179106745368024-1__a2,bengali--7488179106745368024-1,চার,yes,F,yes,sheet (blind),3,,yes,no
+bengali-8842503098497321541-0__a0,bengali-8842503098497321541-0,Anastomus lamelligerus,yes,F,yes,sheet (blind),3,,yes,no
+bengali-1028909508937040669-0__a1,bengali-1028909508937040669-0,"১৯৪ হিঃ, সমরকন্দে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--89729718753012985-3__a4,bengali--89729718753012985-3,ত্রিপুরার আমবাসায়,yes,I,yes,sheet (blind),3,,yes,no
+bengali--8738126845861758945-3__a3,bengali--8738126845861758945-3,"দুধকুমর, তিস্তা, ধরলা",yes,C,yes,sheet (blind),3,,yes,no
+bengali--286400932306783730-5__a1,bengali--286400932306783730-5,১৯১৪,yes,F,yes,sheet (blind),3,,yes,no
+bengali-7044920795788516725-3__a4,bengali-7044920795788516725-3,মাও জেদংয়ের,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6543940287332686430-1__a0,bengali-6543940287332686430-1,জর্জ লুকাস,yes,F,yes,sheet (blind),3,,yes,no
+bengali--1741274220753938019-4__a4,bengali--1741274220753938019-4,সরলা দেবী চৌধুরানী,yes,F,yes,sheet (blind),3,,yes,no
+bengali--9105179977372456588-2__a1,bengali--9105179977372456588-2,পিটার,yes,C,yes,sheet (blind),3,,yes,no
+bengali-712721717915347963-4__a3,bengali-712721717915347963-4,قرأ ক্বরা'আ ক্রিয়া পদ,no,gold,no,sheet (blind),3,,yes,no
+bengali-7443324023355551586-2__a3,bengali-7443324023355551586-2,শামসুন নাহার,yes,C,yes,sheet (blind),3,,yes,no
+bengali--8040726073714300616-2__a3,bengali--8040726073714300616-2,"নিউ ইয়র্ক, ওয়াশিংটন ডিসির পাশে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-5628667362813463738-0__a1,bengali-5628667362813463738-0,ইয়াহু,yes,I,yes,sheet (blind),3,,yes,yes
+bengali-9025642034431464670-6__a2,bengali-9025642034431464670-6,ডেভ রিচার্ডসন,yes,I,yes,sheet (blind),3,,yes,yes
+bengali-5846157904123319216-6__a0,bengali-5846157904123319216-6,সান্তিয়াগো বার্নাবেউ,yes,F,yes,sheet (blind),3,,yes,no
+bengali-2158077626257154929-21__a0,bengali-2158077626257154929-21,12 Rounds,yes,I,yes,sheet (blind),3,,yes,no
+bengali--2632169197744064075-2__a4,bengali--2632169197744064075-2,"১৯৭৯ সালের মে মাসে, গোলাম আযমের নেতৃত্বে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--6695334746728483406-2__a1,bengali--6695334746728483406-2,অরণ্যের অধিকার,yes,I,yes,sheet (blind),3,,yes,no
+bengali--8040726073714300616-2__a0,bengali--8040726073714300616-2,হেগ,yes,I,yes,sheet (blind),3,,yes,no
+bengali--4713842652906966901-0__a4,bengali--4713842652906966901-0,৫০,yes,I,yes,sheet (blind),3,,yes,yes
+bengali--381183395494440070-4__a4,bengali--381183395494440070-4,কাউডাটা,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6035887477073197072-0__a0,bengali-6035887477073197072-0,মুতাজিলা,yes,F,yes,sheet (blind),3,,yes,no
+bengali--743956707291198193-2__a0,bengali--743956707291198193-2,অ্যান্টিকিথেরা মেকানিজম,yes,I,yes,sheet (blind),3,,no (question dropped),
+bengali--8137487757915657057-1__a4,bengali--8137487757915657057-1,৩ সে.মি.,yes,C,yes,sheet (blind),3,,yes,no
+bengali--4013739044801291463-4__a3,bengali--4013739044801291463-4,বাপ্যত,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6020639613270814419-24__a1,bengali-6020639613270814419-24,৪টি,yes,F,yes,sheet (blind),3,,yes,no
+bengali--6060409413743005455-2__a1,bengali--6060409413743005455-2,তিন,no,gold,no,sheet (blind),3,,yes,no
+bengali-2837715351541780910-2__a4,bengali-2837715351541780910-2,"পল অয়লার, একজন গণিতের অধ্যাপক",yes,S,yes,sheet (blind),3,,yes,no
+bengali-3439541446161415603-1__a0,bengali-3439541446161415603-1,প্রভাবতী গুপ্তা,yes,F,yes,sheet (blind),3,,yes,no
+bengali--5248157587845724105-12__a2,bengali--5248157587845724105-12,"মুহিত, যিনি ২০১১ সালে পদত্যাগ করেন",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5678793440418813332-1__a4,bengali--5678793440418813332-1,"ওভালে, ভারত ও পাকিস্তানের মধ্যে",yes,S,yes,sheet (blind),3,,yes,yes
+bengali-8842503098497321541-0__a4,bengali-8842503098497321541-0,Ciconia ciconia,yes,I,yes,sheet (blind),3,,yes,no
+bengali--8907092310207870265-0__a0,bengali--8907092310207870265-0,বাঁশের কেল্লায়,yes,C,yes,sheet (blind),3,,yes,yes
+bengali-5234150680725096053-0__a2,bengali-5234150680725096053-0,সিরাজউদ্দৌলার সাথে ফরাসি ইস্ট ইন্ডিয়া কোম্পানির,yes,F,yes,sheet (blind),3,,yes,no
+bengali--261227273822015974-3__a2,bengali--261227273822015974-3,জাপানের হিরোশিমা,yes,F,yes,sheet (blind),3,,yes,no
+bengali--4965296737885262319-1__a2,bengali--4965296737885262319-1,সুনামগঞ্জ জেলার ছাতক উপজেলার ফুলতলী,yes,I,yes,sheet (blind),3,,yes,no
+bengali--7450233971944433591-2__a4,bengali--7450233971944433591-2,সুমন মুখোপাধ্যায়,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5524428449970713654-6__a4,bengali-5524428449970713654-6,২১ এপ্রিল,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8851450445312207810-0__a1,bengali-8851450445312207810-0,২০১১,yes,C,yes,sheet (blind),3,,yes,no
+bengali--8900441193756448468-0__a3,bengali--8900441193756448468-0,এক কাপ চা,yes,F,yes,sheet (blind),3,,yes,no
+bengali--4027724346689147960-2__a2,bengali--4027724346689147960-2,সাদেকি,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5930037523147100292-2__a3,bengali-5930037523147100292-2,৬ ফুট,yes,C,yes,sheet (blind),3,,yes,no
+bengali--4320576500947344600-2__a0,bengali--4320576500947344600-2,মিশরে বা চীনে,yes,C,yes,sheet (blind),3,,no (question dropped),
+bengali--5189083434002639881-1__a3,bengali--5189083434002639881-1,ভগবান চন্দ্র বসু,yes,F,yes,sheet (blind),3,,yes,no
+bengali--5702015763636761454-0__a0,bengali--5702015763636761454-0,১৯৭২,yes,F,yes,sheet (blind),3,,yes,no
+bengali--300248677481756467-2__a2,bengali--300248677481756467-2,দুই,yes,I,yes,sheet (blind),3,,yes,no
+bengali-6805897370747809969-1__a0,bengali-6805897370747809969-1,"৫,২৮৩ বর্গ কিলোমিটার, দেশের বৃহত্তম জেলা",yes,S,yes,sheet (blind),3,,yes,yes
+bengali--8465088691390481636-2__a0,bengali--8465088691390481636-2,মুর্শিদকুলী খান,yes,I,yes,sheet (blind),3,,yes,no
+bengali--9166124787929336642-2__a0,bengali--9166124787929336642-2,ক্যাম্পবেল মেডিক্যাল স্কুল,yes,F,yes,sheet (blind),3,,yes,no
+bengali-7838235126646531080-5__a0,bengali-7838235126646531080-5,কার্ডিফ,yes,F,yes,sheet (blind),3,,yes,no
+bengali-5062886283186840773-1__a3,bengali-5062886283186840773-1,যীশু,yes,C,yes,sheet (blind),3,,yes,no
+bengali-1028909508937040669-0__a3,bengali-1028909508937040669-0,২৫৬ হিঃ,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6325810556486078660-4__a0,bengali-6325810556486078660-4,কাঠ কয়লা,yes,I,yes,sheet (blind),3,,yes,no
+bengali-5106409585032054286-5__a2,bengali-5106409585032054286-5,১৯৯৫,no,gold,no,sheet (blind),3,,yes,yes
+bengali--4013739044801291463-4__a1,bengali--4013739044801291463-4,দেবপাল,yes,I,yes,sheet (blind),3,,yes,no
+bengali-2837715351541780910-2__a2,bengali-2837715351541780910-2,মার্গারিট ব্রুকার,yes,C,yes,sheet (blind),3,,yes,no
+bengali--2318822466630053761-0__a1,bengali--2318822466630053761-0,২২টি,yes,C,yes,sheet (blind),3,,yes,no
+bengali-8376247445164774033-9__a2,bengali-8376247445164774033-9,"১০৬, যার সর্বশেষটি ২০১৯ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-7646003778499018736-5__a1,bengali-7646003778499018736-5,ইডিকো জেইড ব্যারিমোর,yes,C,yes,sheet (blind),3,,yes,no
+bengali--6060409413743005455-2__a4,bengali--6060409413743005455-2,"তিন, শ্রেষ্ঠ পার্শ্ব অভিনেতা হিসেবে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--7450233971944433591-2__a0,bengali--7450233971944433591-2,কৌশিক গাঙ্গুলি,no,gold,no,sheet (blind),3,,yes,no
+bengali--5991077659579722284-0__a4,bengali--5991077659579722284-0,শোভন চট্টোপাধ্যায়,yes,F,yes,sheet (blind),3,,yes,yes
+bengali-5507576373813184357-0__a3,bengali-5507576373813184357-0,"১৪ই সেপ্টেম্বর, ১৮৮৮",no,gold,no,sheet (blind),3,,yes,no
+bengali--3614315475237896403-1__a0,bengali--3614315475237896403-1,ইন্দিরা (১৯৯৩),yes,S,yes,sheet (blind),3,,yes,no
+bengali--5394904407063095222-2__a0,bengali--5394904407063095222-2,লাল মিয়া,yes,I,yes,sheet (blind),3,,yes,no
+bengali-3447785515269526586-2__a0,bengali-3447785515269526586-2,"ইয়েটে, ওয়েলসে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--8465088691390481636-2__a2,bengali--8465088691390481636-2,শ্রীকৃষ্ণ,no,gold,no,sheet (blind),3,,yes,no
+bengali-3623855340588085394-2__a4,bengali-3623855340588085394-2,সিংহ,yes,C,yes,sheet (blind),3,,yes,no
+bengali--8040726073714300616-2__a2,bengali--8040726073714300616-2,জেনেভা,yes,F,yes,sheet (blind),3,,yes,no
+bengali--3525863623165833573-10__a4,bengali--3525863623165833573-10,"হোমো এরগ্যাস্টার, যারা এশিয়ায় থাকত",yes,S,yes,sheet (blind),3,,yes,no
+bengali--4203021990164894046-0__a1,bengali--4203021990164894046-0,চার মৌসুমে,yes,I,yes,sheet (blind),3,,yes,no
+bengali-5350217131280321233-3__a3,bengali-5350217131280321233-3,"সমুদ্রের শয়তান, যা মূলত নরওয়েজীয় শব্দ",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5248157587845724105-12__a3,bengali--5248157587845724105-12,মুহিত,no,gold,no,sheet (blind),3,,yes,no
+bengali--5204568659066136602-1__a2,bengali--5204568659066136602-1,১৪৫৩,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5234150680725096053-0__a1,bengali-5234150680725096053-0,"সিরাজউদ্দৌলার সাথে ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির, ওয়ারেন হেস্টিংসের নেতৃত্বে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--6960138209200983794-1__a4,bengali--6960138209200983794-1,"সং অফারিংস, যা ১৯০৫ সালে প্রকাশিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali--4088972979448384532-2__a0,bengali--4088972979448384532-2,চুমকি,no,gold,no,sheet (blind),3,,yes,no
+bengali-8981449779740723998-3__a4,bengali-8981449779740723998-3,"হরগোবিন্দ সেন, ১৮৭৩ থেকে ১৮৯৩ সাল পর্যন্ত",yes,S,yes,sheet (blind),3,,yes,no
+bengali-3364725891006560143-1__a0,bengali-3364725891006560143-1,কে শ্রীনিবাস ইয়েঙ্গার,no,gold,no,sheet (blind),3,,yes,no
+bengali-2969815077148315217-1__a3,bengali-2969815077148315217-1,সৈয়দ জাফর উদ্দিন,yes,I,yes,sheet (blind),3,,yes,no
+bengali--4814390249866358431-4__a3,bengali--4814390249866358431-4,"আল সুফি, যিনি ছিলেন একজন গ্রিক জ্যোতির্বিজ্ঞানী",yes,S,yes,sheet (blind),3,,yes,yes
+bengali-937294351156651799-1__a2,bengali-937294351156651799-1,সিন্ধু,yes,I,yes,sheet (blind),3,,yes,yes
+bengali--8154256008658539900-14__a3,bengali--8154256008658539900-14,"১৭০টি, যার মধ্যে সৌদি আরব একটি",yes,S,yes,sheet (blind),3,,no (question dropped),
+bengali--6454241841681747573-2__a1,bengali--6454241841681747573-2,"সংস্কৃত শব্দ সিন্ধু, যার অর্থ পর্বত",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5443118172314527178-10__a0,bengali--5443118172314527178-10,"অটলবিহারী বাজপেয়ী, ১৯৭৭ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-6041160895772644763-71__a1,bengali-6041160895772644763-71,সেন্টেনিয়াল অলিম্পিক পার্কে,yes,C,yes,sheet (blind),3,,yes,no
+bengali--6767707870439070421-2__a1,bengali--6767707870439070421-2,"৯৪, যা দক্ষিণ এশিয়ায় দ্বিতীয় বৃহত্তম",yes,S,yes,sheet (blind),3,,yes,no
+bengali--8707413810832587133-1__a3,bengali--8707413810832587133-1,"১,৮০৫",yes,C,yes,sheet (blind),3,,no (question dropped),
+bengali-8512012910625342558-17__a3,bengali-8512012910625342558-17,জোর্ডান বেলফোর্টে,yes,F,yes,sheet (blind),3,,yes,no
+bengali--1085248370329535149-1__a3,bengali--1085248370329535149-1,"২০০৩ সালের ২৬শে মার্চ, লিনাক্সের জন্য",yes,S,yes,sheet (blind),3,,yes,no
+bengali-5062886283186840773-1__a0,bengali-5062886283186840773-1,ইয়াহিয়া,no,gold,no,sheet (blind),3,,yes,no
+bengali--7292840639115996653-3__a0,bengali--7292840639115996653-3,ইন্দোনেশীয় ভাষা ও ইংরেজি,yes,I,yes,sheet (blind),3,,yes,no
+bengali-5106409585032054286-5__a0,bengali-5106409585032054286-5,চাঁদনি চক,yes,C,yes,sheet (blind),3,,yes,yes
+bengali--5189083434002639881-1__a4,bengali--5189083434002639881-1,জগদীশ চন্দ্র বসু,yes,I,yes,sheet (blind),3,,yes,no
+bengali--2339153920148132891-1__a2,bengali--2339153920148132891-1,ক্যাপ্রিসি,yes,C,yes,sheet (blind),3,,yes,no
+bengali--5503166637136263200-39__a2,bengali--5503166637136263200-39,জ্বরে,no,gold,no,sheet (blind),3,,yes,no
+bengali--7875843185520169461-6__a1,bengali--7875843185520169461-6,রাজেন্দ্রনাথ মুখোপাধ্যায়,yes,F,yes,sheet (blind),3,,yes,no
+bengali--6960138209200983794-1__a1,bengali--6960138209200983794-1,দ্য গার্ডেনার,yes,F,yes,sheet (blind),3,,yes,no
+bengali-3364725891006560143-1__a4,bengali-3364725891006560143-1,নামগিরি,yes,I,yes,sheet (blind),3,,yes,no
+bengali--4735331043651858245-2__a4,bengali--4735331043651858245-2,"নিশিকান্ত, একজন প্রথিতযশা আইনজীবী",yes,S,yes,sheet (blind),3,,yes,no
+bengali-126165992786367412-2__a2,bengali-126165992786367412-2,২০১০,yes,C,yes,sheet (blind),3,,yes,no
+bengali--4530743173832919373-1__a3,bengali--4530743173832919373-1,বুক অব মরমন,yes,C,yes,sheet (blind),3,,yes,no
+bengali--8679555805989868423-10__a4,bengali--8679555805989868423-10,চারটি কামান,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5930037523147100292-2__a1,bengali-5930037523147100292-2,১০ ফুট,no,gold,no,sheet (blind),3,,yes,no
+bengali-5447758927889596593-4__a3,bengali-5447758927889596593-4,৮৭,yes,C,yes,sheet (blind),3,,yes,yes
+bengali-2055139326411802416-1__a0,bengali-2055139326411802416-1,করতোয়া,yes,C,yes,sheet (blind),3,,yes,no
+bengali--3947167920835567776-1__a2,bengali--3947167920835567776-1,বখতিয়ার খিলজি,yes,F,yes,sheet (blind),3,,yes,no
+bengali-106526670100050009-0__a4,bengali-106526670100050009-0,১৯৫৩,yes,F,yes,sheet (blind),3,,yes,no
+bengali-7560401120187097084-7__a0,bengali-7560401120187097084-7,২৬৯টিরও বেশী,no,gold,no,sheet (blind),3,,no (question dropped),
+bengali-2870309728449533083-1__a1,bengali-2870309728449533083-1,১৯৬৫,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6035887477073197072-0__a4,bengali-6035887477073197072-0,স্টোয়িক,yes,I,yes,sheet (blind),3,,yes,no
+bengali--3195260377241566684-0__a0,bengali--3195260377241566684-0,আইয়ুবীয়,yes,F,yes,sheet (blind),3,,yes,no
+bengali--4406976333727853714-0__a4,bengali--4406976333727853714-0,প্রায় ৩০০০,yes,F,yes,sheet (blind),3,,yes,yes
+bengali-7755099264590331306-3__a0,bengali-7755099264590331306-3,"বাংলা প্রেসিডেন্সির যশোর জেলার (অধুনা বাংলাদেশ রাষ্ট্রের যশোর জেলার কেশবপুর উপজেলার) সাগরদাঁড়ি গ্রামে, ১৮৩৪ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-135536965636843256-17__a1,bengali-135536965636843256-17,দক্ষিণ প্রান্তে,yes,C,yes,sheet (blind),3,,yes,no
+bengali--4242932573912323257-3__a1,bengali--4242932573912323257-3,ডেড কাম,yes,F,yes,sheet (blind),3,,yes,no
+bengali-3661955588237544767-0__a4,bengali-3661955588237544767-0,চিরহরিৎ পাইন,yes,F,yes,sheet (blind),3,,yes,no
+bengali--339646139755933191-37__a2,bengali--339646139755933191-37,বীর সাভারকর আন্তর্জাতিক বিমানবন্দর,yes,I,yes,sheet (blind),3,,yes,no
+bengali-5118137145175085108-0__a2,bengali-5118137145175085108-0,১৮৯৬,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8512012910625342558-17__a1,bengali-8512012910625342558-17,মার্টিন স্কোরসেজিতে,yes,I,yes,sheet (blind),3,,yes,no
+bengali-6619611904734574741-0__a2,bengali-6619611904734574741-0,"তাজ খান কররানী, ১৫৭৬ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-3671812557348515405-0__a0,bengali-3671812557348515405-0,১৯৩৩,yes,C,yes,sheet (blind),3,,yes,no
+bengali--4735331043651858245-2__a0,bengali--4735331043651858245-2,হরেকৃষ্ণ,yes,F,yes,sheet (blind),3,,yes,no
+bengali-1239158793173466909-0__a2,bengali-1239158793173466909-0,৫.৭৯ মিলিয়ন বর্গ মাইল,no,gold,no,sheet (blind),3,,yes,no
+bengali--4027724346689147960-2__a4,bengali--4027724346689147960-2,ওয়েলেসলি,no,gold,no,sheet (blind),3,,yes,no
+bengali--4027724346689147960-2__a1,bengali--4027724346689147960-2,"ওয়েলেসলি, যিনি একজন দৌড়বিদ ছিলেন",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5991077659579722284-0__a3,bengali--5991077659579722284-0,মমতা বন্দ্যোপাধ্যায়,yes,C,yes,sheet (blind),3,,yes,yes
+bengali--8707413810832587133-1__a2,bengali--8707413810832587133-1,"৩৮,০০০",no,gold,no,sheet (blind),3,,no (question dropped),
+bengali--5678793440418813332-1__a2,bengali--5678793440418813332-1,ওভালে,no,gold,no,sheet (blind),3,,yes,yes
+bengali--339646139755933191-37__a0,bengali--339646139755933191-37,দেশের ব্যস্ততম বিমানবন্দর,yes,C,yes,sheet (blind),3,,yes,no
+bengali-126165992786367412-2__a0,bengali-126165992786367412-2,২০১৮,no,gold,no,sheet (blind),3,,yes,no
+bengali-8835875250524667479-0__a2,bengali-8835875250524667479-0,নো ওয়ে আউট,yes,F,yes,sheet (blind),3,,yes,no
+bengali--5248157587845724105-12__a4,bengali--5248157587845724105-12,আতিউর রহমান,yes,I,yes,sheet (blind),3,,yes,no
+bengali--6279882593924388519-5__a2,bengali--6279882593924388519-5,১ লাখ ৮৫ হাজার বর্গমিটার,yes,I,yes,sheet (blind),3,,yes,no
+bengali-227743697961975427-1__a4,bengali-227743697961975427-1,রিচার্ড ব্যাকম্যান,yes,F,yes,sheet (blind),3,,yes,no
+bengali--6481904361126256209-0__a4,bengali--6481904361126256209-0,শচীন্দ্র লাল সিং,no,gold,no,sheet (blind),3,,yes,yes
+bengali-5106409585032054286-5__a1,bengali-5106409585032054286-5,"১৯৯৫, ২ অক্টোবর",yes,S,yes,sheet (blind),3,,yes,yes
+bengali-5846157904123319216-6__a4,bengali-5846157904123319216-6,হুলিয়ান পাদ্রোস,yes,I,yes,sheet (blind),3,,yes,no
+bengali--4713842652906966901-0__a0,bengali--4713842652906966901-0,২২,no,gold,no,sheet (blind),though it will be updated,,yes,yes
+bengali--253137097125729044-9__a2,bengali--253137097125729044-9,মেরি উলস্টোনক্রাফট,yes,F,yes,sheet (blind),3,,yes,no
+bengali--8154256008658539900-14__a0,bengali--8154256008658539900-14,মুসলিম দেশগুলো,yes,C,yes,sheet (blind),3,,no (question dropped),
+bengali--2360904266908875273-1__a0,bengali--2360904266908875273-1,শোভন চট্টোপাধ্যায়,no,gold,no,sheet (blind),3,,yes,yes
+bengali-2837715351541780910-2__a0,bengali-2837715351541780910-2,লিওনার্ড অয়লার সিনিয়র,yes,I,yes,sheet (blind),3,,yes,no
+bengali--3697074528484927697-7__a4,bengali--3697074528484927697-7,"২০ই আগস্ট,১৯৭২",yes,I,yes,sheet (blind),3,,yes,no
+bengali--7545544422670647850-0__a3,bengali--7545544422670647850-0,১৮১২,no,gold,no,sheet (blind),3,,yes,no
+bengali-3671812557348515405-0__a3,bengali-3671812557348515405-0,তিন,yes,F,yes,sheet (blind),3,,yes,no
+bengali--761065314955184950-3__a4,bengali--761065314955184950-3,"ইসলামী ছাত্র সংঘে, ঢাকা জেলার",yes,S,yes,sheet (blind),3,,yes,no
+bengali-8690075851604962430-9__a0,bengali-8690075851604962430-9,১৯৪০-এর দশকে,no,gold,no,sheet (blind),3,,yes,yes
+bengali-106526670100050009-0__a3,bengali-106526670100050009-0,১৯৪২,yes,C,yes,sheet (blind),3,,yes,no
+bengali-6035887477073197072-0__a2,bengali-6035887477073197072-0,হেলেনীয়,yes,C,yes,sheet (blind),3,,yes,no
+bengali--5096425443785627913-15__a3,bengali--5096425443785627913-15,তিন,yes,F,yes,sheet (blind),3,,yes,no
+bengali--4320576500947344600-2__a1,bengali--4320576500947344600-2,"ব্যাবিলনে, খ্রিস্টাব্দ ২৪০০ সালে",yes,S,yes,sheet (blind),3,,no (question dropped),
+bengali-1508751382134197788-2__a2,bengali-1508751382134197788-2,কৃষক শ্রমিক পার্টি,no,gold,no,sheet (blind),3,,yes,no
+bengali--1513982894061092370-1__a4,bengali--1513982894061092370-1,এলিজাবেথ ফুলহেম,yes,C,yes,sheet (blind),3,,yes,no
+bengali--7545544422670647850-0__a4,bengali--7545544422670647850-0,"১৮১২, ঢাকায়",yes,S,yes,sheet (blind),3,,yes,no
+bengali--4088972979448384532-2__a1,bengali--4088972979448384532-2,দেবু,yes,I,yes,sheet (blind),3,,yes,no
+bengali--1256061284728114612-1__a2,bengali--1256061284728114612-1,রামকান্ত বন্দ্যোপাধ্যায়,yes,F,yes,sheet (blind),3,,yes,yes
+bengali--458659178719722926-3__a4,bengali--458659178719722926-3,২০২৬,no,gold,no,sheet (blind),3,,no (question dropped),
+bengali-6619611904734574741-0__a4,bengali-6619611904734574741-0,সুলায়মান খান কররানী,yes,I,yes,sheet (blind),3,,yes,no
+bengali-4022030362183597721-4__a2,bengali-4022030362183597721-4,রামায়ণ,yes,F,yes,sheet (blind),3,,yes,no
+bengali--1253642664057630388-5__a2,bengali--1253642664057630388-5,১৯৪৮,yes,F,yes,sheet (blind),3,,yes,no
+bengali--2632169197744064075-2__a3,bengali--2632169197744064075-2,১৯৭৫ সালে,yes,I,yes,sheet (blind),3,,yes,no
+bengali-4504326333406178570-1__a2,bengali-4504326333406178570-1,গ্রেট বালটোরা,no,gold,no,sheet (blind),3,,yes,yes
+bengali--1465705133191764484-0__a2,bengali--1465705133191764484-0,"ফ্র্যাংক ড্যারাবন্ট, ১৯৯৯ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--1428221452835638348-15__a2,bengali--1428221452835638348-15,"৫১৩,১২০ বর্গকিলোমিটার",yes,F,yes,sheet (blind),3,,yes,yes
+bengali--3051071168921438198-0__a0,bengali--3051071168921438198-0,"রাজধানী শহর ছাড়িয়ে দেশের সর্বত্রই প্রায়, তবে বিদেশে একটিও নেই",yes,S,yes,sheet (blind),3,,no (question dropped),
+bengali-8512012910625342558-17__a4,bengali-8512012910625342558-17,হাওয়ার্ড হিউজে,no,gold,no,sheet (blind),3,,yes,no
+bengali-1019942405024864518-0__a1,bengali-1019942405024864518-0,"ল্যারি পেজ ও সের্গেই ব্রিন, হার্ভার্ডে ছাত্র থাকাকালীন",yes,S,yes,sheet (blind),3,,yes,yes
+bengali-1781289068755440406-2__a0,bengali-1781289068755440406-2,ব্যাবিলনে,no,gold,no,sheet (blind),3,,yes,yes
+bengali--6279882593924388519-5__a1,bengali--6279882593924388519-5,"১ লাখ ৮৫ হাজার বর্গফুট, ছয়টি গ্যালারিসহ",yes,S,yes,sheet (blind),3,,yes,no
+bengali-135536965636843256-17__a3,bengali-135536965636843256-17,কেন্দ্রস্থলে,no,gold,no,sheet (blind),3,,yes,no
+bengali--1085248370329535149-1__a4,bengali--1085248370329535149-1,২০০৭ সালে,yes,I,yes,sheet (blind),3,,yes,no
+bengali--7191786131172679626-4__a4,bengali--7191786131172679626-4,৮০-১২০ কিলোগ্রাম,yes,C,yes,sheet (blind),3,,yes,no
+bengali--1428221452835638348-15__a1,bengali--1428221452835638348-15,"৬৭৬,৫৫২ বর্গমাইল",yes,I,yes,sheet (blind),3,,yes,yes
+bengali--3103999780934898975-0__a0,bengali--3103999780934898975-0,"২৩ অক্টোবর, ১৯২৮",yes,I,yes,sheet (blind),3,,yes,no
+bengali-1792401805174346038-0__a3,bengali-1792401805174346038-0,১১৭,no,gold,no,sheet (blind),3,,yes,no
+bengali-5628667362813463738-0__a0,bengali-5628667362813463738-0,গুগল,yes,F,yes,sheet (blind),3,,yes,yes
+bengali-4876582901305573055-1__a2,bengali-4876582901305573055-1,গোরাচাঁদ,no,gold,no,sheet (blind),3,,yes,no
+bengali-106526670100050009-0__a0,bengali-106526670100050009-0,১৯৫৫,no,gold,no,sheet (blind),3,,yes,no
+bengali--458659178719722926-3__a2,bengali--458659178719722926-3,"২০২৬, ব্রাজিলে",yes,S,yes,sheet (blind),3,,no (question dropped),
+bengali--4611455840991263320-1__a2,bengali--4611455840991263320-1,"জালালুদ্দিন খিলজি, যিনি আলাউদ্দিনের ভাতিজা",yes,S,yes,sheet (blind),3,,no (question dropped),
+bengali-5846157904123319216-6__a1,bengali-5846157904123319216-6,কার্লোস পাদ্রোস,yes,C,yes,sheet (blind),3,,yes,no
+bengali--8137487757915657057-1__a1,bengali--8137487757915657057-1,"অনেকটা ডিম্বাকার, দৈর্ঘ্যে ১০ সে.মি.",yes,S,yes,sheet (blind),3,,yes,no
+bengali-502031366341688023-0__a2,bengali-502031366341688023-0,"সেপ্টেম্বর ২২, ১৫৩৯, অমৃতসরে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-7443324023355551586-2__a2,bengali-7443324023355551586-2,সরদার আবদুল করিম,yes,F,yes,sheet (blind),3,,yes,no
+bengali-2586602312486395780-1__a3,bengali-2586602312486395780-1,"আইওলাইটস, চট্টগ্রামের",yes,S,yes,sheet (blind),3,,yes,no
+bengali-3143414516689833649-0__a2,bengali-3143414516689833649-0,চেলসিতে,yes,F,yes,sheet (blind),3,,yes,no
+bengali-6842587858992031358-10__a3,bengali-6842587858992031358-10,যজুর্বেদ ও অথর্ববেদ,yes,C,yes,sheet (blind),3,,yes,no
+bengali-5930037523147100292-2__a0,bengali-5930037523147100292-2,১৫ ফুট,yes,F,yes,sheet (blind),3,,yes,no
+bengali-7396433727645699911-6__a0,bengali-7396433727645699911-6,ফ্রিডম অ্যান্ড জাস্টিস পার্টি,no,gold,no,sheet (blind),3,,yes,no
+bengali--5204568659066136602-1__a0,bengali--5204568659066136602-1,১৬৮৩,yes,F,yes,sheet (blind),3,,yes,no
+bengali-6774541490543454184-11__a4,bengali-6774541490543454184-11,মৃণালিনী দেবীতে,yes,I,yes,sheet (blind),2,,yes,yes
+bengali-4287325730796291566-12__a4,bengali-4287325730796291566-12,"মক্কা, যা ৬৩০ সালে গঠিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali--4027724346689147960-2__a3,bengali--4027724346689147960-2,জর্জ,yes,F,yes,sheet (blind),3,,yes,no
+bengali-5447758927889596593-4__a4,bengali-5447758927889596593-4,১১০,no,gold,no,sheet (blind),3,,yes,yes
+bengali--4203021990164894046-0__a4,bengali--4203021990164894046-0,দুই মৌসুমে,yes,F,yes,sheet (blind),3,,yes,no
+bengali-2055139326411802416-1__a2,bengali-2055139326411802416-1,"বগুড়া, বগুড়া শহর থেকে ১৩ কি.মি. দক্ষিণে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-227743697961975427-1__a3,bengali-227743697961975427-1,পল ফ্রেঞ্চ,no,gold,no,sheet (blind),3,,yes,no
+bengali--6252143400733204520-2__a2,bengali--6252143400733204520-2,"হিব্রু Yiṣḥāq, যার অর্থ তিনি কাঁদেন",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5443118172314527178-10__a2,bengali--5443118172314527178-10,লালকৃষ্ণ আডবাণী,yes,F,yes,sheet (blind),3,,yes,no
+bengali--6252143400733204520-2__a4,bengali--6252143400733204520-2,ইউগ্রেটিস ভাষা,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8835875250524667479-0__a3,bengali-8835875250524667479-0,কিস অফ ডেথ (১৯৫২),yes,S,yes,sheet (blind),3,,yes,no
+bengali-6020639613270814419-24__a3,bengali-6020639613270814419-24,১২টি,yes,I,yes,sheet (blind),3,,yes,no
+bengali--261227273822015974-3__a0,bengali--261227273822015974-3,যুক্তরাষ্ট্রের নিউ মেক্সিকো অঙ্গরাজ্যের অ্যামোগোর্দো,no,gold,no,sheet (blind),3,,yes,no
+bengali-2855703607822460518-28__a3,bengali-2855703607822460518-28,"জর্জ ডিভোল, ১৯৬৪ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--300248677481756467-2__a0,bengali--300248677481756467-2,"তিন: রাণী, শ্রমিক ও সৈনিক",yes,S,yes,sheet (blind),3,,yes,no
+bengali-3629110068066754917-2__a3,bengali-3629110068066754917-2,পায়েন্দা খান,no,gold,no,sheet (blind),3,,yes,no
+bengali-9022969225808669971-3__a0,bengali-9022969225808669971-3,ভূদেবী পৃথিবী,no,gold,no,sheet (blind),3,,yes,no
+bengali--4320576500947344600-2__a2,bengali--4320576500947344600-2,যুক্তরাষ্ট্রে,yes,F,yes,sheet (blind),3,,no (question dropped),
+bengali--7621828810919168386-3__a4,bengali--7621828810919168386-3,"মোছাঃ রশীদা হামিদের, যিনি বিএনপির নেত্রী",yes,S,yes,sheet (blind),3,,yes,no
+bengali-5350217131280321233-3__a2,bengali-5350217131280321233-3,পাহাড়ের দৈত্য,yes,F,yes,sheet (blind),3,,yes,no
+bengali-6842587858992031358-10__a2,bengali-6842587858992031358-10,৫০০ থেকে ৩০০ অব্দের মাঝামাঝি,yes,F,yes,sheet (blind),3,,yes,no
+bengali--6960138209200983794-1__a2,bengali--6960138209200983794-1,নৈবেদ্য,yes,C,yes,sheet (blind),3,,yes,no
+bengali-7044920795788516725-3__a3,bengali-7044920795788516725-3,দেং শিয়াওপিংয়ের,yes,F,yes,sheet (blind),3,,yes,no
+bengali-7396433727645699911-6__a3,bengali-7396433727645699911-6,"ফ্রিডম অ্যান্ড জাস্টিস পার্টি, যা ২০০০ সালে গঠিত",yes,S,yes,sheet (blind),3,,yes,no
+bengali--3614315475237896403-1__a2,bengali--3614315475237896403-1,এক যে আছে কন্যা,yes,I,yes,sheet (blind),3,,yes,no
+bengali-3661955588237544767-0__a0,bengali-3661955588237544767-0,নোনা পরিবেশ,yes,C,yes,sheet (blind),3,,yes,no
+bengali--7488179106745368024-1__a3,bengali--7488179106745368024-1,তিন,no,gold,no,sheet (blind),3,,yes,no
+bengali--3312762463251557392-1__a4,bengali--3312762463251557392-1,আসকারদিঘি,yes,C,yes,sheet (blind),3,,yes,no
+bengali--2245503452768852962-17__a2,bengali--2245503452768852962-17,হিন্দু সম্প্রদায়ের,yes,I,yes,sheet (blind),3,,yes,no
+bengali--8154256008658539900-14__a1,bengali--8154256008658539900-14,১৭০টি,no,gold,no,sheet (blind),3,the context mismatches with wikipedia information,no (question dropped),
+bengali-9025642034431464670-6__a3,bengali-9025642034431464670-6,জহির আব্বাস,no,gold,no,sheet (blind),3,The context contains wrong information.,yes,yes
+bengali-870453365572423945-4__a3,bengali-870453365572423945-4,মেদিনীপুর,yes,I,yes,sheet (blind),3,there are issues in the context and in the question as well. Need to have a look here,yes,yes
+bengali--2217820890808407965-4__a3,bengali--2217820890808407965-4,১৯৮৪ সালের ২৪ অক্টোবর,no,gold,no,sheet (blind),3,,yes,no
+bengali--4611455840991263320-1__a3,bengali--4611455840991263320-1,আলাউদ্দিন খিলজি,yes,I,yes,sheet (blind),3,,no (question dropped),
+bengali-5524428449970713654-6__a3,bengali-5524428449970713654-6,২৬ মার্চ,yes,F,yes,sheet (blind),3,,yes,no
+bengali--89729718753012985-3__a2,bengali--89729718753012985-3,ঢাকার বুদ্ধিজীবী কবরস্থানে,no,gold,no,sheet (blind),3,,yes,no
+bengali--5210760246858963269-0__a1,bengali--5210760246858963269-0,১৯৮৪ খ্রিষ্টাব্দে,no,gold,no,sheet (blind),3,,yes,no
+bengali--1465705133191764484-0__a4,bengali--1465705133191764484-0,টিম রবিন্স,yes,I,yes,sheet (blind),3,,yes,no
+bengali--4203021990164894046-0__a2,bengali--4203021990164894046-0,"তিন মৌসুমে: আউশ, আমন ও রবি",yes,S,yes,sheet (blind),3,,yes,no
+bengali-7478984229355295611-0__a1,bengali-7478984229355295611-0,কোরিয়ায়,yes,F,yes,sheet (blind),3,,yes,no
+bengali-4022030362183597721-4__a3,bengali-4022030362183597721-4,সংস্কৃত,yes,C,yes,sheet (blind),3,,yes,no
+bengali-9022969225808669971-3__a4,bengali-9022969225808669971-3,"ভূদেবী পৃথিবী, যিনি সীতাকে লঙ্কায় নিয়ে যান",yes,S,yes,sheet (blind),3,,yes,no
+bengali--7191786131172679626-4__a1,bengali--7191786131172679626-4,"৭ থেকে ১০ বছর, শুধু মরুভূমির বালুতে",yes,S,yes,sheet (blind),3,,yes,no
+bengali-126165992786367412-2__a4,bengali-126165992786367412-2,২০১২,yes,F,yes,sheet (blind),3,,yes,no
+bengali-4287325730796291566-12__a0,bengali-4287325730796291566-12,মক্কা,no,gold,no,sheet (blind),3,,yes,no
+bengali-937294351156651799-1__a0,bengali-937294351156651799-1,ছত্রপতি শিবাজী,yes,F,yes,sheet (blind),3,,yes,yes
+bengali-7478984229355295611-0__a0,bengali-7478984229355295611-0,কাশ্মীরে,yes,I,yes,sheet (blind),3,,yes,no
+bengali--3518785176444767715-2__a1,bengali--3518785176444767715-2,পূর্ব প্রুশিয়াতে,yes,I,yes,sheet (blind),3,,yes,no
+bengali-7646003778499018736-5__a2,bengali-7646003778499018736-5,"জন ড্রিউ ব্যারিমোর, একজন চলচ্চিত্র পরিচালক",yes,S,yes,sheet (blind),3,,yes,no
+bengali--8593436479613553727-5__a0,bengali--8593436479613553727-5,১৯৭০,yes,I,yes,sheet (blind),3,,yes,no
+bengali--1513982894061092370-1__a3,bengali--1513982894061092370-1,"হামফ্রে ডেভি, ১৮৮০ সালে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5210760246858963269-0__a3,bengali--5210760246858963269-0,১৯৭১ খ্রিষ্টাব্দে,yes,F,yes,sheet (blind),3,,yes,no
+bengali-6041160895772644763-71__a0,bengali-6041160895772644763-71,"টুইন টাওয়ারে, ২০০২ সালের ৯ সেপ্টেম্বর",yes,S,yes,sheet (blind),3,,yes,no
+bengali-7396433727645699911-6__a1,bengali-7396433727645699911-6,ন্যাশনাল ডেমোক্রেটিক পার্টি,yes,I,yes,sheet (blind),3,,yes,no
+bengali-2204361224864424875-0__a3,bengali-2204361224864424875-0,মাইকেল ও'ডায়ারের,yes,F,yes,sheet (blind),3,,yes,no
+bengali--5678793440418813332-1__a1,bengali--5678793440418813332-1,লর্ড’সে,yes,C,yes,sheet (blind),3,,yes,yes
+bengali-7560401120187097084-7__a4,bengali-7560401120187097084-7,"২৬৯টিরও বেশী, যার সবগুলোই ঢাকায়",yes,S,yes,sheet (blind),3,,no (question dropped),
+bengali--5702015763636761454-0__a3,bengali--5702015763636761454-0,১৯৭৬,no,gold,no,sheet (blind),3,,yes,no
+bengali--405761113848942428-0__a1,bengali--405761113848942428-0,হ্যারি,yes,I,yes,sheet (blind),3,,yes,no
+bengali-5106409585032054286-5__a3,bengali-5106409585032054286-5,১৯৮৪,yes,F,yes,sheet (blind),3,,yes,yes
+bengali--8738126845861758945-3__a0,bengali--8738126845861758945-3,১৯৮৪ সালে,yes,I,yes,sheet (blind),3,,yes,no
+bengali--2339153920148132891-1__a1,bengali--2339153920148132891-1,১৪৫২ খ্রিষ্টাব্দের ১৫ এপ্রিল,yes,F,yes,sheet (blind),3,,yes,no
+bengali--743956707291198193-2__a4,bengali--743956707291198193-2,কলোসাস,yes,F,yes,sheet (blind),3,,no (question dropped),
+bengali--7745662268738010333-11__a4,bengali--7745662268738010333-11,সত্য ও শান্তির,yes,C,yes,sheet (blind),3,,yes,no
+bengali--8900441193756448468-0__a4,bengali--8900441193756448468-0,মিট্টি,yes,I,yes,sheet (blind),3,,yes,no
+bengali--3312762463251557392-1__a2,bengali--3312762463251557392-1,"সৈয়দ আহমেদ, যিনি কলকাতার একজন ভাস্কর",yes,S,yes,sheet (blind),3,,yes,no
+bengali-502031366341688023-0__a0,bengali-502031366341688023-0,কার্তিক পূর্ণিমা,yes,I,yes,sheet (blind),3,,yes,no
+bengali-6644593634362949760-0__a1,bengali-6644593634362949760-0,১৬ ডিসেম্বর,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8858032480103139171-13__a0,bengali-8858032480103139171-13,নোবেল পুরস্কার,yes,F,yes,sheet (blind),3,,yes,no
+bengali--8137487757915657057-1__a3,bengali--8137487757915657057-1,নাশপাতির মতো,yes,F,yes,sheet (blind),3,,yes,no
+bengali--4088972979448384532-2__a2,bengali--4088972979448384532-2,টুম্পা,yes,F,yes,sheet (blind),3,,yes,no
+bengali--4203021990164894046-0__a0,bengali--4203021990164894046-0,তিন মৌসুমে,no,gold,no,sheet (blind),3,,yes,no
+bengali--3614315475237896403-1__a3,bengali--3614315475237896403-1,তিতলি,yes,F,yes,sheet (blind),3,,yes,no
+bengali-4925538618113663099-44__a3,bengali-4925538618113663099-44,মমতাজ মহল,yes,F,yes,sheet (blind),3,,yes,no
+bengali-1239158793173466909-0__a0,bengali-1239158793173466909-0,"৫.৭৯ মিলিয়ন বর্গ মাইল, যা ইতিহাসের সর্ববৃহৎ সাম্রাজ্য",yes,S,yes,sheet (blind),3,,yes,no
+bengali-1508751382134197788-2__a4,bengali-1508751382134197788-2,কমিউনিস্ট পার্টি,yes,F,yes,sheet (blind),3,,yes,no
+bengali--5503166637136263200-39__a3,bengali--5503166637136263200-39,আয়িশার গৃহে,yes,C,yes,sheet (blind),3,,yes,no
+bengali-1019942405024864518-0__a3,bengali-1019942405024864518-0,ল্যারি পেজ ও এরিক স্মিট,yes,I,yes,sheet (blind),3,,yes,yes
+bengali-7755099264590331306-3__a1,bengali-7755099264590331306-3,যশোর শহরে,yes,I,yes,sheet (blind),3,,yes,no
+bengali-8981449779740723998-3__a2,bengali-8981449779740723998-3,রাজশাহী এসোসিয়েশন,yes,C,yes,sheet (blind),3,,yes,no
+bengali-3143414516689833649-0__a0,bengali-3143414516689833649-0,উত্তর লন্ডনের ওউলিচে,yes,S,yes,sheet (blind),3,,yes,no
+bengali-3439541446161415603-1__a3,bengali-3439541446161415603-1,কুমারদেবী,no,gold,no,sheet (blind),3,,yes,no
+bengali-8512012910625342558-17__a0,bengali-8512012910625342558-17,"হাওয়ার্ড হিউজে, একজন সেনা কর্মকর্তা",yes,S,yes,sheet (blind),3,,yes,no
+bengali--6767707870439070421-2__a2,bengali--6767707870439070421-2,৭৮,yes,F,yes,sheet (blind),3,,yes,no
+bengali--3103999780934898975-0__a2,bengali--3103999780934898975-0,"২৩ অক্টোবর, ১৯২৯, নরসিংদীতে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--8907092310207870265-0__a1,bengali--8907092310207870265-0,জন্ম ১৪ই ফেব্রুয়ারি,yes,F,yes,sheet (blind),3,,yes,yes
+bengali--2360904266908875273-1__a2,bengali--2360904266908875273-1,"শোভন চট্টোপাধ্যায়, ২০০০ সাল থেকে",yes,S,yes,sheet (blind),3,,yes,yes
+bengali--3051071168921438198-0__a2,bengali--3051071168921438198-0,রাজধানী শহর ছাড়িয়ে দেশের সর্বত্রই প্রায়,no,gold,no,sheet (blind),3,,no (question dropped),
+bengali-5930037523147100292-2__a2,bengali-5930037523147100292-2,১০ মিটার,yes,I,yes,sheet (blind),3,,yes,no
+bengali-7838235126646531080-5__a2,bengali-7838235126646531080-5,"আস্ক, ইংল্যান্ডের ডেভন কাউন্টিতে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--3525863623165833573-10__a3,bengali--3525863623165833573-10,হোমো স্যাপিয়েন্স,yes,I,no,sheet (blind),3,,yes,no
+bengali-2166646356804427767-12__a1,bengali-2166646356804427767-12,২০০০,yes,C,yes,sheet (blind),3,,yes,no
+bengali-1781289068755440406-2__a1,bengali-1781289068755440406-2,ইংল্যান্ডে,yes,F,yes,sheet (blind),3,,yes,yes
+bengali--2093112330853915217-0__a0,bengali--2093112330853915217-0,৩১০ কিলোমিটার,no,gold,no,sheet (blind),3,,yes,no
+bengali--1253642664057630388-5__a3,bengali--1253642664057630388-5,"১৯৪৭, জনগণের সরাসরি ভোটে",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5248157587845724105-12__a0,bengali--5248157587845724105-12,সাইফুর রহমান,yes,F,yes,sheet (blind),3,,yes,no
+bengali--286400932306783730-5__a0,bengali--286400932306783730-5,১৯০৯,no,gold,no,sheet (blind),3,,yes,no
+bengali--7494701536369664029-4__a4,bengali--7494701536369664029-4,"Maladie mentale et personnalité, ১৯৬২",yes,S,yes,sheet (blind),3,the core answer is correct but the year mentioned is wrong,yes,no
+bengali-3447785515269526586-2__a3,bengali-3447785515269526586-2,ইয়েটে,no,gold,no,sheet (blind),3,,yes,no
+bengali--1741274220753938019-4__a1,bengali--1741274220753938019-4,লীলা চৌধুরী,no,gold,no,sheet (blind),3,,yes,no
+bengali-2158077626257154929-21__a2,bengali-2158077626257154929-21,Fred: The Movie,yes,F,yes,sheet (blind),3,,yes,no
+bengali-7560401120187097084-7__a1,bengali-7560401120187097084-7,১২০টিরও বেশী,yes,F,yes,sheet (blind),3,technically it's also correct. Now what to do?,no (question dropped),
+bengali--8900441193756448468-0__a2,bengali--8900441193756448468-0,"বুকের ভিতর আগুন, যার পরিচালক বাসু চ্যাটার্জি",yes,S,yes,sheet (blind),3,,yes,no
+bengali--5484532727206796065-0__a3,bengali--5484532727206796065-0,নেসলে অস্ট্রেলিয়া,yes,F,yes,sheet (blind),3,what is nestle ? Austrailia is ok!! Then?,yes,yes
+bengali-5447758927889596593-4__a1,bengali-5447758927889596593-4,১১৯,yes,I,yes,sheet (blind),3,,yes,yes
+bengali-2573614511216597131-1__a4,bengali-2573614511216597131-1,হজরত করিম উল্লাহ,no,gold,no,sheet (blind),3,,yes,no
+bengali--6603377333995547973-0__a1,bengali--6603377333995547973-0,তাম্রপ্রস্তর যুগ,yes,I,yes,sheet (blind),3,,yes,yes
+bengali-712721717915347963-4__a4,bengali-712721717915347963-4,কলম শব্দ,yes,F,yes,sheet (blind),3,,yes,no
+bengali-7931400735334438152-7__a4,bengali-7931400735334438152-7,১৯৭২,yes,F,yes,sheet (blind),3,,yes,no
+bengali--381183395494440070-4__a3,bengali--381183395494440070-4,কিলোনিয়া,yes,F,yes,sheet (blind),3,"question, answer both absent in the context",yes,no
+bengali--5503166637136263200-39__a1,bengali--5503166637136263200-39,যুদ্ধের আঘাতে,yes,F,yes,sheet (blind),3,,yes,no
+bengali-6774541490543454184-11__a3,bengali-6774541490543454184-11,"শমীন্দ্রনাথে, যিনি ১৯১৭ সালে মারা যান",yes,S,yes,sheet (blind),2,,yes,yes
+bengali-1019942405024864518-0__a0,bengali-1019942405024864518-0,ল্যারি পেজ ও সের্গেই ব্রিন,no,gold,no,sheet (blind),3,,yes,yes
+bengali-7396433727645699911-6__a2,bengali-7396433727645699911-6,আল-নূর পার্টি,yes,F,yes,sheet (blind),3,,yes,no
+bengali-6774541490543454184-11__a0,bengali-6774541490543454184-11,রেণুকায়,yes,C,yes,sheet (blind),2,,yes,yes
+bengali--1492967622164090627-2__a2,bengali--1492967622164090627-2,মুসলিম গুরজার,no,gold,no,sheet (blind),3,,yes,no
+bengali-5447758927889596593-4__a0,bengali-5447758927889596593-4,১২৮,yes,F,yes,sheet (blind),3,"the context doesn't contain ""Valuka"" at all",yes,yes
+bengali-3217362833600204240-1__a4,bengali-3217362833600204240-1,সংশয়বাদী,yes,I,yes,sheet (blind),3,answer is absent in the context,yes,no
+bengali--2339153920148132891-1__a4,bengali--2339153920148132891-1,১৪৭৫ খ্রিষ্টাব্দের ৬ মার্চ,no,gold,no,sheet (blind),3,,yes,no
+bengali-712721717915347963-4__a1,bengali-712721717915347963-4,ফারসি কুরান,yes,I,yes,sheet (blind),3,,yes,no
+bengali-2166646356804427767-12__a2,bengali-2166646356804427767-12,হ্যারি পটার এন্ড দি গবলেট অফ ফায়ার,no,gold,no,sheet (blind),3,,yes,no
+bengali--4965296737885262319-1__a1,bengali--4965296737885262319-1,সিলেট জেলার জকিগঞ্জ উপজেলার ফুলতলী,no,gold,no,sheet (blind),3,,yes,no
+bengali-135536965636843256-17__a2,bengali-135536965636843256-17,উত্তর প্রান্তে,yes,F,yes,sheet (blind),3,,yes,no
+bengali-2573614511216597131-1__a1,bengali-2573614511216597131-1,হজরত আবদুল্লাহ শাহ,yes,F,yes,sheet (blind),3,,yes,no
+bengali--5210760246858963269-0__a2,bengali--5210760246858963269-0,অপারেশন মেঘদূত,yes,C,yes,sheet (blind),3,the question asks for the time while the answer is about the point,yes,no
+bengali--2360904266908875273-1__a1,bengali--2360904266908875273-1,সুরেন্দ্রনাথ বন্দ্যোপাধ্যায়,yes,C,yes,sheet (blind),3,the context is faulty.,yes,yes
+bengali--954934863110314741-0__a3,bengali--954934863110314741-0,নোকিয়া মোবাইল,yes,F,yes,sheet (blind),3,,yes,no
+bengali--4814390249866358431-4__a0,bengali--4814390249866358431-4,আল সুফি,no,gold,no,sheet (blind),3,,yes,yes
+bengali-1239158793173466909-0__a1,bengali-1239158793173466909-0,৫.৭৯ মিলিয়ন বর্গ কিলোমিটার,yes,I,yes,sheet (blind),3,,yes,no
+bengali--1256061284728114612-1__a3,bengali--1256061284728114612-1,"শশীভূষণ বন্দ্যোপাধ্যায়, ঢাকার আদালতের উকিল",yes,S,yes,sheet (blind),3,"""ভারতীয় যোগী ও অদ্বৈত বেদান্তের গুরু সোহং স্বামী"" - who's this pokemon?",yes,yes
+bengali-363202495030830843-1__a3,bengali-363202495030830843-1,৫৩৯৩,yes,C,yes,sheet (blind),3,"the context is faulty. The name ""Don Broadman"" is absent there. ""সক্ষমতা প্রদর্শন করতে পারেননি"" seems weird",yes,no
+bengali-1920310716847351499-2__a3,bengali-1920310716847351499-2,কলকাতা জেলা,yes,C,yes,sheet (blind),3,,yes,yes
+bengali-4287325730796291566-12__a3,bengali-4287325730796291566-12,বসরা,yes,C,yes,sheet (blind),3,well... the answer doesn't exist in the context.,yes,no
+bengali--2339153920148132891-1__a3,bengali--2339153920148132891-1,১৫৭৫ খ্রিষ্টাব্দের ৬ মার্চ,yes,I,yes,sheet (blind),3,,yes,no

@@ -1,0 +1,24 @@
+You are sorting Bangla quiz questions by topic. Read the question and the passage it comes from, then choose exactly one genre from the list below.
+
+HISTORY = History, Politics & Education: past events, eras, dynasties, empires, rulers, wars, colonial history, the language movement and the liberation war; government, constitutions, laws, elections, political parties and officeholders; administration, the military, the police and intelligence services; national symbols; schools, colleges, universities and libraries; people mainly known for any of these.
+ARTS = Arts, Culture & Sports: literature, film and TV, music and dance, painting and sculpture, theatre, folk culture, festivals and food; language features, grammar and scripts; philosophy; sports (games, teams, clubs, tournaments, the Olympics, players, coaches, sports bodies); people mainly known for any of these.
+SCIENCE = Science & Technology: physics, chemistry, biology, the human body, medicine and health, mathematics, computing and the internet, inventions and engineering, agriculture, animals, plants and natural phenomena; technology companies; scientists and inventors.
+GEOGRAPHY = Geography & Places: countries, regions, cities, districts, capitals and headquarters; rivers, mountains, glaciers and seas; area, population and administrative units; landmarks, buildings and infrastructure (location, size, when built, opened or renamed, who designed them, old names); the languages a country speaks; a country's currency.
+RELIGION = Religion: religions and beliefs, scriptures and religious terms; gods, prophets, the caliphs of early Islam, gurus, saints and monks; characters and events of epics, Puranas and mythologies; temples, mosques, monasteries, religious groups and reform movements.
+OTHER = only when nothing above fits: economy, banks and non-technology business, banknotes, media, accidents and disasters, everyday life.
+
+Rules for unsure cases, applied in this order:
+1. A question about a person (birth, death, parents, spouse, education, career) takes the genre of the field the person is mainly known for. A writer's birth date is ARTS. If the person is known for several fields, use the one the question or the passage names first.
+2. A named place and its properties is GEOGRAPHY. Exceptions: a religious building is RELIGION; a sports venue is ARTS; an event that happened at a place is HISTORY; schools and universities follow rule 5.
+3. A general natural concept (layers of the atmosphere, cells, genes) is SCIENCE. A specific named river or glacier is GEOGRAPHY.
+4. "Who was first", "what was first" and "who invented" take the genre of the thing: the first computer is SCIENCE, the first rock band is ARTS, the first independent king is HISTORY.
+5. An organization takes the genre of its field: a cricket council is ARTS, a spy agency is HISTORY, a technology company is SCIENCE, other companies and banks are OTHER. Schools, colleges, universities and libraries are HISTORY, unless the question asks about one as a place (area, location), which is GEOGRAPHY. A museum takes the genre of its collection.
+6. The meaning or origin of a word takes the genre of the word's field. Grammar terms, and words that belong to no other field, are ARTS. A language's own features, script or history are ARTS. Which languages a country or people speaks is GEOGRAPHY.
+7. National symbols (flag, anthem, emblem) are HISTORY. Gods, characters and events of the Ramayana, the Mahabharata, the Puranas and other mythologies are RELIGION; literary works that retell them are ARTS.
+8. If you are still unsure, pick the best fit.
+
+Question: {question}
+Passage: {context}
+
+Reply with exactly one word: HISTORY, ARTS, SCIENCE, GEOGRAPHY, RELIGION or OTHER. No explanation, no punctuation, no extra text.
+Genre:

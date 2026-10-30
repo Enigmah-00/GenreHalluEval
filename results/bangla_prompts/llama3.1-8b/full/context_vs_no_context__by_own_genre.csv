@@ -1,0 +1,8 @@
+genre,questions,BHS_context,BHS_no_context,difference,range95,usable
+HISTORY,386,68.10,50.71,-17.39,-19.88 to -14.73,yes
+ARTS,206,66.44,49.70,-16.75,-20.45 to -13.17,yes
+SCIENCE,166,63.63,50.83,-12.80,-16.57 to -8.89,yes
+GEOGRAPHY,86,68.02,51.31,-16.72,-21.80 to -11.34,yes
+RELIGION,67,61.94,51.68,-10.26,-16.04 to -4.10,yes
+OTHER,9,69.44,54.17,-15.28,-34.72 to 2.78,no
+no_answer,0,–,–,–,– to –,no

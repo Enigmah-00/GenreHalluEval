@@ -1,0 +1,11 @@
+model,condition,BHS_en,no_answer_en,BHS_answered_en,says_yes_en,BHS_bn,no_answer_bn,BHS_answered_bn,says_yes_bn,bn_minus_en,range95,same_verdict
+banglallama-13b,context,100.00,4600,–,0%,100.00,4600,–,0%,+0.00,+0.00 to +0.00,100%
+banglallama-13b,no_context,100.00,4600,–,0%,100.00,4600,–,0%,+0.00,+0.00 to +0.00,100%
+llama3.1-8b,context,36.71,0,36.71,34%,66.48,19,66.39,36%,+29.77,+27.72 to +31.66,51%
+llama3.1-8b,no_context,45.98,0,45.98,40%,50.67,0,50.67,6%,+4.69,+3.15 to +6.15,59%
+tigerllm-9b,context,38.82,0,38.82,32%,37.35,0,37.35,45%,-1.47,-2.98 to +0.15,78%
+tigerllm-9b,no_context,44.80,0,44.80,20%,39.97,0,39.97,53%,-4.82,-6.35 to -3.34,64%
+titullm-3b,context,100.00,4600,–,0%,100.00,4600,–,0%,+0.00,+0.00 to +0.00,100%
+titullm-3b,no_context,100.00,4600,–,0%,100.00,4600,–,0%,+0.00,+0.00 to +0.00,100%
+titullm-3b-instruct,context,100.00,4600,–,0%,62.55,1141,50.11,74%,-37.45,-38.65 to -36.28,25%
+titullm-3b-instruct,no_context,100.00,4600,–,0%,52.45,267,49.52,75%,-47.55,-48.60 to -46.51,6%

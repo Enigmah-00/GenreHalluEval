@@ -1,0 +1,97 @@
+{
+  "items": 4950,
+  "questions": 990,
+  "items_main": 4950,
+  "questions_main": 990,
+  "labels": {
+    "yes": 3960,
+    "no": 990
+  },
+  "genre_questions_main": {
+    "Geography & Places": 125,
+    "History, Politics & Education": 311,
+    "Arts, Culture & Sports": 296,
+    "Science & Technology": 147,
+    "Religion": 97,
+    "Other": 14
+  },
+  "length_chars_main": {
+    "gold": {
+      "mean": 15.1,
+      "median": 12.0
+    },
+    "F": {
+      "mean": 13.1,
+      "median": 12.0
+    },
+    "C": {
+      "mean": 11.9,
+      "median": 11.0
+    },
+    "S": {
+      "mean": 37.1,
+      "median": 35.0
+    },
+    "I": {
+      "mean": 12.9,
+      "median": 11.0
+    }
+  },
+  "share_exact_span_in_passage_main": {
+    "gold": 1.0,
+    "F": 0.044,
+    "C": 0.829,
+    "S": 0.0,
+    "I": 0.222
+  },
+  "share_with_comma_main": {
+    "gold": 0.046,
+    "F": 0.038,
+    "C": 0.032,
+    "S": 0.941,
+    "I": 0.033
+  },
+  "baselines_main": {
+    "not an exact span of the passage": {
+      "BHS": 13.7,
+      "trackA_error": 0.0,
+      "trackB_error": 27.4
+    },
+    "not a span after normalising spaces and punctuation": {
+      "BHS": 13.76,
+      "trackA_error": 0.0,
+      "trackB_error": 27.53
+    },
+    "contains a comma": {
+      "BHS": 39.26,
+      "trackA_error": 4.65,
+      "trackB_error": 73.86
+    },
+    "longer than 24 characters (2 x the median gold length)": {
+      "BHS": 43.12,
+      "trackA_error": 12.53,
+      "trackB_error": 73.71
+    },
+    "longest of the 5 answers (uses all 5, so not a real single-answer judge)": {
+      "BHS": 37.47,
+      "trackA_error": 0.1,
+      "trackB_error": 74.85
+    },
+    "always yes": {
+      "BHS": 50.0,
+      "trackA_error": 100.0,
+      "trackB_error": 0.0
+    }
+  },
+  "span_subset_main": {
+    "what": "items whose answer is an exact span of the passage; the span rule cannot separate them",
+    "items": 2075,
+    "questions": 990,
+    "by_type": {
+      "C": 821,
+      "gold": 990,
+      "I": 220,
+      "F": 44
+    }
+  }
+}

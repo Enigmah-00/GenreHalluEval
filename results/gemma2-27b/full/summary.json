@@ -1,0 +1,765 @@
+{
+ "model_key": "gemma2-27b",
+ "run_mode": "full",
+ "partial": false,
+ "judge_conditions": [
+  "context",
+  "no_context"
+ ],
+ "questions": {
+  "context": 920,
+  "no_context": 920
+ },
+ "compare": {
+  "overall": [
+   {
+    "view": "all questions",
+    "questions": 920,
+    "BHS_context": "6.10",
+    "BHS_no_context": "38.18",
+    "difference": "32.08",
+    "range95": "30.62 to 33.44",
+    "usable": "yes"
+   },
+   {
+    "view": "without 2026-dated facts",
+    "questions": 882,
+    "BHS_context": "6.14",
+    "BHS_no_context": "38.10",
+    "difference": "31.96",
+    "range95": "30.63 to 33.30",
+    "usable": "yes"
+   }
+  ],
+  "by_human_genre": [
+   {
+    "genre": "HISTORY",
+    "questions": 290,
+    "BHS_context": "5.78",
+    "BHS_no_context": "38.19",
+    "difference": "32.41",
+    "range95": "30.30 to 34.57",
+    "usable": "yes"
+   },
+   {
+    "genre": "ARTS",
+    "questions": 278,
+    "BHS_context": "5.71",
+    "BHS_no_context": "42.04",
+    "difference": "36.33",
+    "range95": "33.77 to 38.71",
+    "usable": "yes"
+   },
+   {
+    "genre": "SCIENCE",
+    "questions": 135,
+    "BHS_context": "6.85",
+    "BHS_no_context": "33.98",
+    "difference": "27.13",
+    "range95": "23.70 to 30.83",
+    "usable": "yes"
+   },
+   {
+    "genre": "GEOGRAPHY",
+    "questions": 110,
+    "BHS_context": "5.45",
+    "BHS_no_context": "34.43",
+    "difference": "28.98",
+    "range95": "25.68 to 32.50",
+    "usable": "yes"
+   },
+   {
+    "genre": "RELIGION",
+    "questions": 95,
+    "BHS_context": "7.50",
+    "BHS_no_context": "36.97",
+    "difference": "29.47",
+    "range95": "25.00 to 33.68",
+    "usable": "yes"
+   },
+   {
+    "genre": "OTHER",
+    "questions": 12,
+    "BHS_context": "9.38",
+    "BHS_no_context": "39.58",
+    "difference": "30.21",
+    "range95": "15.62 to 44.79",
+    "usable": "no"
+   }
+  ],
+  "by_own_genre": [
+   {
+    "genre": "HISTORY",
+    "questions": 439,
+    "BHS_context": "5.47",
+    "BHS_no_context": "38.33",
+    "difference": "32.86",
+    "range95": "30.98 to 34.57",
+    "usable": "yes"
+   },
+   {
+    "genre": "ARTS",
+    "questions": 205,
+    "BHS_context": "6.34",
+    "BHS_no_context": "42.62",
+    "difference": "36.28",
+    "range95": "33.11 to 39.39",
+    "usable": "yes"
+   },
+   {
+    "genre": "SCIENCE",
+    "questions": 113,
+    "BHS_context": "7.63",
+    "BHS_no_context": "34.51",
+    "difference": "26.88",
+    "range95": "22.90 to 31.08",
+    "usable": "yes"
+   },
+   {
+    "genre": "GEOGRAPHY",
+    "questions": 82,
+    "BHS_context": "5.79",
+    "BHS_no_context": "33.38",
+    "difference": "27.59",
+    "range95": "23.63 to 31.40",
+    "usable": "yes"
+   },
+   {
+    "genre": "RELIGION",
+    "questions": 75,
+    "BHS_context": "7.50",
+    "BHS_no_context": "36.67",
+    "difference": "29.17",
+    "range95": "24.33 to 33.83",
+    "usable": "yes"
+   },
+   {
+    "genre": "OTHER",
+    "questions": 6,
+    "BHS_context": "2.08",
+    "BHS_no_context": "29.17",
+    "difference": "27.08",
+    "range95": "16.67 to 39.58",
+    "usable": "no"
+   },
+   {
+    "genre": "no_answer",
+    "questions": 0,
+    "BHS_context": "–",
+    "BHS_no_context": "–",
+    "difference": "–",
+    "range95": "– to –",
+    "usable": "no"
+   }
+  ]
+ },
+ "overall": {
+  "context": {
+   "main": {
+    "BHS": 6.10054347826087,
+    "trackA_err": 1.6304347826086956,
+    "trackB_err": 10.570652173913043,
+    "n_items": 4600,
+    "no_answer": 0
+   },
+   "range95": [
+    5.448369565217391,
+    6.7934782608695645
+   ],
+   "views": {
+    "answered items only": {
+     "BHS": 6.10054347826087,
+     "trackA_err": 1.6304347826086956,
+     "trackB_err": 10.570652173913043,
+     "n_items": 4600,
+     "no_answer": 0
+    },
+    "lenient parse (diagnostic)": {
+     "BHS": 6.10054347826087,
+     "trackA_err": 1.6304347826086956,
+     "trackB_err": 10.570652173913043,
+     "n_items": 4600,
+     "no_answer": 0
+    },
+    "span subset (answer copied from the passage)": {
+     "BHS": 7.501549741353511,
+     "trackA_err": 1.6304347826086956,
+     "trackB_err": 13.372664700098328,
+     "n_items": 1937,
+     "no_answer": 0
+    },
+    "without weak golds": {
+     "BHS": 6.051042810098792,
+     "trackA_err": 1.5367727771679474,
+     "trackB_err": 10.565312843029638,
+     "n_items": 4555,
+     "no_answer": 0
+    },
+    "without 2026-dated facts (38 questions out)": {
+     "BHS": 6.136621315192744,
+     "trackA_err": 1.5873015873015872,
+     "trackB_err": 10.6859410430839,
+     "n_items": 4410,
+     "no_answer": 0
+    }
+   },
+   "by_type": [
+    {
+     "type": "F (factualness)",
+     "answers": 920,
+     "miss_rate": "3.70",
+     "no_answer": 0
+    },
+    {
+     "type": "C (comprehension)",
+     "answers": 920,
+     "miss_rate": "12.17",
+     "no_answer": 0
+    },
+    {
+     "type": "S (specificity)",
+     "answers": 920,
+     "miss_rate": "15.65",
+     "no_answer": 0
+    },
+    {
+     "type": "I (inference)",
+     "answers": 920,
+     "miss_rate": "10.76",
+     "no_answer": 0
+    }
+   ]
+  },
+  "no_context": {
+   "main": {
+    "BHS": 38.17934782608695,
+    "trackA_err": 16.52173913043478,
+    "trackB_err": 59.83695652173913,
+    "n_items": 4600,
+    "no_answer": 0
+   },
+   "range95": [
+    36.95652173913044,
+    39.483695652173914
+   ],
+   "views": {
+    "answered items only": {
+     "BHS": 38.17934782608695,
+     "trackA_err": 16.52173913043478,
+     "trackB_err": 59.83695652173913,
+     "n_items": 4600,
+     "no_answer": 0
+    },
+    "lenient parse (diagnostic)": {
+     "BHS": 38.17934782608695,
+     "trackA_err": 16.52173913043478,
+     "trackB_err": 59.83695652173913,
+     "n_items": 4600,
+     "no_answer": 0
+    },
+    "span subset (answer copied from the passage)": {
+     "BHS": 30.13894232824591,
+     "trackA_err": 16.52173913043478,
+     "trackB_err": 43.75614552605703,
+     "n_items": 1937,
+     "no_answer": 0
+    },
+    "without weak golds": {
+     "BHS": 38.11745334796927,
+     "trackA_err": 16.46542261251372,
+     "trackB_err": 59.76948408342481,
+     "n_items": 4555,
+     "no_answer": 0
+    },
+    "without 2026-dated facts (38 questions out)": {
+     "BHS": 38.0952380952381,
+     "trackA_err": 16.439909297052154,
+     "trackB_err": 59.750566893424036,
+     "n_items": 4410,
+     "no_answer": 0
+    }
+   },
+   "by_type": [
+    {
+     "type": "F (factualness)",
+     "answers": 920,
+     "miss_rate": "75.00",
+     "no_answer": 0
+    },
+    {
+     "type": "C (comprehension)",
+     "answers": 920,
+     "miss_rate": "39.67",
+     "no_answer": 0
+    },
+    {
+     "type": "S (specificity)",
+     "answers": 920,
+     "miss_rate": "60.98",
+     "no_answer": 0
+    },
+    {
+     "type": "I (inference)",
+     "answers": 920,
+     "miss_rate": "63.70",
+     "no_answer": 0
+    }
+   ]
+  }
+ },
+ "run1": {
+  "genre_guessing": [
+   {
+    "compared_with": "final labels (human-verified)",
+    "questions": 920,
+    "accuracy": "81.5",
+    "macro_F1": "0.771",
+    "kappa": "0.752",
+    "kappa_range95": "0.719 to 0.783",
+    "no_answer": 0
+   },
+   {
+    "compared_with": "blind human labels (200)",
+    "questions": 189,
+    "accuracy": "78.3",
+    "macro_F1": "0.689",
+    "kappa": "0.707",
+    "kappa_range95": "0.623 to 0.787",
+    "no_answer": 0
+   }
+  ],
+  "confusion": [
+   {
+    "human": "HISTORY",
+    "HISTORY": 285,
+    "ARTS": 1,
+    "SCIENCE": 2,
+    "GEOGRAPHY": 1,
+    "RELIGION": 0,
+    "OTHER": 1,
+    "no_answer": 0
+   },
+   {
+    "human": "ARTS",
+    "HISTORY": 74,
+    "ARTS": 199,
+    "SCIENCE": 2,
+    "GEOGRAPHY": 1,
+    "RELIGION": 1,
+    "OTHER": 1,
+    "no_answer": 0
+   },
+   {
+    "human": "SCIENCE",
+    "HISTORY": 25,
+    "ARTS": 2,
+    "SCIENCE": 108,
+    "GEOGRAPHY": 0,
+    "RELIGION": 0,
+    "OTHER": 0,
+    "no_answer": 0
+   },
+   {
+    "human": "GEOGRAPHY",
+    "HISTORY": 29,
+    "ARTS": 0,
+    "SCIENCE": 1,
+    "GEOGRAPHY": 80,
+    "RELIGION": 0,
+    "OTHER": 0,
+    "no_answer": 0
+   },
+   {
+    "human": "RELIGION",
+    "HISTORY": 19,
+    "ARTS": 2,
+    "SCIENCE": 0,
+    "GEOGRAPHY": 0,
+    "RELIGION": 74,
+    "OTHER": 0,
+    "no_answer": 0
+   },
+   {
+    "human": "OTHER",
+    "HISTORY": 7,
+    "ARTS": 1,
+    "SCIENCE": 0,
+    "GEOGRAPHY": 0,
+    "RELIGION": 0,
+    "OTHER": 4,
+    "no_answer": 0
+   }
+  ],
+  "judge_by_human_genre": {
+   "context": [
+    {
+     "genre": "HISTORY",
+     "questions": 290,
+     "BHS": "5.78",
+     "range95": "4.66 to 7.24",
+     "trackA_err": "1.03",
+     "trackB_err": "10.52",
+     "no_answer": 0,
+     "usable": "yes"
+    },
+    {
+     "genre": "ARTS",
+     "questions": 278,
+     "BHS": "5.71",
+     "range95": "4.41 to 7.15",
+     "trackA_err": "2.88",
+     "trackB_err": "8.54",
+     "no_answer": 0,
+     "usable": "yes"
+    },
+    {
+     "genre": "SCIENCE",
+     "questions": 135,
+     "BHS": "6.85",
+     "range95": "5.00 to 8.80",
+     "trackA_err": "1.48",
+     "trackB_err": "12.22",
+     "no_answer": 0,
+     "usable": "yes"
+    },
+    {
+     "genre": "GEOGRAPHY",
+     "questions": 110,
+     "BHS": "5.45",
+     "range95": "3.98 to 7.05",
+     "trackA_err": "0.00",
+     "trackB_err": "10.91",
+     "no_answer": 0,
+     "usable": "yes"
+    },
+    {
+     "genre": "RELIGION",
+     "questions": 95,
+     "BHS": "7.50",
+     "range95": "5.53 to 9.74",
+     "trackA_err": "1.05",
+     "trackB_err": "13.95",
+     "no_answer": 0,
+     "usable": "yes"
+    },
+    {
+     "genre": "OTHER",
+     "questions": 12,
+     "BHS": "9.38",
+     "range95": "2.08 to 17.71",
+     "trackA_err": "8.33",
+     "trackB_err": "10.42",
+     "no_answer": 0,
+     "usable": "no"
+    }
+   ],
+   "no_context": [
+    {
+     "genre": "HISTORY",
+     "questions": 290,
+     "BHS": "38.19",
+     "range95": "36.12 to 40.26",
+     "trackA_err": "15.17",
+     "trackB_err": "61.21",
+     "no_answer": 0,
+     "usable": "yes"
+    },
+    {
+     "genre": "ARTS",
+     "questions": 278,
+     "BHS": "42.04",
+     "range95": "39.97 to 44.11",
+     "trackA_err": "16.91",
+     "trackB_err": "67.18",
+     "no_answer": 0,
+     "usable": "yes"
+    },
+    {
+     "genre": "SCIENCE",
+     "questions": 135,
+     "BHS": "33.98",
+     "range95": "30.56 to 37.50",
+     "trackA_err": "19.26",
+     "trackB_err": "48.70",
+     "no_answer": 0,
+     "usable": "yes"
+    },
+    {
+     "genre": "GEOGRAPHY",
+     "questions": 110,
+     "BHS": "34.43",
+     "range95": "31.36 to 37.61",
+     "trackA_err": "15.45",
+     "trackB_err": "53.41",
+     "no_answer": 0,
+     "usable": "yes"
+    },
+    {
+     "genre": "RELIGION",
+     "questions": 95,
+     "BHS": "36.97",
+     "range95": "33.03 to 40.92",
+     "trackA_err": "17.89",
+     "trackB_err": "56.05",
+     "no_answer": 0,
+     "usable": "yes"
+    },
+    {
+     "genre": "OTHER",
+     "questions": 12,
+     "BHS": "39.58",
+     "range95": "31.25 to 48.96",
+     "trackA_err": "8.33",
+     "trackB_err": "70.83",
+     "no_answer": 0,
+     "usable": "no"
+    }
+   ]
+  }
+ },
+ "run2": {
+  "context": {
+   "judge_by_own_genre": [
+    {
+     "genre": "HISTORY",
+     "questions": 439,
+     "BHS": "5.47",
+     "range95": "4.58 to 6.44",
+     "trackA_err": "1.14",
+     "trackB_err": "9.79",
+     "no_answer": 0,
+     "usable": "yes",
+     "agrees_with_human": "285/439"
+    },
+    {
+     "genre": "ARTS",
+     "questions": 205,
+     "BHS": "6.34",
+     "range95": "4.70 to 8.11",
+     "trackA_err": "3.90",
+     "trackB_err": "8.78",
+     "no_answer": 0,
+     "usable": "yes",
+     "agrees_with_human": "199/205"
+    },
+    {
+     "genre": "SCIENCE",
+     "questions": 113,
+     "BHS": "7.63",
+     "range95": "5.42 to 9.85",
+     "trackA_err": "1.77",
+     "trackB_err": "13.50",
+     "no_answer": 0,
+     "usable": "yes",
+     "agrees_with_human": "108/113"
+    },
+    {
+     "genre": "GEOGRAPHY",
+     "questions": 82,
+     "BHS": "5.79",
+     "range95": "4.12 to 7.62",
+     "trackA_err": "0.00",
+     "trackB_err": "11.59",
+     "no_answer": 0,
+     "usable": "yes",
+     "agrees_with_human": "80/82"
+    },
+    {
+     "genre": "RELIGION",
+     "questions": 75,
+     "BHS": "7.50",
+     "range95": "5.50 to 9.83",
+     "trackA_err": "0.00",
+     "trackB_err": "15.00",
+     "no_answer": 0,
+     "usable": "yes",
+     "agrees_with_human": "74/75"
+    },
+    {
+     "genre": "OTHER",
+     "questions": 6,
+     "BHS": "2.08",
+     "range95": "0.00 to 6.25",
+     "trackA_err": "0.00",
+     "trackB_err": "4.17",
+     "no_answer": 0,
+     "usable": "no",
+     "agrees_with_human": "4/6"
+    },
+    {
+     "genre": "no_answer",
+     "questions": 0,
+     "BHS": "–",
+     "range95": "– to –",
+     "trackA_err": "–",
+     "trackB_err": "–",
+     "no_answer": 0,
+     "usable": "no",
+     "agrees_with_human": "–"
+    }
+   ],
+   "mechanism": [
+    {
+     "group": "own genre = human genre",
+     "questions": 750,
+     "BHS": "6.35",
+     "range95": "5.60 to 7.15",
+     "trackA_err": "1.73",
+     "trackB_err": "10.97",
+     "no_answer": 0,
+     "usable": "yes"
+    },
+    {
+     "group": "own genre ≠ human genre",
+     "questions": 170,
+     "BHS": "5.00",
+     "range95": "3.82 to 6.32",
+     "trackA_err": "1.18",
+     "trackB_err": "8.82",
+     "no_answer": 0,
+     "usable": "yes"
+    }
+   ]
+  },
+  "no_context": {
+   "judge_by_own_genre": [
+    {
+     "genre": "HISTORY",
+     "questions": 439,
+     "BHS": "38.33",
+     "range95": "36.65 to 39.92",
+     "trackA_err": "14.58",
+     "trackB_err": "62.07",
+     "no_answer": 0,
+     "usable": "yes",
+     "agrees_with_human": "285/439"
+    },
+    {
+     "genre": "ARTS",
+     "questions": 205,
+     "BHS": "42.62",
+     "range95": "39.88 to 45.43",
+     "trackA_err": "18.54",
+     "trackB_err": "66.71",
+     "no_answer": 0,
+     "usable": "yes",
+     "agrees_with_human": "199/205"
+    },
+    {
+     "genre": "SCIENCE",
+     "questions": 113,
+     "BHS": "34.51",
+     "range95": "30.64 to 38.50",
+     "trackA_err": "19.47",
+     "trackB_err": "49.56",
+     "no_answer": 0,
+     "usable": "yes",
+     "agrees_with_human": "108/113"
+    },
+    {
+     "genre": "GEOGRAPHY",
+     "questions": 82,
+     "BHS": "33.38",
+     "range95": "29.57 to 37.35",
+     "trackA_err": "14.63",
+     "trackB_err": "52.13",
+     "no_answer": 0,
+     "usable": "yes",
+     "agrees_with_human": "80/82"
+    },
+    {
+     "genre": "RELIGION",
+     "questions": 75,
+     "BHS": "36.67",
+     "range95": "32.33 to 41.17",
+     "trackA_err": "21.33",
+     "trackB_err": "52.00",
+     "no_answer": 0,
+     "usable": "yes",
+     "agrees_with_human": "74/75"
+    },
+    {
+     "genre": "OTHER",
+     "questions": 6,
+     "BHS": "29.17",
+     "range95": "16.67 to 43.75",
+     "trackA_err": "0.00",
+     "trackB_err": "58.33",
+     "no_answer": 0,
+     "usable": "no",
+     "agrees_with_human": "4/6"
+    },
+    {
+     "genre": "no_answer",
+     "questions": 0,
+     "BHS": "–",
+     "range95": "– to –",
+     "trackA_err": "–",
+     "trackB_err": "–",
+     "no_answer": 0,
+     "usable": "no",
+     "agrees_with_human": "–"
+    }
+   ],
+   "mechanism": [
+    {
+     "group": "own genre = human genre",
+     "questions": 750,
+     "BHS": "38.35",
+     "range95": "37.02 to 39.80",
+     "trackA_err": "17.07",
+     "trackB_err": "59.63",
+     "no_answer": 0,
+     "usable": "yes"
+    },
+    {
+     "group": "own genre ≠ human genre",
+     "questions": 170,
+     "BHS": "37.43",
+     "range95": "35.00 to 39.93",
+     "trackA_err": "14.12",
+     "trackB_err": "60.74",
+     "no_answer": 0,
+     "usable": "yes"
+    }
+   ]
+  }
+ },
+ "cost": {
+  "genre": {
+   "calls": 920,
+   "prompt_tokens": 1109990,
+   "output_tokens": 3904,
+   "sum_latency_h": 1.387,
+   "this_session": {
+    "calls": 920,
+    "seconds": 2508.033308982849
+   }
+  },
+  "judge:context": {
+   "calls": 4600,
+   "prompt_tokens": 2240677,
+   "output_tokens": 9220,
+   "sum_latency_h": 4.38,
+   "this_session": {
+    "calls": 4600,
+    "seconds": 7895.5708549022675
+   }
+  },
+  "judge:no_context": {
+   "calls": 4600,
+   "prompt_tokens": 588097,
+   "output_tokens": 10630,
+   "sum_latency_h": 1.547,
+   "this_session": {
+    "calls": 4600,
+    "seconds": 2813.134950399399
+   }
+  }
+ },
+ "full_run_estimate_h": {
+  "genre": 0.7,
+  "judge:context": 2.19,
+  "judge:no_context": 0.78
+ }
+}

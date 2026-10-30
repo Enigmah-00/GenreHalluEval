@@ -1,0 +1,33 @@
+You are sorting Bangla quiz questions by topic. Read the question and the passage it comes from, then choose exactly one genre from the list below.
+
+HISTORY = past events and eras: dynasties, empires, ancient civilizations, rulers before modern states, wars (including the 1971 Liberation War), colonial history, partition, uprisings and mass movements, revolutions, massacres and genocides; people mainly known for such events.
+POLITICS = politics and government: governments, constitutions, laws and courts, elections, political parties, offices and officeholders, the civil service, the police and the military as institutions, diplomacy and international bodies, national symbols; politicians.
+EDUCATION = schools, colleges, universities and madrasas, education boards, public exams and admission tests, curricula and degrees, libraries; people mainly known as educators.
+ARTS = literature, film and TV, music of every kind (including folk music and bands), dance, painting, sculpture, theatre, comedy, photography, beauty pageants; awards for these; people mainly known for these.
+CULTURE = festivals and fairs that are not religious observances, customs, food and drink, clothing, crafts and folk traditions other than music, the Bangla calendar; language outside Bangla grammar: scripts, other languages and their alphabets, meanings of words that belong to no other genre, proverbs; philosophy.
+SPORTS = games, teams, clubs, leagues, tournaments, the Olympics, records, players, coaches, sports bodies and sports venues.
+SCIENCE = physics, chemistry, biology, the human body, medicine, health and diseases, drugs, mathematics, astronomy, earth science, animals, plants, natural phenomena, energy and the environment as concepts; scientists.
+TECHNOLOGY = computers, the internet, software, programming languages, AI, electronics, phones and telecom, TV and radio as devices, satellites, rockets and space agencies, instruments, vehicles, power plants, engineering, inventions and inventors, technology companies and their founders.
+GEOGRAPHY = continents, oceans, seas, rivers, lakes, mountains, passes, deserts, forests, reefs, islands, deltas, landforms, climate; countries and regions as places (location, borders, area, population, nicknames, capitals, official languages, currencies); divisions, districts, upazilas and cities as units; natural tourist spots.
+PLACES = named sites that people built or that are known from archaeology: buildings, monuments, mausoleums, bridges, roads, railways and metros, canals, ports, airports, parks, archaeological sites and ruins; their location, size, construction, designers, opening and old names.
+RELIGION = religions and beliefs, scriptures, verses and religious terms, worship and rituals, religious festivals and observances, gods, prophets, gurus, saints, monks and religious scholars, the events and people of early Islamic history, Islamic law and its schools, Sufi orders, epics, Puranas and mythologies, religious groups and reform movements; temples, mosques and shrines when the question asks about their religious role.
+GRAMMAR = Bangla grammar and usage: sandhi and sandhi-bichchhed, samas, karak and bibhakti, prakriti and pratyay, upasarga, parts of speech, dhatu, bachya, kal, linga, bachan, purush, ukti, natva-shatva rules, correct spelling, punctuation, Bangla sounds and letters, sound changes, sadhu and cholit bhasha, synonyms and antonyms, one-word substitution, idioms, and the type or source language of a Bangla word (tatsama, tadbhava, deshi, bideshi).
+OTHER = only when nothing above fits: economy, banks and non-technology business, media, crime, accidents and disasters, refugees, everyday trivia.
+
+Rules for unsure cases, applied in this order:
+1. A question about a person (birth, death, family, real name, education, career, events in their life) takes the genre the person is mainly known for. A footballer's birthplace is SPORTS; a politician's birth name is POLITICS.
+2. A dated event (a war, uprising, massacre, coup or referendum) is HISTORY. Offices, officeholders, parties, elections, laws, courts and government bodies are POLITICS, whatever their date.
+3. Knowledge about nature, health and medicine is SCIENCE. Things people build, and the people and companies that build them, are TECHNOLOGY.
+4. Natural features, countries, regions and administrative units are GEOGRAPHY. Built or excavated sites are PLACES: a river is GEOGRAPHY, a bridge over it is PLACES.
+5. A temple, mosque, shrine or monastery is RELIGION when the question asks about its religious role, rites or religious history, and PLACES when it asks about its location, size, construction or ruins.
+6. A specific work, performer or artistic genre (including folk music) is ARTS. A tradition, custom, festival, food or the language itself is CULTURE.
+7. A religious observance (Eid, Durga Puja, Rath Yatra, Christmas, Buddha Purnima) is RELIGION. A non-religious festival (Pohela Boishakh, a book fair) is CULTURE.
+8. The meaning of a word takes the genre of the word's field. The grammar of a Bangla word (its type, the language it came from, its sandhi or samas, its part of speech) is GRAMMAR, whatever the word means. Grammar terms are GRAMMAR; words with no other field are CULTURE.
+9. An organization takes the genre of its field: a cricket council is SPORTS, a ministry is POLITICS, a university is EDUCATION, a technology company is TECHNOLOGY, a bank is OTHER.
+10. If you are still unsure, pick the best fit.
+
+Question: {question}
+Passage: {context}
+
+Reply with exactly one word: HISTORY, POLITICS, EDUCATION, ARTS, CULTURE, SPORTS, SCIENCE, TECHNOLOGY, GEOGRAPHY, PLACES, RELIGION, GRAMMAR or OTHER. No explanation, no punctuation, no extra text.
+Genre:

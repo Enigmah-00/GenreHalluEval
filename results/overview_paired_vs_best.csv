@@ -1,0 +1,25 @@
+condition,model,BHS,vs,difference,range95,clearly_worse
+context,gemma4-31b,1.44,gemma4-31b,+0.00,+0.00 to +0.00,–
+context,qwen3.5-27b,1.78,gemma4-31b,+0.34,-0.16 to +0.87,no
+context,gemma2-27b,6.10,gemma4-31b,+4.66,+3.91 to +5.41,yes
+context,gpt-oss-20b,7.08,gemma4-31b,+5.64,+4.69 to +6.63,yes
+context,qwen2.5-32b,9.86,gemma4-31b,+8.42,+7.43 to +9.46,yes
+context,deepseek-r1-14b,22.76,gemma4-31b,+21.32,+19.70 to +23.11,yes
+context,llama3.1-8b,36.71,gemma4-31b,+35.27,+33.83 to +36.66,yes
+context,tigerllm-9b,38.82,gemma4-31b,+37.38,+35.84 to +38.99,yes
+context,mistral-nemo-12b,49.65,gemma4-31b,+48.21,+46.43 to +49.92,yes
+context,banglallama-13b,100.00,gemma4-31b,+98.56,+98.06 to +99.05,yes
+context,titullm-3b,100.00,gemma4-31b,+98.56,+98.06 to +99.05,yes
+context,titullm-3b-instruct,100.00,gemma4-31b,+98.56,+98.06 to +99.05,yes
+no_context,gemma4-31b,31.92,gemma4-31b,+0.00,+0.00 to +0.00,–
+no_context,qwen3.5-27b,32.85,gemma4-31b,+0.94,-0.49 to +2.50,no
+no_context,qwen2.5-32b,37.43,gemma4-31b,+5.52,+3.99 to +7.08,yes
+no_context,gemma2-27b,38.18,gemma4-31b,+6.26,+4.71 to +7.84,yes
+no_context,deepseek-r1-14b,38.29,gemma4-31b,+6.37,+4.40 to +8.34,yes
+no_context,gpt-oss-20b,39.76,gemma4-31b,+7.84,+6.06 to +9.55,yes
+no_context,tigerllm-9b,44.80,gemma4-31b,+12.88,+11.14 to +14.66,yes
+no_context,llama3.1-8b,45.98,gemma4-31b,+14.06,+12.17 to +15.91,yes
+no_context,mistral-nemo-12b,50.75,gemma4-31b,+18.83,+17.08 to +20.57,yes
+no_context,banglallama-13b,100.00,gemma4-31b,+68.08,+66.56 to +69.46,yes
+no_context,titullm-3b,100.00,gemma4-31b,+68.08,+66.56 to +69.46,yes
+no_context,titullm-3b-instruct,100.00,gemma4-31b,+68.08,+66.56 to +69.46,yes

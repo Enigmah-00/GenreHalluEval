@@ -1,0 +1,887 @@
+{
+ "lock_version": "v1",
+ "created_utc": "2026-10-18T13:04:26+00:00",
+ "rule": "Every choice below was computed from BenHalluEval-QA v1.3 runs only, before any Dataset 2 data was made or seen. Nothing here may change after Dataset 2 is touched. A new lock version is allowed only before that.",
+ "source": {
+  "dataset": "BenHalluEval-QA v1.3",
+  "items_csv_sha256": "a6e4e413fd9504e018aa1b3b42a2339387dff943bb3bf5b53e4e05627cc2ec2c",
+  "questions": 920,
+  "answers": 4600,
+  "run_files_sha256": {
+   "benhallueval__banglallama-13b__genre__genre_v1.jsonl": "9bb87646f9066d3da31f8cb9b98f15e1083e69705c54fdf430a2c844c3f6c969",
+   "benhallueval__deepseek-r1-14b__genre__genre_v1.jsonl": "122a051a3ea58d83159ecaab0814558eedeca5a446af8f9b505c09e8a2de55f2",
+   "benhallueval__gemma2-27b__genre__genre_v1.jsonl": "6b052ed4d7f63af90ef09f0e9b63e54351a6ba4ed6caba5362a6fa1d416dbe0b",
+   "benhallueval__gemma4-31b__genre__genre_v1.jsonl": "cb69618b37cce60c06ba7a70b07f6e3450711f52a0cdbac8d36d45ecb8323b75",
+   "benhallueval__gpt-oss-20b__genre__genre_v1.jsonl": "07045daddbfe862bd0c5d83cad0fda4f2a92185a01f1445d456be4635fb5b307",
+   "benhallueval__llama3.1-8b__genre__genre_v1.jsonl": "384da344aedd1f3c2472e40918c8c36d7417a6294c05cebb3e2a0c79cd742ebb",
+   "benhallueval__mistral-nemo-12b__genre__genre_v1.jsonl": "dbdf540431713a9adbedfe83471ec17fb0cbaa495e84c6264fd559ac5952df96",
+   "benhallueval__qwen2.5-32b__genre__genre_v1.jsonl": "9da6c7daae5cc787f8c75410ecfd7b8dac8da3c163a286732b9a1b039b0734a6",
+   "benhallueval__qwen3.5-27b__genre__genre_v1.jsonl": "2c7c00c75e438c2084b79fb29abd968b6d98bf50ba37c1a6dc4e3a286c8bcd02",
+   "benhallueval__tigerllm-9b__genre__genre_v1.jsonl": "65ef0e2f2389b62dbd142845ac0319cc538ff0fa99ca124bb242c1e14e70e5b2",
+   "benhallueval__titullm-3b__genre__genre_v1.jsonl": "a3d0cfa126ebe566de06c5068edf7e06049d687b0be223f8a371f618d3b26d0d",
+   "benhallueval__titullm-3b-instruct__genre__genre_v1.jsonl": "185b8dfa0011c669fd3ccfe713ced738b59ffb095a40c8fec2930f638e4145c9",
+   "benhallueval__banglallama-13b__judge__judge_v1.jsonl": "7457faf4b44aa9097c1dadb17532d83f4125a2ee087aea8abd91f68a8f4ce517",
+   "benhallueval__deepseek-r1-14b__judge__judge_v1.jsonl": "e1beb2eb37c61083bed855470d69815d1c5ac6f4965566d7ead1969206751e8f",
+   "benhallueval__gemma2-27b__judge__judge_v1.jsonl": "fe34e2af7af10fb6a327eb81561e7321d3e6d418c5d24fcae8fcdcbe96cd7639",
+   "benhallueval__gemma4-31b__judge__judge_v1.jsonl": "c1eddeeb1deff5f76e2db08f3af160ccbc4bb938b89e38e44e72a44aac3688df",
+   "benhallueval__gpt-oss-20b__judge__judge_v1.jsonl": "c3d2a0c5bef57c5a4bdf7db81b2c725aeedcb6b6fa663f6398d785753ef4299b",
+   "benhallueval__llama3.1-8b__judge__judge_v1.jsonl": "9d2fdd32476765d31fdb93b7af1e875228186eac0de1ba62a02d2895640b76c6",
+   "benhallueval__mistral-nemo-12b__judge__judge_v1.jsonl": "7b17edc2b95160c37e9c157f006b6ef10688acb6d3b147251d70bef9bc9157d4",
+   "benhallueval__qwen2.5-32b__judge__judge_v1.jsonl": "09f066666568ee0a4d01749c7d45720ed7bedba6049283e3a1cf6e1e60efc014",
+   "benhallueval__qwen3.5-27b__judge__judge_v1.jsonl": "5a94c32a10b2f617155434a58e3c0a9f366d4be7dc825100642f73dc78cccd6d",
+   "benhallueval__tigerllm-9b__judge__judge_v1.jsonl": "9bdc2e7b57d4ffae923408bc1c08302bf7dbb47f0b47719245fa0f64f09dd538",
+   "benhallueval__titullm-3b__judge__judge_v1.jsonl": "ae37b4fe0871be5548dc6dab370120baaf11554a5c8533542d97a8af4cdfbc3c",
+   "benhallueval__titullm-3b-instruct__judge__judge_v1.jsonl": "7bf4ff34153f7998c074e8b44636a1670e2c4b7ff59761eb4336823b1900c0dd",
+   "benhallueval__banglallama-13b__judge__judge_noctx_v1.jsonl": "82f381211b40d52beb0ce040cc5a31b9024ae3534ad6aea4fc1d90c56cde6e25",
+   "benhallueval__deepseek-r1-14b__judge__judge_noctx_v1.jsonl": "c655d0766ea3c7cd1b8b4d03dae013daa09e592c2bd87c3956c68a9662d15c5c",
+   "benhallueval__gemma2-27b__judge__judge_noctx_v1.jsonl": "928a22811b8d7f2f6e319c06915842ce1c253f22a74cc38fb85dc71bc45068d7",
+   "benhallueval__gemma4-31b__judge__judge_noctx_v1.jsonl": "57615fa2a3aa1278792e0027cc53193d7773d1a3e3c4f948f185c87a6f03f08a",
+   "benhallueval__gpt-oss-20b__judge__judge_noctx_v1.jsonl": "1e830fe5ac046d78de1d48d66b76f923e068c61564caecc9b8a42a20aa1b6902",
+   "benhallueval__llama3.1-8b__judge__judge_noctx_v1.jsonl": "8c6bcb6fb18568e1134f780d0bc50d463eaaeec42d21a131cbd4e1c2efcdc654",
+   "benhallueval__mistral-nemo-12b__judge__judge_noctx_v1.jsonl": "e9d35a6702f5862ac1d79bce76534778b8fffdbe50e3ccdf93903b7042ff0f2d",
+   "benhallueval__qwen2.5-32b__judge__judge_noctx_v1.jsonl": "353780798bdf55ebf8c9f585534f7cb81bbb1f8cfb43391423d906939eb7e147",
+   "benhallueval__qwen3.5-27b__judge__judge_noctx_v1.jsonl": "be30df3bd5f4da976a8fd627a8143073ab5de04f8c68b8e689fd07f716918c0d",
+   "benhallueval__tigerllm-9b__judge__judge_noctx_v1.jsonl": "5ce784989698cd04fd4c75125bc337fdbcb80be56d612c45500be6270b4830f0",
+   "benhallueval__titullm-3b__judge__judge_noctx_v1.jsonl": "3a093025eaa1b006234091b292c12ed8ff75924ff30eee610635915c1ece5cfa",
+   "benhallueval__titullm-3b-instruct__judge__judge_noctx_v1.jsonl": "5eecb3e97d47dd70477f5c46903e51bd34a300c36e467d9b1e332916cb52a324"
+  }
+ },
+ "setup": {
+  "prompts": {
+   "genre": "genre_v1",
+   "context": "judge_v1",
+   "no_context": "judge_noctx_v1"
+  },
+  "prompt_sha12": {
+   "genre": "3bb6f869c352",
+   "context": "0e4241e4d57f",
+   "no_context": "2fe589f38e9e"
+  },
+  "temperature": 0,
+  "seed": 2026,
+  "parse": "strict: yes/no (judge), one of 6 codes or names (genre); else no_answer, counted as an error in BHS",
+  "ollama_version": "0.40.6 for every Dataset 2 run (llama3.1-8b's BenHalluEval run used 0.40.5)",
+  "models": {
+   "banglallama-13b": {
+    "version": "hf revision a5986f8599cd749ab4e8a2afb068b881493dac28; bnb-nf4; LoRA merged r=64 alpha=128; format alpaca",
+    "think": null,
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    }
+   },
+   "deepseek-r1-14b": {
+    "version": "ollama 0.40.6; digest c333b7232bdb521236694ffbb5f5a6b11cc45d98e9142c73123b670fca400b09; Q4_K_M",
+    "think": true,
+    "max_new": {
+     "genre": 1024,
+     "judge": 1024
+    }
+   },
+   "gemma2-27b": {
+    "version": "ollama 0.40.6; digest 53261bc9c192c1cb5fcc898dd3aa15da093f5ab6f08e17e48cf838bb1c58abfe; Q4_0",
+    "think": null,
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    }
+   },
+   "gemma4-31b": {
+    "version": "ollama 0.40.6; digest 17ba34c06c801ba22f6047bab21ced9429c6d43e0e42ecf339b0f3e5a61e8d97; Q4_K_M",
+    "think": false,
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    }
+   },
+   "gpt-oss-20b": {
+    "version": "ollama 0.40.6; digest f38aa0c53da5f8c49d08c43a99df24ff53167fe68e24664a7777288e7656fdfe; MXFP4",
+    "think": "low",
+    "max_new": {
+     "genre": 512,
+     "judge": 512
+    }
+   },
+   "llama3.1-8b": {
+    "version": "ollama 0.40.5; digest 46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e; Q4_K_M",
+    "think": null,
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    }
+   },
+   "mistral-nemo-12b": {
+    "version": "ollama 0.40.6; digest e7e06d107c6c86ed0cf45445f1790720b5092149c4c95f4d965844e9afbfdc89; Q4_0",
+    "think": null,
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    }
+   },
+   "qwen2.5-32b": {
+    "version": "ollama 0.40.6; digest 9f13ba1299afea09d9a956fc6a85becc99115a6d596fae201a5487a03bdc4368; Q4_K_M",
+    "think": null,
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    }
+   },
+   "qwen3.5-27b": {
+    "version": "ollama 0.40.6; digest 64ae5b1d651fb2709d5928ccb8dcfb4bb2cc9c2c8001ac34497e36a6cf905b59; Q4_K_M",
+    "think": false,
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    }
+   },
+   "tigerllm-9b": {
+    "version": "ollama 0.40.6; digest d2b91a15fc7e34289604835971cae670c5e31033b47c6e6dc1deaa5e6d2fea06; Q4_K_M",
+    "think": null,
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    }
+   },
+   "titullm-3b": {
+    "version": "ollama 0.40.6; digest 78a9cab00c648618ba2b4712c65c2210b4292089571d1674e3a33d149a01e3af; Q4_K_M",
+    "think": null,
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    }
+   },
+   "titullm-3b-instruct": {
+    "version": "hf revision 6a9600483daf9a3af7494e7fa91f2e72e2799b96; bnb-nf4; format chat_template",
+    "think": null,
+    "max_new": {
+     "genre": 8,
+     "judge": 8
+    }
+   }
+  }
+ },
+ "pools": {
+  "primary_open_weight": [
+   "banglallama-13b",
+   "deepseek-r1-14b",
+   "gemma2-27b",
+   "gemma4-31b",
+   "gpt-oss-20b",
+   "llama3.1-8b",
+   "mistral-nemo-12b",
+   "qwen2.5-32b",
+   "qwen3.5-27b",
+   "tigerllm-9b",
+   "titullm-3b",
+   "titullm-3b-instruct"
+  ],
+  "dataset2_pool": [
+   "deepseek-r1-14b",
+   "gemma2-27b",
+   "gemma4-31b",
+   "gpt-oss-20b",
+   "llama3.1-8b",
+   "mistral-nemo-12b",
+   "qwen2.5-32b",
+   "qwen3.5-27b",
+   "tigerllm-9b"
+  ],
+  "excluded_from_dataset2": {
+   "banglallama-13b": "over 50% no_answer on BenHalluEval in both conditions (no usable verdicts)",
+   "titullm-3b": "over 50% no_answer on BenHalluEval in both conditions (no usable verdicts)",
+   "titullm-3b-instruct": "over 50% no_answer on BenHalluEval in both conditions (no usable verdicts)"
+  },
+  "secondary_with_gpt-4.1-mini": "not run; dropped unless run on BenHalluEval and locked (new version) before Dataset 2 is touched"
+ },
+ "min_cell_questions": 50,
+ "conditions": {
+  "context": {
+   "labels_on_dataset2": "passage label",
+   "overall_BHS": {
+    "gemma4-31b": {
+     "BHS": 1.44,
+     "range95": [
+      0.95,
+      1.94
+     ]
+    },
+    "qwen3.5-27b": {
+     "BHS": 1.78,
+     "range95": [
+      1.33,
+      2.23
+     ]
+    },
+    "gemma2-27b": {
+     "BHS": 6.1,
+     "range95": [
+      5.45,
+      6.79
+     ]
+    },
+    "gpt-oss-20b": {
+     "BHS": 7.08,
+     "range95": [
+      6.15,
+      8.03
+     ]
+    },
+    "qwen2.5-32b": {
+     "BHS": 9.86,
+     "range95": [
+      9.04,
+      10.75
+     ]
+    },
+    "deepseek-r1-14b": {
+     "BHS": 22.76,
+     "range95": [
+      21.18,
+      24.59
+     ]
+    },
+    "llama3.1-8b": {
+     "BHS": 36.71,
+     "range95": [
+      35.41,
+      38.03
+     ]
+    },
+    "tigerllm-9b": {
+     "BHS": 38.82,
+     "range95": [
+      37.23,
+      40.39
+     ]
+    },
+    "mistral-nemo-12b": {
+     "BHS": 49.65,
+     "range95": [
+      47.98,
+      51.26
+     ]
+    }
+   },
+   "A_best_single_judge": "gemma4-31b",
+   "B_top3_vote": [
+    "gemma4-31b",
+    "qwen3.5-27b",
+    "gemma2-27b"
+   ],
+   "C_vote_of_all": {
+    "judges": [
+     "deepseek-r1-14b",
+     "gemma2-27b",
+     "gemma4-31b",
+     "gpt-oss-20b",
+     "llama3.1-8b",
+     "mistral-nemo-12b",
+     "qwen2.5-32b",
+     "qwen3.5-27b",
+     "tigerllm-9b"
+    ],
+    "rule": "majority of yes vs no among usable verdicts; tie -> A's verdict"
+   },
+   "best_genre_guesser": {
+    "judge": "qwen3.5-27b",
+    "metric": "accuracy against our human-verified genres",
+    "accuracy": {
+     "qwen3.5-27b": 95.0,
+     "gemma4-31b": 93.8,
+     "qwen2.5-32b": 91.8,
+     "deepseek-r1-14b": 83.7,
+     "gemma2-27b": 81.5,
+     "gpt-oss-20b": 80.0,
+     "tigerllm-9b": 76.8,
+     "llama3.1-8b": 73.4,
+     "mistral-nemo-12b": 69.8
+    }
+   },
+   "D_E_judge_per_genre": {
+    "HISTORY": {
+     "judge": "gemma4-31b",
+     "BHS": 1.03,
+     "questions": 290
+    },
+    "ARTS": {
+     "judge": "qwen3.5-27b",
+     "BHS": 1.62,
+     "questions": 278
+    },
+    "SCIENCE": {
+     "judge": "gemma4-31b",
+     "BHS": 2.04,
+     "questions": 135
+    },
+    "GEOGRAPHY": {
+     "judge": "gemma4-31b",
+     "BHS": 0.23,
+     "questions": 110
+    },
+    "RELIGION": {
+     "judge": "qwen3.5-27b",
+     "BHS": 1.97,
+     "questions": 95
+    },
+    "OTHER": {
+     "judge": "gemma4-31b",
+     "BHS": null,
+     "questions": 12,
+     "note": "under 50 questions: falls back to A"
+    }
+   },
+   "D_rule": "our (human) genre on Dataset 2 -> D_E_judge_per_genre",
+   "E_rule": "best_genre_guesser names the genre (genre prompt, question + passage) -> D_E_judge_per_genre",
+   "F_own_genre_scores": {
+    "deepseek-r1-14b": {
+     "HISTORY": {
+      "BHS": 23.2093,
+      "questions": 356
+     },
+     "ARTS": {
+      "BHS": 21.4829,
+      "questions": 263
+     },
+     "SCIENCE": {
+      "BHS": 25.0926,
+      "questions": 135
+     },
+     "GEOGRAPHY": {
+      "BHS": 20.2632,
+      "questions": 95
+     },
+     "RELIGION": {
+      "BHS": 24.4403,
+      "questions": 67
+     }
+    },
+    "gemma2-27b": {
+     "HISTORY": {
+      "BHS": 5.467,
+      "questions": 439
+     },
+     "ARTS": {
+      "BHS": 6.3415,
+      "questions": 205
+     },
+     "SCIENCE": {
+      "BHS": 7.6327,
+      "questions": 113
+     },
+     "GEOGRAPHY": {
+      "BHS": 5.7927,
+      "questions": 82
+     },
+     "RELIGION": {
+      "BHS": 7.5,
+      "questions": 75
+     }
+    },
+    "gemma4-31b": {
+     "HISTORY": {
+      "BHS": 1.0526,
+      "questions": 285
+     },
+     "ARTS": {
+      "BHS": 1.6401,
+      "questions": 282
+     },
+     "SCIENCE": {
+      "BHS": 1.8229,
+      "questions": 144
+     },
+     "GEOGRAPHY": {
+      "BHS": 0.3713,
+      "questions": 101
+     },
+     "RELIGION": {
+      "BHS": 2.2606,
+      "questions": 94
+     }
+    },
+    "gpt-oss-20b": {
+     "HISTORY": {
+      "BHS": 6.9823,
+      "questions": 367
+     },
+     "ARTS": {
+      "BHS": 7.4911,
+      "questions": 282
+     },
+     "SCIENCE": {
+      "BHS": 7.0946,
+      "questions": 111
+     },
+     "GEOGRAPHY": {
+      "BHS": 6.0567,
+      "questions": 97
+     },
+     "RELIGION": {
+      "BHS": 7.0455,
+      "questions": 55
+     }
+    },
+    "llama3.1-8b": {
+     "HISTORY": {
+      "BHS": 35.2339,
+      "questions": 513
+     },
+     "ARTS": {
+      "BHS": 38.6682,
+      "questions": 214
+     },
+     "SCIENCE": {
+      "BHS": 37.5,
+      "questions": 76
+     },
+     "GEOGRAPHY": {
+      "BHS": 38.5714,
+      "questions": 70
+     }
+    },
+    "mistral-nemo-12b": {
+     "HISTORY": {
+      "BHS": 48.525,
+      "questions": 500
+     },
+     "ARTS": {
+      "BHS": 53.2725,
+      "questions": 233
+     },
+     "SCIENCE": {
+      "BHS": 52.7778,
+      "questions": 72
+     },
+     "GEOGRAPHY": {
+      "BHS": 44.3314,
+      "questions": 86
+     }
+    },
+    "qwen2.5-32b": {
+     "HISTORY": {
+      "BHS": 10.3405,
+      "questions": 301
+     },
+     "ARTS": {
+      "BHS": 10.1213,
+      "questions": 268
+     },
+     "SCIENCE": {
+      "BHS": 10.3417,
+      "questions": 139
+     },
+     "GEOGRAPHY": {
+      "BHS": 6.9307,
+      "questions": 101
+     },
+     "RELIGION": {
+      "BHS": 9.6774,
+      "questions": 93
+     }
+    },
+    "qwen3.5-27b": {
+     "HISTORY": {
+      "BHS": 1.8293,
+      "questions": 287
+     },
+     "ARTS": {
+      "BHS": 1.7857,
+      "questions": 287
+     },
+     "SCIENCE": {
+      "BHS": 2.4476,
+      "questions": 143
+     },
+     "GEOGRAPHY": {
+      "BHS": 0.9021,
+      "questions": 97
+     },
+     "RELIGION": {
+      "BHS": 1.5306,
+      "questions": 98
+     }
+    },
+    "tigerllm-9b": {
+     "HISTORY": {
+      "BHS": 37.711,
+      "questions": 474
+     },
+     "ARTS": {
+      "BHS": 43.4066,
+      "questions": 182
+     },
+     "SCIENCE": {
+      "BHS": 39.3229,
+      "questions": 96
+     },
+     "GEOGRAPHY": {
+      "BHS": 31.7308,
+      "questions": 91
+     },
+     "RELIGION": {
+      "BHS": 43.2203,
+      "questions": 59
+     }
+    }
+   },
+   "F_rule": "every judge in dataset2_pool names a genre; candidates = judges whose (judge, named genre) cell is in F_own_genre_scores; pick the lowest BHS; tie -> lower overall_BHS; no candidate -> A",
+   "G_rule": "as F, but ignore judges whose named genre differs from the most common genre named by the pool (a tie for most common keeps all judges); exploratory",
+   "K_oracle": "for each answer, correct if any pool judge is correct; a ceiling, not a method"
+  },
+  "no_context": {
+   "labels_on_dataset2": "world label",
+   "overall_BHS": {
+    "gemma4-31b": {
+     "BHS": 31.92,
+     "range95": [
+      30.54,
+      33.44
+     ]
+    },
+    "qwen3.5-27b": {
+     "BHS": 32.85,
+     "range95": [
+      31.56,
+      34.1
+     ]
+    },
+    "qwen2.5-32b": {
+     "BHS": 37.43,
+     "range95": [
+      36.17,
+      38.75
+     ]
+    },
+    "gemma2-27b": {
+     "BHS": 38.18,
+     "range95": [
+      36.96,
+      39.48
+     ]
+    },
+    "deepseek-r1-14b": {
+     "BHS": 38.29,
+     "range95": [
+      36.67,
+      39.92
+     ]
+    },
+    "gpt-oss-20b": {
+     "BHS": 39.76,
+     "range95": [
+      38.33,
+      41.21
+     ]
+    },
+    "tigerllm-9b": {
+     "BHS": 44.8,
+     "range95": [
+      43.74,
+      45.9
+     ]
+    },
+    "llama3.1-8b": {
+     "BHS": 45.98,
+     "range95": [
+      44.71,
+      47.28
+     ]
+    },
+    "mistral-nemo-12b": {
+     "BHS": 50.75,
+     "range95": [
+      49.81,
+      51.71
+     ]
+    }
+   },
+   "A_best_single_judge": "gemma4-31b",
+   "B_top3_vote": [
+    "gemma4-31b",
+    "qwen3.5-27b",
+    "qwen2.5-32b"
+   ],
+   "C_vote_of_all": {
+    "judges": [
+     "deepseek-r1-14b",
+     "gemma2-27b",
+     "gemma4-31b",
+     "gpt-oss-20b",
+     "llama3.1-8b",
+     "mistral-nemo-12b",
+     "qwen2.5-32b",
+     "qwen3.5-27b",
+     "tigerllm-9b"
+    ],
+    "rule": "majority of yes vs no among usable verdicts; tie -> A's verdict"
+   },
+   "best_genre_guesser": {
+    "judge": "qwen3.5-27b",
+    "metric": "accuracy against our human-verified genres",
+    "accuracy": {
+     "qwen3.5-27b": 95.0,
+     "gemma4-31b": 93.8,
+     "qwen2.5-32b": 91.8,
+     "deepseek-r1-14b": 83.7,
+     "gemma2-27b": 81.5,
+     "gpt-oss-20b": 80.0,
+     "tigerllm-9b": 76.8,
+     "llama3.1-8b": 73.4,
+     "mistral-nemo-12b": 69.8
+    }
+   },
+   "D_E_judge_per_genre": {
+    "HISTORY": {
+     "judge": "qwen3.5-27b",
+     "BHS": 31.29,
+     "questions": 290
+    },
+    "ARTS": {
+     "judge": "gemma4-31b",
+     "BHS": 36.74,
+     "questions": 278
+    },
+    "SCIENCE": {
+     "judge": "gemma4-31b",
+     "BHS": 26.48,
+     "questions": 135
+    },
+    "GEOGRAPHY": {
+     "judge": "gemma4-31b",
+     "BHS": 27.05,
+     "questions": 110
+    },
+    "RELIGION": {
+     "judge": "qwen3.5-27b",
+     "BHS": 28.42,
+     "questions": 95
+    },
+    "OTHER": {
+     "judge": "gemma4-31b",
+     "BHS": null,
+     "questions": 12,
+     "note": "under 50 questions: falls back to A"
+    }
+   },
+   "D_rule": "our (human) genre on Dataset 2 -> D_E_judge_per_genre",
+   "E_rule": "best_genre_guesser names the genre (genre prompt, question + passage) -> D_E_judge_per_genre",
+   "F_own_genre_scores": {
+    "deepseek-r1-14b": {
+     "HISTORY": {
+      "BHS": 38.132,
+      "questions": 356
+     },
+     "ARTS": {
+      "BHS": 42.5856,
+      "questions": 263
+     },
+     "SCIENCE": {
+      "BHS": 34.7222,
+      "questions": 135
+     },
+     "GEOGRAPHY": {
+      "BHS": 33.8158,
+      "questions": 95
+     },
+     "RELIGION": {
+      "BHS": 34.3284,
+      "questions": 67
+     }
+    },
+    "gemma2-27b": {
+     "HISTORY": {
+      "BHS": 38.3257,
+      "questions": 439
+     },
+     "ARTS": {
+      "BHS": 42.622,
+      "questions": 205
+     },
+     "SCIENCE": {
+      "BHS": 34.5133,
+      "questions": 113
+     },
+     "GEOGRAPHY": {
+      "BHS": 33.3841,
+      "questions": 82
+     },
+     "RELIGION": {
+      "BHS": 36.6667,
+      "questions": 75
+     }
+    },
+    "gemma4-31b": {
+     "HISTORY": {
+      "BHS": 32.193,
+      "questions": 285
+     },
+     "ARTS": {
+      "BHS": 36.6135,
+      "questions": 282
+     },
+     "SCIENCE": {
+      "BHS": 26.4757,
+      "questions": 144
+     },
+     "GEOGRAPHY": {
+      "BHS": 26.3614,
+      "questions": 101
+     },
+     "RELIGION": {
+      "BHS": 29.7872,
+      "questions": 94
+     }
+    },
+    "gpt-oss-20b": {
+     "HISTORY": {
+      "BHS": 38.9986,
+      "questions": 367
+     },
+     "ARTS": {
+      "BHS": 44.8138,
+      "questions": 282
+     },
+     "SCIENCE": {
+      "BHS": 35.3604,
+      "questions": 111
+     },
+     "GEOGRAPHY": {
+      "BHS": 35.6959,
+      "questions": 97
+     },
+     "RELIGION": {
+      "BHS": 34.3182,
+      "questions": 55
+     }
+    },
+    "llama3.1-8b": {
+     "HISTORY": {
+      "BHS": 44.615,
+      "questions": 513
+     },
+     "ARTS": {
+      "BHS": 49.7664,
+      "questions": 214
+     },
+     "SCIENCE": {
+      "BHS": 47.0395,
+      "questions": 76
+     },
+     "GEOGRAPHY": {
+      "BHS": 40.1786,
+      "questions": 70
+     }
+    },
+    "mistral-nemo-12b": {
+     "HISTORY": {
+      "BHS": 51.15,
+      "questions": 500
+     },
+     "ARTS": {
+      "BHS": 49.8927,
+      "questions": 233
+     },
+     "SCIENCE": {
+      "BHS": 51.7361,
+      "questions": 72
+     },
+     "GEOGRAPHY": {
+      "BHS": 50.1453,
+      "questions": 86
+     }
+    },
+    "qwen2.5-32b": {
+     "HISTORY": {
+      "BHS": 36.5033,
+      "questions": 301
+     },
+     "ARTS": {
+      "BHS": 41.0914,
+      "questions": 268
+     },
+     "SCIENCE": {
+      "BHS": 35.2518,
+      "questions": 139
+     },
+     "GEOGRAPHY": {
+      "BHS": 35.8911,
+      "questions": 101
+     },
+     "RELIGION": {
+      "BHS": 33.0645,
+      "questions": 93
+     }
+    },
+    "qwen3.5-27b": {
+     "HISTORY": {
+      "BHS": 30.9233,
+      "questions": 287
+     },
+     "ARTS": {
+      "BHS": 38.7195,
+      "questions": 287
+     },
+     "SCIENCE": {
+      "BHS": 27.972,
+      "questions": 143
+     },
+     "GEOGRAPHY": {
+      "BHS": 32.8608,
+      "questions": 97
+     },
+     "RELIGION": {
+      "BHS": 28.699,
+      "questions": 98
+     }
+    },
+    "tigerllm-9b": {
+     "HISTORY": {
+      "BHS": 43.9873,
+      "questions": 474
+     },
+     "ARTS": {
+      "BHS": 48.2143,
+      "questions": 182
+     },
+     "SCIENCE": {
+      "BHS": 46.4844,
+      "questions": 96
+     },
+     "GEOGRAPHY": {
+      "BHS": 39.9725,
+      "questions": 91
+     },
+     "RELIGION": {
+      "BHS": 44.9153,
+      "questions": 59
+     }
+    }
+   },
+   "F_rule": "every judge in dataset2_pool names a genre; candidates = judges whose (judge, named genre) cell is in F_own_genre_scores; pick the lowest BHS; tie -> lower overall_BHS; no candidate -> A",
+   "G_rule": "as F, but ignore judges whose named genre differs from the most common genre named by the pool (a tie for most common keeps all judges); exploratory",
+   "K_oracle": "for each answer, correct if any pool judge is correct; a ceiling, not a method"
+  }
+ },
+ "confirmatory_tests": {
+  "comparisons": [
+   "E vs A (context)",
+   "F vs A (context)",
+   "F vs C (context)",
+   "E vs A (no_context)",
+   "F vs A (no_context)",
+   "F vs C (no_context)"
+  ],
+  "statistic": "BHS difference on Dataset 2 (strict parse; no_answer = error)",
+  "uncertainty": "paired bootstrap over Dataset 2 questions, 10,000 re-samples, seed 2026; 95% range reported",
+  "p_value": "two-sided bootstrap p = 2 x min(share of differences <= 0, share >= 0)",
+  "multiplicity": "Holm correction across the 6 comparisons at alpha 0.05",
+  "everything_else": "exploratory (B, D, G, K, H/I/J if added before Dataset 2, per-genre results, Bangla-prompt runs)"
+ },
+ "exploratory_predictions_from_benhallueval": [
+  "gemma4-31b judges Science better in its own genre than in ours (context): BenHalluEval 1.82 vs 2.04",
+  "qwen3.5-27b judges Science better in its own genre than in ours (context): 2.45 vs 2.69",
+  "qwen2.5-32b judges History better in its own genre than in ours (context): 10.34 vs 11.12",
+  "Our reading: these 3 of 86 comparisons are consistent with chance; we expect them not to replicate"
+ ],
+ "optional_baselines_H_I_J": "not locked yet. If used, their tables must be computed from BenHalluEval and added in a new lock version before Dataset 2 is touched; otherwise they are dropped."
+}

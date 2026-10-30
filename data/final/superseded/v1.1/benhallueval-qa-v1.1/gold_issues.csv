@@ -1,0 +1,125 @@
+question_id,audit_status,question,correct_answer,note
+bengali-4452568128027547833-6,TA,কাতারের বর্তমান (২০১৯) জনসংখ্যা কত ?,১.৮ মিলিয়ন,"passage says 1.8 million for Qatar (2019); the real 2019 figure is about 2.8 million (TA item, passage-based)"
+bengali--699522616384955754-0,TU,টোকিও শহরের বর্তমান জনসংখ্যা কত ?,৩ কোটি ৮০ লক্ষ,"Tokyo: the 1.3 crore city figure in the passage is arguably the better answer to ""Tokyo city population"""
+bengali--5885375539130721317-9,FIXQ,ফোর্ট উইলিয়াম কলেজের প্রথম হেড পণ্ডিত কে ছিলেন ?,মৃত্যুঞ্জয় তর্কালঙ্কার,"passage spells the head pandit ""মৃত্যুঞ্জয় তর্কালঙ্কার""; the usual name is মৃত্যুঞ্জয় বিদ্যালঙ্কার"
+bengali-5564895155648684698-3,WEAK,টেথিস সাগর কোন গোলার্ধে অবস্থিত ছিল ?,পশ্চিম গোলার্ধে,"Tethys was mostly in the eastern hemisphere; gold ""পশ্চিম গোলার্ধে"" is weak (already WEAK)"
+bengali-1388303287272062439-22,OK,আলবেনিয়ার প্রথম রাষ্ট্রপতির নাম কী ?,আলিয়া,Albania's first president was Ahmet Zogu (1925); Ramiz Alia was the first president of the 1991 republic
+bengali-7838235126646531080-5,OK,বিখ্যাত ব্রিটিশ প্রকৃতিবিদ আলফ্রেড রাসেল ওয়ালেস কোন শহরে জন্মগ্রহণ করেন ?,আস্ক,"Wallace was born in the village of Llanbadoc near Usk; ""ল্যানবাডক"" is arguably the better answer"
+bengali--5305296283281809764-1,OK,কেন্দ্রীয় শহিদ মিনার তৈরির নেতৃত্বে কে ছিলেন ?,ঢাকা মেডিকেল কলেজের ছাত্ররা,"question says ""central"" Shaheed Minar but the passage and gold are about the first (1952) Shaheed Minar; the central one was designed by Hamidur Rahman"
+bengali--7598402691106791053-4,OK,দর্শন শব্দটি কোন শব্দ থেকে এসেছে ?,ইংরেজি philosophy,"দর্শন is a Sanskrit word (root দৃশ্); the passage's claim that it comes from English ""philosophy"" is wrong"
+bengali--8298663979066050758-14,OK,পাকিস্তানের সরকারি ভাষা কী ?,ইংরেজি,"Urdu is also an official language of Pakistan in practice; gold follows the passage (English official, Urdu national)"
+bengali-8389521287325865921-1,OK,কলকাতা পৌরসভা প্রথম কত সালে স্থাপিত হয়েছিল ?,১৯২২,Calcutta Municipal Corporation dates from 1876 (or earlier); 1922 is when the democratic corporation began
+bengali-4908844406111824569-11,TA,২০১৮ সাল পর্যন্ত মালয়েশিয়াতে মোট কতগুলো ভাষার প্রচলন আছে ?,১৩০,"""about 130 other languages"" plus Malay could be read as 131 in total"
+bengali--8576849544322707640-1,OK,ইন্দো-ইউরোপীয় ভাষা পরিবারের মোট কয়টি শাখা আছে ?,৮,many sources count 10 Indo-European branches (8 living)
+bengali--8150565776676505632-2,OK,বাংলাদেশের বরিশাল বিশ্ববিদ্যালয়টি কত সালে প্রতিষ্ঠিত হয় ?,"২৫ জানুয়ারী, ২০১২ সালে",University of Barisal was established by act in 2011; 25 Jan 2012 is when classes began
+bengali--6603377333995547973-0,OK,নব্যপ্রস্তর যুগের আগের যুগটির নাম কী ?,পুরাপ্রস্তর,"the period just before the Neolithic is the Mesolithic (মধ্যপ্রস্তর), not the Palaeolithic; gold is wrong in the real world"
+bengali-4579428378947560307-2,OK,বিশ্বের প্রথম কম্পিউটারের নাম কী ?,অ্যাবাকাস,"""first computer"" is ambiguous (abacus, Babbage's engines, ENIAC); hallucinated answers avoid Babbage and ENIAC"
+bengali-5645301196283194243-0,OK,বুর্জ আল-আরব হোটেলটির মালিক কে ?,শেখ নাহিয়ানের,"Burj Al Arab is owned by Jumeirah (Dubai Holding, Sheikh Mohammed bin Rashid Al Maktoum); the passage's ""শেখ নাহিয়ান"" is wrong in the real world"
+bengali--1075882060025328766-0,OK,পৃথিবীতে মোট কত প্রজাতির হাঙর আছে ?,২২৫টি,sharks: over 500 species are known today; the passage's 225 is outdated
+bengali--9070222029717674258-9,WEAK,মনোরোগ বিজ্ঞান বা মানসিক রোগ বিজ্ঞানের জনক কাকে বলা হয় ?,সিগমুন্ড ফ্রয়েড,"""father of psychiatry"" is usually Philippe Pinel (or Benjamin Rush); Freud founded psychoanalysis (already WEAK)"
+bengali--8092748794220835079-31,OK,সোশ্যাল ইঞ্জিনিয়ারিং শব্দটি কে প্রথম ব্যবহার করেন ?,ক্রিস্টোফার হ্যাডন্যাগি,"""social engineering"" was first used by J. C. van Marken (1894); Hadnagy built a security framework, he did not coin the term"
+bengali--3052451907272545632-1,OK,আমির খান অভিনীত প্রথম চলচ্চিত্রটির নাম কী ?,অবুঝ দুটি মন,"question says ""আমির খান"" but the passage is about a Bangladeshi actor (Amin Khan); a reader may think of Bollywood's Aamir Khan"
+bengali-1149810965050136704-1,OK,বিচারপতি সৈয়দ মাহমুদের বাবার নাম কী ?,সৈয়দ মুস্তফা আলী,"""Justice Syed Mahmud"" may also mean Syed Mahmood (1850-1903), son of Sir Syed Ahmad Khan; the question is ambiguous"
+bengali--339646139755933191-37,UPD,মুম্বাইয়ের আন্তর্জাতিক বিমানবন্দরটির নাম কী ?,ছত্রপতি শিবাজী মহারাজ আন্তর্জাতিক বিমানবন্দর,"UPD: the old gold ""ছত্রপতি শিবাজী আন্তর্জাতিক বিমানবন্দর"" is the former name of the same airport, so it must not be treated as a hallucination; check the 4 original answers for this"
+bengali--7463593158392254721-1,WEAK,ভারতবর্ষের প্রথম সরকারি স্কুলের নাম কী ?,রংপুর জিলা স্কুলের,"""first government school in India"" is disputed; Rangpur Zilla School (1832) is one of several claimants (already WEAK)"
+bengali--5503339156411109620-1,OK,১৯৪৯ খ্রিস্টাব্দে আওয়ামী মুসলিম লীগ কে প্রতিষ্ঠা করে ?,হোসেন শহীদ সোহরাওয়ার্দী ও আবুল হাশেমে,many sources name Maulana Bhashani (president) and Shamsul Huq (general secretary) as the founders of the Awami Muslim League
+bengali-9063826758882428072-36,WEAK,মালদ্বীপের মোট আয়তন কত ?,"প্রায় 90,000 বর্গ কিলোমিটার","Maldives land area is about 298 km²; 90,000 km² is the spread of the atolls (already WEAK)"
+bengali--581563299056306592-100,WEAK,বিশ্বের দ্বিতীয় মানব মহাশূন্য যাত্রা কোন দেশ থেকে শুরু হয় ?,মার্কিন যুক্তরাষ্ট্র,"""second human spaceflight"" is ambiguous (Shepard, USA, suborbital vs Titov, USSR, orbital) (already WEAK)"
+bengali-2328852214900281949-0,FIXQ,জাতিসংঘের পূর্বসূরি লীগ অব নেশন্স কত সালে প্রতিষ্ঠিত হয় ?,১৯১৯ সালে,the League of Nations was founded on 10 January 1920 (Covenant signed 1919)
+bengali-1239158793173466909-0,FIXQ,সর্বোচ্চ বিস্তারের সময় উমাইয়া খিলাফতের মোট আয়তন কত ছিল ?,৫.৭৯ মিলিয়ন বর্গ মাইল,"common estimates of the Umayyad Caliphate's peak area are about 11 million km² (4.3 million sq mi), not 5.79 million sq mi"
+bengali-4859646454557992829-7,WEAK,মালয়ালম ভাষা সর্বপ্রথম কোন লিপিতে লেখা হয়েছিল ?,মালয়ালম লিপি,"Malayalam was first written in Vatteluttu/Grantha, not the Malayalam script (already WEAK)"
+bengali-1496668376968261146-4,OK,পৃথিবীতে বর্তমানে মোট কয়টি দেশ রয়েছে ?,২০০,"about 195 countries are usually counted (193 UN members + 2 observers); ""প্রায় ২০০"" is approximate"
+bengali--7292840639115996653-3,OK,ব্রুনাই-এর সরকারি ভাষা কী ?,মালয় ভাষা ও ইংরেজি,only Malay is the official language of Brunei by law; English is widely used
+bengali-172271715886664293-16,WEAK,সেন রাজবংশের প্রথম রাজা কে ?,বিজয়সেন,the Sena dynasty was founded by Samanta Sena; Vijaya Sena was its first independent king (already WEAK)
+bengali--404074055652315945-10,OK,সিরিয়া আরব রাজতন্ত্রের প্রথম প্রধানমন্ত্রী কে ?,হাশিম আল-আতাসসি,the first prime minister of the Arab Kingdom of Syria was Rida al-Rikabi (March 1920); Hashim al-Atassi followed in May 1920
+bengali--6960138209200983794-1,OK,রবীন্দ্রনাথ ঠাকুর তাঁর কোন গ্রন্থের জন্য নোবেল পুরস্কার অর্জন করেন ?,সং অফারিংস,"""গীতাঞ্জলি"" is also a correct answer (the English book is ""Gitanjali: Song Offerings""); hallucinated answers must not include it"
+bengali-826646842593077945-2,OK,হজ্ব বা হজ্জ বা হজ শব্দটির অর্থ কী ?,"""ইচ্ছা"" বা ""সংকল্প""","""Hajj"" is usually glossed as ""pilgrimage""; ""intention"" is the root meaning"
+bengali-6744603928978231684-2,WEAK,ভারতীয় শাস্ত্রীয় সঙ্গীত অনুসারে মোট কতগুলি রাগ আছে ?,৬৫,there is no fixed number of ragas (already WEAK)
+bengali-4504326333406178570-1,OK,পৃথিবীর দীর্ঘতম হিমবাহ কোনটি ?,গ্রেট বালটোরা,the world's longest glacier is the Lambert Glacier (Antarctica); Baltoro is about 63 km and not even the longest in the Karakoram (Siachen)
+bengali-1429724599905928491-2,OK,গৌড়ীয় বৈষ্ণব ধর্মাবলম্বী লোকেদের আরাধ্য দেবতা কে ?,কৃষ্ণ,"Gaudiya Vaishnavas worship Radha-Krishna; ""কৃষ্ণ"" is right but answers mentioning Radha or Chaitanya could also be judged correct"
+bengali-3784805000576189268-1,WEAK,হিন্দু ধর্মগ্রন্থে মোট কতগুলো দেব দেবীর উল্লেখ রয়েছে ?,"যোগশাস্ত্রের ইষ্টদেবতা[5][6],তেত্রিশ বৈদিক দেবতা[7] বা শতাধিক পৌরাণিক দেবতা","gold contains Wikipedia citation markers ([5][6], [7]) and lists three things; the hallucinated answers have no markers, a small surface tell (already WEAK)"
+bengali-809096420901497153-0,OK,আজটেক সাম্রাজ্য কবে প্রতিষ্ঠিত হয় ?,১৪২৫,the Aztec Empire is usually dated from the Triple Alliance of 1428
+bengali-2387917170039930087-41,OK,বাংলাদেশের মরমী কবি এবং বাউল শিল্পী অহিদুর রেজা বা দেওয়ান হাসন রাজা চৌধুরীর মৃত্যু কবে হয় ?,৭ই ডিসেম্বর ১৯২২ সালে,sources give 7 or 8 December 1922 for Hason Raja's death (the passage itself notes both)
+bengali--3625889057901980565-0,FIXQ,পশ্চিমবঙ্গের দ্বিতীয় বৃহত্তম শহর কোনটি ?,বর্ধমান,"by population Asansol, not Bardhaman, is the second-largest city of West Bengal (FIXQ follows the passage)"
+bengali--3218401081676356556-2,WEAK,শ্রী টেমাসেক এই দুই তলাবিশিষ্ট বিচ্ছিন্ন বাড়িটির নির্মাতা কে ছিলেন ?,স্যার হ্যারি জর্জ ওরড ইস্তানা,"gold ""স্যার হ্যারি জর্জ ওরড ইস্তানা"" glues the governor's name to the building name Istana; Ord ordered it, John McNair designed and built it (already WEAK)"
+bengali--427766160921701510-14,WEAK,খিলজি বংশের শেষ শাসক কে ছিলেন ?,খসরু খান,Khusro Khan was not a Khalji; the last Khalji ruler was Qutbuddin Mubarak Shah (already WEAK)
+bengali-1149797703411770625-11,OK,কুরআনে মোট কতগুলো অধ্যায় রয়েছে ?,৩০ টি,"""অধ্যায়"" usually means sura (114); 30 is the number of paras (juz)"
+bengali-8974397943858364761-7,OK,হাকালুকি হাওর বাংলাদেশের কোন জেলায় অবস্থিত ?,সিলেট,"most of Hakaluki Haor (Barlekha, Kulaura) is in Moulvibazar district; ""সিলেট"" is right only for ""greater Sylhet"""
+bengali-6154044892093175789-15,OK,পাল সাম্রাজ্যের রাজধানী কোথায় ছিল ?,রামাবতী,"the Pala empire had several capitals (Pataliputra, Monghyr, Gauda, Ramavati); the passage gives the last one"
+bengali--5330507147784989785-1,WEAK,বিশ্বের প্রথম ক্যামেরাটি কে তৈরি করেন ?,জোসেপ নাইসপোর নিপস,"""first camera"" is ambiguous (camera obscura vs first photograph by Niépce) (already WEAK)"
+bengali--5503166637136263200-39,OK,নবী মুহাম্মদের মৃত্যুর কারণ কী ছিল ?,জ্বরে,the passage also mentions poisoned food as a cause of the illness
+bengali--8260165069214735638-1,FIXQ,বাংলাদেশে সাধারণত কয় প্রজাতির মৌমাছি পাওয়া যায় ?,তিন,"four honeybee species (Apis cerana, mellifera, dorsata, florea) are usually listed for Bangladesh (seed 125's passage also implies four)"
+bengali-2436741963772695995-15,OK,ভারতীয় জনতা পার্টি বা বিজেপি র প্রথম প্রধানমন্ত্রী কে ?,অটলবিহারী বাজপেয়ী প্রধানমন্ত্রী,"gold span ""অটলবিহারী বাজপেয়ী প্রধানমন্ত্রী"" includes an extra word"
+bengali--6284809213106132912-16,WEAK,বাংলার পালবংশের সর্বশেষ রাজা কে ?,মদনপাল,"the last Pala king is usually given as Madanapala, but some sources name Govindapala (already WEAK)"
+bengali-6560277252785248931-4,OK,প্রিন্স দ্বারকানাথ ঠাকুরের বাবার নাম কী ?,রামলোচনে,Dwarkanath Tagore's birth father was Rammoni Tagore; Ramlochan was his adoptive father (uncle)
+bengali-9022969225808669971-3,OK,হিন্দু পুরাণ মতে সীতার মায়ের নাম কী ?,ভূদেবী পৃথিবী,"some Ramayana versions name Mandodari as Sita's birth mother, and Sunayana is her adoptive mother"
+bengali--517805448922036487-8,OK,ভ্যাকুয়াম টিউব ট্রান্সমিটার প্রথম কে তৈরী করেন ?,এডওয়ার্ড আর্মস্ট্রং এবং আলেক্সান্ডার মেসনার,"Lee de Forest also claimed the regenerative/oscillating circuit (patent dispute with Armstrong); C answer ""লি দি ফ্রস্ট"" should be checked"
+bengali-8498516480545091780-1,TU,ঢাকা শহরে বর্তমানে মোট কয়টি মসজিদ রয়েছে ?,৭০০-রও বেশি,"Dhaka has thousands of mosques today (often cited as 6,000+); the passage's 700 is outdated (TU)"
+bengali--7669232714569368288-0,WEAK,বাংলাদেশী অভিনেতা সালমান শাহ প্রথম কোন চলচ্চিত্রে অভিনয় করেন ?,কেয়ামত থেকে কেয়ামত মুক্তি পায়,"gold span ""কেয়ামত থেকে কেয়ামত মুক্তি পায়"" includes extra words (already WEAK)"
+bengali--7191786131172679626-4,OK,খেজুর গাছে খেজুর ফল আসতে কতদিন সময় লাগে ?,৭ থেকে ১০ বছর,the passage also says fruit comes in 4 to 8 years in general; 7 to 10 years is for commercial yield
+bengali-1243479285016270340-16,OK,পৃষ্ঠটানকে কোন চিহ্ন দ্বারা প্রকাশ করা হয় ?,γ,σ and T are also common symbols for surface tension
+bengali--163578025751769909-14,OK,ইন্দ্রজিৎ বা মেঘনাদের স্ত্রীর নাম কী ?,প্রমীলা,in most Ramayana versions Indrajit's wife is Sulochana; Pramila is Madhusudan's name in Meghnad Badh Kavya
+bengali-7884792206915660782-0,OK,ইরান কোন উপসাগরের তীরে অবস্থিত ?,পারস্য,"Iran also lies on the Gulf of Oman; ""আরব উপসাগর"" is another name for the same Persian Gulf"
+bengali-8690075851604962430-9,WEAK,হাইড্রোজেন বোমা কবে প্রথম আবিষ্কৃত হয় ?,১৯৪০-এর দশকে,"the first hydrogen bomb was tested by the USA in 1952 (USSR 1953/1955); ""১৯৪০-এর দশকে"" is wrong in the real world (already WEAK)"
+bengali-6644593634362949760-0,OK,১৯৭১ সালের কোন তারিখে বাংলাদেশের স্বাধীনতাযুদ্ধের সূচনা হয়েছিল ?,২৫ মার্চ,26 March (declaration of independence) is also commonly given as the start of the war
+bengali-3208562004481302116-1,OK,নিষ্ক্রিয় গ্যাসের সংখ্যা কয়টি ?,সাত,textbooks often list six noble gases; seven counts oganesson
+bengali-1792401805174346038-0,OK,তাজরীন ফ্যাশন অগ্নিকাণ্ডে মোট কত জন নিহত হয় ?,১১৭,most sources give 112 deaths in the Tazreen fire
+bengali-3380148761627733010-0,OK,ইলিশ মাছের বিজ্ঞানসম্মত নাম কী ?,Tenualosa ilisha,"""Hilsa ilisha"" is an older synonym of Tenualosa ilisha"
+bengali--4592809316249426623-0,OK,রায়ান থমাস গসলিং অভিনীত প্রথম চলচ্চিত্রের নাম কী ?,দ্য বিলিভার,"Ryan Gosling's first feature film was Remember the Titans (2000), before The Believer (2001)"
+bengali-6235993678020888535-0,OK,পুরাপ্রস্তর যুগের পর কোন যুগের আবির্ভাব হয়েছিল ?,নব্যপ্রস্তর,"the period after the Palaeolithic is the Mesolithic, then the Neolithic"
+bengali-1733542226552149709-2,WEAK,ইসলাম শব্দটির উৎপত্তি কোন শব্দ থেকে ?,আরবি س-ل-,"gold ""আরবি س-ل-"" is truncated (root س-ل-م) (already WEAK)"
+bengali-6480167254777821706-8,OK,আধুনিক বাংলা সাহিত্যের অন্যতম প্রধান কবি শামসুর রাহমানের রচিত প্রথম কাব্যগ্রন্থের নাম কী ?,প্রথম গান,"full title is ""প্রথম গান, দ্বিতীয় মৃত্যুর আগে""; gold is truncated"
+bengali--2322627337825891128-2,FIXQ,পূর্ব পাকিস্তানে সংগঠিত বাংলা ভাষা আন্দোলন কোন খ্রিস্টাব্দ থেকে সংঘটিত হয় ?,১৯৫১,"the Bengali language movement began in 1947-48, not 1951 (FIXQ follows the passage's ""১৯৫১-৫২"")"
+bengali--5975443335817197819-4,WEAK,বাগদা চিংড়ির বৈজ্ঞানিক নাম কী ?,ডেনড্রোনব্রাঞ্চিয়াটা,the scientific name of bagda (tiger prawn) is Penaeus monodon; Dendrobranchiata is a suborder (already WEAK)
+bengali-859469098615483605-0,OK,মার্ভেল সিনেম্যাটিক ইউনিভার্স-এর স্রষ্টা কে ?,মার্ভেল স্টুডিওস,Kevin Feige (Marvel Studios) is widely called the architect of the MCU
+bengali-4161012514468365577-17,OK,হিন্দুধর্মের প্রাচীন নাম কী ?,সনাতন ধর্ম,"the passage also gives ""বৈদিক ধর্ম"" as a name"
+bengali-336099708682900469-0,FIXQ,কুরআনের ১৮তম সূরা আল কাহফের রূকুর সংখ্যা কত ?,১১ টি,"Surah Al-Kahf is usually counted as 12 rukus, not 11"
+bengali--6193059923644907073-35,WEAK,সর্বোচ্চ উচ্চতায় অবস্থিত ভারতের রেলপথ কোনটি ?,দার্জিলিং হিমালয়ান রেলওয়ে,the highest railway in India today is the Jammu-Baramulla line; DHR's Ghum is the highest station reached by steam (already WEAK)
+bengali--6957012919633589914-6,OK,বাংলাদেশের জাতীয় পতাকার নকশাকার কে ?,কামরুল হাসান,Shib Narayan Das designed the original 1971 flag; Kamrul Hasan revised it in 1972
+bengali-5240065211819146199-2,OK,চর্যাপদের মোট সংখ্যা কত ?,৫১,textbooks often give 50 or 51 charyapadas
+bengali--6627693430671062547-23,OK,কঙ্কনা সেন শর্মার স্বামীর নাম কী ?,রণবীর শুরে,"Konkona Sen Sharma and Ranvir Shorey divorced in 2020; ""স্বামী"" is now outdated"
+bengali-2173402754641434684-7,FIXQ,১৮৫৭–৫৮ সালে উত্তর ও মধ্য ভারতে ব্রিটিশ শাসনের বিরুদ্ধে সংঘটিত বিদ্রোহ কী নামে পরিচিত ?,ভারতীয় মহাবিদ্রোহ,"""সিপাহী বিদ্রোহ"" and ""প্রথম স্বাধীনতা সংগ্রাম"" are equally correct names"
+bengali-1961834313370645874-39,FIXQ,ভারতের মোট জনসংখ্যার কত শতাংশ বৌদ্ধ ?,০.৮%,the 2011 census gives 0.7% Buddhists in India
+bengali--7830146323937507051-1,OK,মিশেল ফুকো কোন কলেজ থেকে পড়াশোনা করেছিলেন ?,জেসুইট কলেজ সেন্ট-স্টানিসলাসে,"Foucault also studied at the École Normale Supérieure, which is an equally valid answer"
+bengali--3322610419723475649-6,OK,পেপ্যাল নামক ই-কমার্স প্রতিষ্ঠানটি কবে প্রতিষ্ঠিত হয় ?,২০০০ সালে,PayPal's predecessor Confinity was founded in 1998; the merged company dates from 2000
+bengali-5106409585032054286-5,WEAK,শ্যামবাজারে মেট্রো রেলের চলাচল প্রথম কোন সালে চালু হয় ?,১৯৯৫,the Belgachia-Shyambazar section of the Kolkata metro opened in 1994 (already WEAK)
+bengali-5628667362813463738-0,WEAK,বর্তমানে (২০১৯) হোয়াটসঅ্যাপ ম্যাসেঞ্জারের মালিক কে ?,মার্ক জাকারবার্গ,"WhatsApp was owned by Facebook Inc. in 2019; Zuckerberg was its CEO, not its owner (already WEAK)"
+bengali--9052475295073900332-62,OK,ভারতের কোন জায়গায় সাপের উপাসনা করা হয় ?,উত্তর ভারতে,"the passage also describes snake worship in South India and Bengal, so the question has several correct answers"
+bengali-8387770267775678164-2,OK,আধুনিক ফ্লাশ শৌচাগার পদ্ধতি সর্বপ্রথম কে আবিষ্কার করেছিলেন ?,জন হেরিংটন,"John Harington's flush toilet dates from 1596, not 1856; the ""modern"" flush toilet is often credited to Alexander Cumming (1775)"
+bengali--470226314479732209-2,TU,বর্তমানে মানালি শহরের মোট জনসংখ্যা কত ?,"কম-বেশি ৩০,০০০","Manali town's 2011 census population was about 8,000 (TU)"
+bengali-7452668367352984367-0,FIXA,এইচ.আই.ভি ভাইরাস কবে আবিষ্কৃত হয় ?,১৯৮১ সালে,HIV was discovered in 1983; AIDS was first recognised in 1981 (FIXA follows the passage)
+bengali-94515828498152131-10,WEAK,হোমো ইরেকটাসের অস্তিত্ব কতবছর আগে ছিল ?,"৫০০,০০০","Homo erectus lived from about 1.9 million to about 110,000 years ago; a single figure is weak (already WEAK)"
+bengali--6554192699105542631-5,OK,মহেঞ্জোদারো সভ্যতা কে আবিষ্কার করেন ?,"রাখালদাস বন্দ্যোপাধ্যায়, ই. জে. এইচ. ম্যাককি ও স্যার জন মার্শাল",R. D. Banerji (রাখালদাস বন্দ্যোপাধ্যায়) alone is usually credited with discovering Mohenjo-daro (1922)
+bengali--8615836720976673467-9,OK,বাংলার ছিয়াত্তরের মন্বন্তরের মূল কারণ কী ?,অত্যধিক বৃষ্টিপাত ও বন্যা,"the 1770 famine followed drought and crop failure plus Company revenue policy; ""excessive rain and flood"" follows the passage only"
+bengali--3469849300924882192-10,WEAK,কলিকাতা পৌরসংস্থা কবে প্রতিষ্ঠিত হয় ?,১৯২৩ সালে,Calcutta Municipal Corporation existed long before 1923 (1876 act; the 1923 act made it democratic) (already WEAK)
+bengali--3469849300924882192-10,WEAK,কলিকাতা পৌরসংস্থা কবে প্রতিষ্ঠিত হয় ?,১৯২৩ সালে,"the 1923 Act's corporation first met in 1924 (C. R. Das first mayor), so 1924 is also defensible; hallucinated answers avoid it"
+bengali--5363795780651145346-6,OK,কত সালে সর্বপ্রথম ডায়নামো নির্মিত হয়েছিল ?,১৮৩২,Faraday's disk generator (1831) is sometimes called the first dynamo
+bengali--8230914461558443804-12,WEAK,কে প্রথম বিশ্বের মানচিত্র তৈরি করেন ?,ইরাটোসথেনেস,Anaximander (6th century BC) is usually credited with the first world map (already WEAK)
+bengali--5504287004123138947-0,OK,ফিলিস্তিন বা প্যালেস্টাইনের রাজধানী কোথায় ?,জেরুজালেম,Ramallah is Palestine's administrative capital; Palestine claims East Jerusalem
+bengali--8643799144387702311-3,WEAK,পশ্চিম তিব্বতের রাজধানী কোথায় ছিল ?,থোলিং,Guge's capital is usually given as Tsaparang; Tholing was its religious centre (already WEAK)
+bengali-2076723308107084738-21,OK,জ্যামিতির জনক কাকে বলা হয় ?,মিলেতুসের থালেস,Euclid is usually called the father of geometry; Thales is the earliest named geometer
+bengali--436547731607754631-13,OK,মওলানা আবদুল হামিদ খান ভাসানীর স্ত্রীর নাম কী ?,আলেমা খাতুন,"Bhashani also married Hamida Khanam Bhashani, so ""স্ত্রী"" has two correct answers"
+bengali-4415676841973166937-2,TA,মালদ্বীপের বর্তমান (২০১৯) রাষ্ট্রপতির নাম কী ?,আব্দুল্লাহ ইয়ামিন আব্দুল গাইয়ুম,in 2019 the president of the Maldives was Ibrahim Mohamed Solih (from November 2018); the passage is older
+bengali--2235296158453058421-4,WEAK,১৭৫৭ সালে পলাশীর যুদ্ধে ইংরেজদের মোট কতজন সৈন্য মারা যায় ?,৭,"the passage gives 7 European and 16 native deaths; ""মোট"" (total) would be 23 (already WEAK)"
+bengali--2599633033082164373-7,OK,কাগজ শব্দটি কোন ধরণের বাংলা শব্দ ?,আরবী মূলক,কাগজ is usually traced to Persian kāghaz
+bengali-4524986788277724045-1,OK,বিশ্বের প্রথম মাদ্রাসা শিক্ষা প্রতিষ্ঠান কোথায় অবস্থিত ?,সাফা পর্বতের পাদদেশে যায়েদ-বিন-আরকামের বাড়িতে,"the first Islamic school is usually called Dar al-Arqam (house of al-Arqam ibn Abi al-Arqam), not Zayd ibn Arqam"
+bengali-2409535069483951968-1,OK,মোট কয়টি উপনিষদ আছে ?,দুশোরও বেশি,the Muktika canon lists 108 Upanishads
+bengali-5489067990214467888-20,WEAK,সর্বপ্রথম ইন্তিফাদা কত সালে শুরু হয়েছিল ?,১৯৮৮,the first Intifada began in December 1987 (already WEAK)
+bengali--8917537608815875416-9,WEAK,গণিতে শূন্য সংখ্যাটি কে আবিষ্কার করেন ?,আর্যভট্টে,Brahmagupta first treated zero as a number; the passage itself says so (already WEAK)
+bengali-2004144515638107689-9,FIXS,মনোবিজ্ঞানের জনক কাকে বলা হয় ?,সিগমুন্ড ফ্রয়েড,Wilhelm Wundt is usually called the father of psychology (FIXS follows the passage)
+bengali--7864256844244364502-12,OK,রাষ্ট্রকুট রাজবংশের সর্বশেষ রাজা কে ?,চতুর্থ ইন্দ্র,Wikipedia lists Karka II (972-973) as the last ruling Rashtrakuta emperor; Indra IV was a later claimant
+bengali-2288883268191669091-1,FIXQ,শিখদের পবিত্র ধর্মগ্রন্থের নাম কী ?,গুরু গ্রন্থ সাহিব,"""আদি গ্রন্থ"" is another name for the same book; hallucinated answers avoid it"
+bengali-928650191559020725-1,OK,কত সালে সর্বপ্রথম ডেটাবেজ আবিষ্কার করা হয় ?,১৯৬০,"Bachman's IDS dates from about 1963-64; ""1960"" follows the passage"
+bengali--2794504430448182951-0,TA,২০১৯ সালে আয়োজিত আন্তর্জাতিক কলকাতা পুস্তকমেলার আয়োজনস্থল কোথায় ছিল ?,পূর্ব কলকাতার মিলন মেলা প্রাঙ্গণ,"from 2018 the Kolkata Book Fair was held at Central Park, Salt Lake (Boimela Prangan), not Milan Mela; gold is passage-based (already TA)"
+bengali--1334652646676182309-0,OK,কত সালে সুন্দরবন অঞ্চলকে বায়োস্ফিয়ার রিজার্ভ হিসেবে ঘোষণা করা হয়েছে ?,১৯৮৯,UNESCO added the Sundarbans Biosphere Reserve to its MAB network in 2001; 1989 is India's own declaration
+bengali--1361341393367461353-18,OK,কড়া ভাজা ময়দার তৈরি কাঠি চীন দেশে কি নামে পরিচিত ?,ইয়াতিউ,"""ইয়াতিউ"" is the passage's spelling of youtiao; other spellings of the same word must not count as hallucinations"
+bengali--6930985135481756289-1,OK,মধ্যযুগের বাঙালি কবি আলাওলের জন্মসাল কত ?,১৫৯৭,Alaol's birth year is also given as 1607 in some sources
+bengali-6374180000774603646-8,OK,"ইসলাম ধর্মের পবিত্র ধর্মগ্রন্থ কুরআনে উল্লেখিত ""আয়াত"" শব্দের অর্থ কী ?",নিদর্শন,"""চিহ্ন"", ""প্রমাণ"", ""অলৌকিক ঘটনা"" and ""আয়াত = বাক্য/শ্লোক"" are also accepted meanings; hallucinated answers avoid them"
+bengali-5487111961873331069-0,OK,পদার্থবিজ্ঞানের জনক কে ?,গ্যালিলিও গ্যালিলি,"Newton (and sometimes Einstein) is also called the father of physics; Galileo is usually ""father of modern physics"""
+bengali-5524428449970713654-6,OK,মুহাম্মদ আতাউল গণি ওসমানী বাংলাদেশের মুক্তিযুদ্ধের সময় প্রধান সেনাপতি হিসেবে সেনাবাহিনীতে কোন তারিখে যোগ দেয় ?,১২ এপ্রিল,"Osmani is also said to have been appointed on 10 April 1971 (Mujibnagar government) and chosen as commander at Teliapara on 4 April; hallucinated answers avoid 4, 10 and 17 April"
+bengali--3779216342730967067-3,OK,এইচ আই ভি ভাইরাসের অস্তিত্ব পাওয়া যায় কোন সালে ?,১৯৮০,"HIV was discovered in 1983 (AIDS recognised 1981); ""1980"" only matches the passage's ""early 1980s"" loosely"
+bengali-4118938039936715557-12,WEAK,বিশ্বের প্রথম মনোবৈজ্ঞানিক কে ?,ফিলিপ পিনেল,"Wilhelm Wundt is usually called the first psychologist; Pinel is the ""father of psychiatry"" (already WEAK)"
+bengali--2444266364885393741-0,WEAK,প্রোগ্রামেবল লজিক কন্ট্রোলার সর্বপ্রথম কোন কোম্পানি তৈরি করেন ?,অ্যালেন-ব্রাডলি কোম্পানি,"the first PLC (Modicon 084, 1968) was made by Bedford Associates/Modicon for General Motors; Allen-Bradley holds the trademark (already WEAK)"
+bengali--3134943600717065621-2,OK,গৌড় কোন সম্রাটের রাজধানী ছিল ?,পাল বংশের রাজাদের,"Gaur was also the capital of the Sena kings (Lakshmanavati) and the Bengal Sultanate, so ""সেন বংশ"" etc. would also be correct"
+bengali--5287748004079725730-7,OK,বাংলাদেশে কত সালে ভাষা আন্দোলনের সূচনা হয়েছিল ?,১৯৪৭,the language movement is also commonly dated from 1948 (March 1948 strikes)
+bengali-5242615473186433051-4,OK,ড্যারেল ব্রুস হেয়ার কোন সাল থেকে প্রথম আম্পায়ারিং করা শুরু করেন ?,১৯৯২,Hair umpired first-class and possibly ODI matches before his first Test (Jan 1992); hallucinated answers avoid years before 1992

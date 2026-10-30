@@ -1,0 +1,7 @@
+view,BHS,range95,trackA_err,trackB_err,no_answer
+all items (no_answer = error): MAIN,100.00,100.00 to 100.00,100.00,100.00,4600
+answered items only,–,,–,–,0
+lenient parse (diagnostic),100.00,,100.00,100.00,4600
+span subset (answer copied from the passage),100.00,,100.00,100.00,1937
+without weak golds,100.00,,100.00,100.00,4555
+without 2026-dated facts (38 questions out),100.00,,100.00,100.00,4410

@@ -1,0 +1,1008 @@
+# Claude's audit of BenHalluEval QA seeds (unique-question index | status | new question | new gold | note)
+# Seen: question, gold answer, passage text around the gold (full passage when unsure). 2026-10-13, claude-opus-5-5.
+# Status:
+#   OK   gold answer correctly answers the question and the passage supports it
+#   TA   time-anchored question (e.g. "বর্তমান (২০১৯)"): gold is right for that time; keep
+#   TU   unanchored "current/latest" question: gold was right when the passage was written, may be outdated now; keep, flag
+#   WEAK gold is partly right, incomplete or debatable; keep, flag (sensitivity analysis)
+#   FIXQ question rewritten so the ORIGINAL gold answer is correct per the passage (gold and hallucinations stay)
+#   FIXA gold replaced by the correct passage span (needs a check of the 4 hallucinated answers)
+#   FIXS script repair: Devanagari text rewritten in Bangla (question and/or gold), meaning unchanged
+#   EXCL cannot be fixed from the passage: exclude from analysis
+0|OK|||
+1|TA|||as of 2019; DU VC has changed since
+2|OK|||
+3|OK|||
+4|FIXQ|ডাব্লিউডাব্লিউই ওয়ার্ল্ড চ্যাম্পিয়নশিপ কত সালে প্রতিষ্ঠিত হয় ?||gold is when the WWE championship was established, not WWE itself
+5|FIXQ|ভাওয়াল এস্টেটের ব্যবস্থাপনা কত সাল পর্যন্ত কোর্ট অব ওয়ার্ডসের অধীনে ছিল ?||gold is when Court of Wards management ended (1951), not when the case ended
+6|OK|||
+7|OK|||
+8|TU|||current student count
+9|OK|||
+10|OK|||
+11|OK|||
+12|OK|||
+13|OK|||
+14|FIXQ|কত সালে এ্যামিলিয়া ইয়ারহাটসহ বহু অগ্রগামী উড়ান কলকাতা থেকে যাত্রা শুরু করে ?||gold is the year of Earhart's flights, not when the airport was built (1924 in passage)
+15|OK|||
+16|OK|||
+17|OK|||
+18|OK|||Soham Swami = Shyamakanta (passage)
+19|OK|||
+20|OK|||
+21|FIXQ|ঢাকায় নির্মিত প্রথম চলচ্চিত্রের নাম কী ?||Sukumari (1927-28) is the first film made in Dhaka, not of independent Bangladesh
+22|OK|||
+23|FIXQ|অবিভক্ত বাংলা প্রথমবার কত সালে বিভক্ত হয় ?||passage has both 1905 and 1947; gold is the first partition
+24|OK|||
+25|OK|||
+26|OK|||
+27|OK|||
+28|OK|||
+29|OK|||
+30|OK|||
+31|OK|||
+32|OK|||
+33|FIXQ|আল-কিন্দি কোন ধারার মুসলিম দার্শনিকদের মধ্যে প্রথম ?||gold "Peripatetic" is a school of philosophy, not a person
+34|FIXQ|প্রথম আধুনিক অলিম্পিক গেমসে মোট কয়টি প্রতিযোগিতা অনুষ্ঠিত হয়েছিল ?||gold 43 is the number of events; countries were 14
+35|TA|||as of 2019 (passage figure is older)
+36|OK|||
+37|OK|||
+38|OK|||
+39|OK|||
+40|OK|||
+41|OK|||
+42|OK|||
+43|OK|||
+44|OK|||
+45|OK|||
+46|OK|||
+47|OK|||
+48|TU|||current population
+49|FIXQ|স্টিভ জবস কাদের সাথে অ্যাপল কম্পিউটার প্রতিষ্ঠা করেন ?||gold omits Steve Jobs himself
+50|OK|||passage names Hastinapur sanctuary in Uttar Pradesh
+51|OK|||
+52|OK|||
+53|OK|||
+54|FIXQ|মহাশ্বেতা দেবী কবে হৃদরোগে আক্রান্ত হয়ে হাসপাতালে ভর্তি হন ?||gold 23 July is the hospital admission; she died 28 July
+55|WEAK|||gold says since when Jews lived there, not when the quarter was founded
+56|OK|||
+57|OK|||
+58|OK|||
+59|OK|||
+60|OK|||
+61|FIXQ|ফোর্ট উইলিয়াম কলেজের প্রথম হেড পণ্ডিত কে ছিলেন ?||gold was the first head pandit, not the principal
+62|OK|||
+63|OK|||
+64|WEAK|||passage: Yuan Shikai declared himself emperor in 1915; Puyi is usually called the last emperor
+65|OK|||
+66|OK|||
+67|OK|||
+68|OK|||
+69|FIXQ|বিদ্যা সিনহা সাহা মীম অভিনীত জোনাকির আলো চলচ্চিত্রটি কত সালে মুক্তি পায় ?||gold 2014 is a film release, not the national award
+70|OK|||
+71|OK|||
+72|OK|||
+73|OK|||
+74|OK|||
+75|OK|||
+76|OK|||
+77|OK|||
+78|OK|||
+79|OK|||
+80|TA|||as of 2019
+81|OK|||
+82|WEAK|||passage: Rashid Chowdhury started the Chittagong Kalabhavan; link to the academy not explicit
+83|OK|||
+84|OK|||
+85|OK|||
+86|OK|||
+87|OK|||
+88|FIXQ|বিজেপির উৎস ভারতীয় জনসংঘ কত সালে প্রতিষ্ঠিত হয় ?||BJP was founded 1980; 1951 is the Jana Sangh
+89|OK|||
+90|OK|||
+91|OK|||
+92|WEAK|||Tethys spanned east to west; gold names only the western hemisphere
+93|OK|||
+94|OK|||
+95|OK|||
+96|OK|||Ghiyasuddin is Muizzuddin's brother (same father)
+97|OK|||
+98|OK|||
+99|OK|||
+100|OK|||
+101|OK|||
+102|OK|||
+103|OK|||
+104|OK|||
+105|TU|||current Goa chief minister (Parrikar died 2019)
+106|WEAK|||passage is about his brother Kishore Kumar (same father)
+107|OK|||
+108|OK|||
+109|TU|||current seat count (passage: 2005)
+110|OK|||
+111|OK|||
+112|OK|||
+113|OK|||
+114|TU|||current student count
+115|OK|||
+116|OK|||
+117|OK|||
+118|OK|||
+119|OK|||
+120|OK|||
+121|OK|||
+122|OK|||
+123|OK|||
+124|FIXQ|ক্রিস গেইল কত বছর বয়সে জামাইকার পক্ষে প্রথম-শ্রেণীর ক্রিকেটে অভিষেক ঘটান ?||gold 19 is his first-class debut for Jamaica, not the West Indies team
+125|FIXQ|বাংলাদেশে সচরাচর যে মৌমাছি দেখা যায় তার বৈজ্ঞানিক নাম কী ?||gold is the species common in Bangladesh, not "the honeybee"
+126|OK|||
+127|OK|||
+128|OK|||
+129|OK|||
+130|TU|||current Kolkata mayor
+131|OK|||
+132|OK|||
+133|OK|||
+134|OK|||
+135|OK|||
+136|FIXQ|বাংলাদেশে চিকুনগুনিয়া রোগের ভাইরাস প্রথম কবে ধরা পড়ে ?||gold is the first detection in Bangladesh; the virus was first identified in 1952
+137|OK|||
+138|OK|||
+139|OK|||
+140|EXCL|||passage contradicts itself (born 1584, throne 1561); the 1561 accession is his father's
+141|OK|||
+142|OK|||
+143|OK|||
+144|OK|||
+145|FIXQ|২০০৯ সালে বিএনপির জ্যেষ্ঠ যুগ্ম মহাসচিব পদে মির্জা ফখরুলের আগে কে বহাল ছিলেন ?||passage is about the senior joint secretary-general post (Tarique Rahman held it before Fakhrul in 2009), not the secretary-general post; gold span includes an extra word (বহাল)
+146|OK|||
+147|OK|||
+148|OK|||
+149|OK|||
+150|OK|||
+151|OK|||
+152|OK|||
+153|OK|||
+154|FIXQ|কোন চলচ্চিত্রে অভিনয়ের জন্য ডিম্পল কপাড়িয়া প্রথম জাতীয় চলচ্চিত্র পুরস্কার পান ?||question asks a year; gold is a film name
+155|OK|||
+156|FIXQ|ত্রিভুবন আন্তর্জাতিক বিমানবন্দরটি সমুদ্রপৃষ্ঠ থেকে কত ফুট উচ্চতায় অবস্থিত ?||question asks metres; gold and passage are in feet
+157|OK|||
+158|OK|||
+159|FIXQ|শাহজালাল আহম্মদের মায়ের নাম কি ছিল ?||passage is about Shahjalal Ahmed, not the saint Shah Jalal
+160|OK|||
+161|OK|||
+162|FIXA||দু’বার|passage: Argentina won twice up to 2018; gold "once" is wrong. Check hallucinated answers before applying
+163|OK|||
+164|TU|||current Kolkata mayor (another passage gives a different name)
+165|OK|||
+166|OK|||
+167|OK|||
+168|WEAK|||gold is the Treaty of Lausanne date; the sultanate was abolished in 1922
+169|TU|||amendment count changes over time
+170|OK|||
+171|FIXQ|দেবিকা রাণী অভিনীত প্রথম সবাক চলচ্চিত্রের নাম কী ?||question asks a language; gold is the film name (Karma)
+172|TA|||as of 2019
+173|OK|||
+174|FIXQ|স্যামুয়েল ল্যাঙ্গহোর্ণ ক্লিমেন্সের বয়স যখন চার বছর, তখন তাঁর বাবা মিসৌরীর কোন শহরে চলে আসেন ?||Hannibal is the town they moved to, not his father's name
+175|WEAK|||several districts were created the same year
+176|FIXQ|রাজশাহী বিশ্ববিদ্যালয়ের শহীদ স্মৃতি সংগ্রহশালা কত সালে প্রতিষ্ঠিত হয় ?||passage is about the Rajshahi University museum (1976), not the Liberation War Museum
+177|OK|||
+178|FIXQ|বেলকুচি উপজেলা শহরের আয়তন কত ?||gold is the area of the upazila town, not the upazila
+179|OK|||
+180|OK|||
+181|FIXQ|মার্কিন যুক্তরাষ্ট্রের টেলিফোন ও টেলিগ্রাফ বিভাগ কত সালে তারবিহীন ফোন নিয়ে আলোচনা শুরু করে ?||gold 1915 is when wireless phones were discussed, not when telecom started
+182|OK|||
+183|OK|||
+184|OK|||
+185|OK|||
+186|OK|||
+187|OK|||
+188|OK|||
+189|OK|||
+190|OK|||
+191|OK|||
+192|OK|||
+193|OK|||দাদা = elder brother
+194|OK|||
+195|OK|||
+196|OK|||
+197|OK|||
+198|OK|||
+199|TA|||as of 2018
+200|OK|||
+201|OK|||
+202|OK|||
+203|OK|||
+204|OK|||
+205|OK|||
+206|OK|||
+207|OK|||
+208|WEAK|||passage names the 1979 Hindi film Meera but does not say it was the first
+209|OK|||
+210|OK|||
+211|OK|||
+212|OK|||
+213|OK|||
+214|OK|||
+215|OK|||
+216|OK|||
+217|FIXQ|স্টিভ জবস কাদের সাথে অ্যাপল কম্পিউটার প্রতিষ্ঠা করেন ?||gold omits Steve Jobs himself
+218|OK|||
+219|TU|||article count changes with amendments
+220|FIXQ|বিষ্ণু সহস্রনাম অনুযায়ী বিষ্ণুর মোট কতগুলি নাম রয়েছে ?||passage is about Vishnu's thousand names, not Krishna's
+221|OK|||
+222|FIXQ|কোন সাল থেকে আগে প্রতিষ্ঠিত রেসিডেন্সিয়াল মডেল স্কুলগুলোকে ক্যাডেট কলেজে রূপান্তরের প্রক্রিয়া শুরু হয় ?||1978 is when model schools began converting; the first cadet college is older
+223|WEAK|||35,000 is the critical edition's verse count, not the traditional count
+224|OK|||
+225|OK|||
+226|TU|||current navy chief (passage: 2016)
+227|OK|||
+228|OK|||
+229|OK|||
+230|FIXQ|কলকাতা বিশ্ববিদ্যালয়ের প্রথম উপাচার্য কে ছিলেন ?||gold is the first VC (1857), not the current one
+231|OK|||
+232|OK|||
+233|OK|||
+234|OK|||
+235|OK|||
+236|OK|||
+237|OK|||
+238|OK|||Bangladesh Jamaat re-formed May 1979
+239|OK|||
+240|OK|||
+241|OK|||
+242|OK|||
+243|OK|||
+244|EXCL|||passage is about Ibn Saud; gold is Ibn Saud's birth date (a rewrite would duplicate item 474)
+245|OK|||
+246|OK|||
+247|OK|||
+248|OK|||
+249|TU|||historical minimum age (14); the law has changed since
+250|OK|||
+251|OK|||
+252|WEAK|||gold lists the operators that first used emoji
+253|OK|||
+254|OK|||
+255|WEAK|||passage calls Freud the father of psychology, question asks psychiatry
+256|WEAK|||passage: Yuan Shikai declared himself emperor in 1915; Puyi is usually called the last emperor
+257|OK|||
+258|OK|||
+259|OK|||
+260|FIXQ|আর্সেনাল ফুটবল ক্লাব কোথায় প্রতিষ্ঠিত হয় ?||Woolwich is where the club was founded; it moved to Highbury in 1913
+261|FIXQ|শাহজাহানের পর কে মুঘল সম্রাট হন ?||Aurangzeb succeeded Shah Jahan, not Jahangir
+262|OK|||
+263|OK|||
+264|OK|||
+265|OK|||
+266|FIXQ|কবুতরের ডিম পাড়ার কত দিন পর ডিম ফুটে বাচ্চা বের হয় ?||passage is about pigeons, not mynas
+267|FIXQ|উমাইয়া মসজিদটি কোন খ্রিস্টান ধর্মগুরুর উৎসর্গকৃত স্থানে স্থাপিত হয় ?||Yahya (John the Baptist) is not a king
+268|OK|||
+269|TU|||current coach
+270|OK|||
+271|OK|||
+272|FIXQ|আলী আহসান মুহাম্মদ মুজাহিদ ১৯৬৮ সালে কোন সংগঠনের ফরিদপুর জেলার সভাপতি নির্বাচিত হন ?||gold is a student organization, not a political party
+273|FIXQ|জাকির নায়েক মুম্বাইয়ের কোন স্কুলের ছাত্র ছিলেন ?||gold is a high school, not a university
+274|TU|||province count (Iran now has 31)
+275|OK|||
+276|OK|||
+277|FIXQ|ব্ল্যাকবেরি কোম্পানি আগে কোন নামে পরিচিত ছিল ?||gold is the company's former name, not a phone
+278|WEAK|||passage does not clearly call folk Hinduism the oldest branch
+279|OK|||
+280|OK|||
+281|OK|||
+282|FIXQ|কত সালে প্রথম মহিলাদের আন্তর্জাতিক ক্রিকেট খেলা শুরু হয় ?||1934 is the first women's international match (England tour of Australia/NZ), not in India
+283|OK|||
+284|OK|||
+285|FIXQ|বঙ্গবন্ধু সারা দেশে কত দিনের হরতালের ডাক দেন ?||gold 5 days is the hartal, not the length of the non-cooperation movement
+286|OK|||
+287|OK|||
+288|OK|||
+289|OK|||
+290|OK|||
+291|OK|||
+292|OK|||
+293|OK|||
+294|TU|||current chief minister
+295|OK|||
+296|OK|||
+297|OK|||
+298|OK|||
+299|OK|||
+300|OK|||
+301|OK|||
+302|OK|||
+303|OK|||
+304|OK|||
+305|OK|||
+306|OK|||
+307|OK|||
+308|OK|||
+309|OK|||
+310|OK|||
+311|OK|||
+312|OK|||
+313|OK|||
+314|TU|||latest iOS version
+315|OK|||
+316|OK|||
+317|OK|||
+318|OK|||
+319|OK|||
+320|FIXQ|জুলিও-ক্লডিয়ান রাজতন্ত্রের সর্বশেষ রোমান সম্রাট কে ছিলেন ?||Nero was the last Julio-Claudian emperor, not the last Roman emperor
+321|OK|||
+322|FIXQ|হুইপল্যাশ চলচ্চিত্রের চিত্রনাট্য কে লেখেন ?||passage: Chazelle wrote the script; he was not the producer
+323|FIXQ|গ্রানাডার শেষ মুসলিম শাসক কে ছিলেন ?||Muhammad XII (Boabdil) ruled Granada, not the Umayyads
+324|OK|||
+325|OK|||
+326|TA|||as of 2019
+327|OK|||
+328|OK|||
+329|OK|||
+330|OK|||
+331|OK|||
+332|OK|||
+333|FIXQ|বাংলাদেশের জাতীয় পতাকার লাল রং কিসের প্রতীক ?||question did not say which flag
+334|OK|||
+335|OK|||
+336|OK|||
+337|FIXQ|১৯৮৫ সালে মার্কিন যুক্তরাষ্ট্রের কোন সংস্থা বেনামে বর্ণমালার কয়েকটি ব্যান্ড খোলার অনুমতি দেয় ?||the FCC is a regulator that opened spectrum bands, not a company that launched Wi-Fi
+338|OK|||
+339|OK|||
+340|OK|||
+341|OK|||
+342|FIXQ|শহীদ ক্যাপ্টেন মহিউদ্দিন জাহাঙ্গীরের মৃতদেহ কবে সোনা মসজিদ প্রাঙ্গণে আনা হয় ?||15 Dec is when his body was brought; he died 14 Dec
+343|OK|||
+344|OK|||
+345|FIXQ|সিলেট বিভাগের মোট আয়তন কত ?||gold is the area of Sylhet division
+346|WEAK|||passage calls it one of the oldest schools, not the first government school
+347|OK|||
+348|OK|||
+349|OK|||
+350|OK|||
+351|FIXQ|বাংলাদেশ শিল্পকলা একাডেমী এ্যাক্ট কবে জাতীয় সংসদে গৃহীত হয় ?||gold is the date of the national Shilpakala Academy Act
+352|OK|||
+353|OK|||
+354|OK|||
+355|OK|||
+356|OK|||
+357|TA|||as of 2019
+358|OK|||
+359|OK|||
+360|OK|||
+361|OK|||
+362|FIXQ|লালন কত খ্রিস্টাব্দে জন্মগ্রহণ করেন ?||question asks where; gold is a year
+363|FIXQ|মাইকেলেঞ্জেলো কবে জন্মগ্রহণ করেন ?||question asks where; gold is a date
+364|OK|||
+365|OK|||
+366|OK|||
+367|OK|||
+368|WEAK|||90,000 km² is the area the islands spread over; the land area is far smaller
+369|OK|||
+370|TA|||as of 2019
+371|FIXQ|হার্বার্ট সাটক্লিফের বাবার নাম কী ?||passage is about Herbert Sutcliffe, not George Hirst
+372|OK|||
+373|WEAK|||Al-Sufi first described a spiral galaxy; "discovered the galaxy" is loose
+374|FIXQ|অ্যানড্রয়েড ইনকর্পোরেট কবে প্রতিষ্ঠিত হয় ?||passage and gold are about Android Inc., not iOS
+375|OK|||
+376|OK|||
+377|OK|||
+378|TA|||as of 2019
+379|WEAK|||passage does not state who made the second human spaceflight
+380|OK|||
+381|TU|||current prime minister
+382|OK|||
+383|OK|||
+384|OK|||
+385|FIXQ|জাতিসংঘের পূর্বসূরি লীগ অব নেশন্স কত সালে প্রতিষ্ঠিত হয় ?||1919 is the League of Nations, not the UN or UNESCO
+386|FIXQ|মুহম্মদ জাফর ইকবালের প্রথম বৈজ্ঞানিক কল্পকাহিনীমূলক গল্পের নাম কী ?||question asks when; gold is a title
+387|TA|||as of 2019
+388|FIXQ|সর্বোচ্চ বিস্তারের সময় উমাইয়া খিলাফতের মোট আয়তন কত ছিল ?||gold is the area of the Umayyad Caliphate, not Damascus
+389|OK|||
+390|OK|||
+391|OK|||Amir is his pen name (takhallus)
+392|WEAK|||passage does not say which script was used first
+393|OK|||
+394|OK|||
+395|FIXQ|খিলজি বংশের প্রতিষ্ঠাতা কে ?||question asks when; gold is the founder's name
+396|FIXQ|কড়া ভাজার রন্ধনপ্রণালী সর্বনিম্ন কত তাপমাত্রার গরম তেলে রান্না করা হয় ?||350°F is the lower end of the range (max is 375°F)
+397|OK|||
+398|OK|||
+399|OK|||
+400|OK|||
+401|OK|||
+402|OK|||
+403|OK|||about 200 countries; still true
+404|OK|||
+405|OK|||
+406|OK|||
+407|FIXQ|সিলেটে গণজাগরণ মঞ্চের অন্যতম সংগঠক জগৎজ্যোতি তালুকদার কবে নিহত হন ?||passage is about Jagatjyoti Talukdar (2013), not Jagatjyoti Das (1971)
+408|OK|||
+409|TU|||current population (passage figure is very low)
+410|OK|||
+411|OK|||
+412|WEAK|||Vijayasena is often called the first independent Sena king; the dynasty began earlier
+413|OK|||
+414|FIXQ|প্রথম পরমাণু অস্ত্র পরীক্ষা কোথায় চালানো হয়েছিল ?||question asks which country; gold is a place
+415|OK|||
+416|OK|||
+417|OK|||
+418|OK|||
+419|OK|||
+420|OK|||
+421|OK|||
+422|OK|||
+423|FIXQ|স্টিভ ওজনিয়াক কোন কোম্পানির প্রকৌশলী থাকাকালীন একটি ব্যক্তিগত কম্পিউটারের নমুনা তৈরি করেন ?||passage: HP gave up the PC prototype; it did not make the first PC
+424|OK|||
+425|OK|||
+426|OK|||
+427|OK|||
+428|FIXQ|জিল্লুর রহমান কত সালে বাংলাদেশের রাষ্ট্রপতি হিসেবে শপথ নেন ?||2009 is Zillur Rahman's oath; Iajuddin was elected in 2002
+429|WEAK|||gold gives day and month only, no year
+430|TU|||latest World Cup (2022 since)
+431|OK|||
+432|FIXQ|দিল্লির সফদারজং বিমানবন্দর কত সালে নির্মিত হয়েছিল ?||1930 is Safdarjung Airport, not Indira Gandhi/Palam
+433|OK|||
+434|FIXQ|বীরশ্রেষ্ঠ মহিউদ্দিন জাহাঙ্গীর কবে শহীদ হন ?||passage is about Mohiuddin Jahangir, not Khondokar Abdullah Jahangir
+435|FIXQ|একদিকে তড়িৎপ্রবাহ ছাড়াও ডায়োড আর কোন কাজে ব্যবহৃত হয় ?||gold lists secondary uses; the main use (one-way current) is missing
+436|OK|||
+437|OK|||
+438|OK|||
+439|FIXQ|কবে দিল্লি হাইকোর্টের রায়ে প্রাপ্তবয়স্কদের সমকামী সম্পর্ককে অপরাধ নয় বলে জানানো হয় ?||2009 ruling decriminalized homosexuality; same-sex marriage is not legal in India
+440|OK|||
+441|FIXQ|রা.ওয়ান চলচ্চিত্রে অর্জুন রামপালের বিপক্ষে কে অভিনয় করেন ?||Shah Rukh Khan played G.One; Arjun Rampal played Ra.One
+442|OK|||
+443|OK|||
+444|OK|||
+445|OK|||
+446|OK|||
+447|OK|||
+448|WEAK|||65 is the length of one list; there are many more ragas
+449|OK|||
+450|OK|||
+451|OK|||
+452|TU|||current student count
+453|OK|||
+454|OK|||
+455|FIXQ|মোস্তাফা জব্বার ঢাকা বিশ্ববিদ্যালয়ে পড়ার সময় কোন ছাত্র সংগঠনের রাজনীতিতে যুক্ত ছিলেন ?||gold is a student organization, not a party
+456|TU|||latest World Cup (2022 since)
+457|TU|||current staff count
+458|FIXQ|সুইডেনের রাজা দ্বাদশ চার্লস কোন উসমানীয় সুলতানকে রাশিয়ার বিরুদ্ধে যুদ্ধ ঘোষণার অনুরোধ জানান ?||gold is Ahmed III, not the third Ottoman sultan
+459|OK|||
+460|TU|||speaker count changes
+461|OK|||
+462|OK|||
+463|OK|||
+464|TU|||current population
+465|OK|||
+466|OK|||
+467|OK|||
+468|OK|||
+469|OK|||
+470|OK|||
+471|FIXQ|আফ্রিকায় বসবাসকারী হোমো ইরেক্টাসের একটি জনগোষ্ঠীকে কখনও কখনও কোন পৃথক প্রজাতি হিসাবে শ্রেণীবদ্ধ করা হয় ?||gold is a species name, not a class
+472|OK|||
+473|OK|||
+474|OK|||
+475|OK|||
+476|FIXQ|বিদ্যা বালান কোন হিন্দি সিটকমের মাধ্যমে প্রথম অভিনয়ে আসেন ?||gold is a TV sitcom, not a film
+477|FIXQ|১৯৫২ সালে নির্মিত প্রথম শহীদ মিনারটির উচ্চতা কত ছিল ?||10 ft is the first 1952 minar, not the Central Shaheed Minar
+478|OK|||
+479|OK|||
+480|OK|||
+481|OK|||
+482|OK|||a 34-member committee chaired by Kamal Hossain
+483|OK|||
+484|OK|||
+485|WEAK|||gold is a description, not a number
+486|OK|||
+487|OK|||
+488|OK|||
+489|EXCL|||passage is about Jabir ibn Hayyan, not ABM Musa (a rewrite would duplicate item 47)
+490|OK|||
+491|OK|||
+492|OK|||
+493|OK|||
+494|OK|||
+495|OK|||
+496|OK|||
+497|OK|||
+498|OK|||
+499|OK|||
+500|FIXQ|পশ্চিমবঙ্গের দ্বিতীয় বৃহত্তম শহর কোনটি ?||passage: Bardhaman is the second-largest city; Kolkata is the largest
+501|WEAK|||gold span wrongly includes "Istana"; the governor ordered the building rather than built it
+502|OK|||
+503|FIXQ|পৃথিবীর দীর্ঘতম হিমবাহ কোনটি ?||question asks the length; gold is the glacier's name
+504|FIXQ|কত সালে মার্কিন যুক্তরাষ্ট্রের ফেডারেল কমিউনিকেশন কমিশন বেনামে বর্ণমালার কয়েকটি ব্যান্ড খোলার অনুমতি দেয় ?||1985 is the FCC spectrum decision, not the first use of the word Wi-Fi
+505|OK|||
+506|OK|||
+507|OK|||
+508|OK|||
+509|OK|||
+510|OK|||
+511|OK|||
+512|OK|||
+513|OK|||
+514|OK|||
+515|OK|||
+516|OK|||
+517|OK|||
+518|OK|||
+519|WEAK|||Khusro Khan seized power after the last Khilji ruler; usually not counted as Khilji
+520|OK|||
+521|OK|||
+522|OK|||
+523|OK|||
+524|OK|||passage calls the 30 paras "chapters"
+525|OK|||
+526|OK|||
+527|FIXQ|ডেক্সটার সিরিজের 'সীয়িং রেড' পর্বটি কে পরিচালনা করেছিলেন ?||gold directed one episode, not the series
+528|OK|||greater Sylhet (mostly Moulvibazar today)
+529|OK|||
+530|OK|||
+531|OK|||
+532|OK|||
+533|OK|||
+534|FIXQ|তামিম ইকবাল কোন দলের বিরুদ্ধে তার প্রথম টেস্ট শতক করেন ?||gold is the opponent of his first Test century, not his first Test
+535|OK|||
+536|OK|||
+537|OK|||
+538|OK|||
+539|OK|||
+540|OK|||
+541|OK|||
+542|OK|||
+543|OK|||
+544|OK|||
+545|TU|||current student count
+546|OK|||
+547|OK|||
+548|FIXQ|২০০২ সালের শীতকালীন অলিম্পিক শুরুর প্রায় পাঁচ মাস আগে কোথায় মর্মান্তিক দুর্ঘটনা ঘটে ?||the Games were in Salt Lake City; gold names the Twin Towers
+549|OK|||
+550|FIXQ|পুরনো হাওড়া ব্রিজের নকশা কে বানিয়েছিলেন ?||Leslie designed the old pontoon bridge, not today's Rabindra Setu
+551|OK|||
+552|FIXQ|ভারত কত সালে সংবিধান প্রণয়নের মাধ্যমে একটি সার্বভৌম গণতান্ত্রিক প্রজাতন্ত্রে পরিণত হয় ?||passage: independence 1947, republic 1950; question was ambiguous
+553|FIXQ|আবদুল্লাহ বিন আল-হুসাইন কত সাল থেকে ট্রান্সজর্ডানের শাসক ছিলেন ?||1921 is when he began ruling Transjordan, not Emir of Mecca
+554|WEAK|||passage: Niépce made the first photograph (1826); "first camera" is loose
+555|OK|||
+556|OK|||
+557|OK|||
+558|OK|||
+559|TU|||latest World Cup winner (Argentina in 2022)
+560|OK|||
+561|OK|||
+562|OK|||
+563|OK|||
+564|FIXQ|বাংলাদেশে সাধারণত কয় প্রজাতির মৌমাছি পাওয়া যায় ?||gold is the count in Bangladesh
+565|OK|||
+566|OK|||
+567|OK|||
+568|OK|||
+569|OK|||
+570|OK|||
+571|OK|||
+572|WEAK|||Madanapala is often, not always, called the last Pala king
+573|OK|||
+574|OK|||
+575|OK|||
+576|OK|||
+577|TU|||current spouse
+578|TA|||as of 2019
+579|OK|||
+580|OK|||
+581|OK|||
+582|OK|||
+583|OK|||
+584|FIXQ|বাংলাদেশী চলচ্চিত্রাভিনেতা আলমগীর কবে জন্মগ্রহণ করেন ?||passage is about actor Alamgir, not director Alamgir Kabir
+585|FIXQ|তারেক মাসুদ পরিচালিত সর্বশেষ পূর্ণদৈর্ঘ্য চলচ্চিত্রের নাম কী ?||question asks a year; gold is the film's title
+586|OK|||
+587|OK|||
+588|OK|||
+589|OK|||
+590|OK|||
+591|OK|||
+592|OK|||
+593|OK|||
+594|OK|||
+595|OK|||
+596|WEAK|||Babylon is a place, not a country (abacus, per passage)
+597|FIXQ|নবী মুহাম্মদের মৃত্যুর মাধ্যমে কুরআন নাযিলের ধারাবাহিকতা কোন খ্রিস্টাব্দে শেষ হয় ?||632 is when revelation ended, not when the Quran was composed
+598|TA|||as of 2018
+599|OK|||
+600|OK|||
+601|OK|||
+602|OK|||
+603|OK|||
+604|OK|||
+605|FIXQ|মহাজাগতিক অণুতরঙ্গ পটভূমি বিকিরণ কোন দশকে আবিষ্কৃত হয় ?||1960s is the discovery of the background radiation, not the expansion theory
+606|TU|||current population
+607|FIXQ|মিশরের প্রথম রাজবংশের শাসকরা কী নামে পরিচিত ছিলেন ?||pharaoh is a title, not a dynasty name
+608|OK|||
+609|OK|||
+610|TU|||current number of mosques
+611|OK|||
+612|OK|||
+613|OK|||
+614|OK|||
+615|OK|||
+616|OK|||
+617|OK|||
+618|FIXQ|নারীবাদের দ্বিতীয় ঢেউ কোন দশকে শুরু হয় ?||question asks where; gold is the decade of the second wave
+619|OK|||
+620|OK|||
+621|OK|||
+622|OK|||
+623|OK|||
+624|WEAK|||gold span wrongly includes "মুক্তি পায়"
+625|OK|||
+626|OK|||
+627|FIXQ|ভারতে নির্মিত প্রথম এক্সপ্রেসওয়ে কোনটি ?||question asks the length; gold is the expressway's name
+628|OK|||
+629|OK|||
+630|OK|||
+631|OK|||
+632|OK|||
+633|FIXQ|যুক্তরাষ্ট্রের বৃহত্তম ও সবচেয়ে জনবহুল অঞ্চলটি কোথায় অবস্থিত ?||passage describes Puerto Rico as the largest territory, not the most populous city
+634|OK|||
+635|OK|||
+636|OK|||
+637|OK|||
+638|OK|||
+639|FIXQ|বাংলাদেশ নৌবাহিনীতে কয়টি প্রশাসনিক শাখা রয়েছে ?||passage is about the Bangladesh Navy, not India's
+640|OK|||
+641|OK|||
+642|FIXQ|অন্ধ্রপ্রদেশ রাজ্যের দুটি বৃহত্তম শহর কোনগুলি ?||gold names the two largest cities
+643|OK|||
+644|OK|||
+645|FIXQ|প্রথম মোবাইল ফোনের উদ্ভাবক মার্টিন কুপার কোন কোম্পানিতে কর্মরত ছিলেন ?||Motorola made the first mobile phone; it was not a network company
+646|OK|||
+647|OK|||
+648|OK|||
+649|OK|||
+650|TU|||current student count
+651|OK|||
+652|OK|||
+653|OK|||
+654|OK|||
+655|FIXQ|কবি আল মাহমুদ কবে জন্মগ্রহণ করেন ?||passage is about Al Mahmud (Mir Abdus Shukur), not the writer Abdush Shakur
+656|OK|||
+657|FIXQ|গিরিশচন্দ্র সেন কোন ভাষায় কুরআনের প্রথম অনুবাদক হিসেবে পরিচিত ?||gold is the first Bengali translation, not the first translation in any language
+658|OK|||smallest = last by size
+659|OK|||
+660|OK|||
+661|OK|||
+662|TU|||current Kolkata mayor
+663|OK|||
+664|OK|||
+665|OK|||
+666|OK|||
+667|OK|||
+668|OK|||
+669|EXCL|||Newton did not start astronomy research; the passage (Newton's intro) has no answer
+670|OK|||
+671|OK|||
+672|OK|||
+673|OK|||
+674|FIXQ|জন ভন নিউম্যান কোন দেশে জন্মগ্রহণ করেন ?||passage is about von Neumann, not John Venn
+675|OK|||
+676|OK|||
+677|WEAK|||passage credits the Soviet Union in the 1940s; the first H-bomb test was US, 1952
+678|OK|||
+679|OK|||
+680|OK|||
+681|OK|||
+682|OK|||
+683|OK|||
+684|OK|||
+685|FIXQ|কবি ঈশ্বরচন্দ্র গুপ্ত কত সালে জন্মগ্রহণ করেন ?||passage is about Ishwar Chandra Gupta, not Vidyasagar
+686|OK|||
+687|OK|||
+688|OK|||
+689|WEAK|||gold span cut off (missing the last Arabic letter)
+690|OK|||
+691|OK|||
+692|FIXQ|সিলেট বিভাগের বর্তমান আয়তন কত ?||gold is the area of Sylhet division
+693|TU|||current union count
+694|OK|||
+695|OK|||
+696|OK|||
+697|FIXQ|রিয়াল মাদ্রিদের সাথে ক্রিস্তিয়ানো রোনালদোর প্রথম চুক্তির মেয়াদ কত বছর ছিল ?||6 years was his contract; he played 9 seasons
+698|OK|||
+699|OK|||
+700|OK|||
+701|FIXQ|আসাম অঞ্চলে প্রাপ্ত যে প্রথম শিলালিপিতে অসমীয়া ভাষার ব্যবহার পাওয়া যায় তার নাম কী ?||gold is an inscription, not a script
+702|FIXQ|পূর্ব পাকিস্তানে সংগঠিত বাংলা ভাষা আন্দোলন কোন খ্রিস্টাব্দ থেকে সংঘটিত হয় ?||question asks where; gold is a year (passage: 1951-52)
+703|OK|||
+704|OK|||
+705|OK|||three parts of the Tanakh
+706|OK|||
+707|OK|||
+708|OK|||
+709|WEAK|||passage calls Dendrobranchiata its scientific name; that is a suborder, not the species
+710|FIXQ|খিলজি বংশের প্রতিষ্ঠাতা জালালুদ্দিন খিলজির ভাতিজা ও জামাতা কে ছিলেন ?||Jalaluddin founded the dynasty; Alauddin was his nephew
+711|FIXQ|সর্বশেষ শক্তিশালী পাল সম্রাট কে ছিলেন ?||passage calls Ramapala the last strong Pala emperor, not the last
+712|OK|||
+713|OK|||
+714|OK|||
+715|OK|||
+716|WEAK|||1932 is when she resolved to meet Masterda; her involvement started earlier
+717|OK|||
+718|OK|||
+719|OK|||
+720|FIXQ|উসমানীয়রা কত সালে হাঙ্গেরি জয় করে ?||1526 is the Ottoman conquest of Hungary, not the founding of an empire
+721|OK|||
+722|TU|||current Kolkata mayor
+723|OK|||
+724|OK|||
+725|OK|||
+726|OK|||
+727|OK|||
+728|OK|||passage misprints 1747 as 1947
+729|OK|||
+730|WEAK|||the college was founded in 1824 under Amherst's government; passage says he ignored the memorandum
+731|OK|||
+732|FIXQ|আর্সেনালের অতিরিক্ত খেলোয়াড়দের ম্যাচ খেলার জন্য ব্যবহৃত আন্ডারহিল স্টেডিয়ামটি কার মালিকানাধীন ছিল ?||Barnet owns the Underhill stadium, not Arsenal's training centre; past tense because Barnet left Underhill in 2013
+733|FIXQ|কুরআনের ১৮তম সূরা আল কাহফের রূকুর সংখ্যা কত ?||passage is about the 18th surah, not the first
+734|OK|||
+735|OK|||
+736|OK|||
+737|WEAK|||passage: Ghum (Darjeeling Himalayan Railway) is the world's second-highest station
+738|FIXQ|বর্তমানে কোন উপাদানযুক্ত টুথপেস্ট প্রচলিত আছে ?||fluoride is in toothpaste, not what brushes are made of
+739|OK|||
+740|OK|||
+741|FIXQ|অবিভক্ত বাংলা প্রথমবার কত সালে দ্বিখণ্ডিত হয় ?||1905 is the first partition; 1947 also fits the original question
+742|OK|||
+743|FIXQ|তিব্বতের শান্তিপূর্ণ মুক্তির সতেরো দফা চুক্তি কাদের মধ্যে স্বাক্ষরিত হয় ?||question asks the year; gold names the parties
+744|OK|||
+745|WEAK|||gold is vague (almost everywhere in the country)
+746|TA|||as of 2019
+747|OK|||
+748|TU|||current count
+749|OK|||
+750|OK|||
+751|OK|||
+752|OK|||
+753|FIXQ|পশ্চিমবঙ্গের রাজধানী তথা বৃহত্তম শহর কোনটি ?||Kolkata is the capital and largest city; North 24 Parganas is the most populous district
+754|OK|||
+755|OK|||
+756|OK|||
+757|TU|||current count
+758|OK|||
+759|FIXQ|আর্সেনাল ক্লাব কত সালে প্রতিষ্ঠিত হয় ?||1886 is when the club was founded, not the training centre
+760|OK|||
+761|OK|||
+762|OK|||
+763|OK|||
+764|OK|||
+765|OK|||
+766|OK|||
+767|OK|||
+768|FIXQ|১৮৫৭–৫৮ সালে উত্তর ও মধ্য ভারতে ব্রিটিশ শাসনের বিরুদ্ধে সংঘটিত বিদ্রোহ কী নামে পরিচিত ?||question asks when; gold is the event's name
+769|OK|||
+770|OK|||
+771|TU|||euro country count changes (now 20)
+772|OK|||
+773|OK|||
+774|OK|||
+775|FIXQ|ভারতের মোট জনসংখ্যার কত শতাংশ বৌদ্ধ ?||gold is a percentage, not a head count
+776|OK|||
+777|OK|||
+778|OK|||
+779|OK|||
+780|EXCL|||gold is a broken fragment ("বিতা"); passage names no magazine
+781|OK|||
+782|OK|||
+783|FIXQ|অজ্ঞাতনামা চলচ্চিত্রটির পরিচালক কে ?||Taukir Ahmed directed the film; he was not its music director
+784|OK|||
+785|OK|||
+786|OK|||
+787|OK|||
+788|FIXQ|অটিজম (আত্মসংবৃতি) শব্দটি প্রথম কে ব্যবহার করেন ?||Bleuler first used the word autism; he did not discover the disorder
+789|OK|||
+790|OK|||
+791|TA|||as of 2018
+792|OK|||
+793|WEAK|||passage: the line reached Shyambazar in August 1994; 1995 is another section
+794|WEAK|||Facebook (the company) owns WhatsApp; gold names its co-founder
+795|OK|||
+796|OK|||
+797|OK|||
+798|OK|||
+799|OK|||
+800|OK|||
+801|OK|||
+802|TU|||Hyderabad was a 10-year joint capital (ended 2024)
+803|OK|||
+804|OK|||
+805|OK|||
+806|OK|||
+807|OK|||
+808|FIXQ|চলচ্চিত্রাভিনেতা আলমগীরের পরিচালনায় অভিষেক কত সালে হয় ?||passage is about actor Alamgir's directing debut, not Alamgir Kabir
+809|OK|||
+810|OK|||
+811|TA|||as of 2019
+812|OK|||
+813|TU|||current Iraq president
+814|TU|||current population
+815|TU|||current Tripura chief minister
+816|OK|||
+817|WEAK|||passage does not clearly place Hilful Fuzul in Mecca
+818|OK|||
+819|FIXA||১৯৮১ সালে|gold span lost its first digit ("981"); passage says 1981. Check hallucinated answers before applying
+820|WEAK|||500,000 years is when its descendants spread to Eurasia
+821|OK|||
+822|WEAK|||passage: Surya Sen became king; "last king of Gaur" is not stated
+823|OK|||
+824|OK|||
+825|OK|||
+826|OK|||
+827|OK|||
+828|TU|||current board chair
+829|OK|||
+830|OK|||
+831|OK|||
+832|OK|||
+833|OK|||
+834|EXCL|||gold is a person (Jagadish Chandra), not a book; passage has no answer
+835|OK|||
+836|OK|||
+837|FIXQ|জাতিসংঘের সদর দপ্তর কোথায় ?||New York is UN headquarters; UNESCO is in Paris
+838|OK|||
+839|OK|||
+840|OK|||
+841|OK|||
+842|OK|||
+843|OK|||
+844|OK|||
+845|FIXQ|নরেন্দ্র মোদী শৈশবে বড়নগর রেলস্টেশনে তাঁর পিতাকে কী কাজে সহায়তা করতেন ?||selling tea was Narendra Modi's childhood work, not Jashodaben's profession
+846|OK|||
+847|OK|||
+848|FIXQ|জ্যাক রাসেল কোন সালে কাউন্টি ক্রিকেটকে বিদায় জানান ?||2004 is his county retirement; international was 1998
+849|OK|||
+850|OK|||
+851|OK|||
+852|WEAK|||1923 is the Calcutta Municipal Act; other passages say 1922
+853|OK|||
+854|TU|||member count changes
+855|OK|||
+856|OK|||
+857|OK|||
+858|OK|||
+859|FIXQ|অদ্বৈত মল্লবর্মণ রচিত একমাত্র উপন্যাসের নাম কী ?||question asks a year; gold is the title
+860|OK|||
+861|OK|||
+862|OK|||
+863|OK|||
+864|OK|||
+865|OK|||
+866|WEAK|||passage calls Eratosthenes a pioneer of physical geography; first world map is not stated
+867|FIXQ|রাঙ্গামাটি জেলার মোট আয়তন কত ?||gold is the district area, not the town
+868|FIXQ|তথ্য ও যোগাযোগ প্রযুক্তি আইনে শাস্তি বাড়িয়ে কবে আইনটিকে আরও কঠোর করা হয় ?||2013 amended the ICT Act, not the Digital Security Act
+869|OK|||
+870|OK|||
+871|OK|||
+872|EXCL|||gold is a year; passage (early film exhibitors) does not answer where comedy acting began
+873|OK|||
+874|OK|||
+875|OK|||
+876|OK|||
+877|WEAK|||passage mentions Tholing monastery, not that it was the capital
+878|OK|||
+879|OK|||
+880|OK|||
+881|FIXQ|অলি আহমদ বর্তমানে বাংলাদেশের কোন রাজনৈতিক দলের প্রেসিডেন্ট ?||passage is about Oli Ahmed (LDP), not Oli Ahad
+882|OK|||
+883|OK|||
+884|OK|||
+885|OK|||
+886|OK|||
+887|TA|||as of 2019
+888|OK|||
+889|OK|||
+890|WEAK|||7 Europeans died; 16 native soldiers also died on the English side
+891|OK|||
+892|OK|||
+893|OK|||
+894|OK|||
+895|OK|||
+896|OK|||
+897|OK|||
+898|OK|||
+899|OK|||
+900|TU|||district count (J&K became a union territory in 2019)
+901|OK|||
+902|OK|||
+903|OK|||
+904|OK|||
+905|OK|||
+906|OK|||
+907|OK|||
+908|OK|||
+909|WEAK|||Babylon is a place, not a country (abacus, per passage)
+910|OK|||
+911|FIXQ|প্রথম মোবাইল ফোনের উদ্ভাবক মার্টিন কুপার কোন কোম্পানিতে কর্মরত ছিলেন ?||Motorola made the first mobile phone; nothing about India's first telephone
+912|OK|||
+913|OK|||
+914|OK|||
+915|OK|||
+916|OK|||
+917|OK|||
+918|WEAK|||1988 is an event during the first Intifada; it began in December 1987
+919|WEAK|||passage only hints that Aryabhata used zero
+920|OK|||
+921|OK|||
+922|FIXS||৯৫ হিজরী সনে|gold was written in Devanagari script; rewritten from the passage span
+923|FIXS|বাংলাদেশের স্বাধীনতা যুদ্ধের সময় নৌ-সেক্টর পরিচালিত অপারেশন জ্যাকপট কবে সংঘটিত হয় ?|১৯৭১-এর ১৫ আগস্ট রাত ১২টার পর|question and gold were partly in Devanagari script
+924|FIXS|হাজী মোহাম্মদ দানেশ কোন রাজনৈতিক দলের নেতা ছিলেন ?|বামপন্থী গনতন্ত্রী দলের|question was part Hindi (and said West Pakistan, unsupported); gold was Devanagari
+925|FIXS|মনোবিজ্ঞানের জনক কাকে বলা হয় ?|সিগমুন্ড ফ্রয়েড|question was in Hindi; gold was Devanagari
+926|OK|||
+927|OK|||
+928|OK|||
+929|OK|||
+930|OK|||
+931|OK|||
+932|OK|||
+933|OK|||
+934|FIXA||১৮৬২|gold span lost its first digit ("৮৬২"); passage says 1862. Check hallucinated answers before applying
+935|FIXQ|শিখদের পবিত্র ধর্মগ্রন্থের নাম কী ?||the Guru Granth Sahib was compiled by later gurus, not written first by Nanak
+936|OK|||
+937|OK|||
+938|WEAK|||passage names Rebati Raman Dutta as founder; first principal is not stated
+939|OK|||
+940|OK|||
+941|FIXQ|২০০৬ সালের সারভাইভার সিরিজে কিং বুকারকে পরাজিত করে কে ওয়ার্ল্ড হেভিওয়েট চ্যাম্পিয়ন হন ?||passage is about Survivor Series 2006, not Armageddon
+942|OK|||
+943|OK|||
+944|TU|||current DU vice-chancellor
+945|OK|||
+946|OK|||
+947|OK|||
+948|OK|||
+949|FIXA||আনাতোলি আফানাসিয়েভিচ মেদভেদেভ|gold span is broken (patronymic + "Leningrad"). Check hallucinated answers before applying
+950|OK|||
+951|TA|||as of 2019
+952|OK|||
+953|OK|||
+954|OK|||
+955|OK|||
+956|OK|||
+957|OK|||
+958|TU|||current ADB president
+959|OK|||
+960|OK|||
+961|OK|||
+962|OK|||
+963|OK|||
+964|WEAK|||gold is "one third of the population", not a number
+965|OK|||
+966|OK|||
+967|OK|||
+968|OK|||
+969|OK|||
+970|OK|||
+971|OK|||
+972|OK|||
+973|OK|||
+974|OK|||
+975|OK|||
+976|OK|||
+977|OK|||
+978|FIXQ|বিশ্বজনীন অবস্থান-নির্ণায়ক ব্যবস্থা কোন সময়ে উদ্ভাবিত হয় ?||question asks where; gold is a time
+979|OK|||
+980|OK|||
+981|TU|||current party president
+982|OK|||
+983|OK|||
+984|OK|||
+985|OK|||
+986|OK|||
+987|OK|||
+988|WEAK|||Pinel was first to unchain patients; "first psychologist" is loose
+989|WEAK|||Allen-Bradley holds the PLC trademark; the first PLC is usually credited elsewhere
+990|OK|||
+991|OK|||
+992|OK|||
+993|OK|||
+994|OK|||
+995|OK|||
+996|FIXQ|বাংলা ভাষায় ব্যঞ্জনবর্ণের সংখ্যা মোট কতটি ?||passage gives the Bangla consonant count (39), not Sanskrit

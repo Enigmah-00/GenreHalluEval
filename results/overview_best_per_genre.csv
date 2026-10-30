@@ -1,0 +1,13 @@
+condition,genre,questions,best_here,BHS_best_here,overall_best,BHS_overall_best,gain,range95,clearly_better,usable
+context,HISTORY,290,gemma4-31b,1.03,gemma4-31b,1.03,0,–,–,yes
+context,ARTS,278,qwen3.5-27b,1.62,gemma4-31b,1.66,+0.04,-0.98 to +1.14,no,yes
+context,SCIENCE,135,gemma4-31b,2.04,gemma4-31b,2.04,0,–,–,yes
+context,GEOGRAPHY,110,gemma4-31b,0.23,gemma4-31b,0.23,0,–,–,yes
+context,RELIGION,95,qwen3.5-27b,1.97,gemma4-31b,2.76,+0.79,-0.91 to +2.92,no,yes
+context,OTHER,12,gemma4-31b,0.00,gemma4-31b,0.00,0,–,–,no
+no_context,HISTORY,290,qwen3.5-27b,31.29,gemma4-31b,32.20,+0.91,-1.60 to +3.34,no,yes
+no_context,ARTS,278,gemma4-31b,36.74,gemma4-31b,36.74,0,–,–,yes
+no_context,SCIENCE,135,gemma4-31b,26.48,gemma4-31b,26.48,0,–,–,yes
+no_context,GEOGRAPHY,110,gemma4-31b,27.05,gemma4-31b,27.05,0,–,–,yes
+no_context,RELIGION,95,qwen3.5-27b,28.42,gemma4-31b,30.26,+1.84,-3.18 to +7.31,no,yes
+no_context,OTHER,12,gemma4-31b,32.29,gemma4-31b,32.29,0,–,–,no

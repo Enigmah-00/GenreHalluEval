@@ -1,0 +1,36 @@
+{
+ "plan": "GenreHalluEval v2 test half",
+ "decided": "2026-10-30 by Mahdi Hasan Qurishi, after the learn run and lock_ghe2_v1, before any test-half run",
+ "registration": "none (no OSF for v2, Mahdi 2026-10-30); this file and its checksum are the record",
+ "lock_sha256": "88da7af7d073e60600afb1ea6f3bc27f022dd89c1d109c377a63b4396bd77ae4",
+ "labels_file": "data/labels/genrehallueval_v2/labels_v2.0.csv",
+ "labels_sha256": "b889529d0cfc13cb68b61b915de02e2bf281a59fde48163e736b5dbded3f4835",
+ "notebooks": {
+  "ghe2_route_E": "route E: the best genre guesser names the genre; the best judge for that genre (judge x genre table of the learn half) judges. Asked for the genre: the guesser only.",
+  "ghe2_route_F": "route F (own genre): every LLM with an own-genre cell names the genre; the LLM with the lowest learn-half BHS inside the genre it named judges (tie: lower overall BHS); no cell: A.",
+  "ghe2_route_R": "route R (best path): the lower learn-half score of the our-genre path (as E) and the own-genre paths of the lock's askers.",
+  "ghe2_single_best": "A: the single best judge of the learn half judges every answer."
+ },
+ "main_tests": {
+  "comparisons": [
+   "E vs A",
+   "F vs A",
+   "R vs A"
+  ],
+  "conditions": [
+   "context",
+   "no_context"
+  ],
+  "number": 6,
+  "correction": "Holm over the 6",
+  "alpha": 0.05,
+  "method": "paired bootstrap over test questions, 10,000 re-samples, seed 2026, two-sided; BHS with no_answer as an error; labels as above"
+ },
+ "also_reported": [
+  "each route's own cost (calls, tokens, time)",
+  "every route vs A on all answers together",
+  "per-genre BHS",
+  "determinism: same (judge, answer) must give the same verdict in every notebook"
+ ],
+ "supersedes": "pool.json main_tests (R vs A and F vs A, Holm over 4)"
+}

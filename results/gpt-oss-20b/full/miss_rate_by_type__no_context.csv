@@ -1,0 +1,5 @@
+type,answers,miss_rate,no_answer
+F (factualness),920,28.91,17
+C (comprehension),920,14.02,11
+S (specificity),920,25.87,18
+I (inference),920,19.67,22
