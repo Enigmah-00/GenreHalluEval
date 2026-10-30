@@ -25,13 +25,12 @@
 \newcommand{\BHS}{\textsc{bhs}}
 \newcommand{\todo}[1]{\textcolor{red}{[#1]}}
 
-\title{Routing Bangla Hallucination Judges by Genre Does Not Beat the Best Single Judge:\\
-A Preregistered Test, Four Follow-ups and Three New Test Sets}
+\title{Does Genre Routing Help LLM Hallucination Judges? Evidence from Bangla}
 
-\author{Mahdi Hasan Qurishi$^{1}$\thanks{Corresponding author: \todo{EMAIL}.} \and
+\author{Mahdi Hasan Qurishi$^{1}$\thanks{Corresponding author: mahdiqureshi9@gmail.com.} \and
 Umme Zoayria Abedin$^{1}$ \and Md Saminul Amin$^{1}$\\[4pt]
 \small $^{1}$Department of Computer Science and Engineering,\\ \small Shahjalal University of Science and Technology,
-Sylhet, Bangladesh\\ \todo{confirm author order and affiliations}}
+Sylhet, Bangladesh}
 
 \date{}
 
@@ -39,24 +38,24 @@ Sylhet, Bangladesh\\ \todo{confirm author order and affiliations}}
 \maketitle
 
 \begin{abstract}
-Large language models (LLMs) are widely used as judges that decide whether an answer is hallucinated. No judge is
-best everywhere, so a natural idea is to route each item to the judge that is strongest for its topic. We test this
-idea for Bangla question answering, where judges are evaluated against a passage (with the passage) or from their
-own knowledge (without it). We define three genre routes: the best genre guesser names the genre and the best judge
-for that genre judges (E); each LLM names the genre and the LLM with the best score inside the genre it named itself
-judges (F, own-genre routing); and the better of the two paths (R). We compare them with the single best judge (A)
-in five tests: a preregistered test in which routes learned on an audited BenHalluEval-QA set (920 questions) are
-applied to a new team-written test set (250 questions); two learn/test splits; and a new 1,200-question set with 12
-balanced genres. No route is clearly better than the single best judge in any test, even before correction for multiple tests. Own-genre
-routing is clearly worse in four of the eight study-and-condition pairs, because it sends whole genres to weak judges
-whenever the strong judges lack a large enough cell. Where routing is slightly ahead in the point estimate (0.08 to
-0.40 BenHalluScore points, two to six answers), the gain is within the run-to-run variation of the judges themselves
-and costs 1.2 to 1.9 times the calls and 2.7 to 6.6 times the prompt tokens of the single best judge. We release the audited and new test
-sets with human agreement scores (Cohen's $\kappa$ 0.97 to 0.99 for answer labels).
+Large language models (LLMs) are widely used as judges that decide whether an answer is hallucinated, and a natural
+idea is to send each item to the judge that is strongest for its topic. We release \textbf{GenreHalluEval v2.0}, a
+Bangla benchmark for hallucination judges with 1,200 questions in 12 balanced genres (100 each), 6,000 gold and
+hallucinated answers, a fixed learn/test split, labels double-checked on a blind 20\% sample (Cohen's $\kappa$ 0.99)
+and every raw output of five open-weight judges. We also release an audited BenHalluEval-QA set (920 questions) and
+the team-written GenreHalluEval v1.1 (250 questions). On these sets we test three genre routes against the single best
+judge, with and without the passage: the best guesser's genre (E), each LLM's own genre (F) and the better of the two
+(R). In five tests, one of them preregistered, no route is clearly better than the single best judge, even before
+correction for multiple tests. Own-genre routing is clearly worse in four of the eight study-and-condition pairs,
+because a cell-size rule hands whole genres to weak judges. We turn these findings into a noise- and cost-aware
+protocol for evaluating judge routing: measure the judges' own run-to-run flip rate at temperature 0 (0.2--0.4\% of
+verdicts here), count the answers a route actually changes, and set the gain against its cost. Under this protocol,
+every apparent gain (0.08 to 0.40 BenHalluScore points, two to six answers) lies within the noise floor, while costing
+1.2 to 1.9 times the calls and 2.7 to 6.6 times the prompt tokens of the single best judge.
 \end{abstract}
 
-\noindent\textbf{Keywords:} hallucination detection; LLM-as-a-judge; judge routing; Bangla; negative result;
-evaluation resources
+\noindent\textbf{Keywords:} hallucination detection; LLM-as-a-judge; Bangla benchmark; judge routing; inference
+noise; cost-aware evaluation; negative result
 
 %==================================================================================================================
 \section{Introduction}
@@ -75,29 +74,40 @@ of routing, which must first find the topic and may then call a different, often
 questions for Bangla, a widely spoken language with few evaluation resources, using \emph{genre} (the topic area of a
 question, such as history, science or religion) as the routing key.
 
+Answering these questions needs data that do not yet exist for Bangla: a benchmark whose genres are balanced
+and fine enough that every genre has enough questions to learn a route on, with a fixed split, reliable labels and the
+raw outputs of several judges. We build such a benchmark, GenreHalluEval v2.0, and two smaller sets, and release them
+with every prompt, run and script.
+
 We start from the question-answering (QA) task of BenHalluEval \citep{benhallueval}, a Bangla hallucination-detection
 benchmark. A judge reads a question and an answer, with or without a supporting passage, and replies whether the
 answer is hallucinated. We audited the QA seeds, wrote new hallucinated answers (the original ones are not in the
 public release), labelled every question with a genre and ran twelve open-weight judges. We then preregistered a test
 of genre routing on a new, team-written test set. The registered test found no gain. Because a negative result can
 have many causes, we ran four follow-up tests that removed the most likely ones: a change of dataset between learning
-and testing, coarse merged genres, unbalanced genres and small cells.
+and testing, coarse merged genres, unbalanced genres and small cells. Along the way we found that the
+differences routing produces are of the same size as the judges' own run-to-run noise at temperature 0, which most
+judge comparisons ignore. We therefore frame the result not only as ``routing does not help'' but as a guardrail: a
+protocol that tells practitioners when an apparent gain of one judge set-up over another is real and worth its cost.
 
 \paragraph{Contributions.}
 \begin{itemize}
+  \item \textbf{GenreHalluEval v2.0, a reusable Bangla benchmark for hallucination judges.} 1,200 questions in 12
+  balanced genres (including Bangla grammar), 6,000 answers, a fixed learn/test split, a blind 20\% double check
+  ($\kappa$ 0.990 for answers, 0.991 for genres), per-genre baselines and the raw outputs of five judges, ready for
+  genre-level judge evaluation and routing research (Section~\ref{sec:v2}). We also release an audited
+  BenHalluEval-QA set (920 questions, human-verified genre labels) and GenreHalluEval v1.1 (250 team-written
+  questions, double-labelled) (Section~\ref{sec:data}).
+  \item \textbf{A noise- and cost-aware protocol for evaluating judge routing.} Five checks: the judges' run-to-run
+  noise floor, a paired bootstrap over questions, the answers a route actually changes, its cost per fixed answer,
+  and a coverage check for own-genre routes (Section~\ref{sec:protocol}).
   \item \textbf{A consistent negative result.} In five tests (one preregistered, four exploratory), no genre route
-  is clearly better than the single best judge, even before correction (Section~\ref{sec:results}). The result holds with fine, balanced
-  genres (12 genres $\times$ 100 questions).
-  \item \textbf{Own-genre routing and its failure mode.} We define a route in which each LLM names the genre and is
-  scored inside the genre it named itself (F). It is clearly worse than the single best judge in four of the eight
-  study-and-condition pairs, and we show why: a minimum cell size leaves the strong judges without cells in some genres, so whole genres go
-  to weak judges (Section~\ref{sec:whyf}).
-  \item \textbf{The price of small gains.} Where routing is slightly ahead, we count the answers it fixes and the calls
-  and tokens it spends, and compare the gain with the judges' own run-to-run variation (Section~\ref{sec:cost}).
-  \item \textbf{Resources.} An audited BenHalluEval-QA set (920 questions, 4,600 answers, human-verified genre labels),
-  GenreHalluEval v1.1 (250 team-written questions, 1,250 answers, double-labelled) and GenreHalluEval v2.0 (1,200
-  questions, 6,000 answers, 12 genres, a 20\% blind double check), with all prompts, runs and code
-  (Section~\ref{sec:data}).
+  is clearly better than the single best judge, even before correction (Section~\ref{sec:results}). The result holds
+  with fine, balanced genres.
+  \item \textbf{Own-genre routing and its failure mode.} A route in which each LLM names the genre and is scored
+  inside the genre it named itself (F) is clearly worse than the single best judge in four of the eight
+  study-and-condition pairs; a minimum cell size leaves the strong judges without cells in some genres, so whole genres
+  go to weak judges (Section~\ref{sec:whyf}).
 \end{itemize}
 
 %==================================================================================================================
@@ -183,19 +193,79 @@ with the passage and 75 without it. Two annotators (the second and third authors
 against the passage ($\kappa$ 0.990 \citep{cohen1960}); the four disagreements were settled before any score was
 computed, and the agreed labels equal the design labels.
 
-\subsection{GenreHalluEval v2.0 (12 balanced genres)}
+\subsection{GenreHalluEval v2.0: a balanced 12-genre benchmark}\label{sec:v2}
 
-After the registered result, we built a larger set to remove two possible causes of the null result: merged genres
-and small cells. GenreHalluEval v2.0 has 12 single genres (History, Politics, Education, Arts, Culture, Sports,
-Science, Technology, Geography, Places, Religion and Grammar) with exactly 100 questions each. It keeps 230 v1.1
-questions whose genre fits one of the 12 and adds 970 questions written by Claude from current Bangla Wikipedia
-revisions (title and revision id recorded) and, for 88 Grammar questions, from the national Bangla grammar textbook for
-grades 9--10 \citep{nctb2021grammar}. New questions were checked against BenHalluEval for overlap. Two annotators
-checked a blind, genre-stratified 20\% sample alone: 194 new questions (genre, question quality and all 970 answers)
-and 46 kept v1.1 questions (genre). Answer labels agree at $\kappa=0.990$ between the annotators and 1.000 and 0.990
-with the design labels; every sampled question was judged clear and answerable. Both annotators marked exactly one
-correct answer per question, as in the design, so agreement with the design is an upper bound. The other 80\% of the
-new questions are not human-checked.
+GenreHalluEval v2.0 is the main resource of this paper. We built it after the registered result, to remove two
+possible causes of the null result: merged genres and small cells.
+
+\paragraph{Composition.} Twelve single genres (History, Politics, Education, Arts, Culture, Sports, Science,
+Technology, Geography, Places, Religion and Grammar) with exactly 100 questions each (Table~\ref{tab:v2comp}). It keeps
+230 v1.1 questions whose genre fits one of the 12 and adds 970 questions written by Claude from current Bangla
+Wikipedia revisions (title and revision id recorded) and, for 88 Grammar questions, from the national Bangla grammar
+textbook for grades 9--10 \citep{nctb2021grammar}. The Grammar genre (sandhi, compounds, prefixes, word origins and
+idioms) has no counterpart in the genre labels of BenHalluEval-QA. New questions were checked against BenHalluEval
+for overlap.
+
+\paragraph{Split.} A fixed split, stratified by genre and by origin (v1.1 or new): a learn half of 600 questions (50
+per genre; every answer meant to be judged with and without the passage) and a test half of 600 (25 per genre with the
+passage and 25 without). Routes or calibrations can be learned on the learn half and tested on the test half with
+cells of 50 questions.
+
+\paragraph{Quality.} Two annotators checked a blind, genre-stratified 20\% sample alone: 194 new questions (genre,
+question quality and all 970 answers) and 46 kept v1.1 questions (genre). Answer labels agree at $\kappa=0.990$
+between the annotators and 1.000 and 0.990 with the design labels; genres agree at $\kappa=0.991$; every sampled
+question was judged clear and answerable. Both annotators marked exactly one correct answer per question, as in the
+design, so agreement with the design is an upper bound. The other 80\% of the new questions are not human-checked.
+
+\paragraph{Baselines and format.} Table~\ref{tab:v2base} gives the five judges' learn-half scores and the best judge's
+test-half score per genre. The release has one CSV row per answer (item and question ids, genre, condition, passage,
+question, answer, answer type, design label, source), the split, the lock and test plan of Study~3, checksums, and
+every raw judge output with prompt hashes, tokens and latency.
+
+\begin{table}[t]
+\centering\small
+\caption{GenreHalluEval v2.0: questions per genre, by origin. Every question has 1 gold and 4 hallucinated answers.}
+\label{tab:v2comp}
+\begin{tabular}{@{}lrrr@{\hspace{1.2cm}}lrrr@{}}
+\toprule
+Genre & v1.1 & New & Total & Genre & v1.1 & New & Total \\
+\midrule
+History & 13 & 87 & 100 & Science & 23 & 77 & 100 \\
+Politics & 28 & 72 & 100 & Technology & 26 & 74 & 100 \\
+Education & 4 & 96 & 100 & Geography & 33 & 67 & 100 \\
+Arts & 33 & 67 & 100 & Places & 11 & 89 & 100 \\
+Culture & 0 & 100 & 100 & Religion & 46 & 54 & 100 \\
+Sports & 13 & 87 & 100 & Grammar & 0 & 100 & 100 \\
+\midrule
+\multicolumn{8}{@{}l}{All: 230 from v1.1, 970 new, 1,200 questions, 6,000 answers} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering\small
+\caption{GenreHalluEval v2.0 baselines (\BHS{}, lower is better). Left: each judge on the learn half (600 questions,
+3,000 answers per condition). Right: the best judge, gemma4-31b, on the test half per genre (25 questions per genre
+and condition).}\label{tab:v2base}
+\begin{tabular}{@{}lrr@{\hspace{1cm}}lrr@{}}
+\toprule
+Judge (learn half) & With & Without & Genre (test half) & With & Without \\
+\midrule
+gemma4-31b & 0.33 & 21.96 & History & 1.00 & 14.00 \\
+qwen3.5-27b & 0.88 & 23.10 & Politics & 1.00 & 29.00 \\
+gpt-oss-20b & 4.15 & 32.44 & Education & 0.00 & 23.50 \\
+deepseek-r1-14b & 20.98 & 29.79 & Arts & 0.00 & 28.50 \\
+tigerllm-9b (Bangla prompts) & 36.12 & 40.92 & Culture & 0.00 & 15.00 \\
+ & & & Sports & 0.00 & 22.50 \\
+ & & & Science & 0.50 & 15.50 \\
+ & & & Technology & 0.00 & 9.00 \\
+ & & & Geography & 0.00 & 21.50 \\
+ & & & Places & 0.00 & 29.00 \\
+ & & & Religion & 1.00 & 19.00 \\
+ & & & Grammar & 0.00 & 27.50 \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 %==================================================================================================================
 \section{Method}\label{sec:method}
@@ -497,6 +567,56 @@ questions and qwen3.5-27b's on 94.7\%. E and R therefore get the genre right alm
 the best judge for the genre is usually the single best judge anyway.
 
 %==================================================================================================================
+\section{A noise- and cost-aware protocol for evaluating judge routing}\label{sec:protocol}
+%==================================================================================================================
+
+The analysis above suggests a general guardrail. Any change to a judge set-up (routing, a different judge, a different
+prompt) should be accepted only if its gain is larger than the variation that the same set-up shows when it is simply
+run again, and only if the gain is worth its cost. We propose five checks.
+
+\begin{enumerate}
+  \item \textbf{Measure the noise floor.} Run the reference judge on the same answers twice, or reuse every
+  (judge, answer) pair that two runs share, and count the verdicts that differ. Let $\varphi$ be this flip rate and
+  $N$ the number of test answers; about $\varphi N$ answers can change by chance alone.
+  \item \textbf{Test on held-out questions.} Compare the new set-up with the reference on test items only, with a
+  paired bootstrap over questions, and require the 95\% range to exclude zero.
+  \item \textbf{Count the answers that changed.} Report the net number of answers fixed (errors of the reference
+  minus errors of the new set-up), split into false alarms and misses. A gain smaller than about $\varphi N$ answers
+  is indistinguishable from noise, and a lower \BHS{} with more errors in total is not a clear gain.
+  \item \textbf{Price the gain.} Report the extra calls, prompt tokens and time, per answer fixed, including the
+  one-off cost of learning the route.
+  \item \textbf{Check coverage} (own-genre and other cell-based routes). For every genre, check which judge the route
+  would use and compare its learn score with the reference; a cell-size rule must not hand whole genres to weak judges.
+\end{enumerate}
+
+Table~\ref{tab:protocol} applies the protocol to the cases where routing came closest to a gain.
+
+\begin{table}[t]
+\centering\small
+\caption{The protocol applied. Flip rate: verdicts that differed when the same judge judged the same answer in two
+notebooks. Net fixed: errors of A minus errors of the route on the same test answers (negative = the route made more
+errors). Cost relative to A's notebook. No route passes.}\label{tab:protocol}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.4cm} >{\raggedright\arraybackslash}p{1.6cm}
+>{\raggedright\arraybackslash}p{2.0cm} >{\raggedright\arraybackslash}p{2.3cm} >{\raggedright\arraybackslash}X
+>{\raggedright\arraybackslash}p{1.8cm}@{}}
+\toprule
+Case & Flip rate & 95\% range excludes 0? & Net fixed & Cost (calls / prompt tokens) & Passes? \\
+\midrule
+Study 1, R, with passage & 3 / 920 (0.33\%) & no & $-4$ (9 vs 5 errors) & 1.8$\times$ / 5.1$\times$ & no \\
+Study 2b, R, with passage & 1 / 425 (0.24\%) & no & +2 (2 vs 4 misses) & 1.9$\times$ / 4.2$\times$ & no \\
+Study 3, E, with passage & 12 / 3,270 (0.37\%) & no & +2 (5 vs 7 misses) & 1.2$\times$ / 2.7$\times$ & no \\
+Study 3, R, with passage & 12 / 3,270 (0.37\%) & no & +2 (5 vs 7 misses) & 1.6$\times$ / 6.6$\times$ & no \\
+Study 3, E, without passage & 12 / 3,270 (0.37\%) & no & $-13$ (+6 false alarms fixed, $-19$ misses) & 1.2$\times$ / 2.7$\times$ & no \\
+Study 3, F, with passage & 12 / 3,270 (0.37\%) & yes, worse & $-80$ (87 vs 7 errors) & 2.0$\times$ / 10.5$\times$ & no; fails coverage \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+With $\varphi \approx 0.3\%$ and $N=1{,}500$ answers per condition, about four to five answers can change by chance in
+Study 3, more than the two answers that E and R fixed with the passage. The protocol is cheap: the noise floor comes
+for free from any two runs that share a judge, and the other checks need only the saved outputs.
+
+%==================================================================================================================
 \section{Discussion}
 %==================================================================================================================
 
@@ -508,9 +628,10 @@ the noise of picking winners from small cells. Genre routing can only pay off wh
 different genre profiles. We did not find such profiles among current open-weight judges for Bangla QA.
 
 \paragraph{Advice for practitioners.} Evaluate the candidate judges once, pick the best single judge, and report its
-score with and without a reference. If routing is considered, compare it with the single best judge on held-out items,
-count the answers it changes, and set its cost against the judge's own run-to-run variation. An own-genre route needs a
-check against the single best judge, as in route R; without it, a cell-size rule can hand whole genres to weak judges.
+score with and without a reference. Treat any proposed improvement, routing included, with the protocol of
+Section~\ref{sec:protocol}: if its gain is not larger than the judges' own run-to-run noise and not worth its cost,
+keep the single best judge. GenreHalluEval v2.0 provides the split, labels and raw outputs to run these checks for new
+judges without new data collection.
 
 \paragraph{Limitations.}
 \begin{itemize}
@@ -534,18 +655,21 @@ check against the single best judge, as in route R; without it, a cell-size rule
 \section{Conclusion}
 %==================================================================================================================
 
-We tested whether genre-aware routing makes LLM hallucination judges better for Bangla question answering. In a
-preregistered test and four follow-ups, no route was clearly better than the single best judge; own-genre routing was
-clearly worse in four of the eight study-and-condition pairs, and the few small gains of the other routes were within
-the judges' own run-to-run variation while costing 1.2 to 1.9 times the calls and 2.7 to 6.6 times the prompt tokens. We release three
-labelled Bangla test sets, all prompts, runs and code. Future work should test routing keys other than genre (for
-example answer type or difficulty), real model hallucinations, and settings in which no single judge dominates.
+We release GenreHalluEval v2.0, a balanced 12-genre Bangla benchmark for hallucination judges with a fixed
+learn/test split, double-checked labels and raw outputs of five judges, together with an audited BenHalluEval-QA set
+and GenreHalluEval v1.1. On these sets, genre-aware routing did not make LLM hallucination judges better: in a
+preregistered test and four follow-ups, no route was clearly better than the single best judge, and own-genre routing
+was clearly worse in four of the eight study-and-condition pairs. The few small gains were within the judges' own
+run-to-run noise while costing 1.2 to 1.9 times the calls and 2.7 to 6.6 times the prompt tokens. The noise- and
+cost-aware protocol of Section~\ref{sec:protocol} turns this into a general check for judge set-ups. Future work should
+test routing keys other than genre (for example answer type or difficulty), real model hallucinations, and settings in
+which no single judge dominates.
 
 %==================================================================================================================
 \section*{Statements and declarations}
 %==================================================================================================================
 
-\paragraph{Author contributions.} \todo{Confirm with all authors.} Mahdi Hasan Qurishi: conceptualisation, study
+\paragraph{Author contributions.} Mahdi Hasan Qurishi: conceptualisation, study
 design, BenHalluEval genre verification and annotation (annotator 1), GenreHalluEval gold answers (genre annotator 3),
 runs, writing. Umme Zoayria Abedin: GenreHalluEval answer labels (annotator 1 for v1.1 and the v2.0 check),
 genre annotation, review. Md Saminul Amin: blind genre and answer labels for BenHalluEval (annotator 2), GenreHalluEval
@@ -558,7 +682,7 @@ checked the data as described in Section~\ref{sec:data}, ran all experiments and
 Claude was never used as a judge or genre guesser.
 
 \paragraph{Preregistration.} Study 1 was registered on OSF before any test answer was judged
-(\url{https://osf.io/fmbs8}; embargoed until \todo{date the embargo is lifted}). Deviations are listed in the
+(\url{https://osf.io/fmbs8}; embargoed until 27 October 2027). Deviations are listed in the
 registration's deviation log.
 
 \paragraph{Data and code availability.} \url{https://github.com/Enigmah-00/GenreHalluEval}. The release contains the
@@ -566,9 +690,9 @@ three test sets, labels, prompts, every raw model output and the analysis code. 
 released under its licence, CC BY-NC-SA 4.0; Wikipedia passages are CC BY-SA; the grammar-book and news passages
 are used for research purposes under Bangladesh's Copyright Act 2023.
 
-\paragraph{Funding.} \todo{Funding, or ``No funding was received.''}
+\paragraph{Funding.} No funding was received.
 
-\paragraph{Competing interests.} \todo{``The authors declare no competing interests.'' (confirm)}
+\paragraph{Competing interests.} The authors declare no competing interests.
 
 \bibliographystyle{plainnat}
 \bibliography{references}
