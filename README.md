@@ -1,7 +1,7 @@
 # GenreHalluEval
 
 Data, prompts, raw model outputs and analysis code for the paper *Routing Bangla Hallucination Judges by Genre
-Does Not Beat the Best Single Judge* (Mahdi Hasan Qurishi, Umme Zoayria Abedin, Md Saminul Amin; Shahjalal
+Does Not Beat the Best Single Judge* (Mahdi Hasan Qurishi, Umme Zoayria Abedin, Md. Saminul Amin; Shahjalal
 University of Science and Technology).
 
 LLM judges read a Bangla question and an answer, with or without a supporting passage, and say whether the answer is
